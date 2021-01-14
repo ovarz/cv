@@ -24,9 +24,9 @@
 	    </div>
 	  </li>
 	  <li>
-	    <h3 class="osl-label"><b>Jquery</b> <span>[60%]</span></h3>
+	    <h3 class="osl-label"><b>Jquery</b> <span>[75%]</span></h3>
 	    <div class="osl-bar">
-		  <div class="osl-bar-fill loading-bar-line" style="width:60%"></div>
+		  <div class="osl-bar-fill loading-bar-line" style="width:75%"></div>
 	    </div>
 	  </li>
 	  <li>
