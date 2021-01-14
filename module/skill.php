@@ -30,9 +30,9 @@
 	    </div>
 	  </li>
 	  <li>
-	    <h3 class="osl-label"><b>AMP</b> <span>[80%]</span></h3>
+	    <h3 class="osl-label"><b>AMP</b> <span>[90%]</span></h3>
 	    <div class="osl-bar">
-		  <div class="osl-bar-fill loading-bar-line" style="width:80%"></div>
+		  <div class="osl-bar-fill loading-bar-line" style="width:90%"></div>
 	    </div>
 	  </li>
 	  <li>
