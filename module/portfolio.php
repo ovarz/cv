@@ -6,6 +6,19 @@
   <div class="ovarz-portfolio-list">
     <ul>
 	  <li class="opl-image content_center">
+	    <amp-img src="<?php echo $base?>/img/portofolio/porto-tvone21.jpg" width="160" height="90" layout="responsive" alt="tvOne"></amp-img>
+	  </li>
+	  <li class="opl-info content_center">
+	    <span>
+		  <h2>New tvOne 2021</h2>
+		  <h4>Situs berita terkini tvonenews secara online paling lengkap, terbaru, dan yang sedang trending hari ini</h4>
+		  <a rel="noreferrer" href="https://www.ov4rz.com/tvone/" class="opl-button" target="_blank">Preview</a>
+		</span>
+	  </li>
+    </ul>
+    
+    <ul>
+	  <li class="opl-image content_center">
 	    <amp-img src="<?php echo $base?>/img/portofolio/porto-vivacoid20.jpg" width="160" height="90" layout="responsive" alt="VIVA.co.id"></amp-img>
 	  </li>
 	  <li class="opl-info content_center">
