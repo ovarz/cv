@@ -64,7 +64,7 @@
 	    <span>
 		  <h2>VIVA Network User Dashboard</h2>
 		  <h4>Situs dashboard user VIVA mulai dari login, register, forgot password, profile, dll</h4>
-		  <a rel="noreferrer" href="https://www.ov4rz.com/vivasso/" class="opl-button" target="_blank">Preview</a>
+		  <a rel="noreferrer" href="https://www.ov4rz.com/vivasso/profile/" class="opl-button" target="_blank">Preview</a>
 		</span>
 	  </li>
     </ul>
