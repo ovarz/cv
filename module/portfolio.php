@@ -6,6 +6,19 @@
   <div class="ovarz-portfolio-list">
     <ul>
 	  <li class="opl-image content_center">
+	    <amp-img src="<?php echo $base?>/img/portofolio/porto-smg.jpg" width="160" height="90" layout="responsive" alt="SMG"></amp-img>
+	  </li>
+	  <li class="opl-info content_center">
+	    <span>
+		  <h2>Social Media Generator</h2>
+		  <h4>Situs membuat gambar secara otomatis untuk kebutuhan tim sosial media VIVA Networks</h4>
+		  <a rel="noreferrer" href="https://www.ov4rz.com/social-media-generator/" class="opl-button" target="_blank">Preview</a>
+		</span>
+	  </li>
+    </ul>
+    
+    <ul>
+	  <li class="opl-image content_center">
 	    <amp-img src="<?php echo $base?>/img/portofolio/porto-tvone21.jpg" width="160" height="90" layout="responsive" alt="tvOne"></amp-img>
 	  </li>
 	  <li class="opl-info content_center">
