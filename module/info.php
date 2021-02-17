@@ -21,7 +21,7 @@
 	</li>
 
 	<li>
-	  <div>Address</div> <h4>Harapan Indah, Bekasi, West Java</h4>
+	  <div>Address</div> <h4>Tebet Timur Dalam, South Jakarta</h4>
 	</li>
 
 	<li>
