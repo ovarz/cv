@@ -1,6 +1,6 @@
 <!-- footer -->
 <footer>
-  <h6>ov4rz &copy;2018 - All Right Reserved</h6>
+  <h6>Aufar Mahardi - Curriculum Vitae &copy;2018 - All Right Reserved</h6>
 </footer>
 <!-- end footer -->
 
@@ -47,7 +47,7 @@
 	layout="nodisplay">
   </amp-position-observer>
 </div>
-<button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)" class="content_center scrollToTop"><i class="fas fa-arrow-up"></i></button>
+<button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)" class="content_center scrollToTop"><i class="fas fa-angle-double-up">&#xf102</i></button>
 
 <script type="application/ld+json">
 {
@@ -55,7 +55,7 @@
   "@type" : "Person",
   "name" : "Aufar Mahardi",
   "url" : "https://ov4rz.com/",
-  "logo": "https://ov4rz.com/img/ovarz-photo.jpg"
+  "logo": "https://ov4rz.com/img/ovarz-photo.png"
 }
 </script>
 

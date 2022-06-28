@@ -1,0 +1,6 @@
+#scrollToTopButton{display:none;}
+.site-container, .bottom-container{max-width:2480px;}
+.headline-image-frame{max-width:300px;}
+.section-sticky{position:static;}
+.contact{margin-top:var(--section-space-big);}
+.contact-list-box{width:100%;}

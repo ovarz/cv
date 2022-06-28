@@ -1,1 +1,1 @@
-<?php $base='/cv';?>
+<?php $base='';?>

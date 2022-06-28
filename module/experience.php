@@ -1,114 +1,89 @@
-<section class="ovarz-experience">
+<section class="experience">
+<div class="section-sticky">
   <div class="section-title">
-    <h5><span>Experience</span></h5>
+    <i class="fas fa-angle-right">&#xf105</i><span>experience</span>
   </div>
   
-  <div class="ovarz-experience-list">
-    <ul>
-	  <li>
-	    <div class="experience-list-box elb-org">
-		  <div class="elb-label"><h6>Organization</h6> <span>2007 - 2008</span></div>
-		  <h3 class="elb-detail">Member Of Bina Nusantara Computer Club</h3>
-		</div>
-	  </li>
+  <ul class="data-list experience-detail">
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">Juni 2022 - Present</div>
+      <h3 class="experience-title">Graphic, UI/UX, & Web Design Manager VIVA Media Baru (VIVA.co.id)</h3>
+    </li>
+	
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">November 2019 - Juni 2022</div>
+      <h3 class="experience-title">Assistant Design Manager VIVA Media Baru (VIVA.co.id)</h3>
+    </li>
+
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">January 2018 - November 2019</div>
+      <h3 class="experience-title">Koordinator Design VIVA Media Baru (VIVA.co.id)</h3>
+    </li>
+
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">October 2016 - Present</div>
+      <h3 class="experience-title">Web Designer VIVA Media Baru (VIVA.co.id)</h3>
+    </li>
+
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">June 2015 - October 2016</div>
+      <h3 class="experience-title">General Manager Indogamers</h3>
+    </li>
+
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">June 2013 - June 2015</div>
+      <h3 class="experience-title">Head Website Development Maxindo Content Solution</h3>
+    </li>
+
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">August 2012 - June 2013</div>
+      <h3 class="experience-title">Web Designer Sportiplus</h3>
+    </li>
+
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">July 2010 - June 2013</div>
+      <h3 class="experience-title">Web Designer Maxindo Content Solution</h3>
+    </li>
+
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">March 2010</div>
+      <h3 class="experience-title">IT Support Trainee at PT Pertamina (Persero) Marketing Unit Section Western Java</h3>
+    </li>
+
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">March 2010</div>
+      <h3 class="experience-title">Technical Support at Jakarta International Java Jazz Festival</h3>
+    </li>
+
+    <li class="experience-organization">
+      <div class="experience-label">Organization</div> <div class="experience-date">2009</div>
+      <h3 class="experience-title">Leader Team Event Design Indogamers</h3>
+    </li>
+
+    <li class="experience-organization">
+      <div class="experience-label">Organization</div> <div class="experience-date">2009 - 2010</div>
+      <h3 class="experience-title">Staff Design AMPMRadio</h3>
+    </li>
+
+    <li class="experience-organization">
+      <div class="experience-label">Organization</div> <div class="experience-date">2009</div>
+      <h3 class="experience-title">Member Of Team Event Design Indogamers</h3>
+    </li>
+
+    <li class="experience-work">
+      <div class="experience-label">Work</div> <div class="experience-date">October 2009</div>
+      <h3 class="experience-title">Technical Support at Jakarta International Java Soulnation Festival</h3>
+    </li>
 	  
-	  <li>
-	    <div class="experience-list-box elb-org">
-		  <div class="elb-label"><h6>Organization</h6> <span>2009</span></div>
-		  <h3 class="elb-detail">Committee Indogamers Gathering 2010</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>October 2009</span></div>
-		  <h3 class="elb-detail">Technical Support at Jakarta International Java Soulnation Festival</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-org">
-		  <div class="elb-label"><h6>Organization</h6> <span>2009</span></div>
-		  <h3 class="elb-detail">Member Of Team Event Design Indogamers</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>2009 - 2010</span></div>
-		  <h3 class="elb-detail">Staff Design AMPMRadio</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-org">
-		  <div class="elb-label"><h6>Organization</h6> <span>2009</span></div>
-		  <h3 class="elb-detail">Leader Team Event Design Indogamers</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>March 2010</span></div>
-		  <h3 class="elb-detail">Technical Support at Jakarta International Java Jazz Festival</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>March 2010</span></div>
-		  <h3 class="elb-detail">IT Support Trainee at PT Pertamina (Persero) Marketing Unit Section Western Java</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>July 2010 - June 2013</span></div>
-		  <h3 class="elb-detail">Web Designer Maxindo Content Solution</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>August 2012 - June 2013</span></div>
-		  <h3 class="elb-detail">Web Designer Sportiplus</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>June 2013 - June 2015</span></div>
-		  <h3 class="elb-detail">Head Website Development Maxindo Content Solution</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>June 2015 - October 2016</span></div>
-		  <h3 class="elb-detail">General Manager Indogamers</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>October 2016 - Present</span></div>
-		  <h3 class="elb-detail">Web Designer VIVA Networks</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>January 2018 - November 2019</span></div>
-		  <h3 class="elb-detail">Koordinator Design VIVA Networks</h3>
-		</div>
-	  </li>
-	  
-	  <li>
-	    <div class="experience-list-box elb-wrk">
-		  <div class="elb-label"><h6>Work</h6> <span>November 2019 - Present</span></div>
-		  <h3 class="elb-detail">Assistant Design Manager VIVA Networks</h3>
-		</div>
-	  </li>
-	</ul>
-  </div>
+    <li class="experience-organization">
+      <div class="experience-label">Organization</div> <div class="experience-date">2009</div>
+      <h3 class="experience-title">Committee Indogamers Gathering 2010</h3>
+    </li>
+    
+	<li class="experience-organization">
+	  <div class="experience-label">Organization</div> <div class="experience-date">2007 - 2008</div>
+	  <h3 class="experience-title">Member Of Bina Nusantara Computer Club</h3>
+	</li>
+  </ul>
+</div>
 </section>

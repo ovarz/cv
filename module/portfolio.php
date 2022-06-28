@@ -1,228 +1,480 @@
-<section class="ovarz-portfolio">
+<section class="portfolio">
   <div class="section-title">
-    <h5><span>Portfolio</span></h5>
+    <i class="fas fa-angle-right">&#xf105</i><span>portfolio</span>
   </div>
   
-  <div class="ovarz-portfolio-list">
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-smg.jpg" width="160" height="90" layout="responsive" alt="SMG"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>Social Media Generator</h2>
-		  <h4>Situs membuat gambar secara otomatis untuk kebutuhan tim sosial media VIVA Networks</h4>
-		  <a rel="noreferrer" href="https://www.ov4rz.com/social-media-generator/" class="opl-button" target="_blank">www.ov4rz.com/social-media-generator/</a>
-		</span>
-	  </li>
-    </ul>
+  <div class="portfolio-list">
+    <a rel="noreferrer" href="https://www.ov4rz.com/antvklik/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-antvklik.png" layout="fill" alt="ANTVKlik"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">ANTVKlik Revamp 2022</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/antvklik<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+	
+	
+	
+    <a rel="noreferrer" href="https://www.ov4rz.com/tvone-g20/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-g20.png" layout="fill" alt="tvOne G20"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">Microsite tvOne G20</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/tvone-g20<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+	
+	
+	
+    <a rel="noreferrer" href="https://www.ov4rz.com/haji22/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-haji22.png" layout="fill" alt="VIVA.co.id Haji"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">Microsite Haji 2022</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/haji22<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+	
+	
+	
+    <a rel="noreferrer" href="https://www.ov4rz.com/hut-antv-22/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-hutantv.png" layout="fill" alt="HUT ANTV"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">HUT ANTV 2022</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/hut-antv-22<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+	
+	
+	
+    <a rel="noreferrer" href="https://vdvc.id/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-vdvc.png" layout="fill" alt="VDVC"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">VIVA Digital Venture Company</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>vdvc.id<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+	
+	
+	
+    <a rel="noreferrer" href="https://bakrie.id/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-bakrie.png" layout="fill" alt="Bakrie Group"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">Bakrie Group</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>bakrie.id<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+	
+	
+	
+    <a rel="noreferrer" href="https://www.ov4rz.com/strim.id/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-strimid.png" layout="fill" alt="strim.id"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">strim.id</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/strim.id<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+	
+	
+	
+    <a rel="noreferrer" href="https://www.ov4rz.com/guild/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-lovebeat.png" layout="fill" alt="LoveBeat"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">LoveBeat - Final Fantasy Online Fans Club</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/guild<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+	
+	
+	
+    <a rel="noreferrer" href="https://www.intipseleb.com/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-insel22.png" layout="fill" alt="IntipSeleb"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">New IntipSeleb 2022</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.intipseleb.com<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
     
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-tvone21.jpg" width="160" height="90" layout="responsive" alt="tvOne"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>New tvOne 2021</h2>
-		  <h4>Situs berita terkini tvonenews secara online paling lengkap, terbaru, dan yang sedang trending hari ini</h4>
-		  <a rel="noreferrer" href="https://www.ov4rz.com/tvone/" class="opl-button" target="_blank">www.ov4rz.com/tvone/</a>
-		</span>
-	  </li>
-    </ul>
     
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-vlix21.jpg" width="160" height="90" layout="responsive" alt="vlix"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>New VLIX 2021</h2>
-		  <h4>Situs yang menyajikan Kumpulan Video Hot Terbaru Seputar Berita, Olahraga, Otomotif, Gaya Hidup, Digital, Traveling. Serta Streaming tvOne, ANTV, dan Partner.</h4>
-		  <a rel="noreferrer" href="https://www.ov4rz.com/vlix/" class="opl-button" target="_blank">www.ov4rz.com/vlix/</a>
-		</span>
-	  </li>
-    </ul>
     
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-vivacoid20.jpg" width="160" height="90" layout="responsive" alt="VIVA.co.id"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>New VIVA.co.id 2021</h2>
-		  <h4>Situs berita harian terkini yang menyajikan berita hari ini dan kabar terbaru seputar politik hingga berita lifestyle dan olahraga.</h4>
-		  <a rel="noreferrer" href="https://www.ov4rz.com/vivacoid/" class="opl-button" target="_blank">www.ov4rz.com/vivacoid/</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-siapa.jpg" width="160" height="90" layout="responsive" alt="VIVA Siapa"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>New SIAPA 2021</h2>
-		  <h4>Situs kumpulan Tokoh Inspiratif dari Beberapa Profesi di Indonesia</h4>
-		  <a rel="noreferrer" href="https://www.ov4rz.com/siapa/" class="opl-button" target="_blank">www.ov4rz.com/siapa/</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-corona.jpg" width="160" height="90" layout="responsive" alt="Pantau Corona COVID-19 Microsite"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>Pantau Corona COVID-19 Microsite</h2>
-		  <h4>Microsite Berita corona covid-19 di indonesia terbaru, fakta virus corona, pencegahan hingga hotline covid-19</h4>
-		  <a rel="noreferrer" href="https://www.viva.co.id/corona/" class="opl-button" target="_blank">www.viva.co.id/corona/</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-abirama.jpg" width="160" height="90" layout="responsive" alt="PT. Abirama Bandha Sejahtera"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>PT. Abirama Bandha Sejahtera</h2>
-		  <h4>Situs penyedia berbagai macam barang dan jasa untuk contractor, Alat Kesehatan, dan supply laboratorium.</h4>
-		  <a rel="noreferrer" href="https://abirama.net/" class="opl-button" target="_blank">abirama.net</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-onepride.jpg" width="160" height="90" layout="responsive" alt="One Pride Indonesia MMA"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>One Pride Indonesia MMA</h2>
-		  <h4>Situs official One Pride, menyajikan kabar seputar berita, jadwal pertandingan, live streaming, angel, rank & biodata petarung</h4>
-		  <a rel="noreferrer" href="https://www.onepride.net/" class="opl-button" target="_blank">www.onepride.net</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-tvone.jpg" width="160" height="90" layout="responsive" alt="tvOne"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>tvOne</h2>
-		  <h4>Situs Streaming Berita Terkini TvOne Online Terbaru dan Trending</h4>
-		  <a rel="noreferrer" href="https://www.tvonenews.com/" class="opl-button" target="_blank">www.tvonenews.com</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-seleb.jpg" width="160" height="90" layout="responsive" alt="IntipSeleb"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>IntipSeleb</h2>
-		  <h4>Situs yang menyajikan Gosip Artis Indonesia, Korea, Barat, Asia, Bollywood, termasuk musik, film dan drama terbaru hari ini.</h4>
-		  <a rel="noreferrer" href="https://www.intipseleb.com/" class="opl-button" target="_blank">www.intipseleb.com</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-kpj.jpg" width="160" height="90" layout="responsive" alt="100KPJ"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>100KPJ</h2>
-		  <h4>Situs Berita Motor, Balap Motor, Klub Motor, Review Tes Motor, Komparasi, Informasi Modifikasi dan Tips Motor Terlengkap Terbaru.</h4>
-		  <a rel="noreferrer" href="https://www.100kpj.com/" class="opl-button" target="_blank">www.100kpj.com</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-dangdut.jpg" width="160" height="90" layout="responsive" alt="JagoDangdut"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>JagoDangdut</h2>
-		  <h4>Situs yang Mengupas Tuntas Seputar Berita Dangdut, Lirik Lagu Dangdut, Musik Dangdut, Foto Artis Dangdut, Video Artis Dangdut Terkini.</h4>
-		  <a rel="noreferrer" href="https://www.jagodangdut.com/" class="opl-button" target="_blank">www.jagodangdut.com</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-vlix.jpg" width="160" height="90" layout="responsive" alt="VLIX"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>VLIX</h2>
-		  <h4>Situs yang Menyajikan Kumpulan Video Hot Terbaru Seputar Berita, Olahraga, Otomotif, Gaya Hidup, Digital, Traveling. Serta Streaming tvOne, ANTV, dan Partner.</h4>
-		  <a rel="noreferrer" href="https://www.vlix.id/" class="opl-button" target="_blank">www.vlix.id</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-vivacoid.jpg" width="160" height="90" layout="responsive" alt="VIVA.co.id"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>VIVA.co.id</h2>
-		  <h4>Situs Berita harian terkini yang menyajikan berita hari ini dan kabar terbaru seputar politik hingga berita lifestyle dan olahraga.</h4>
-		  <a rel="noreferrer" href="https://www.viva.co.id/" class="opl-button" target="_blank">www.viva.co.id</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-vivanews.jpg" width="160" height="90" layout="responsive" alt="VIVANews"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>VIVANews</h2>
-		  <h4>Situs Berita harian terkini yang menyajikan berita hari ini dan kabar terbaru seputar politik hingga berita lifestyle dan olahraga.</h4>
-		  <a rel="noreferrer" href="vivanews/" class="opl-button" target="_blank">www.ovarz.com/vivanews/</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-pesbukers.jpg" width="160" height="90" layout="responsive" alt="VIVA X Pesbukers ANTV"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>VIVA X Pesbukers ANTV</h2>
-		  <h4>Situs Acara Pencarian Bakat Dari Berbagai Daerah di Indonesia, Untuk Menemukan Talenta Terbaik yang Akan Tampil Bersama Para Pemain Pesbukers ANTV.</h4>
-		  <a rel="noreferrer" href="https://www.viva.co.id/pesbukers" class="opl-button" target="_blank">www.viva.co.id/pesbukers</a>
-		</span>
-	  </li>
-    </ul>
-	
-    <ul>
-	  <li class="opl-image content_center">
-	    <amp-img src="<?php echo $base?>/img/portofolio/porto-daihatsu.jpg" width="160" height="90" layout="responsive" alt="VIVA X Daihatsu"></amp-img>
-	  </li>
-	  <li class="opl-info content_center">
-	    <span>
-		  <h2>VIVA X Daihatsu</h2>
-		  <h4>Situs Daftar Produk dan Daftar Harga Mobil Daihatsu Terbaur, Penawaran Khusus dan Promo 2018, Baca Artikel Seputar Mobil Daihatsu</h4>
-		  <a rel="noreferrer" href="https://www.viva.co.id/daihatsu" class="opl-button" target="_blank">www.viva.co.id/daihatsu</a>
-		</span>
-	  </li>
-    </ul>
+    <a rel="noreferrer" href="https://www.viva.co.id/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-vivacoid.png" layout="fill" alt="VIVA.co.id"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">VIVA.co.id</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.viva.co.id<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.ov4rz.com/social-media-generator/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-socmed.png" layout="fill" alt="Social Media Generator"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">Social Media Generator</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/social-media-generator<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.tvonenews.com/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-tvone.png" layout="fill" alt="tvOne"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">tvOne</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.tvonenews.com<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.ov4rz.com/vlix/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-vlix.png" layout="fill" alt="VLIX"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">VLIX</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/vlix<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.viva.co.id/siapa" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-siapa.png" layout="fill" alt="Siapa"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">Siapa</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.viva.co.id/siapa<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.ov4rz.com/vivasso/profile/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-sso.png" layout="fill" alt="VIVA SSO Dashboard"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">VIVA SSO Dashboard</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/vivasso/profile<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.viva.co.id/corona/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-corona.png" layout="fill" alt="Pantau Corona COVID-19"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">Pantau Corona COVID-19</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.viva.co.id/corona<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.viva.co.id/antv/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-antvmicrosite.png" layout="fill" alt="ANTV Microsite"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">ANTV Microsite</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.viva.co.id/antv<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://abirama.net/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-abirama.png" layout="fill" alt="PT. Abirama Bandha Sejahtera"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">PT. Abirama Bandha Sejahtera</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.abirama.net<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.onepride.net/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-onepride.png" layout="fill" alt="One Pride Indonesia MMA"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">One Pride Indonesia MMA</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.onepride.net<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.intipseleb.com/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-intipseleb.png" layout="fill" alt="IntipSeleb"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">IntipSeleb</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.intipseleb.com<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.oneprix.id/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-oneprix.png" layout="fill" alt="OnePrix"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">OnePrix</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.oneprix.id<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.100kpj.com/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-100kpj.png" layout="fill" alt="100KPJ"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">100KPJ</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.100kpj.com<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.jagodangdut.com/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-jagodangdut.png" layout="fill" alt="JagoDangdut"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">JagoDangdut</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.jagodangdut.com<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.ov4rz.com/vivanews/" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-vivanews.png" layout="fill" alt="VIVANews"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">VIVANews</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/vivanews<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
+    
+    <a rel="noreferrer" href="https://www.ov4rz.com/pesbukers" class="portfolio-box" target="_blank">
+      <span>
+        <div class="portfolio-image">
+          <div class="portfolio-image-frame">
+            <amp-img src="<?php echo $base?>/img/portfolio-pesbukers.png" layout="fill" alt="ANTV Pesbukers"></amp-img>
+          </div>
+        </div>
+        <h5 class="portfolio-name">ANTV Pesbukers</h5>
+        <div class="portfolio-button">
+          <div>
+            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.ov4rz.com/pesbukers<?php } ?> 
+            &raquo;
+          </div>
+        </div>
+      </span>
+    </a>
   </div>
+  <?php if($web_type == 'default') { ?>
+    <div class="portfolio-more">
+      <a rel="noreferrer" href="https://www.linkedin.com/in/aufar/" class="portfolio-more-button" target="_blank">View More &raquo;</a>
+    </div>
+  <?php } ?>
 </section>

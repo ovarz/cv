@@ -1,7 +1,8 @@
-<?php $web_type='default'; require ('inc/base.php')?>
+<?php $web_type='print'; require ('inc/base.php')?>
 <?php require ('inc/header.php')?>
 <style amp-custom>
   <?php require ('css/rancak.css')?>
+  <?php require ('css/print.css')?>
 </style>
 </head>
 <body>
@@ -13,7 +14,6 @@
   <?php require ('module/skill.php')?>
 </div>
 <div class="bottom-container">
-  <?php require ('module/contact.php')?>
   <?php require ('module/portfolio.php')?>
 </div>
 <?php require ('inc/footer.php')?>
