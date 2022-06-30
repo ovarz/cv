@@ -21,7 +21,7 @@
     </li>
 
     <li class="experience-work">
-      <div class="experience-label">Work</div> <div class="experience-date">October 2016 - Present</div>
+      <div class="experience-label">Work</div> <div class="experience-date">October 2016 - Juni 2022</div>
       <h3 class="experience-title">Web Designer VIVA Media Baru (VIVA.co.id)</h3>
     </li>
 
