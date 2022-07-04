@@ -454,6 +454,7 @@
       </span>
     </a>
     
+	<!--
     <a rel="noreferrer" href="https://www.ov4rz.com/pesbukers" class="portfolio-box" target="_blank">
       <span>
         <div class="portfolio-image">
@@ -471,6 +472,7 @@
         </div>
       </span>
     </a>
+	-->
   </div>
   <?php if($web_type == 'default') { ?>
     <div class="portfolio-more">
