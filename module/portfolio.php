@@ -4,7 +4,7 @@
   </div>
   
   <div class="portfolio-list">
-    <a rel="noreferrer" href="https://www.ov4rz.com/antvklik/" class="portfolio-box" target="_blank">
+    <a rel="noreferrer" href="https://www.antvklik.com/" class="portfolio-box" target="_blank">
       <span>
         <div class="portfolio-image">
           <div class="portfolio-image-frame">
@@ -14,8 +14,8 @@
         <h5 class="portfolio-name">ANTVKlik Revamp 2022</h5>
         <div class="portfolio-button">
           <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/antvklik<?php } ?> 
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.antvklik.com<?php } ?> 
             &raquo;
           </div>
         </div>
@@ -44,7 +44,7 @@
 	
 	
 	
-    <a rel="noreferrer" href="https://www.ov4rz.com/haji22/" class="portfolio-box" target="_blank">
+    <a rel="noreferrer" href="https://www.viva.co.id/haji" class="portfolio-box" target="_blank">
       <span>
         <div class="portfolio-image">
           <div class="portfolio-image-frame">
@@ -54,8 +54,8 @@
         <h5 class="portfolio-name">Microsite Haji 2022</h5>
         <div class="portfolio-button">
           <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/haji22<?php } ?> 
+            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
+            <?php if($web_type == 'print') { ?>www.viva.co.id/haji<?php } ?> 
             &raquo;
           </div>
         </div>
