@@ -4,475 +4,62 @@
   </div>
   
   <div class="portfolio-list">
-    <a rel="noreferrer" href="https://www.antvklik.com/" class="portfolio-box" target="_blank">
+    <?php 
+      $porto_array = array();
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/vivaone/', 'porto_id'=>'vivaone', 'porto_name'=>'VIVA Aggregator Apps', 'porto_domain'=>'www.ov4rz.com/vivaone');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/hoedhoed/', 'porto_id'=>'hoedhoed', 'porto_name'=>'HoedHoed', 'porto_domain'=>'www.ov4rz.com/hoedhoed');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/tripodnews/', 'porto_id'=>'tripodnews', 'porto_name'=>'TripodNews', 'porto_domain'=>'www.ov4rz.com/tripodnews');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/watchis/', 'porto_id'=>'watchis', 'porto_name'=>'Watchis', 'porto_domain'=>'www.ov4rz.com/watchis');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/scoutdb/', 'porto_id'=>'scoutdb', 'porto_name'=>'ScoutDB', 'porto_domain'=>'www.ov4rz.com/scoutdb');
+      $porto_array[]=array('porto_link'=>'https://www.viva.co.id/portalpemilu', 'porto_id'=>'pemilu', 'porto_name'=>'Portal Pemilu VIVA.co.id', 'porto_domain'=>'https://www.viva.co.id/portalpemilu');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/tvone-hut/', 'porto_id'=>'tvone-hut', 'porto_name'=>'HUT tvOne ke-15', 'porto_domain'=>'www.ov4rz.com/tvone-hut');
+      $porto_array[]=array('porto_link'=>'https://www.viahub.id/', 'porto_id'=>'viahub', 'porto_name'=>'VIAHub', 'porto_domain'=>'www.viahub.id');
+      $porto_array[]=array('porto_link'=>'https://www.ureca.id/', 'porto_id'=>'ureca', 'porto_name'=>'Ureca', 'porto_domain'=>'www.ureca.id');
+      $porto_array[]=array('porto_link'=>'https://www.iklanmurah.id/', 'porto_id'=>'iklanmurah', 'porto_name'=>'IklanMurah', 'porto_domain'=>'www.iklanmurah.id');
+      $porto_array[]=array('porto_link'=>'https://www.tvonenews.com/', 'porto_id'=>'tvone', 'porto_name'=>'tvOne', 'porto_domain'=>'www.tvonenews.com');
+      $porto_array[]=array('porto_link'=>'https://www.antvklik.com/', 'porto_id'=>'antvklik', 'porto_name'=>'ANTVKlik', 'porto_domain'=>'www.antvklik.com');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/tvone-g20/', 'porto_id'=>'g20', 'porto_name'=>'Microsite G20 tvOne', 'porto_domain'=>'www.ov4rz.com/tvone-g20');
+      $porto_array[]=array('porto_link'=>'https://www.viva.co.id/haji', 'porto_id'=>'haji22', 'porto_name'=>'Microsit Hajie VIVA.co.id', 'porto_domain'=>'www.viva.co.id/haji');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/hut-antv-22/', 'porto_id'=>'hutantv', 'porto_name'=>'HUT ANTV 2022', 'porto_domain'=>'www.ov4rz.com/hut-antv-22');
+      $porto_array[]=array('porto_link'=>'https://vdvc.id/', 'porto_id'=>'vdvc', 'porto_name'=>'VIVA Digital Venture Company', 'porto_domain'=>'vdvc.id');
+      $porto_array[]=array('porto_link'=>'https://bakrie.id/', 'porto_id'=>'bakrie', 'porto_name'=>'Bakrie Group', 'porto_domain'=>'bakrie.id');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/strim.id/', 'porto_id'=>'strimid', 'porto_name'=>'strim.id', 'porto_domain'=>'www.ov4rz.com/strim.id');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/guild/', 'porto_id'=>'lovebeat', 'porto_name'=>'LoveBeat - Final Fantasy Online Fans Club', 'porto_domain'=>'www.ov4rz.com/guild');
+      $porto_array[]=array('porto_link'=>'https://www.intipseleb.com/', 'porto_id'=>'insel22', 'porto_name'=>'IntipSeleb', 'porto_domain'=>'www.intipseleb.com');
+      $porto_array[]=array('porto_link'=>'https://www.viva.co.id/', 'porto_id'=>'vivacoid', 'porto_name'=>'VIVA.co.id', 'porto_domain'=>'www.viva.co.id');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/social-media-generator/', 'porto_id'=>'socmed', 'porto_name'=>'Social Media Generator', 'porto_domain'=>'www.ov4rz.com/social-media-generator');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/vlix/', 'porto_id'=>'vlix', 'porto_name'=>'VLIX (Concept)', 'porto_domain'=>'www.ov4rz.com/vlix');
+      $porto_array[]=array('porto_link'=>'https://www.viva.co.id/siapa', 'porto_id'=>'siapa', 'porto_name'=>'Siapa', 'porto_domain'=>'www.viva.co.id/siapa');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/vivasso/profile/', 'porto_id'=>'sso', 'porto_name'=>'VIVA SSO Dashboard', 'porto_domain'=>'www.ov4rz.com/vivasso/profile');
+      $porto_array[]=array('porto_link'=>'https://www.viva.co.id/corona/', 'porto_id'=>'corona', 'porto_name'=>'Pantau Corona COVID-19', 'porto_domain'=>'www.viva.co.id/corona');
+      $porto_array[]=array('porto_link'=>'https://www.viva.co.id/antv/', 'porto_id'=>'antvmicrosite', 'porto_name'=>'Microsite ANTV', 'porto_domain'=>'www.viva.co.id/antv');
+      $porto_array[]=array('porto_link'=>'https://abirama.net/', 'porto_id'=>'abirama', 'porto_name'=>'PT. Abirama Bandha Sejahtera', 'porto_domain'=>'www.abirama.net');
+      $porto_array[]=array('porto_link'=>'https://www.onepride.net/', 'porto_id'=>'onepride', 'porto_name'=>'One Pride Indonesia MMA', 'porto_domain'=>'www.onepride.net');
+      $porto_array[]=array('porto_link'=>'https://www.oneprix.id/', 'porto_id'=>'oneprix', 'porto_name'=>'OnePrix', 'porto_domain'=>'www.oneprix.id');
+      $porto_array[]=array('porto_link'=>'https://www.100kpj.com/', 'porto_id'=>'100kpj', 'porto_name'=>'100KPJ', 'porto_domain'=>'www.100kpj.com');
+      $porto_array[]=array('porto_link'=>'https://www.jagodangdut.com/"', 'porto_id'=>'jagodangdut', 'porto_name'=>'JagoDangdut', 'porto_domain'=>'www.jagodangdut.com');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/vivanews/', 'porto_id'=>'vivanews', 'porto_name'=>'VIVANews', 'porto_domain'=>'www.ov4rz.com/vivanews');
+      $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/pesbukers', 'porto_id'=>'pesbukers', 'porto_name'=>'ANTV Pesbukers', 'porto_domain'=>'www.ov4rz.com/pesbukers');
+      foreach($porto_array as $porto_list){ 
+	?>
+    <a rel="noreferrer" href="<?php echo($porto_list['porto_link'])?>" class="portfolio-box" target="_blank">
       <span>
         <div class="portfolio-image">
           <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-antvklik.png" layout="fill" alt="ANTVKlik"></amp-img>
+            <amp-img src="<?php echo $base?>/img/portfolio-<?php echo($porto_list['porto_id'])?>.png" layout="fill" alt="<?php echo($porto_list['porto_name'])?>"></amp-img>
           </div>
         </div>
-        <h5 class="portfolio-name">ANTVKlik Revamp 2022</h5>
+        <h5 class="portfolio-name"><?php echo($porto_list['porto_name'])?></h5>
         <div class="portfolio-button">
           <div>
             <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.antvklik.com<?php } ?> 
+            <?php if($web_type == 'print') { ?><?php echo($porto_list['porto_domain'])?><?php } ?> 
             &raquo;
           </div>
         </div>
       </span>
     </a>
-	
-	
-	
-    <a rel="noreferrer" href="https://www.ov4rz.com/tvone-g20/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-g20.png" layout="fill" alt="tvOne G20"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">Microsite tvOne G20</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/tvone-g20<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-	
-	
-	
-    <a rel="noreferrer" href="https://www.viva.co.id/haji" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-haji22.png" layout="fill" alt="VIVA.co.id Haji"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">Microsite Haji 2022</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.viva.co.id/haji<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-	
-	
-	
-    <a rel="noreferrer" href="https://www.ov4rz.com/hut-antv-22/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-hutantv.png" layout="fill" alt="HUT ANTV"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">HUT ANTV 2022</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/hut-antv-22<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-	
-	
-	
-    <a rel="noreferrer" href="https://vdvc.id/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-vdvc.png" layout="fill" alt="VDVC"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">VIVA Digital Venture Company</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>vdvc.id<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-	
-	
-	
-    <a rel="noreferrer" href="https://bakrie.id/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-bakrie.png" layout="fill" alt="Bakrie Group"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">Bakrie Group</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>bakrie.id<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-	
-	
-	
-    <a rel="noreferrer" href="https://www.ov4rz.com/strim.id/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-strimid.png" layout="fill" alt="strim.id"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">strim.id</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/strim.id<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-	
-	
-	
-    <a rel="noreferrer" href="https://www.ov4rz.com/guild/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-lovebeat.png" layout="fill" alt="LoveBeat"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">LoveBeat - Final Fantasy Online Fans Club</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/guild<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-	
-	
-	
-    <a rel="noreferrer" href="https://www.intipseleb.com/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-insel22.png" layout="fill" alt="IntipSeleb"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">New IntipSeleb 2022</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.intipseleb.com<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    
-    
-    <a rel="noreferrer" href="https://www.viva.co.id/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-vivacoid.png" layout="fill" alt="VIVA.co.id"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">VIVA.co.id</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.viva.co.id<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.ov4rz.com/social-media-generator/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-socmed.png" layout="fill" alt="Social Media Generator"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">Social Media Generator</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/social-media-generator<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.tvonenews.com/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-tvone.png" layout="fill" alt="tvOne"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">tvOne</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.tvonenews.com<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.ov4rz.com/vlix/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-vlix.png" layout="fill" alt="VLIX"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">VLIX</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/vlix<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.viva.co.id/siapa" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-siapa.png" layout="fill" alt="Siapa"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">Siapa</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.viva.co.id/siapa<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.ov4rz.com/vivasso/profile/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-sso.png" layout="fill" alt="VIVA SSO Dashboard"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">VIVA SSO Dashboard</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/vivasso/profile<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.viva.co.id/corona/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-corona.png" layout="fill" alt="Pantau Corona COVID-19"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">Pantau Corona COVID-19</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.viva.co.id/corona<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.viva.co.id/antv/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-antvmicrosite.png" layout="fill" alt="ANTV Microsite"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">ANTV Microsite</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.viva.co.id/antv<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://abirama.net/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-abirama.png" layout="fill" alt="PT. Abirama Bandha Sejahtera"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">PT. Abirama Bandha Sejahtera</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.abirama.net<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.onepride.net/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-onepride.png" layout="fill" alt="One Pride Indonesia MMA"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">One Pride Indonesia MMA</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.onepride.net<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.intipseleb.com/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-intipseleb.png" layout="fill" alt="IntipSeleb"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">IntipSeleb</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.intipseleb.com<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.oneprix.id/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-oneprix.png" layout="fill" alt="OnePrix"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">OnePrix</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.oneprix.id<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.100kpj.com/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-100kpj.png" layout="fill" alt="100KPJ"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">100KPJ</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.100kpj.com<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.jagodangdut.com/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-jagodangdut.png" layout="fill" alt="JagoDangdut"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">JagoDangdut</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Visit Site<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.jagodangdut.com<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-    <a rel="noreferrer" href="https://www.ov4rz.com/vivanews/" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-vivanews.png" layout="fill" alt="VIVANews"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">VIVANews</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/vivanews<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-    
-	<!--
-    <a rel="noreferrer" href="https://www.ov4rz.com/pesbukers" class="portfolio-box" target="_blank">
-      <span>
-        <div class="portfolio-image">
-          <div class="portfolio-image-frame">
-            <amp-img src="<?php echo $base?>/img/portfolio-pesbukers.png" layout="fill" alt="ANTV Pesbukers"></amp-img>
-          </div>
-        </div>
-        <h5 class="portfolio-name">ANTV Pesbukers</h5>
-        <div class="portfolio-button">
-          <div>
-            <?php if($web_type == 'default') { ?>Preview<?php } ?> 
-            <?php if($web_type == 'print') { ?>www.ov4rz.com/pesbukers<?php } ?> 
-            &raquo;
-          </div>
-        </div>
-      </span>
-    </a>
-	-->
+	<?php } ?>
   </div>
   <?php if($web_type == 'default') { ?>
     <div class="portfolio-more">
