@@ -37,7 +37,7 @@
       $porto_array[]=array('porto_link'=>'https://www.onepride.net/', 'porto_id'=>'onepride', 'porto_name'=>'One Pride Indonesia MMA', 'porto_domain'=>'www.onepride.net');
       $porto_array[]=array('porto_link'=>'https://www.oneprix.id/', 'porto_id'=>'oneprix', 'porto_name'=>'OnePrix', 'porto_domain'=>'www.oneprix.id');
       $porto_array[]=array('porto_link'=>'https://www.100kpj.com/', 'porto_id'=>'100kpj', 'porto_name'=>'100KPJ', 'porto_domain'=>'www.100kpj.com');
-      $porto_array[]=array('porto_link'=>'https://www.jagodangdut.com/"', 'porto_id'=>'jagodangdut', 'porto_name'=>'JagoDangdut', 'porto_domain'=>'www.jagodangdut.com');
+      $porto_array[]=array('porto_link'=>'https://www.jagodangdut.com/', 'porto_id'=>'jagodangdut', 'porto_name'=>'JagoDangdut', 'porto_domain'=>'www.jagodangdut.com');
       $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/vivanews/', 'porto_id'=>'vivanews', 'porto_name'=>'VIVANews', 'porto_domain'=>'www.ov4rz.com/vivanews');
       $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/pesbukers', 'porto_id'=>'pesbukers', 'porto_name'=>'ANTV Pesbukers', 'porto_domain'=>'www.ov4rz.com/pesbukers');
       foreach($porto_array as $porto_list){ 
