@@ -6,6 +6,13 @@
   <div class="portfolio-list">
     <?php 
       $porto_array = array();
+      $porto_array[]=array('porto_link'=>'https://bit.ly/figmalms', 'porto_id'=>'lms', 'porto_name'=>'Lexus Leads Management System', 'porto_domain'=>'bit.ly/figmalms');
+      $porto_array[]=array('porto_link'=>'https://bit.ly/exiahud', 'porto_id'=>'exia-hud', 'porto_name'=>'Exia Head-Up Display', 'porto_domain'=>'bit.ly/exiahud');
+      $porto_array[]=array('porto_link'=>'https://impavidalaw.com/', 'porto_id'=>'impavida', 'porto_name'=>'Impavida | Advocates & Legal Consultants', 'porto_domain'=>'www.impavidalaw.com');
+      $porto_array[]=array('porto_link'=>'https://bit.ly/tamtelematic', 'porto_id'=>'tam', 'porto_name'=>'Toyota Astra Motor Telematic', 'porto_domain'=>'bit.ly/tamtelematic');
+      $porto_array[]=array('porto_link'=>'https://bit.ly/exiamobile', 'porto_id'=>'exia-mobile', 'porto_name'=>'Exia Mobile Apps', 'porto_domain'=>'bit.ly/exiamobile');
+      $porto_array[]=array('porto_link'=>'https://bit.ly/figmazfix', 'porto_id'=>'zfix', 'porto_name'=>'ZFix', 'porto_domain'=>'bit.ly/figmazfix');
+      $porto_array[]=array('porto_link'=>'https://otogadget.id/', 'porto_id'=>'og', 'porto_name'=>'OtoGadget', 'porto_domain'=>'www.otogadget.id');
       $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/vivaone/', 'porto_id'=>'vivaone', 'porto_name'=>'VIVA Aggregator Apps', 'porto_domain'=>'www.ov4rz.com/vivaone');
       $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/hoedhoed/', 'porto_id'=>'hoedhoed', 'porto_name'=>'HoedHoed', 'porto_domain'=>'www.ov4rz.com/hoedhoed');
       $porto_array[]=array('porto_link'=>'https://www.ov4rz.com/tripodnews/', 'porto_id'=>'tripodnews', 'porto_name'=>'TripodNews', 'porto_domain'=>'www.ov4rz.com/tripodnews');

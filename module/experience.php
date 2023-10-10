@@ -5,6 +5,11 @@
   </div>
   
   <ul class="data-list experience-detail">
+    <li class="experience-organization">
+      <div class="experience-label">Organization</div> <div class="experience-date">November 2022 - Present</div>
+      <h3 class="experience-title">Founder otogadget.id</h3>
+    </li>
+	
     <li class="experience-work">
       <div class="experience-label">Work</div> <div class="experience-date">Juni 2022 - Present</div>
       <h3 class="experience-title">Graphic, UI/UX, & Web Design Manager VIVA Media Baru (VIVA.co.id)</h3>
