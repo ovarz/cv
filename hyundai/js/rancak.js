@@ -25,8 +25,33 @@ function back_to_top(){
 
 
 
+var open_sticky = function(){
+  "use strict";
+  $('.open-sticky').click(function(){
+    var get_id = $(this).attr('title');
+	$('.open-sticky[title=' + get_id +']').toggleClass('show-sticky');
+	$('.open-sticky').not('.open-sticky[title=' + get_id +']').removeClass('show-sticky');
+    $('#popup-' + get_id).fadeToggle('fast');
+    $('.rancak-popup').not('#popup-' + get_id).fadeOut('fast');
+	if($('#popup-' + get_id).hasClass("popup-alert-temporary")){
+      setTimeout(function() {
+        ClosePopup();
+      },2000);
+	};
+	return false;
+  });	
+  
+  $('.header-box > .header-link').click(function(){
+    $(this).parent().find('.header-sub').slideToggle('fast');
+	return false;
+  });
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
   back_to_top();
+  open_sticky();
 });
