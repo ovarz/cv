@@ -3,7 +3,7 @@
 <base href="/hyundai/" />
 <?php 
   $_SERVER['HY'] = $_SERVER['DOCUMENT_ROOT'] . '/hyundai/'; 
-  $version = date ('d'.'m'.'Y') + '1';
+  $version = date ('s'.'i'.'H'.'d'.'m'.'Y');
   
   $site_title='Hyundai Indonesia';
   
