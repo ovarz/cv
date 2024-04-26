@@ -15,7 +15,8 @@
     $skill_photoshop='80%';
     $skill_illustrator='70%';
     $skill_xd='80%';
-    $skill_figma='80%';
+    $skill_figma='90%';
+    $skill_aem='50%';
   ?>
   
   <ul class="data-list skill-detail">
@@ -105,6 +106,14 @@
       </h4> 
       <div class="skill-progress">
         <div class="skill-bar loading-bar-line" style="width:<?php echo $skill_figma; ?>"></div>
+      </div>
+	</li>
+	<li>
+	  <h4 class="skill-label">
+        <b>Adobe Experience Manager</b> <span>[<?php echo $skill_figma; ?>]</span>
+      </h4> 
+      <div class="skill-progress">
+        <div class="skill-bar loading-bar-line" style="width:<?php echo $skill_aem; ?>"></div>
       </div>
 	</li>
   </ul>
