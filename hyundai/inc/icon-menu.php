@@ -11,5 +11,9 @@
   <?php require ($_SERVER['HY'].'img/icon/search.svg')?>
 </a>
 <button title="Nav" class="header-link header-menu-toggle open-sticky content_center mobile-only">
-  <?php require ($_SERVER['HY'].'img/icon/menu.svg')?>
+  <div class="hmt-box">
+    <div class="hmt-line hmt-line-1"></div>
+    <div class="hmt-line hmt-line-2"></div>
+    <div class="hmt-line hmt-line-3"></div>
+  </div>
 </button>
