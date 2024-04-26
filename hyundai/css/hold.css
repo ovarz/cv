@@ -27,7 +27,7 @@ body.freeze-scroll{overflow:hidden;}
 a, .btn, button, header{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-text-2); fill:var(--color-text-2);}
 a:hover, button:hover{color:var(--color-text-3); fill:var(--color-text-3);}
-.btn, a.btn, button.btn{background-color:var(--color-text-2); color:var(--bg-1) !important; fill:var(--bg-1) !important; border-radius:var(--rounded-3);}
+.btn, a.btn, button.btn{background-color:var(--color-text-3); color:var(--bg-1) !important; fill:var(--bg-1) !important; border-radius:var(--rounded-1);}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-text-3);}
 #btt{position:fixed; bottom:calc(var(--size-7) * 2); right:0; cursor:pointer;
 z-index:calc(var(--max-zindex) - 4000); width:40px; height:40px; background-color:var(--color-text-3); fill:var(--bg-1);
@@ -43,18 +43,28 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 .header-link{color:var(--color-text-1); fill:var(--color-text-1); border-bottom-color:transparent;}
-.header-link:hover, .header-box:hover > .header-link{color:var(--color-text-4); fill:var(--color-text-4); border-bottom-color:var(--color-text-4);}
+.header-link:hover, .header-box:hover > .header-link{color:var(--color-text-4) !important; fill:var(--color-text-4) !important; border-bottom-color:var(--color-text-4);}
 .header-logo{fill:var(--color-text-6);}
 .header-logo:hover{fill:var(--color-text-1);}
 .header-sub > .width-max{display:grid;}
 .header-sub .header-link{justify-content:flex-start; height:auto; border-bottom:0; padding:var(--size-3) var(--size-4);}
 .header-sub .header-link svg{height:10px; margin-left:var(--size-2);}
 
-.hmt-line{transition:var(--transition-default); background-color:var(--color-text-4);}
+.hmt-line{transition:var(--transition-default); background-color:var(--color-text-1);}
 .header-menu-toggle.show-sticky .hmt-line{background-color:var(--color-text-7);}
 .header-menu-toggle.show-sticky .hmt-line-1{transform:rotate(45deg); top:7px; left:0;}
 .header-menu-toggle.show-sticky .hmt-line-2{transform:rotate(135deg);}
 .header-menu-toggle.show-sticky .hmt-line-3{width:0;}
+
+.header-transparent-active{background-color:transparent; box-shadow:0 0 0;}
+.header-transparent-active .header-link, .header-transparent-active .header-logo{color:var(--bg-1); fill:var(--bg-1);}
+.header-transparent-active .hmt-line{background-color:var(--bg-1);}
+.header-transparent-active .header-sub .header-link{color:var(--color-text-1); fill:var(--color-text-1);}
+
+
+
+.sfb-info{color:var(--bg-1);}
+.sfb-info-button{border-color:var(--bg-1); background-color:transparent !important;}
 
 
 
@@ -84,6 +94,14 @@ border-radius:var(--rounded-2); box-shadow:var(--shadow-default);}
 
 
 
+.tns-outer [aria-controls], .tns-outer [data-action]{background-color:var(--bg-3);}
+.tns-nav-active{background-color:var(--color-text-4) !important; width:var(--size-5) !important;}
+
+.slide-button{fill:var(--bg-3);}
+.slide-button:hover{fill:var(--color-text-4);}
+
+
+
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
@@ -91,7 +109,7 @@ border-radius:var(--rounded-2); box-shadow:var(--shadow-default);}
   
   
 
-  #popup-Nav{top:var(--size-6); height:calc(100vh - var(--size-6)); height:calc(100svh - var(--size-6)); overflow-y:auto;
+  #popup-Nav{top:var(--header-height); height:calc(100vh - var(--size-6)); height:calc(100svh - var(--size-6)); overflow-y:auto;
   background-color:var(--bg-1); box-shadow:var(--shadow-header);}
   #popup-Nav .nav-icon{display:flex; justify-content:flex-end;} 
   #popup-Nav .nav-icon .header-link{border-top:0;}
@@ -118,7 +136,7 @@ border-radius:var(--rounded-2); box-shadow:var(--shadow-default);}
   
   
   
-  .header-sub{position:fixed; z-index:calc(var(--max-zindex) - 5000); top:var(--size-6); left:0; width:100%; background-color:var(--bg-1); box-shadow:var(--shadow-header);
+  .header-sub{position:fixed; z-index:calc(var(--max-zindex) - 5000); top:var(--header-height); left:0; width:100%; background-color:var(--bg-1); box-shadow:var(--shadow-header);
   padding:var(--size-4) 0;}
   
   

@@ -13,7 +13,7 @@
   --size-7:89px;
   --max-zindex:2147483648;
   --default-fontsize:16px;
-  --menu-width:210px;
+  --header-height:64px;;
   --bg-1:#FFFFFF;
   --bg-2:#F6F3F2; 
   --bg-3:#E4DCD3;  
@@ -27,7 +27,7 @@ body, html{font-family:'Hyundai Sans Text','Montserrat',sans-serif; font-size:va
 html{scroll-behavior:smooth; min-height:100vh; background-color:var(--bg-1);}
 body{overflow-x:hidden;}
 a, button{font-weight:bold;}
-.btn, a.btn, button.btn{padding:var(--size-3) var(--size-4); -webkit-appearance:none; text-transform:uppercase; font-weight:bold;
+.btn, a.btn, button.btn{padding:var(--size-4); -webkit-appearance:none; font-weight:normal;
 display:flex; text-align:center; align-items:center; justify-content:center;}
 .rancak-popup{display:none;}
 .width-max{position:relative; width:100%; max-width:var(--site-container); margin:0 auto;}
@@ -44,7 +44,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 header{position:-webkit-sticky; position:sticky; z-index:calc(var(--max-zindex) - 3000); top:0; left:0; width:100%;}
 header > .width-max{display:flex; justify-content:space-between;}
 .header-left, .header-right{display:flex;}
-.header-link{padding:0 var(--size-3); height:var(--size-6); font-weight:400; border-bottom:3px solid;}
+.header-link{padding:0 var(--size-3); height:var(--header-height); font-weight:400; border-bottom:3px solid;}
 .header-link svg{width:auto; height:16px;}
 .header-parent{display:flex; align-items:center;}
 .header-parent svg{width:auto; height:var(--size-2); margin-left:var(--size-2);}
@@ -55,8 +55,26 @@ header > .width-max{display:flex; justify-content:space-between;}
 
 
 .rancak-container{position:relative; min-height:100vh; min-height:100svh;}
-.rancak-section{padding:var(--size-6) 0;}
+.rancak-section{padding:var(--size-5) 0;}
 .rancak-section .width-max{padding:0 var(--size-4); display:block;}
+
+
+
+.slideshow-full{--slide-number:70px; display:block; position:relative; z-index:1;}
+.slideshow-full-top{margin-top:calc(var(--header-height) * -1);}
+.slideshow-full-box{position:relative; z-index:1;}
+.slideshow-full .tns-nav{position:absolute; bottom:0; left:0; z-index:1000; width:100%;}
+.slideshow-full video{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%; object-fit:cover;}
+
+.sfb-container{position:relative; z-index:1;}
+.sfb-frame{max-height:768px; position:relative; z-index:1;}
+.sfb-info{position:absolute; z-index:1000; display:grid; grid-gap:var(--size-3);}
+.sfb-info-title{font-weight:bold; font-family:'Hyundai Sans Head','Montserrat',sans-serif;}
+.sfb-info-gateway{display:flex;}
+.sfb-info-button{border:2px solid;}
+.slideshow-full .slide-button svg{width:auto; height:var(--size-4);}
+
+
 
 
 
@@ -74,6 +92,15 @@ header > .width-max{display:flex; justify-content:space-between;}
   .hmt-line-1{width:var(--line-width); top:1px;}
   .hmt-line-2{width:var(--line-width); top:7px;}
   .hmt-line-3{width:var(--size-3); top:13px;}
+  
+  
+  
+  .sfb-frame:before{padding-top:177.77%;}
+  .sfb-info{bottom:var(--size-7); left:var(--size-5); width:calc(100% - calc(var(--size-5) * 2)); max-width:calc(var(--size-5) * 9);}
+  .sfb-info-label{font-size:14px; line-height:140%;}
+  .sfb-info-title{font-size:24px; line-height:120%;}
+  
+  .slide-controls{display:none;}
 }
 
 
@@ -86,4 +113,11 @@ header > .width-max{display:flex; justify-content:space-between;}
   
   
   .header-search{padding-right:var(--size-4);}
+  
+  
+  
+  .sfb-frame:before{padding-top:56.25%;}
+  .sfb-info{bottom:var(--slide-number); left:var(--slide-number); width:calc(100% - calc(var(--slide-number) * 2)); max-width:calc(var(--slide-number) * 9);}
+  .sfb-info-label{font-size:16px; line-height:140%;}
+  .sfb-info-title{font-size:40px; line-height:120%;}
 }

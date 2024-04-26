@@ -39,5 +39,13 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 </script>
 
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $version; ?>"/>
+
+<?php if($slideshow == 'yes') { ?>
+  <link rel="preload" href="css/tiny-slider.css?<?php echo $version; ?>" as="style">
+  <link rel="preload" as="script" href="js/tiny-slider.js?<?php echo $version; ?>">
+  <link rel="stylesheet" type="text/css" href="css/tiny-slider.css?<?php echo $version; ?>"/>
+  <script src="js/tiny-slider.js?<?php echo $version; ?>"></script>
+<?php } ?>
+
 </head>
 <body>

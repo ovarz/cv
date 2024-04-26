@@ -1,4 +1,4 @@
-<header>
+<header class="<?php if($header_style == 'transparent') { ?>header-transparent header-transparent-active<?php } ?>">
   <span class="width-max">
     <div class="header-left">
 	  <a title="Home" class="header-link header-logo content_center" href="">
