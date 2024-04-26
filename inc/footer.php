@@ -1,6 +1,6 @@
 <!-- footer -->
 <footer>
-  <h6>Aufar Mahardi - Curriculum Vitae &copy;2018 - All Right Reserved</h6>
+  <h6>Aufar Mahardi &copy;2018 - All Right Reserved</h6>
 </footer>
 <!-- end footer -->
 
@@ -54,8 +54,8 @@
   "@context" : "http://schema.org",
   "@type" : "Person",
   "name" : "Aufar Mahardi",
-  "url" : "https://ov4rz.com/",
-  "logo": "https://ov4rz.com/img/ovarz-photo.png"
+  "url" : "https://aufarmahardi.com/",
+  "logo": "https://aufarmahardi.com/img/ovarz-photo.png"
 }
 </script>
 

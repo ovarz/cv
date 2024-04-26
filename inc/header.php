@@ -24,7 +24,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="HandheldFriendly" content="true" />
 <meta name="apple-touch-fullscreen" content="yes" />
-<link rel="canonical" href="https://ov4rz.com/">
+<link rel="canonical" href="https://aufarmahardi.com/">
 <link href="<?php echo $base?>/img/favicon.ico" rel="icon" type="image/ico" />
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
@@ -33,8 +33,8 @@
 
 <link rel="preconnect" href="https://cdn.ampproject.org">
 <link rel="dns-prefetch" href="https://cdn.ampproject.org" />
-<link rel="preconnect" href="https://www.ov4rz.com">
-<link rel="dns-prefetch" href="https://www.ov4rz.com" />
+<link rel="preconnect" href="https://www.aufarmahardi.com">
+<link rel="dns-prefetch" href="https://www.aufarmahardi.com" />
 <link rel="preload" href="<?php echo $base?>/fonts/poppins/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="<?php echo $base?>/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="<?php echo $base?>/img/ovarz-photo.webp" as="image">
