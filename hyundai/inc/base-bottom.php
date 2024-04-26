@@ -5,7 +5,7 @@
 
 
 <noscript id="deferred-styles">
-  <link rel="stylesheet" type="text/css" href="css/hold.css?<?php echo $anticache; ?>" media="print" onload="this.media='all'"/>
+  <link rel="stylesheet" type="text/css" href="css/hold.css?<?php echo $version; ?>" media="print" onload="this.media='all'"/>
 </noscript>
 <script defer>
   var loadDeferredStyles = function() {
@@ -21,7 +21,7 @@
   else window.addEventListener('load', loadDeferredStyles);
 </script>
 <script defer src="js/lazysizes.min.js"></script>
-<script defer rancak-hold="js/rancak.js?<?php echo $anticache; ?>"></script>
+<script defer rancak-hold="js/rancak.js?<?php echo $version; ?>"></script>
 
 
 

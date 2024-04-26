@@ -3,7 +3,7 @@
 <base href="/hyundai/" />
 <?php 
   $_SERVER['HY'] = $_SERVER['DOCUMENT_ROOT'] . '/hyundai/'; 
-  $anticache = date ('s'.'i'.'H'.'d'.'m'.'Y');
+  $version = date ('d'.'m'.'Y') + '0';
   
   $site_title='Hyundai Indonesia';
 ?>

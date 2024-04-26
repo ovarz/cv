@@ -10,7 +10,7 @@
 <link rel="dns-prefetch" href="https://www.aufarmahardi.com" />
 <link rel="preconnect" href="https://ajax.googleapis.com">
 <link rel="dns-prefetch" href="https://ajax.googleapis.com"/>
-<link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
+<link href="img/favicon.ico?<?php echo $version; ?>" rel="icon" type="image/ico" />
 <title><?php echo $site_title; ?></title>
 
 <link rel="preload" href="fonts/HyundaiSans/HyundaiSansHead-Bold.woff" as="font" type="font/woff2" crossorigin="anonymous"/>
@@ -23,7 +23,7 @@
 <link rel="preload" href="fonts/HyundaiSans/HyundaiSansText-Medium.woff" as="font" type="font/woff2" crossorigin="anonymous"/>
 <link rel="preload" href="fonts/HyundaiSans/HyundaiSansText-MediumItalic.woff" as="font" type="font/woff2" crossorigin="anonymous"/>
 <link rel="preload" href="fonts/HyundaiSans/HyundaiSansText-Regular.woff" as="font" type="font/woff2" crossorigin="anonymous"/>
-<link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
+<link rel="preload" href="css/rancak.css?<?php echo $version; ?>" as="style">
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
 
 <style><?php require ($_SERVER['HY'].'css/font.css')?></style>
@@ -38,6 +38,6 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 });
 </script>
 
-<link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
+<link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $version; ?>"/>
 </head>
 <body>
