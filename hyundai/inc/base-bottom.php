@@ -22,6 +22,11 @@
 </script>
 <script defer src="js/lazysizes.min.js"></script>
 <script defer rancak-hold="js/rancak.js?<?php echo $version; ?>"></script>
+<script defer>
+$(document).ready(function(){
+  $(window).scrollTop(0);
+});
+</script>
 
 
 
