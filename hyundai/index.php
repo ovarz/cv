@@ -20,14 +20,39 @@
   
   
   <section title="Our Models" class="rancak-section section-our-models" style="margin-top:var(--size-5)">
-    <?php require ($_SERVER['HY'].'section/our-models.php')?>
+    <span class="width-max">
+      <?php require ($_SERVER['HY'].'section/our-models.php')?>
+	</span>
   </section>
 
 
 
-  <section title="Cover" class="rancak-section">
+  <section title="Newest Car" class="rancak-section gridbox-a">
     <span class="width-max">
-	  rancak-section
+      <?php 
+        $contentbox_array = array();
+        $contentbox_array[]=array(
+          'contentbox_title'=>'Creta Alpha',
+          'contentbox_img'=>'sample/sample-8',
+          'contentbox_label'=>'Say no to ordinary.',
+          'contentbox_link'=>'',
+        );
+        $contentbox_array[]=array(
+          'contentbox_title'=>'Ioniq 5',
+          'contentbox_img'=>'sample/sample-7',
+          'contentbox_label'=>'Powering Legacy through Innovation',
+          'contentbox_link'=>'',
+        );
+        $contentbox_array[]=array(
+          'contentbox_title'=>'Stargazer',
+          'contentbox_img'=>'sample/sample-11',
+          'contentbox_label'=>'The new star of the family.',
+          'contentbox_link'=>'',
+        );
+        foreach($contentbox_array as $contentbox_list){
+      ?>
+	    <?php require ($_SERVER['HY'].'module/box-a.php')?>
+	  <?php } ?>
 	</span>
   </section>
 

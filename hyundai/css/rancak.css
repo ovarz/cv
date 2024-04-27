@@ -28,10 +28,18 @@ body, html{font-family:'Hyundai Sans Text','Montserrat',sans-serif; font-size:va
 html{scroll-behavior:smooth; min-height:100vh; background-color:var(--bg-1);}
 body{overflow-x:hidden;}
 a, button{font-weight:bold;}
-.btn, a.btn, button.btn{padding:var(--size-4); -webkit-appearance:none; font-weight:normal;
+.btn, a.btn, button.btn{padding:var(--size-3) var(--size-4); -webkit-appearance:none; font-weight:normal;
 display:flex; text-align:center; align-items:center; justify-content:center;}
+.btn-outline{border:1px solid;}
 .rancak-popup{display:none;}
 .width-max{position:relative; width:100%; max-width:var(--site-container); margin:0 auto;}
+
+
+
+.rancak-container{position:relative; min-height:100vh; min-height:100svh;}
+.rancak-section{padding:var(--size-5) 0;}
+.rancak-section .width-max{padding:0 var(--size-4); display:block;}
+.section-title{font-weight:bold; font-size:40px; font-family:var(--font-head); padding:var(--size-4); padding-top:0; text-align:center;}
 
 
 
@@ -39,6 +47,19 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 .flex_ori:before{content:''; display:block; padding-top:calc(100% / calc(var(--aspect-ratio)));}
 .flex_ori img{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%; object-fit:cover;}
 .flex_ori img:not([src]){visibility:hidden;}
+
+
+
+.box-a{position:relative;}
+.box-a-frame{position:relative; z-index:1; max-height:610px;}
+.box-a-frame:before{padding-top:100%; position:relative; z-index:1000;}
+.box-a-info{position:absolute; z-index:2000; bottom:0; left:0; display:grid;}
+.box-a-title{font-family:var(--font-head); text-transform:uppercase; font-weight:bold;}
+.box-a-label{margin-bottom:var(--size-3);}
+
+
+
+.gridbox-a .width-max{display:grid; grid-gap:var(--size-2);}
 
 
 
@@ -55,10 +76,9 @@ header > .width-max{display:flex; justify-content:space-between;}
 
 
 
-.rancak-container{position:relative; min-height:100vh; min-height:100svh;}
-.rancak-section{padding:var(--size-5) 0;}
-.rancak-section .width-max{padding:0 var(--size-4); display:block;}
-.section-title{font-weight:bold; font-size:40px; font-family:var(--font-head); padding:var(--size-4); padding-top:0; text-align:center;}
+.gateway-bottom{margin-top:var(--size-3);}
+.gateway-list{display:flex; flex-wrap:wrap; justify-content:center;}
+.gateway-button{margin:var(--size-2) var(--size-2) 0;}
 
 
 
@@ -73,7 +93,6 @@ header > .width-max{display:flex; justify-content:space-between;}
 .sfb-info{position:absolute; z-index:1000; display:grid; grid-gap:var(--size-3);}
 .sfb-info-title{font-weight:bold; font-family:var(--font-head);}
 .sfb-info-gateway{display:flex;}
-.sfb-info-button{border:2px solid;}
 
 
 
@@ -90,6 +109,7 @@ header > .width-max{display:flex; justify-content:space-between;}
 .slideshow-models .tns-nav{padding-bottom:0;}
 .slideshow-models .slide-button{position:relative; grid-row:1/2;}
 .slideshow-models .slide-button-next{grid-column:3/4;}
+.slideshow-models .gateway-button{width:170px;}
 
 .slideshow-models-box{position:relative; z-index:1; display:grid;}
 .smb-car-frame{width:100%;}
@@ -97,7 +117,7 @@ header > .width-max{display:flex; justify-content:space-between;}
 .smb-car-frame img{object-fit:contain; object-position:bottom center;}
 .smb-info{display:grid; grid-gap:var(--size-4) var(--size-5); margin-top:var(--size-4);}
 .smb-info-box{display:grid; grid-gap:var(--size-1);}
-.smb-info-data{font-weight:bold; }
+.smb-info-data{font-weight:bold;}
 .smb-info-name{font-family:var(--font-head); font-weight:bold; text-transform:uppercase; font-size:32px; line-height:100%;}
 
 
@@ -109,6 +129,15 @@ header > .width-max{display:flex; justify-content:space-between;}
 @media screen and (min-width:0px) and (max-width:1023px){
   .desktop-only{display:none !important; visibility:hidden; content-visibility:hidden;}
   .desktop-only iframe[loading=lazy]{content-visibility:hidden !important;}
+  
+  
+  
+  .box-a-info{padding:var(--size-4);}
+  .box-a-title{font-size:24px;}
+  
+  
+  
+  .gridbox-a .width-max{padding:0;}
   
   
   
@@ -141,6 +170,16 @@ header > .width-max{display:flex; justify-content:space-between;}
 
 @media screen and (min-width:1024px){
   .mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
+  
+  
+  
+  .box-a-info{padding:var(--size-5);}
+  .box-a-title{font-size:32px;}
+  
+  
+  
+  .gridbox-a .width-max{grid-template-columns:1fr 1fr;}
+  .gridbox-a .box-a:first-child{grid-column:1/3;}
   
   
   
