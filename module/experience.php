@@ -7,7 +7,7 @@
   <ul class="data-list experience-detail">
     <li class="experience-organization">
       <div class="experience-label">Organization</div> <div class="experience-date">November 2022 - Present</div>
-      <h3 class="experience-title">Founder otogadget.id</h3>
+      <h3 class="experience-title">Founder otogear.id</h3>
     </li>
 	
     <li class="experience-work">
