@@ -50,7 +50,7 @@
   
   
   
-  <div class="slide-controls" id="customize-controls" aria-label="Carousel Navigation" tabindex="0">
+  <div class="slideshow-full-controls" aria-label="Carousel Navigation" tabindex="0">
     <button class="slide-button slide-button-prev" aria-controls="customize" tabindex="-1" data-controls="prev">
       <?php require ($_SERVER['HY'].'img/icon/prev-arrow.svg')?>
     </button>
@@ -76,6 +76,6 @@
 	navPosition:'bottom',
 	mouseDrag:true,
 	autoplay:true,
-	controlsContainer:'#customize-controls',
+	controlsContainer:'.slideshow-full-controls',
   });
 </script>

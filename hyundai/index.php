@@ -15,6 +15,7 @@
 
 
   <?php require ($_SERVER['HY'].'module/slideshow-full.php')?>
+  <?php require ($_SERVER['HY'].'module/our-models.php')?>
 
 
 

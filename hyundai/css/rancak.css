@@ -72,7 +72,20 @@ header > .width-max{display:flex; justify-content:space-between;}
 .sfb-info-title{font-weight:bold; font-family:'Hyundai Sans Head','Montserrat',sans-serif;}
 .sfb-info-gateway{display:flex;}
 .sfb-info-button{border:2px solid;}
-.slideshow-full .slide-button svg{width:auto; height:var(--size-4);}
+
+
+
+.slideshow-our-models{--slide-number:70px; display:block; position:relative; z-index:1;}
+.slideshow-full-box{position:relative; z-index:1;}
+.slideshow-our-models .tns-nav{position:absolute; bottom:0; left:0; z-index:1000; width:100%;}
+.slideshow-our-models video{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%; object-fit:cover;}
+
+
+
+.section-our-models .width-max{padding:0;}
+.slideshow-our-models{display:grid; grid-template-columns:auto 1fr auto;}
+.slideshow-our-models .slide-button{position:relative; grid-row:1/2;}
+.slideshow-our-models .slide-button-next{grid-column:3/4;}
 
 
 
@@ -99,8 +112,6 @@ header > .width-max{display:flex; justify-content:space-between;}
   .sfb-info{bottom:var(--size-7); left:var(--size-5); width:calc(100% - calc(var(--size-5) * 2)); max-width:calc(var(--size-5) * 9);}
   .sfb-info-label{font-size:14px; line-height:140%;}
   .sfb-info-title{font-size:24px; line-height:120%;}
-  
-  .slide-controls{display:none;}
 }
 
 
