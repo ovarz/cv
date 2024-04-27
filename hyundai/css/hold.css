@@ -29,7 +29,7 @@ a, button{color:var(--color-text-2); fill:var(--color-text-2);}
 a:hover, button:hover{color:var(--color-text-3); fill:var(--color-text-3);}
 .btn, a.btn, button.btn{background-color:var(--color-text-3); color:var(--bg-1) !important; fill:var(--bg-1) !important; border-radius:var(--rounded-1);}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-text-3);}
-#btt{position:fixed; bottom:calc(var(--size-7) * 2); right:0; cursor:pointer;
+#btt{position:fixed; bottom:var(--size-7); right:0; cursor:pointer;
 z-index:calc(var(--max-zindex) - 4000); width:40px; height:40px; background-color:var(--color-text-3); fill:var(--bg-1);
 border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded-2);}
 #btt:hover, #btt:focus{background-color:var(--color-text-4);}
@@ -38,6 +38,10 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-text-2);}
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 @keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+
+
+
+.section-title{color:var(--color-text-2); fill:var(--color-text-2);}
 
 
 
@@ -65,6 +69,13 @@ header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 
 .sfb-info{color:var(--bg-1);}
 .sfb-info-button{border-color:var(--bg-1); background-color:transparent !important;}
+
+
+
+.slideshow-models .slide-button{fill:var(--color-text-2);}
+.slideshow-models .slide-button:hover{fill:var(--color-text-4);}
+.smb-info-date, .smb-info-data{color:var(--color-text-2);}
+.smb-info-name{color:var(--color-text-4);}
 
 
 

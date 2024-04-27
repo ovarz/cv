@@ -14,8 +14,14 @@
 
 
 
-  <?php require ($_SERVER['HY'].'module/slideshow-full.php')?>
-  <?php require ($_SERVER['HY'].'module/our-models.php')?>
+  <section title="Cover" class="slideshow-full slideshow-full-top">
+    <?php require ($_SERVER['HY'].'section/slideshow-full.php')?>
+  </section>
+  
+  
+  <section title="Our Models" class="rancak-section section-our-models" style="margin-top:var(--size-5)">
+    <?php require ($_SERVER['HY'].'section/our-models.php')?>
+  </section>
 
 
 
