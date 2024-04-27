@@ -32,7 +32,7 @@ a:hover, button:hover{color:var(--color-text-3); fill:var(--color-text-3);}
 .btn-outline{border-color:var(--bg-1); background-color:transparent !important;}
 .btn-outline:hover{border-color:var(--color-text-4); background-color:var(--color-text-4) !important;}
 #btt{position:fixed; bottom:var(--size-7); right:0; cursor:pointer;
-z-index:calc(var(--max-zindex) - 4000); width:40px; height:40px; background-color:var(--color-text-3); fill:var(--bg-1);
+z-index:calc(var(--max-zindex) - 10000); width:40px; height:40px; background-color:var(--color-text-3); fill:var(--bg-1);
 border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded-2);}
 #btt:hover, #btt:focus{background-color:var(--color-text-4);}
 .flex_ori > img{opacity:0; transition:all 300ms;}
@@ -86,6 +86,10 @@ header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 .smb-info-date, .smb-info-data{color:var(--color-text-2);}
 .smb-info-name{color:var(--color-text-4);}
 
+.our-models-tab{background-color:var(--bg-2); border-radius:var(--size-4);}
+.omt-button:hover{color:var(--color-text-4);}
+.omt-button-curr{background-color:var(--bg-2) !important; border-radius:calc(var(--size-4) - 2px); color:var(--color-text-4) !important; box-shadow:var(--shadow-neumorp);}
+
 
 
 footer{background-color:var(--color-text-2); color:var(--bg-1); fill:var(--bg-1); padding:var(--size-3) 0;}
@@ -126,6 +130,14 @@ border-radius:var(--rounded-2); box-shadow:var(--shadow-default);}
 
 @media screen and (min-width:0px) and (max-width:1023px){
   .header-link{border-bottom:0;}
+    
+  
+  
+  .omt-list{position:absolute; z-index:calc(var(--max-zindex) - 9000); top:calc(var(--size-6) + var(--size-1)); right:0; width:300px;
+  background-color:var(--bg-2); border-radius:var(--size-4);}
+  .omt-select-icon{transition:var(--transition-default);}
+  .omt-selected-icon{transform:rotate(180deg);}
+  .omt-button{width:100%;}
   
   
 

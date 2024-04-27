@@ -10,7 +10,7 @@
       <div class="sfb-info-label">Melalui Hyundai Finance</div>
       <h2 class="sfb-info-title">Berikan kemudahan dengan <br/> #RodaKebaikan</h2>
       <div class="sfb-info-gateway">
-        <a title="Link" class="btn btn-outline" href="">Pelajari Lebih Lanjut</a>
+        <a title="Link" class="btn btn-outline" href="">Pelajari lebih lanjut</a>
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@
       <div class="sfb-info-label">Melalui Hyundai Finance</div>
       <h2 class="sfb-info-title">Berikan kemudahan dengan <br/> #RodaKebaikan</h2>
       <div class="sfb-info-gateway">
-        <a title="Link" class="btn btn-outline" href="">Pelajari Lebih Lanjut</a>
+        <a title="Link" class="btn btn-outline" href="">Pelajari lebih lanjut</a>
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@
       <div class="sfb-info-label">Melalui Hyundai Finance</div>
       <h2 class="sfb-info-title">Berikan kemudahan dengan <br/> #RodaKebaikan</h2>
       <div class="sfb-info-gateway">
-        <a title="Link" class="btn btn-outline" href="">Pelajari Lebih Lanjut</a>
+        <a title="Link" class="btn btn-outline" href="">Pelajari lebih lanjut</a>
       </div>
     </div>
   </div>

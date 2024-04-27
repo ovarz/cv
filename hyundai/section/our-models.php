@@ -1,5 +1,27 @@
 <div class="section-title">Our Models</div>
 
+<div class="our-models-tab">
+  <button title="Select Models" class="omt-select mobile-only">
+    <div class="omt-select-inside omt-select-label">All</div>
+	<div class="omt-select-inside omt-select-icon"><?php require ($_SERVER['HY'].'img/icon/down.svg')?></div>
+  </button>
+  <div class="omt-list">
+    <?php 
+      $models_tab_array = array();
+      $models_tab_array[]=array('models_tab_title'=>'All', 'models_tab_curr'=>'yes',);
+      $models_tab_array[]=array('models_tab_title'=>'Electrified', 'models_tab_curr'=>'no',);
+      $models_tab_array[]=array('models_tab_title'=>'SUV', 'models_tab_curr'=>'no',);
+      $models_tab_array[]=array('models_tab_title'=>'MPV', 'models_tab_curr'=>'no',);
+      $models_tab_array[]=array('models_tab_title'=>'Crossover', 'models_tab_curr'=>'no',);
+      foreach($models_tab_array as $models_tab_list){
+    ?>
+      <button title="<?php echo($models_tab_list['models_tab_title'])?>" class="omt-button <?php if($models_tab_list['models_tab_curr'] == 'yes') { ?>omt-button-curr<?php } ?>">
+        <?php echo($models_tab_list['models_tab_title'])?>
+      </button>
+    <?php } ?>
+  </div>
+</div>
+
 <div class="slideshow-models">
 
   <button class="slide-button slide-button-prev" aria-controls="customize" tabindex="-1" data-controls="prev">
@@ -82,7 +104,7 @@
         </div>
 		<div class="gateway-bottom content_center">
 		  <span class="gateway-list">
-		    <a title="Get Price" class="btn gateway-button" href="<?php echo($models_list['models_link_price'])?>">Get Price</a>
+		    <a title="Get Price" class="btn gateway-button" href="<?php echo($models_list['models_link_price'])?>">Get price</a>
 		    <a title="See more models" class="btn gateway-button" href="<?php echo($models_list['models_link_product'])?>">See more models</a>
 		  </span>
 		</div>
@@ -99,11 +121,11 @@
 
 
 <script>
-  var slider_slideshow_full = tns({
+  var slider_our_models = tns({
 	container:'.slideshow-models-container',
 	speed:610,
 	items:1,
-	gutter:0, 
+	gutter:55, 
 	edgePadding:0,
 	controls:true,
 	nav:true,
@@ -112,5 +134,21 @@
 	autoplay:true,
 	autoplayTimeout:4000,
 	controlsContainer:'.slideshow-models',
+  });
+  
+  $('.omt-select').click(function(){
+    $(this).find('.omt-select-icon').toggleClass('omt-selected-icon');
+    $(this).parent().find('.omt-list').slideToggle('fast');
+	return false;
+  });
+  
+  $('.omt-button').click(function(){
+    var get_models = $(this).attr('title');
+    $(this).addClass('omt-button-curr');
+	$(this).parents().eq(1).find('.omt-select > .omt-select-label').text(get_models);
+    $('.omt-button').not(this).removeClass('omt-button-curr');
+	$('.omt-select-icon').removeClass('omt-selected-icon');
+	$('.omt-list').slideUp('fast');
+	return false;
   });
 </script>
