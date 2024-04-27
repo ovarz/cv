@@ -120,7 +120,7 @@
 
 
 
-<script>
+<script defer>
   var slider_our_models = tns({
 	container:'.slideshow-models-container',
 	speed:610,

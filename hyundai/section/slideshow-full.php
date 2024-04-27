@@ -62,7 +62,7 @@
 
 
 
-<script>
+<script defer>
   var slider_slideshow_full = tns({
 	container:'.slideshow-full-container',
 	speed:610,
