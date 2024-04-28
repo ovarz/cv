@@ -102,6 +102,12 @@ header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 
 
 
+.snuc-box{color:var(--bg-1) !important;}
+.snuc-box:hover{opacity:0.75;}
+.snuc-frame:before{background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 55%, rgb(var(--color-border-dark) / 55%) 100%);}
+
+
+
 .find-dealer-label{color:var(--color-text-2);}
 .find-dealer-select{fill:var(--color-text-1);}
 .find-dealer-select:hover{fill:var(--color-text-3);}

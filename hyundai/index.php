@@ -55,6 +55,13 @@
 	  <?php } ?>
 	</span>
   </section>
+  
+  
+  <section title="News Update" class="rancak-section section-news-update">
+    <span class="width-max">
+      <?php require ($_SERVER['HY'].'section/news-update.php')?>
+	</span>
+  </section>
 
 
 
