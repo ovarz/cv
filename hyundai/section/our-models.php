@@ -8,15 +8,7 @@
 	<div class="omt-select-inside omt-select-icon"><?php require ($_SERVER['HY'].'img/icon/down.svg')?></div>
   </button>
   <div class="omt-list">
-    <?php 
-      $models_tab_array = array();
-      $models_tab_array[]=array('models_tab_title'=>'All', 'models_tab_curr'=>'yes',);
-      $models_tab_array[]=array('models_tab_title'=>'Electrified', 'models_tab_curr'=>'no',);
-      $models_tab_array[]=array('models_tab_title'=>'SUV', 'models_tab_curr'=>'no',);
-      $models_tab_array[]=array('models_tab_title'=>'MPV', 'models_tab_curr'=>'no',);
-      $models_tab_array[]=array('models_tab_title'=>'Crossover', 'models_tab_curr'=>'no',);
-      foreach($models_tab_array as $models_tab_list){
-    ?>
+    <?php foreach($models_tab_array as $models_tab_list){ ?>
       <button title="<?php echo($models_tab_list['models_tab_title'])?>" class="omt-button <?php if($models_tab_list['models_tab_curr'] == 'yes') { ?>omt-button-curr<?php } ?>">
         <?php echo($models_tab_list['models_tab_title'])?>
       </button>

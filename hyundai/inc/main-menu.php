@@ -5,6 +5,22 @@
       <?php require ($_SERVER['HY'].'img/icon/down.svg')?>
     </div>
   </a>
+  <div class="header-sub header-sub-car hide">
+    <span class="width-max">
+      <div class="hsc-tab desktop-only">
+	    <div class="hsc-tab-label">Models</div>
+		<?php foreach($models_tab_array as $models_tab_list){ ?>
+		  <button title="<?php echo($models_tab_list['models_tab_title'])?>" 
+		  class="hsc-tab-button <?php if($models_tab_list['models_tab_curr'] == 'yes') { ?>hsc-tab-curr<?php } ?>">
+		    <?php echo($models_tab_list['models_tab_title'])?>
+		  </button>
+		<?php } ?>
+	  </div>
+	  <div class="hsc-data">
+	    <?php require ($_SERVER['HY'].'module/carmodels-all.php')?>
+	  </div>
+	</span>
+  </div>
 </div>
 
 <a title="Home" class="header-link content_center <?php echo $device; ?>-only" href="">

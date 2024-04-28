@@ -7,6 +7,13 @@
   
   $site_title='Hyundai Indonesia';
   
+  $models_tab_array = array();
+  $models_tab_array[]=array('models_tab_title'=>'All', 'models_tab_curr'=>'yes',);
+  $models_tab_array[]=array('models_tab_title'=>'Electrified', 'models_tab_curr'=>'no',);
+  $models_tab_array[]=array('models_tab_title'=>'SUV', 'models_tab_curr'=>'no',);
+  $models_tab_array[]=array('models_tab_title'=>'MPV', 'models_tab_curr'=>'no',);
+  $models_tab_array[]=array('models_tab_title'=>'Crossover', 'models_tab_curr'=>'no',);
+  
   $carmodel_array = array();
   $carmodel_array[]=array('carmodel_name'=>'Creta','carmodel_link'=>'');
   $carmodel_array[]=array('carmodel_name'=>'Ioniq 5','carmodel_link'=>'');
