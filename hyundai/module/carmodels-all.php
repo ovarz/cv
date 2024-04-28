@@ -1,25 +1,67 @@
 <div id="carmodels-All" class="carmodels-list">
   <div class="carmodels-list-detail">
-    <?php for ($i=1; $i <= 8 ; $i++) { ?>
-      <div class="cld-box">
-        <a title="Stargazer" class="cld-name" href="">Stargazer</a>
-		<a title="Stargazer" class="cld-thumb flex_ori thumb-loading" href="">
-		  <img alt="Foto Stargazer" class="lazyload" data-original="img/model-stargazer.png" />
-		</a>
-		<div class="cld-label">Price start form</div>
-		<div class="cld-price">Rp.1.250.000.000</div>
-		<div class="cld-available">Available in <?php echo rand(2,10); ?> options</div>
-		<div class="cld-action">
-		  <a title="Discover" class="cld-action-link" href="">
-		    <div class="cld-action-label">Discover</div>
-			<?php require ($_SERVER['HY'].'img/icon/right-small.svg')?>
-		  </a>
-		  <a title="Get Price" class="cld-action-link" href="">
-		    <div class="cld-action-label">Get Price</div>
-			<?php require ($_SERVER['HY'].'img/icon/right-small.svg')?>
-		  </a>
-		</div>
-      </div>
+    <?php 
+      $carmodels_array = array();
+      $carmodels_array[]=array(
+        'carmodels_name'=>'Stargazer',
+        'carmodels_img'=>'stargazer',
+        'carmodels_price'=>'262.600.000',
+        'carmodels_link'=>'',
+        'carmodels_link_price'=>'',
+      );
+      $carmodels_array[]=array(
+        'carmodels_name'=>'Stargazer X',
+        'carmodels_img'=>'stargazer-x',
+        'carmodels_price'=>'335.800.000',
+        'carmodels_link'=>'',
+        'carmodels_link_price'=>'',
+      );
+      $carmodels_array[]=array(
+        'carmodels_name'=>'Staria',
+        'carmodels_img'=>'staria',
+        'carmodels_price'=>'924.000.000',
+        'carmodels_link'=>'',
+        'carmodels_link_price'=>'',
+      );
+      $carmodels_array[]=array(
+        'carmodels_name'=>'Creta',
+        'carmodels_img'=>'creta',
+        'carmodels_price'=>'421.800.000',
+        'carmodels_link'=>'',
+        'carmodels_link_price'=>'',
+      );
+      $carmodels_array[]=array(
+        'carmodels_name'=>'Ioniq 5',
+        'carmodels_img'=>'ioniq5',
+        'carmodels_price'=>'990.000.000',
+        'carmodels_link'=>'',
+        'carmodels_link_price'=>'',
+      );
+      $carmodels_array[]=array(
+        'carmodels_name'=>'Ioniq 6',
+        'carmodels_img'=>'ioniq6',
+        'carmodels_price'=>'1.220.000.000',
+        'carmodels_link'=>'',
+        'carmodels_link_price'=>'',
+      );
+      $carmodels_array[]=array(
+        'carmodels_name'=>'Palisade',
+        'carmodels_img'=>'palisade',
+        'carmodels_price'=>'1.181.000.000',
+        'carmodels_link'=>'',
+        'carmodels_link_price'=>'',
+      );
+      $carmodels_array[]=array(
+        'carmodels_name'=>'Santa Fe',
+        'carmodels_img'=>'santafe',
+        'carmodels_price'=>'625.000.000',
+        'carmodels_link'=>'',
+        'carmodels_link_price'=>'',
+      );
+	  
+      foreach($carmodels_array as $carmodels_list){
+    ?>
+      <?php require ($_SERVER['HY'].'module/carmodels-structure.php')?>
     <?php } ?>
   </div>
 </div>
