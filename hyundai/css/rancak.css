@@ -39,7 +39,27 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 .rancak-container{position:relative; min-height:100vh; min-height:100svh;}
 .rancak-section{padding:var(--size-5) 0;}
 .rancak-section .width-max{padding:0 var(--size-4); display:block;}
-.section-title{font-weight:bold; font-size:40px; font-family:var(--font-head); padding:var(--size-4); padding-top:0; text-align:center;}
+.section-title{padding:var(--size-4); padding-top:0;}
+.section-title-primary, .section-title-secondary{text-align:center;}
+.section-title-primary{font-weight:bold; font-size:40px; font-family:var(--font-head);}
+.section-title-secondary{font-size:16px;}
+
+
+
+.default-radiobutton, .default-radiobutton :before{--radio-size:var(--size-4); position:relative;}
+.default-radiobutton-real{position:absolute; z-index:1000; top:0; left:0; width:100%; height:100%; opacity:0; cursor:pointer;}
+.default-radiobutton-dummy{position:relative; z-index:1; display:grid; grid-gap:var(--size-2); grid-template-columns:var(--radio-size) 1fr; align-items:center;}
+.drd-circle{border:1px solid; width:var(--radio-size); height:var(--radio-size); padding:4px; position:relative; top:-2px;}
+.drd-circle:before{content:''; display:block; width:100%; height:100%;}
+.drd-label{display:flex; align-items:center;}
+
+.default-field{position:relative;}
+.default-field-box{position:relative; padding:var(--size-4); border:1px solid; width:100%; line-height:100%; height:64px;}
+.default-field-selector + svg{position:absolute; z-index:1; top:28px; right:22px; width:auto; height:var(--size-2);}
+.default-field-search{padding-right:var(--size-6);}
+.default-field-search-button{position:absolute; z-index:2000; top:0; right:0; height:100%; padding:0 var(--size-4);}
+.default-field-search-button svg{width:var(--size-3); height:auto;}
+
 
 
 
@@ -103,7 +123,7 @@ header > .width-max{display:flex; justify-content:space-between;}
 .slideshow-our-models video{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%; object-fit:cover;}
 
 .our-models-tab{margin:0 var(--size-4) var(--size-3); position:relative;}
-.omt-list{ padding:var(--size-1);}
+.omt-list{ padding:var(--size-1) !important;}
 .omt-button{display:block; padding:var(--size-3) var(--size-4);}
 
 .section-our-models .width-max{padding:0;}
@@ -125,6 +145,11 @@ header > .width-max{display:flex; justify-content:space-between;}
 
 
 
+.find-dealer-label{font-weight:bold; font-family:var(--font-head); margin-bottom:var(--size-1);}
+.find-dealer-choose{display:flex; flex-wrap:wrap;}
+.find-dealer-select{display:grid; grid-gap:var(--size-3); grid-template-columns:repeat(auto-fit, minmax(240px,1fr));}
+.find-dealer-select .default-field-box{z-index:1000;}
+
 
 
 
@@ -132,6 +157,11 @@ header > .width-max{display:flex; justify-content:space-between;}
 @media screen and (min-width:0px) and (max-width:1023px){
   .desktop-only{display:none !important; visibility:hidden; content-visibility:hidden;}
   .desktop-only iframe[loading=lazy]{content-visibility:hidden !important;}
+  
+  
+  
+  .section-title-primary{font-size:30px;}
+  .section-title-secondary{font-size:14px;}
   
   
   
@@ -169,6 +199,11 @@ header > .width-max{display:flex; justify-content:space-between;}
     .smb-info{grid-template-columns:1fr 1fr;}
 	.smb-info-main{grid-column:1/3;}
   }
+  
+  
+  
+  .find-dealer-choose{margin-bottom:var(--size-4);}
+  .find-dealer-radiobutton{margin-right:var(--size-4); margin-top:var(--size-4);}
 }
 
 
@@ -207,6 +242,12 @@ header > .width-max{display:flex; justify-content:space-between;}
   
   
   .our-models-tab{margin-bottom:var(--size-5);}
-  .omt-list{display:grid !important; grid-template-columns:repeat(auto-fit, minmax(144px,1fr));}
+  .omt-list{display:grid !important; grid-template-columns:repeat(auto-fit, minmax(144px,1fr)); height:auto !important;}
   .omt-button{text-align:center;}
+  
+  
+  
+  .find-dealder-list{display:grid; grid-template-columns:auto 1fr; align-items:center;}
+  .find-dealer-radiobutton{margin-right:var(--size-4); margin-bottom:0;}
+  .find-dealer-select{grid-gap:var(--size-4);}
 }

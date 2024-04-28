@@ -1,4 +1,6 @@
-<div class="section-title">Our Models</div>
+<div class="section-title">
+  <div class="section-title-primary">Our Models</div>
+</div>
 
 <div class="our-models-tab">
   <button title="Select Models" class="omt-select mobile-only">

@@ -58,9 +58,9 @@
 
 
 
-  <section title="Cover" class="rancak-section">
+  <section title="Find a Dealer" class="rancak-section section-find-dealer">
     <span class="width-max">
-	  rancak-section
+      <?php require ($_SERVER['HY'].'section/find-dealer.php')?>
 	</span>
   </section>
   

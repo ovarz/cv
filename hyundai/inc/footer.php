@@ -6,15 +6,9 @@
 	
     <div class="footer-box">
 	  <a title="Find a Car" class="footer-label" href="">Find a Car</a>
-      <?php 
-        $footer_array = array();
-        $footer_array[]=array('footer_name'=>'Palisade','footer_link'=>'');
-        $footer_array[]=array('footer_name'=>'Creta','footer_link'=>'');
-        $footer_array[]=array('footer_name'=>'Santa Fe','footer_link'=>'');
-        foreach($footer_array as $footer_list){
-      ?>
-        <a title="<?php echo($footer_list['footer_name'])?>" class="footer-link" href="<?php echo($footer_list['footer_link'])?>">
-          <?php echo($footer_list['footer_name'])?>
+      <?php foreach($carmodel_array as $carmodel_list){ ?>
+        <a title="<?php echo($carmodel_list['carmodel_name'])?>" class="footer-link" href="<?php echo($carmodel_list['carmodel_link'])?>">
+          <?php echo($carmodel_list['carmodel_name'])?>
         </a>
 	  <?php } ?>
 	</div>

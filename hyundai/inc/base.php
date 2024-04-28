@@ -7,6 +7,16 @@
   
   $site_title='Hyundai Indonesia';
   
+  $carmodel_array = array();
+  $carmodel_array[]=array('carmodel_name'=>'Creta','carmodel_link'=>'');
+  $carmodel_array[]=array('carmodel_name'=>'Ioniq 5','carmodel_link'=>'');
+  $carmodel_array[]=array('carmodel_name'=>'Ioniq 6','carmodel_link'=>'');
+  $carmodel_array[]=array('carmodel_name'=>'Palisade','carmodel_link'=>'');
+  $carmodel_array[]=array('carmodel_name'=>'Santa Fe','carmodel_link'=>'');
+  $carmodel_array[]=array('carmodel_name'=>'Stargazer','carmodel_link'=>'');
+  $carmodel_array[]=array('carmodel_name'=>'Stargazer X','carmodel_link'=>'');
+  $carmodel_array[]=array('carmodel_name'=>'Staria','carmodel_link'=>'');
+  
   $owners_array = array();
   $owners_array[]=array('owners_name'=>'Find A Deader','owners_icon'=>'no','owners_link'=>'');
   $owners_array[]=array('owners_name'=>'EV Charging Station','owners_icon'=>'no','owners_link'=>'');
