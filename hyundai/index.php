@@ -47,7 +47,7 @@
           'contentbox_title'=>'Stargazer',
           'contentbox_img'=>'sample/sample-11',
           'contentbox_label'=>'The new star of the family.',
-          'contentbox_link'=>'',
+          'contentbox_link'=>'model/stargazer',
         );
         foreach($contentbox_array as $contentbox_list){
       ?>

@@ -131,6 +131,12 @@ header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 
 
 
+.model-cover-title-black, .model-cover-info-black{color:var(--color-text-2);}
+.model-cover-title-white, .model-cover-info-white{color:var(--bg-1);}
+.model-cover-info{background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 0%, rgb(var(--color-border-dark) / 55%) 100%);}
+
+
+
 footer{background-color:var(--color-text-2); color:var(--bg-1); fill:var(--bg-1); padding:var(--size-3) 0;}
 footer .width-max{display:grid;}
 .footer-box{padding:var(--size-4); display:grid; grid-auto-rows:min-content;}

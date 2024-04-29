@@ -39,7 +39,7 @@
         'models_power'=>'320hp / 239 kW',
         'models_other'=>'HTRAC AWD',
         'models_link_product'=>'',
-        'models_link_price'=>'',
+        'models_link_price'=>'model/stargazer',
       );
       $models_array[]=array(
         'models_img'=>'stargazer-x',

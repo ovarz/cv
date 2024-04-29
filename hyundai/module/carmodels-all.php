@@ -6,8 +6,8 @@
         'carmodels_name'=>'Stargazer',
         'carmodels_img'=>'stargazer',
         'carmodels_price'=>'262.600.000',
-        'carmodels_link'=>'',
-        'carmodels_link_price'=>'',
+        'carmodels_link'=>'model/stargazer',
+        'carmodels_link_price'=>'model/stargazer/price',
       );
       $carmodels_array[]=array(
         'carmodels_name'=>'Stargazer X',

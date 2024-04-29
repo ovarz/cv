@@ -44,7 +44,7 @@
     ?>
       <a title="<?php echo($newsupdate_list['newsupdate_title'])?>" class="snuc-box" href="<?php echo($newsupdate_list['newsupdate_link'])?>">
 		<div class="snuc-frame flex_ori thumb-loading">
-		  <img alt="img_title" class="lazyload" data-original="img/<?php echo($newsupdate_list['newsupdate_img'])?>.jpg" />
+		  <img alt="<?php echo($newsupdate_list['newsupdate_title'])?>" class="lazyload" data-original="img/<?php echo($newsupdate_list['newsupdate_img'])?>.jpg" />
 		</div>
 		<div class="snuc-info">
 		  <h2 class="snuc-title"><?php echo($newsupdate_list['newsupdate_title'])?></h2>

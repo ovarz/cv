@@ -161,6 +161,18 @@ header > .width-max{display:flex; justify-content:space-between;}
 
 
 
+.model-cover{position:relative;}
+.model-cover-frame{max-height:768px; position:relative; z-index:1;}
+.model-cover-frame img{object-position:bottom center;}
+.model-cover-title{position:absolute; z-index:1000; top:0; padding:var(--size-6); font-family:var(--font-head); font-weight:bold; font-size:40px;}
+.model-cover-title-left{left:0; text-align:left;}
+.model-cover-title-right{right:0; text-align:right;}
+.model-cover-info{position:absolute; z-index:2000; bottom:0; left:0; width:100%; padding:var(--size-5);}
+.model-cover-info-container{display:inline-grid;}
+.mcic-data{font-weight:bold;}
+
+
+
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
@@ -217,6 +229,13 @@ header > .width-max{display:flex; justify-content:space-between;}
   
   .find-dealer-choose{margin-bottom:var(--size-4);}
   .find-dealer-radiobutton{margin-right:var(--size-4); margin-top:var(--size-4);}
+  
+  
+  
+  .model-cover-frame:before{padding-top:177.77%;}
+  .model-cover-title{width:100%; text-align:center; padding:var(--size-4);}
+  .model-cover-info{padding:var(--size-4);}
+  .model-cover-info-container{grid-template-columns:repeat(auto-fit, minmax(140px,1fr)); grid-gap:var(--size-4); width:100%;}
 }
 
 
@@ -263,4 +282,11 @@ header > .width-max{display:flex; justify-content:space-between;}
   .find-dealder-list{display:grid; grid-template-columns:auto 1fr; align-items:center;}
   .find-dealer-radiobutton{margin-right:var(--size-4); margin-bottom:0;}
   .find-dealer-select{grid-gap:var(--size-4);}
+  
+  
+  
+  .model-cover-frame:before{padding-top:56.25%;}
+  .model-cover-info-container{grid-auto-flow:column; grid-gap:var(--size-5);}
+  .mcic-label{font-size:18px;}
+  .mcic-data{font-size:24px;}
 }
