@@ -28,7 +28,31 @@
 
 
 
-  <section title="Best Deals For You" class="rancak-section section-best-deal">
+  <menu title="Menu <?php echo $nav; ?>" class="model-menu">
+    <span class="width-max">
+      <?php 
+        $model_menu_name='stargazer';
+		$model_link_anchor='model/stargazer';
+		$model_link_price='model/stargazer/price';
+		$model_link_dealer='model/stargazer';
+		
+		$model_menu_array = array();
+        $model_menu_array[]=array('model_menu_name'=>'Promo','model_menu_id'=>'promo');
+        $model_menu_array[]=array('model_menu_name'=>'Key Features','model_menu_id'=>'key-features');
+        $model_menu_array[]=array('model_menu_name'=>'Design','model_menu_id'=>'design');
+        $model_menu_array[]=array('model_menu_name'=>'Trims','model_menu_id'=>'trims');
+        $model_menu_array[]=array('model_menu_name'=>'Safety','model_menu_id'=>'safety');
+        $model_menu_array[]=array('model_menu_name'=>'Performance','model_menu_id'=>'performance');
+        $model_menu_array[]=array('model_menu_name'=>'Accessories','model_menu_id'=>'accessories');
+        $model_menu_array[]=array('model_menu_name'=>'Specs','model_menu_id'=>'specs');
+        require ($_SERVER['HY'].'section/model-menu.php')
+      ?>
+	</span>
+  </menu>
+
+
+
+  <section title="Best Deals For You" class="rancak-section section-best-deal" style="margin-top:var(--size-5);">
     <span class="width-max">
 	  <div class="section-title">
         <div class="section-title-primary">Best Deals For You</div>
