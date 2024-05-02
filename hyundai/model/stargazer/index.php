@@ -100,6 +100,88 @@
       </div>
 	</span>
   </section>
+
+
+
+  <section title="The new star of the family" class="rancak-section section-feature-accordion">
+    <span class="width-max">
+	  <div class="section-title">
+        <div class="section-title-primary">The new star of the family</div>
+        <div class="section-title-secondary">It's time to enjoy a new era of MPV with New STARGAZER, mobility innovation for every quality trip. This is a new standard for family cars that provides maximum comfort and classy features, as well as providing ample space for you and your loved ones to be together.</div>
+      </div>
+	  <div class="feature-accordion-container">
+        tes
+      </div>
+	</span>
+  </section>
+
+
+
+  <section title="Discover your STARGAZER." class="rancak-section section-discover-model">
+    <span class="width-max">
+	  <div class="section-title">
+        <div class="section-title-primary">Discover your STARGAZER</div>
+        <div class="section-title-secondary">Compare and contrast the specifications of each variant in the Santa Fe range to find the one that will suit you and your household best..</div>
+      </div>
+	  <div class="discover-model-container">
+        tes
+      </div>
+	</span>
+  </section>
+
+
+
+  <section title="Why not see it for yourself?" class="rancak-section gridbox-b">
+    <span class="width-max">
+      <?php 
+        $contentbox_array = array();
+        $contentbox_array[]=array(
+          'contentbox_link'=>'',
+          'contentbox_type'=>'color',
+          'contentbox_color'=>'blue',
+          'contentbox_img'=>'',
+          'contentbox_title'=>'Why not see it for yourself?',
+          'contentbox_button'=>'yes',
+        );
+        $contentbox_array[]=array(
+          'contentbox_link'=>'',
+          'contentbox_type'=>'color',
+          'contentbox_color'=>'white',
+          'contentbox_img'=>'find-dealer',
+          'contentbox_title'=>'Ipsum',
+          'contentbox_button'=>'no',
+        );
+        $contentbox_array[]=array(
+          'contentbox_link'=>'',
+          'contentbox_type'=>'image',
+          'contentbox_color'=>'',
+          'contentbox_img'=>'wireless-smartphone-charger',
+          'contentbox_title'=>'Dolor',
+          'contentbox_button'=>'no',
+        );
+        $contentbox_array = array();
+        $contentbox_array[]=array(
+          'contentbox_link'=>'',
+          'contentbox_type'=>'color',
+          'contentbox_color'=>'blue',
+          'contentbox_img'=>'',
+          'contentbox_title'=>'Sit',
+          'contentbox_button'=>'no',
+        );
+        $contentbox_array[]=array(
+          'contentbox_link'=>'',
+          'contentbox_type'=>'color',
+          'contentbox_color'=>'white',
+          'contentbox_img'=>'find-dealer',
+          'contentbox_title'=>'Amet',
+          'contentbox_button'=>'no',
+        );
+        foreach($contentbox_array as $contentbox_list){
+      ?>
+	    <?php require ($_SERVER['HY'].'module/box-b.php')?>
+	  <?php } ?>
+	</span>
+  </section>
   
   
   
