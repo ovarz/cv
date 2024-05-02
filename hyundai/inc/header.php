@@ -16,7 +16,7 @@
 
 
 
-<nav id="popup-Nav" class="rancak-popup mobile-only">
+<nav class="rancak-popup rancak-main-nav mobile-only" aria-overlay="Nav">
   <div class="nav-icon">
     <?php $device='mobile'; require ($_SERVER['HY'].'inc/icon-menu.php')?>
   </div>

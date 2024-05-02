@@ -10,7 +10,7 @@
 <a title="Search" class="header-link header-search content_center" href="">
   <?php require ($_SERVER['HY'].'img/icon/search.svg')?>
 </a>
-<button title="Nav" class="header-link header-menu-toggle open-sticky content_center mobile-only">
+<button title="Navigation" class="header-link header-menu-toggle open-sticky content_center mobile-only" aria-popup="Nav">
   <div class="hmt-box">
     <div class="hmt-line hmt-line-1"></div>
     <div class="hmt-line hmt-line-2"></div>

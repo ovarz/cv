@@ -28,16 +28,11 @@ function back_to_top(){
 var open_sticky = function(){
   "use strict";
   $('.open-sticky').click(function(){
-    var get_id = $(this).attr('title');
-	$('.open-sticky[title=' + get_id +']').toggleClass('show-sticky');
-	$('.open-sticky').not('.open-sticky[title=' + get_id +']').removeClass('show-sticky');
-    $('#popup-' + get_id).fadeToggle('fast');
-    $('.rancak-popup').not('#popup-' + get_id).fadeOut('fast');
-	if($('#popup-' + get_id).hasClass("popup-alert-temporary")){
-      setTimeout(function() {
-        ClosePopup();
-      },2000);
-	};
+    var get_id = $(this).attr('aria-popup');
+	$('.open-sticky[aria-popup=' + get_id +']').toggleClass('show-sticky');
+	$('.open-sticky').not('.open-sticky[aria-popup=' + get_id +']').removeClass('show-sticky');
+    $('.rancak-popup[aria-overlay=' + get_id +']').fadeToggle('fast');
+    $('.rancak-popup').not('.rancak-popup[aria-overlay=' + get_id +']').fadeOut('fast');
 	return false;
   });	
   

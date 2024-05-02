@@ -85,7 +85,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 .box-b-color .box-b-container{padding:var(--size-4); display:grid; grid-gap:var(--size-3);}
 .box-b-color .box-b-icon svg{width:auto; height:var(--size-6);}
-.box-b-color .box-b-title{text-align:center;}
+.box-b-color .box-b-title{text-align:center; font-size:20px;}
 
 .box-b-image .box-b-bg, .box-b-image .box-b-info{position:absolute; bottom:0; left:0; width:100%;}
 .box-b-image .box-b-bg{z-index:1; height:100%;}
