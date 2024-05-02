@@ -61,6 +61,19 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 .box-a-frame:hover{opacity:0.55;}
 .box-a-label, .box-a-title{color:var(--bg-1);}
 
+.box-b{box-shadow:var(--shadow-default);}
+
+.box-b-blue{background-color:var(--color-text-3); color:var(--bg-1); fill:var(--bg-1);}
+.box-b-blue .btn-outline{border-color:var(--bg-1); color:var(--bg-1) !important;}
+.box-b-white{background-color:var(--bg-1); color:var(--color-text-3); fill:var(--color-text-3);}
+.box-b-white .btn-outline{border-color:var(--color-text-3); color:var(--color-text-3) !important;}
+.box-b-color:hover{background-color:var(--color-text-2); color:var(--bg-1); fill:var(--bg-1);}
+.box-b-color:hover .btn-outline{border-color:var(--bg-1) !important; color:var(--bg-1) !important;}
+.box-b-color:hover .btn-outline:hover{border-color:var(--color-text-4) !important; background-color:var(--color-text-4) !important; color:var(--bg-1) !important;}
+
+.box-b-image{color:var(--bg-1); fill:var(--bg-1);}
+.box-b-image .flex_ori:before{background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 55%, rgb(var(--color-border-dark) / 55%) 100%);}
+.box-b-image:hover{color:var(--color-text-4); fill:var(--color-text-4);}
 
 
 header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}

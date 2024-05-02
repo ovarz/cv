@@ -133,53 +133,112 @@
 
   <section title="Why not see it for yourself?" class="rancak-section gridbox-b">
     <span class="width-max">
-      <?php 
-        $contentbox_array = array();
-        $contentbox_array[]=array(
-          'contentbox_link'=>'',
-          'contentbox_type'=>'color',
-          'contentbox_color'=>'blue',
-          'contentbox_img'=>'',
-          'contentbox_title'=>'Why not see it for yourself?',
-          'contentbox_button'=>'yes',
-        );
-        $contentbox_array[]=array(
-          'contentbox_link'=>'',
-          'contentbox_type'=>'color',
-          'contentbox_color'=>'white',
-          'contentbox_img'=>'find-dealer',
-          'contentbox_title'=>'Ipsum',
-          'contentbox_button'=>'no',
-        );
-        $contentbox_array[]=array(
-          'contentbox_link'=>'',
-          'contentbox_type'=>'image',
-          'contentbox_color'=>'',
-          'contentbox_img'=>'wireless-smartphone-charger',
-          'contentbox_title'=>'Dolor',
-          'contentbox_button'=>'no',
-        );
-        $contentbox_array = array();
-        $contentbox_array[]=array(
-          'contentbox_link'=>'',
-          'contentbox_type'=>'color',
-          'contentbox_color'=>'blue',
-          'contentbox_img'=>'',
-          'contentbox_title'=>'Sit',
-          'contentbox_button'=>'no',
-        );
-        $contentbox_array[]=array(
-          'contentbox_link'=>'',
-          'contentbox_type'=>'color',
-          'contentbox_color'=>'white',
-          'contentbox_img'=>'find-dealer',
-          'contentbox_title'=>'Amet',
-          'contentbox_button'=>'no',
-        );
-        foreach($contentbox_array as $contentbox_list){
-      ?>
-	    <?php require ($_SERVER['HY'].'module/box-b.php')?>
-	  <?php } ?>
+	  <div class="gridbox-b-container">
+        <?php 
+          $contentbox_array = array();
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'color',
+            'contentbox_color'=>'blue',
+            'contentbox_img'=>'',
+            'contentbox_title'=>'Why not see it for yourself?',
+            'contentbox_button'=>'yes',
+          );
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'color',
+            'contentbox_color'=>'white',
+            'contentbox_img'=>'find-a-dealer',
+            'contentbox_title'=>'Ipsum',
+            'contentbox_button'=>'no',
+          );
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'image',
+            'contentbox_color'=>'',
+            'contentbox_img'=>'sample/sample-1',
+            'contentbox_title'=>'Wireless Smartphone Charger',
+            'contentbox_button'=>'no',
+          );
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'color',
+            'contentbox_color'=>'blue',
+            'contentbox_img'=>'find-a-dealer',
+            'contentbox_title'=>'Sit',
+            'contentbox_button'=>'no',
+          );
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'color',
+            'contentbox_color'=>'white',
+            'contentbox_img'=>'',
+            'contentbox_title'=>'Amet',
+            'contentbox_button'=>'yes',
+          );
+          foreach($contentbox_array as $contentbox_list){
+        ?>
+          <?php require ($_SERVER['HY'].'module/box-b.php')?>
+        <?php } ?>
+	  </div>
+	</span>
+  </section>
+
+
+
+  <section title="Ready to take the next step?" class="rancak-section gridbox-b">
+    <span class="width-max">
+	  <div class="section-title">
+        <div class="section-title-primary">Ready to take the next step?</div>
+      </div>
+	  <div class="gridbox-b-container">
+        <?php 
+          $contentbox_array = array();
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'color',
+            'contentbox_color'=>'blue',
+            'contentbox_img'=>'',
+            'contentbox_title'=>'Why not see it for yourself?',
+            'contentbox_button'=>'yes',
+          );
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'color',
+            'contentbox_color'=>'white',
+            'contentbox_img'=>'find-a-dealer',
+            'contentbox_title'=>'Ipsum',
+            'contentbox_button'=>'no',
+          );
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'color',
+            'contentbox_color'=>'blue',
+            'contentbox_img'=>'find-a-dealer',
+            'contentbox_title'=>'Wireless Smartphone Charger',
+            'contentbox_button'=>'no',
+          );
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'color',
+            'contentbox_color'=>'blue',
+            'contentbox_img'=>'find-a-dealer',
+            'contentbox_title'=>'Sit',
+            'contentbox_button'=>'no',
+          );
+          $contentbox_array[]=array(
+            'contentbox_link'=>'',
+            'contentbox_type'=>'color',
+            'contentbox_color'=>'white',
+            'contentbox_img'=>'',
+            'contentbox_title'=>'Amet',
+            'contentbox_button'=>'yes',
+          );
+          foreach($contentbox_array as $contentbox_list){
+        ?>
+          <?php require ($_SERVER['HY'].'module/box-b.php')?>
+        <?php } ?>
+	  </div>
 	</span>
   </section>
   

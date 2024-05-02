@@ -29,30 +29,32 @@
 
   <section title="Newest Car" class="rancak-section gridbox-a">
     <span class="width-max">
-      <?php 
-        $contentbox_array = array();
-        $contentbox_array[]=array(
-          'contentbox_title'=>'Creta Alpha',
-          'contentbox_img'=>'sample/sample-8',
-          'contentbox_label'=>'Say no to ordinary.',
-          'contentbox_link'=>'',
-        );
-        $contentbox_array[]=array(
-          'contentbox_title'=>'Ioniq 5',
-          'contentbox_img'=>'sample/sample-7',
-          'contentbox_label'=>'Powering Legacy through Innovation',
-          'contentbox_link'=>'',
-        );
-        $contentbox_array[]=array(
-          'contentbox_title'=>'Stargazer',
-          'contentbox_img'=>'sample/sample-11',
-          'contentbox_label'=>'The new star of the family.',
-          'contentbox_link'=>'model/stargazer',
-        );
-        foreach($contentbox_array as $contentbox_list){
-      ?>
-	    <?php require ($_SERVER['HY'].'module/box-a.php')?>
-	  <?php } ?>
+	  <div class="gridbox-a-container">
+        <?php 
+          $contentbox_array = array();
+          $contentbox_array[]=array(
+            'contentbox_title'=>'Creta Alpha',
+            'contentbox_img'=>'sample/sample-8',
+            'contentbox_label'=>'Say no to ordinary.',
+            'contentbox_link'=>'',
+          );
+          $contentbox_array[]=array(
+            'contentbox_title'=>'Ioniq 5',
+            'contentbox_img'=>'sample/sample-7',
+            'contentbox_label'=>'Powering Legacy through Innovation',
+            'contentbox_link'=>'',
+          );
+          $contentbox_array[]=array(
+            'contentbox_title'=>'Stargazer',
+            'contentbox_img'=>'sample/sample-11',
+            'contentbox_label'=>'The new star of the family.',
+            'contentbox_link'=>'model/stargazer',
+          );
+          foreach($contentbox_array as $contentbox_list){
+        ?>
+          <?php require ($_SERVER['HY'].'module/box-a.php')?>
+        <?php } ?>
+	  </div>
 	</span>
   </section>
   
