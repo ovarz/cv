@@ -188,12 +188,7 @@
 
   <section title="Hyundai SmartSense" class="rancak-section section-hyundai-smartsense-slide">
     <span class="width-max">
-	  <div class="section-title">
-        <div class="section-title-primary">Hyundai SmartSense</div>
-      </div>
-	  <div class="hyundai-smartsense-slide-container">
-        tes
-      </div>
+      <?php require ($_SERVER['HY'].'section/smartsense-slide.php')?>
 	</span>
   </section>
 

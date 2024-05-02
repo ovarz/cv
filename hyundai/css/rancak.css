@@ -211,6 +211,16 @@ margin-top:calc((var(--circle-size) / 2) + var(--size-4))}
 
 
 
+.slideshow-hyundai-smartsense{position:relative;}
+.shsc-box{position:relative;}
+.shsc-frame{--aspect-ratio:16/9; position:relative; z-index:1;}
+.shsc-frame:before{position:relative; z-index:1000;}
+.shsc-info{padding:var(--size-4) 0;}
+.shsc-title{font-size:24px; font-weight:bold; font-family:var(--font-head);}
+.shsc-desc{line-height:140%; margin-top:var(--size-2);}
+
+
+
 
 @media screen and (min-width:0px) and (max-width:1023px){
   .desktop-only{display:none !important; visibility:hidden; content-visibility:hidden;}

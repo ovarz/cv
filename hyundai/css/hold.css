@@ -165,6 +165,11 @@ header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 
 
 .section-hyundai-smartsense-slide{background-color:var(--bg-2);}
+.slideshow-hyundai-smartsense .slide-button{height:auto; top:auto; bottom:0; padding:var(--size-3); fill:var(--color-text-2);}
+.slideshow-hyundai-smartsense .slide-button svg{height:var(--size-3);}
+.shsc-box:hover{opacity:0.75;}
+.shsc-frame:before{background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 55%, rgb(var(--color-border-dark) / 55%) 100%);}
+.shsc-title{color:var(--color-text-2);}
 
 
 
