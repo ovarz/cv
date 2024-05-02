@@ -117,7 +117,7 @@
 
 
 
-  <section title="Discover your STARGAZER." class="rancak-section section-discover-model">
+  <section title="Discover your STARGAZER" class="rancak-section section-discover-model">
     <span class="width-max">
 	  <div class="section-title">
         <div class="section-title-primary">Discover your STARGAZER</div>
@@ -181,6 +181,19 @@
           <?php require ($_SERVER['HY'].'module/box-b.php')?>
         <?php } ?>
 	  </div>
+	</span>
+  </section>
+
+
+
+  <section title="Hyundai SmartSense" class="rancak-section section-hyundai-smartsense-slide">
+    <span class="width-max">
+	  <div class="section-title">
+        <div class="section-title-primary">Hyundai SmartSense</div>
+      </div>
+	  <div class="hyundai-smartsense-slide-container">
+        tes
+      </div>
 	</span>
   </section>
 

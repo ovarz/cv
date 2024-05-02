@@ -37,7 +37,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 .rancak-container{position:relative; min-height:100vh; min-height:100svh;}
-.rancak-section{padding:var(--size-5) 0;}
+.rancak-section{padding:var(--size-6) 0;}
 .rancak-section .width-max{padding:0 var(--size-4); display:block;}
 .section-title{padding:var(--size-4); padding-top:0;}
 .section-title-primary, .section-title-secondary{text-align:center;}
