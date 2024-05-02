@@ -1,3 +1,10 @@
+function ClosePopup(){
+  $('.open-sticky').removeClass('show-sticky');
+  $('.rancak-popup').fadeOut('fast');
+}
+
+
+
 function all_scroll(){
   $(window).scroll(function(){
     var scroll_position = $(window).scrollTop();
@@ -35,6 +42,11 @@ var open_sticky = function(){
     $('.rancak-popup').not('.rancak-popup[aria-overlay=' + get_id +']').fadeOut('fast');
 	return false;
   });	
+  
+  $('.rancak-popup-overlay, .rancak-popup-close').click(function(){
+	ClosePopup();
+	return false;
+  });
   
   $('.header-box > .header-link').click(function(){
     $(this).parent().find('.header-sub').slideToggle('fast');

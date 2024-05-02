@@ -318,5 +318,54 @@
   
   
 </div>
+
+
+
+<div class="rancak-popup rancak-popup-box-b" aria-overlay="box-b-popup">
+  <div class="rancak-popup-overlay"></div>
+  <div class="rancak-popup-container content_center">
+    <div class="rancak-popup-box">
+	  <div class="popup-box-b-content">
+	    <div class="pbbc-left">
+		  <div class="pbbc-frame flex_ori thumb-loading">
+		    <img alt="Ambient Mood Lighting" class="lazyload" data-original="img/hidden-tray.jpg" />
+		  </div>
+		</div>
+	    <div class="pbbc-right">
+		  <div class="pbbc-row">
+		    <div class="pbbc-subtitle">Feature</div>
+		    <h2 class="pbbc-title">Ambient Mood Lighting</h2>
+		  </div>
+		  <div class="pbbc-row">
+		    <h3 class="pbbc-price">Rp.8.000.000</h3>
+		    <div class="pbbc-note">Price includes GST and fitment.</div>
+		  </div>
+		  <div class="pbbc-row">
+		    <div class="pbbc-desc">Compact and lightweight for daily use. Features extendable wheel holders and longer wheel straps with quick release buckles for easy loading. Total max load of 46kg and 25kg max per bike limit.</div>
+		  </div>
+		  <div class="pbbc-row">
+		    <div class="pbbc-partnumber">Part Number: <span>C0A13APH40</span></div>
+		  </div>
+		  <div class="pbbc-row">
+		    <div class="pbbc-disclaimer">
+			  Disclaimer: <br/>
+			  Requires fitment of Hyundai Genuine Tow Bar kit. Thule® is a registered trade mark of Thule® Sweden AB.
+            </div>
+		  </div>
+		  <div class="pbbc-row">
+		    <a title="See more accessories" class="pbbc-link" href="">
+		      <div class="pbbc-link-label">See more accessories</div>
+		      <div class="pbbc-link-icon content_center"><?php require ($_SERVER['HY'].'img/icon/right.svg')?></div>
+            </a>
+		  </div>
+		</div>
+	  </div>
+	  <button title="Close Popup" class="rancak-popup-close"><?php require ($_SERVER['HY'].'img/icon/close.svg')?></button>
+	</div>
+  </div>
+</div>
+
+
+
 <?php require ($_SERVER['HY'].'inc/footer.php')?>
 <?php require ($_SERVER['HY'].'inc/base-bottom.php')?>

@@ -19,8 +19,8 @@ href="<?php echo($contentbox_list['contentbox_link'])?>">
 <?php } ?>
 
 <?php if($contentbox_list['contentbox_type'] == 'image') { ?>
-<button title="<?php echo($contentbox_list['contentbox_title'])?>" class="box-b box-b-image open-sticky"
-aria-popup="<?php echo($contentbox_list['contentbox_link'])?>">
+<button title="<?php echo($contentbox_list['contentbox_title'])?>" class="box-b box-b-image open-sticky" 
+aria-popup="box-b-popup" aria-popup-content="<?php echo($contentbox_list['contentbox_link'])?>">
   <div class="box-b-bg flex_ori thumb-loading">
     <img alt="<?php echo($contentbox_list['contentbox_title'])?>" class="lazyload" data-original="img/<?php echo($contentbox_list['contentbox_img'])?>.jpg" />
   </div>
