@@ -145,6 +145,12 @@ header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 
 
 
+.bdc-box{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
+.bdc-icon-circle{background-color:var(--color-text-3); fill:var(--bg-1); border-radius:50%;}
+.bdc-title{color:var(--color-text-2);}
+
+
+
 footer{background-color:var(--color-text-2); color:var(--bg-1); fill:var(--bg-1); padding:var(--size-3) 0;}
 footer .width-max{display:grid;}
 .footer-box{padding:var(--size-4); display:grid; grid-auto-rows:min-content;}

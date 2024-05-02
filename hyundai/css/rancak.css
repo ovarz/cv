@@ -182,6 +182,17 @@ header > .width-max{display:flex; justify-content:space-between;}
 
 
 
+.best-deal-container{--circle-size:var(--size-7); display:grid; grid-gap:var(--circle-size) var(--size-4); grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); 
+margin-top:calc((var(--circle-size) / 2) + var(--size-4))}
+.bdc-box{position:relative; padding:var(--size-4);}
+.bdc-icon{margin-top:calc(((var(--circle-size) / 2) * -1) - var(--size-1));}
+.bdc-icon-circle{width:var(--circle-size); height:var(--circle-size);}
+.bdc-icon-circle svg{width:auto; height:var(--size-5);}
+.bdc-title, .bdc-desc{text-align:center;}
+.bdc-title{font-weight:bold; font-family:var(--font-head); font-size:20px; margin-top:var(--size-4);}
+.bdc-desc{line-height:140%; margin-top:var(--size-2);}
+
+
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
