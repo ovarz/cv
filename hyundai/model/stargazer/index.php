@@ -124,7 +124,7 @@
         <div class="section-title-secondary">Compare and contrast the specifications of each variant in the Santa Fe range to find the one that will suit you and your household best..</div>
       </div>
 	  <div class="discover-model-container">
-        tes
+        <?php require ($_SERVER['HY'].'section/discover-model-slide.php')?>
       </div>
 	</span>
   </section>

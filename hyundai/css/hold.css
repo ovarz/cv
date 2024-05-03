@@ -168,8 +168,18 @@ header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 .slideshow-hyundai-smartsense .slide-button{height:auto; top:auto; bottom:0; padding:var(--size-3); fill:var(--color-text-2);}
 .slideshow-hyundai-smartsense .slide-button svg{height:var(--size-3);}
 .shsc-box:hover{opacity:0.75;}
-.shsc-frame:before{background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 55%, rgb(var(--color-border-dark) / 55%) 100%);}
 .shsc-title{color:var(--color-text-2);}
+
+
+
+.sdmc-box{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
+.sdmc-box:hover{}
+.sdmc-info{border-color:var(--color-border-default);}
+.sdmc-title, .sdmc-price{color:var(--color-text-2);}
+.sdmc-link{color:var(--color-text-4);}
+.sdmc-link:hover{color:var(--color-text-3);}
+.sdmc-button{color:var(--color-text-3); fill:var(--color-text-3);}
+.sdmc-button:hover{color:var(--color-text-4); fill:var(--color-text-4);}
 
 
 

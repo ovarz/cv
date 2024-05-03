@@ -71,7 +71,7 @@
 	nav:true,
 	navPosition:'bottom',
 	mouseDrag:true,
-	autoplay:false,
+	autoplay:true,
 	center:true,
 	autoplayTimeout:3000,
 	controlsContainer:'.slideshow-hyundai-smartsense',
