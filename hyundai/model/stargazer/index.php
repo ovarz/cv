@@ -123,6 +123,11 @@
         <div class="section-title-primary">Discover your STARGAZER</div>
         <div class="section-title-secondary">Compare and contrast the specifications of each variant in the Santa Fe range to find the one that will suit you and your household best..</div>
       </div>
+	  <div class="discover-model-option">
+	    <span class="width-max">
+	      <?php require ($_SERVER['HY'].'section/discover-model-option.php')?>
+		</span>
+	  </div>
 	  <div class="discover-model-container">
         <?php require ($_SERVER['HY'].'section/discover-model-slide.php')?>
       </div>
