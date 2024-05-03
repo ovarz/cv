@@ -4,11 +4,19 @@
 	  <img alt="360" class="dmoc-car-360-icon" src="img/car-360.png" />
 	</button>
     <div class="dmoc-car-frame flex_ori thumb-loading">
-	  <img alt="Stargazer Magnetic Silver Metallic" class="lazyload" data-original="img/model-stargazer-msm.png" />
-	  <img alt="Stargazer Creamy White Pearl" class="lazyload hide" data-original="img/model-stargazer-cwp.png" />
-	  <img alt="Stargazer Midnight Black Pearl" class="lazyload hide" data-original="img/model-stargazer-mbp.png" />
-	  <img alt="Stargazer Titan Gray Metallic" class="lazyload hide" data-original="img/model-stargazer-tgm.png" />
-	  <img alt="Stargazer Dragon Red Pearl" class="lazyload hide" data-original="img/model-stargazer-drp.png" />
+      <?php 
+        $dmoc_car_array = array();
+        $dmoc_car_array[]=array('dmoc_car_img'=>'msm','dmoc_car_name'=>'Magnetic Silver Metallic','dmoc_car_show'=>'yes');
+        $dmoc_car_array[]=array('dmoc_car_img'=>'cwp','dmoc_car_name'=>'Creamy White Pearl','dmoc_car_show'=>'no');
+        $dmoc_car_array[]=array('dmoc_car_img'=>'mbp','dmoc_car_name'=>'Midnight Black Pearl','dmoc_car_show'=>'no');
+        $dmoc_car_array[]=array('dmoc_car_img'=>'tgm','dmoc_car_name'=>'Titan Gray Metallic','dmoc_car_show'=>'no');
+        $dmoc_car_array[]=array('dmoc_car_img'=>'drp','dmoc_car_name'=>'Dragon Red Pearl','dmoc_car_show'=>'no');
+        foreach($dmoc_car_array as $dmoc_car_list){
+      ?>
+        <img alt="Stargazer <?php echo($dmoc_car_list['dmoc_car_name'])?>" 
+		class="lazyload <?php if($dmoc_car_list['dmoc_car_show'] == 'no') { ?>hide<?php } ?>" 
+		data-original="img/model-stargazer-<?php echo($dmoc_car_list['dmoc_car_img'])?>.png" />
+      <?php } ?>
 	</div>
   </div>
   <div class="dmoc-box dmoc-box-exterior content_center">

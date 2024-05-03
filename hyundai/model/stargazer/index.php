@@ -110,7 +110,7 @@
         <div class="section-title-secondary">It's time to enjoy a new era of MPV with New STARGAZER, mobility innovation for every quality trip. This is a new standard for family cars that provides maximum comfort and classy features, as well as providing ample space for you and your loved ones to be together.</div>
       </div>
 	  <div class="feature-accordion-container">
-        tes
+        <?php require ($_SERVER['HY'].'section/feature-accordion.php')?>
       </div>
 	</span>
   </section>
