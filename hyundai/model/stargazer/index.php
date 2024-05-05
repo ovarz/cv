@@ -52,7 +52,7 @@
 
 
 
-  <section title="Best Deals For You" class="rancak-section section-best-deal" style="margin-top:var(--size-5);">
+  <section title="Best Deals For You" id="promo" class="rancak-section section-best-deal" style="margin-top:var(--size-5);">
     <span class="width-max">
 	  <div class="section-title">
         <div class="section-title-primary">Best Deals For You</div>
@@ -103,7 +103,7 @@
 
 
 
-  <section title="The new star of the family" class="rancak-section section-feature-accordion">
+  <section title="The new star of the family" id="key-features" class="rancak-section section-feature-accordion">
     <span class="width-max">
 	  <div class="section-title">
         <div class="section-title-primary">The new star of the family</div>
@@ -117,7 +117,7 @@
 
 
 
-  <section title="Discover your STARGAZER" class="rancak-section section-discover-model">
+  <section title="Discover your STARGAZER" id="design" class="rancak-section section-discover-model">
     <span class="width-max">
 	  <div class="section-title">
         <div class="section-title-primary">Discover your STARGAZER</div>
@@ -144,42 +144,52 @@
           $contentbox_array[]=array(
             'contentbox_link'=>'model/stargazer',
             'contentbox_type'=>'color',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'blue',
             'contentbox_img'=>'',
             'contentbox_title'=>"Why not see it for yourself?",
             'contentbox_button'=>'yes',
+            'contentbox_button_label'=>'Pelajari lebih lanjut',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'sample-product-popup',
             'contentbox_type'=>'image',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'',
             'contentbox_img'=>'wireless-smartphone-charger',
             'contentbox_title'=>'Wireless Smartphone Charger',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'sample-product-popup',
             'contentbox_type'=>'image',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'',
             'contentbox_img'=>'led-headlamp',
             'contentbox_title'=>'LED Headlamp',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'sample-product-popup',
             'contentbox_type'=>'image',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'',
             'contentbox_img'=>'led-high-mount-stop-lamps-with-rear-spoiler',
             'contentbox_title'=>'LED High Mount Stop Lamps with Rear Spoiler',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'sample-product-popup',
             'contentbox_type'=>'image',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'',
             'contentbox_img'=>'full-digital-cluster-with-4.2-tft-lcd',
             'contentbox_title'=>'Full Digital Cluster with 4.2” TFT LCD',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           foreach($contentbox_array as $contentbox_list){
         ?>
@@ -191,7 +201,7 @@
 
 
 
-  <section title="Hyundai SmartSense" class="rancak-section section-hyundai-smartsense-slide">
+  <section title="Hyundai SmartSense" id="safety" class="rancak-section section-hyundai-smartsense-slide">
     <span class="width-max">
       <?php require ($_SERVER['HY'].'section/smartsense-slide.php')?>
 	</span>
@@ -199,7 +209,7 @@
 
 
 
-  <section title="Accessorise your lifestyle" class="rancak-section gridbox-b">
+  <section title="Accessorise your lifestyle" id="accessories" class="rancak-section gridbox-b">
     <span class="width-max">
 	  <div class="section-title">
         <div class="section-title-primary">Accessorise your lifestyle</div>
@@ -210,42 +220,52 @@
           $contentbox_array[]=array(
             'contentbox_link'=>'model/stargazer',
             'contentbox_type'=>'color',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'blue',
             'contentbox_img'=>'',
             'contentbox_title'=>"STARGAZER Genuine Accessories",
             'contentbox_button'=>'yes',
+            'contentbox_button_label'=>'Pelajari lebih lanjut',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'sample-product-popup',
             'contentbox_type'=>'image',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'',
             'contentbox_img'=>'hidden-tray',
             'contentbox_title'=>'Hidden Tray',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'sample-product-popup',
             'contentbox_type'=>'image',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'',
             'contentbox_img'=>'center-console-armrest',
             'contentbox_title'=>'Center Console Armrest',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'sample-product-popup',
             'contentbox_type'=>'image',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'',
             'contentbox_img'=>'center-console-rear-storage-with-usb-port',
             'contentbox_title'=>'Center Console Rear Storage with USB Port',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'sample-product-popup',
             'contentbox_type'=>'image',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'',
             'contentbox_img'=>'seat-back-table',
             'contentbox_title'=>'Seat Back Table',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           foreach($contentbox_array as $contentbox_list){
         ?>
@@ -257,7 +277,7 @@
 
 
 
-  <section title="Ready to take the next step?" class="rancak-section gridbox-b">
+  <section title="Ready to take the next step?" id="specs" class="rancak-section gridbox-b">
     <span class="width-max">
 	  <div class="section-title">
         <div class="section-title-primary">Ready to take the next step?</div>
@@ -268,42 +288,52 @@
           $contentbox_array[]=array(
             'contentbox_link'=>'model/stargazer',
             'contentbox_type'=>'color',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'blue',
             'contentbox_img'=>'',
             'contentbox_title'=>"Get into the driver's seat.",
             'contentbox_button'=>'yes',
+            'contentbox_button_label'=>'Pelajari lebih lanjut',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'model/stargazer',
             'contentbox_type'=>'color',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'white',
             'contentbox_img'=>'find-a-dealer',
             'contentbox_title'=>'Find a dealer',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'model/stargazer',
             'contentbox_type'=>'color',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'blue',
             'contentbox_img'=>'talk-to-an-expert',
             'contentbox_title'=>'Talk to an expert.',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'model/stargazer',
             'contentbox_type'=>'color',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'blue',
             'contentbox_img'=>'',
             'contentbox_title'=>'Pricing your dream car.',
             'contentbox_button'=>'yes',
+            'contentbox_button_label'=>'Pelajari lebih lanjut',
           );
           $contentbox_array[]=array(
             'contentbox_link'=>'model/stargazer',
             'contentbox_type'=>'color',
+            'contentbox_merge'=>'no',
             'contentbox_color'=>'white',
             'contentbox_img'=>'download-a-brochure',
             'contentbox_title'=>'Download a brochure.',
             'contentbox_button'=>'no',
+            'contentbox_button_label'=>'',
           );
           foreach($contentbox_array as $contentbox_list){
         ?>

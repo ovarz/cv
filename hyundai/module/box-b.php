@@ -1,6 +1,7 @@
 <?php if($contentbox_list['contentbox_type'] == 'color') { ?>
 <a title="<?php echo($contentbox_list['contentbox_title'])?>" 
-class="box-b box-b-<?php echo($contentbox_list['contentbox_type'])?> box-b-<?php echo($contentbox_list['contentbox_color'])?> content_center" 
+class="box-b box-b-<?php echo($contentbox_list['contentbox_type'])?> box-b-<?php echo($contentbox_list['contentbox_color'])?> content_center
+<?php if($contentbox_list['contentbox_merge'] == 'yes') { ?>box-b-merge<?php } ?>" 
 href="<?php echo($contentbox_list['contentbox_link'])?>">
   <div class="box-b-container">
     <?php if($contentbox_list['contentbox_img'] != '') { ?>
@@ -11,7 +12,7 @@ href="<?php echo($contentbox_list['contentbox_link'])?>">
 	<h2 class="box-b-title"><?php echo($contentbox_list['contentbox_title'])?></h2>
     <?php if($contentbox_list['contentbox_button'] == 'yes') { ?>
       <div class="box-b-gateway content_center">
-        <div title="BOX_LINK" class="btn btn-outline" href="">Pelajari lebih lanjut</div>
+        <div title="BOX_LINK" class="btn btn-outline" href=""><?php echo($contentbox_list['contentbox_button_label'])?></div>
       </div>
 	<?php } ?>
   </div>
