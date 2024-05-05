@@ -31,7 +31,7 @@ a:hover, button:hover{color:var(--color-text-3); fill:var(--color-text-3);}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-text-4);}
 .btn-outline{border-color:var(--bg-1); background-color:transparent !important;}
 .btn-outline:hover{border-color:var(--color-text-4); background-color:var(--color-text-4) !important;}
-#btt{position:fixed; bottom:var(--size-7); right:0; cursor:pointer;
+#btt{position:fixed; bottom:144px; right:0; cursor:pointer;
 z-index:calc(var(--max-zindex) - 10000); width:40px; height:40px; background-color:var(--color-text-3); fill:var(--bg-1);
 border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded-2);}
 #btt:hover, #btt:focus{background-color:var(--color-text-4);}
@@ -219,7 +219,31 @@ header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 .spoc-car-change:hover, a.spoc-car-subtitle:hover{color:var(--color-text-4); fill:var(--color-text-4);}
 
 .spoc-button-dummy{border-color:var(--color-border-default); color:var(--color-text-2); border-radius:var(--rounded-1);}
+.spoc-button:hover .spoc-button-dummy{border-color:var(--color-text-2);}
 .spoc-button-real:checked + .spoc-button-dummy{border-color:var(--color-text-4); color:var(--color-text-4);}
+
+.spoc-button-type2 .spoc-button-dummy .pod-color-frame{border-color:var(--color-border-default); border-radius:50%;}
+.spoc-button-type2 .spoc-button-dummy .pod-color-black{background-color:#000000;}
+.spoc-button-type2 .spoc-button-dummy .pod-color-silver{background-color:#757575;}
+.spoc-button-type2 .spoc-button-dummy .pod-color-white{background-color:#FFFFFF;}
+.spoc-button-type2 .spoc-button-dummy .pod-color-cream{background-color:#E4DCD3;}
+
+.spoc-button-type3 .spoc-button-dummy{overflow:hidden;}
+.spoc-button-type3 .pod-cate{color:var(--color-text-1);}
+.spoc-button-type3 .pod-price{color:var(--color-text-2);}
+
+.spoc-location-field{border-color:var(--color-border-default); border-radius:var(--rounded-1);}
+.spoc-location-button:hover{fill:var(--color-text-4);}
+
+.spoc-final-detail:hover{color:var(--color-text-4); fill:var(--color-text-4);}
+.spoc-final-detail-label{color:var(--color-text-1);}
+.spoc-final-detail svg{transition:var(--transition-default);}
+.spoc-final-detail-open svg{transform:rotate(180deg);}
+.spoc-final-list{border-color:var(--color-border-default);}
+
+
+
+.floating-price{background-color:var(--color-text-3); color:var(--bg-1);}
 
 
 

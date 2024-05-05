@@ -32,7 +32,7 @@ function back_to_top(){
 
 
 
-var open_sticky = function(){
+function open_sticky(){
   "use strict";
   $('.open-sticky').click(function(){
     var get_id = $(this).attr('aria-popup');
