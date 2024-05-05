@@ -49,6 +49,7 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 .drd-circle, .drd-circle:before{border-radius:50%; transition:var(--transition-default);}
 .drd-circle{border-color:var(--color-border-default);}
+.default-radiobutton-dummy{transition:var(--transition-default);}
 .default-radiobutton-real:checked + .default-radiobutton-dummy .drd-circle{border-color:var(--color-text-4);}
 .default-radiobutton-real:checked + .default-radiobutton-dummy .drd-circle:before{background-color:var(--color-text-4);}
 
@@ -213,6 +214,12 @@ header{background-color:var(--bg-1); box-shadow:var(--shadow-header);}
 
 
 .spoc-car-title{color:var(--color-text-2);}
+.spoc-car-subtitle{color:var(--color-text-1); fill:var(--color-text-1);}
+.spoc-car-change, a.spoc-car-subtitle{color:var(--color-text-3); fill:var(--color-text-3);}
+.spoc-car-change:hover, a.spoc-car-subtitle:hover{color:var(--color-text-4); fill:var(--color-text-4);}
+
+.spoc-button-dummy{border-color:var(--color-border-default); color:var(--color-text-2); border-radius:var(--rounded-1);}
+.spoc-button-real:checked + .spoc-button-dummy{border-color:var(--color-text-4); color:var(--color-text-4);}
 
 
 

@@ -31,7 +31,69 @@
 		</div>
 	    <div class="spoc-right">
 		  <div class="spoc-right-box">
-		    <div class="spoc-car-title">Select energy type.</div>
+		    <div class="spoc-right-title">
+		      <div class="spoc-car-title">Select energy type.</div>
+			</div>
+			<div class="spoc-right-list">
+              <?php 
+                $price_option_array = array();
+                $price_option_array[]=array(
+                  'price_option_type'=>'1',
+                  'price_option_section'=>'energy type',
+                  'price_option_value'=>'300000000',
+                  'price_option_checked'=>'yes',
+                  'price_option_name'=>'Petrol',
+                );
+                $price_option_array[]=array(
+                  'price_option_type'=>'1',
+                  'price_option_section'=>'energy type',
+                  'price_option_value'=>'310000000',
+                  'price_option_checked'=>'no',
+                  'price_option_name'=>'Diesel',
+                );
+                foreach($price_option_array as $price_option_list){
+              ?>
+                <?php require ($_SERVER['HY'].'module/price-radiobutton.php')?>
+              <?php } ?>
+			</div>
+		  </div>
+		  
+		  <div class="spoc-right-box">
+		    <div class="spoc-right-title">
+		      <div class="spoc-car-title">Select variant.</div>
+		      <div class="spoc-car-subtitle">
+			    <div class="spoc-car-subtitle-label">Find what's behind each variant</div>
+				<?php require ($_SERVER['HY'].'img/icon/right.svg')?>
+			  </div>
+			</div>
+			<div class="spoc-right-list">
+              <?php 
+                $price_option_array = array();
+                $price_option_array[]=array(
+                  'price_option_type'=>'1',
+                  'price_option_section'=>'variant',
+                  'price_option_value'=>'1',
+                  'price_option_checked'=>'yes',
+                  'price_option_name'=>'STARGAZER Prime IVT 7 Seat (With EPB)',
+                );
+                $price_option_array[]=array(
+                  'price_option_type'=>'1',
+                  'price_option_section'=>'variant',
+                  'price_option_value'=>'2',
+                  'price_option_checked'=>'no',
+                  'price_option_name'=>'STARGAZER Active MT (With Alloy Wheel)',
+                );
+                foreach($price_option_array as $price_option_list){
+              ?>
+                <?php require ($_SERVER['HY'].'module/price-radiobutton.php')?>
+              <?php } ?>	
+			</div>
+		  </div>
+		  
+		  <div class="spoc-right-box">
+		    <div class="spoc-car-total">0</div>
+			<div class="spoc-car-total-energy">0</div>
+			<div class="spoc-car-total-variant">0</div>
 		  </div>
 		</div>
 	  </div>
@@ -98,6 +160,37 @@
   
   
 </div>
+
+
+
+<script defer>
+$(document).ready(function(){
+  var value_energy_type = parseInt($('input[name="energy type"]:checked').val());
+  var value_variant = parseInt($('input[name="variant"]:checked').val());
+  var value_total = value_energy_type + value_variant;
+  $('.spoc-car-total').html(value_total);
+  
+  $('.default-radiobutton-real').click(function(){
+    var get_section = $(this).attr('name');
+	
+	
+    if(get_section == 'energy type'){
+	  var get_value_energy_type = parseInt($(this).attr('name', 'energy type').val());
+	}
+	
+    else if(get_section == 'variant'){
+	  var get_value_variant = parseInt($(this).attr('name', 'variant').val());
+	}
+	
+	var change_value_total = parseInt(get_value_energy_type) + parseInt(get_value_variant);
+	alert(change_value_total);
+    $('.spoc-car-total').text(change_value_total);
+    $('.spoc-car-total-energy').text(get_value_energy_type);
+    $('.spoc-car-total-variant').text(get_value_variant);
+  });
+  
+});
+</script>
 
 
 
