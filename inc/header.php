@@ -37,4 +37,4 @@
 <link rel="dns-prefetch" href="https://www.aufarmahardi.com" />
 <link rel="preload" href="<?php echo $base?>/fonts/poppins/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="<?php echo $base?>/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="<?php echo $base?>/img/ovarz-photo.webp" as="image">
+<link rel="preload" href="<?php echo $base?>/img/ovarz.webp" as="image">

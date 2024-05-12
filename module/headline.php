@@ -1,7 +1,7 @@
 <section class="headline">
   <div class="headline-image">
     <div class="headline-image-frame">
-      <amp-img alt="Misty road" width="521050" height="210" layout="fill" src="<?php echo $base?>/img/ovarz.jfif">
+      <amp-img alt="Misty road" width="521050" height="210" layout="fill" src="<?php echo $base?>/img/ovarz.webp">
         <amp-img alt="Misty road" fallback width="210" height="210" layout="fill" src="<?php echo $base?>/img/ovarz.jpg"></amp-img>
       </amp-img>
     </div>
