@@ -55,7 +55,7 @@
   "@type" : "Person",
   "name" : "Aufar Mahardi",
   "url" : "https://aufarmahardi.com/",
-  "logo": "https://aufarmahardi.com/img/ovarz-photo.png"
+  "logo": "https://aufarmahardi.com/img/ovarz.jpg"
 }
 </script>
 

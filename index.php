@@ -5,6 +5,7 @@
 </style>
 </head>
 <body>
+<amp-analytics config="https://www.googletagmanager.com/amp.json?id=G-FRRHFE09BY" data-credentials="include"></amp-analytics>
 <div id="top-page"></div>
 <div class="site-container">
   <?php require ('module/headline.php')?>

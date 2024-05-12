@@ -110,7 +110,7 @@
 	</li>
 	<li>
 	  <h4 class="skill-label">
-        <b>Adobe Experience Manager</b> <span>[<?php echo $skill_figma; ?>]</span>
+        <b>Adobe Experience Manager</b> <span>[<?php echo $skill_aem; ?>]</span>
       </h4> 
       <div class="skill-progress">
         <div class="skill-bar loading-bar-line" style="width:<?php echo $skill_aem; ?>"></div>

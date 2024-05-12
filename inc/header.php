@@ -18,6 +18,7 @@
 <meta content="id" name="geo.country" />
 <meta content="Indonesia" name="geo.placename" />
 <meta name="google-site-verification" content="google-site-verification=P9EAgr7eso_HU7dzftPCo1-q3P0uhAGPEkqf-yttd5s" />
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -35,6 +36,7 @@
 <link rel="dns-prefetch" href="https://cdn.ampproject.org" />
 <link rel="preconnect" href="https://www.aufarmahardi.com">
 <link rel="dns-prefetch" href="https://www.aufarmahardi.com" />
+<link rel="preload" href="https://cdn.ampproject.org/v0.js" as="script">
 <link rel="preload" href="<?php echo $base?>/fonts/poppins/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="<?php echo $base?>/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="<?php echo $base?>/img/ovarz.webp" as="image">
