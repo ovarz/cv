@@ -28,7 +28,7 @@
 
 <style><?php require ($_SERVER['HY'].'css/font.css')?></style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../vivanetworks/global-js/jquery.js"><\/script>');</script>
+<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>');</script>
 <script async>
 $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
   $("script").each(function(){
