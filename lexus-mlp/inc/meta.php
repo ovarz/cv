@@ -16,6 +16,12 @@
 <link as="font" crossorigin="anonymous" href="fonts/Nobel-Book.woff" rel="preload"/>
 <link as="font" crossorigin="anonymous" href="fonts/Nobel-Light.woff" rel="preload"/>
 <link as="font" crossorigin="anonymous" href="fonts/Nobel-Regular.woff" rel="preload"/>
+
+<!--
+<link rel="preload" href="img/afi.jpg" as="image">
+<link rel="preload" href="img/ananta.jpg" as="image">
+<link rel="preload" href="img/laras.jpg" as="image">
+-->	
 	
 <link rel="preload" href="css/rancak.css?<?php echo $version; ?>" as="style">
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
@@ -26,9 +32,10 @@
 
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $version; ?>"/>
 
-<?php if($page == 'spk') { ?>
-  <link rel="preload" href="css/spk.css?<?php echo $version; ?>" as="style">
-  <link rel="stylesheet" type="text/css" href="css/spk.css?<?php echo $version; ?>"/>
+<?php if($page == 'astra') { ?>
+  <link rel="preload" href="css/astra.css?<?php echo $version; ?>" as="style">
+  <link rel="stylesheet" type="text/css" href="css/astra.css?<?php echo $version; ?>"/>
+  <link rel="preload" href="img/astra.jpg" as="image">
 <?php } ?>
 
 </head>

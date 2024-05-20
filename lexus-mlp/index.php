@@ -1,5 +1,5 @@
 <?php 
-  $page='default';
+  $page='astra';
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['HY'].'inc/meta.php')?>
