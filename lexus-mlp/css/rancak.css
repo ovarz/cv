@@ -2,17 +2,20 @@
 
 
 
-:root, :before, :after{
-  
-}
-
-
-
-body, html{font-family:Nobel,Arial,sans-serif; font-size:14px; font-weight:400; letter-spacing:0.3px; font-feature-settings:'lnum' 1; 
+body, html{font-family:Nobel,Arial,sans-serif; font-size:1.2vw; font-weight:300; letter-spacing:0.3px; font-feature-settings:'lnum' 1; 
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; 
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 html{scroll-behavior:smooth; min-height:100vh; background-color:#FFFFFF;}
 body{overflow-x:hidden; color:#000000;}
+body::-webkit-scrollbar{width:0px;}
+
+
+
+
+.rancak-container{display:flex; justify-content:center;}
+.rancak-form{position:relative;}
+.rancak-form-bg{position:relative; z-index:1;}
+.rancak-form-input{position:absolute; z-index:1000; text-transform:uppercase;}
 
 
 
