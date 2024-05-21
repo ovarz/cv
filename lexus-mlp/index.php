@@ -10,8 +10,8 @@
   </div>
   <div class="rancak-form-box">
     <div aria-label="Date" class="rancak-form-input" style="top:14.1vw; left:59.2vw;">10 September 2024</div>
-    <div aria-label="SPK No." class="rancak-form-input" style="top:16.6vw; left:58.9vw;">xxxx-xxxx-xxxx-xxxx</div>
-    <div aria-label="Cust. Single ID" class="rancak-form-input" style="top:19.1vw; left:58.9vw;">LEX-00000</div>
+    <div aria-label="SPK No." class="rancak-form-input" style="top:16.4vw; left:58.9vw;">xxxx-xxxx-xxxx-xxxx</div>
+    <div aria-label="Cust. Single ID" class="rancak-form-input" style="top:18.8vw; left:58.9vw;">LEX-00000</div>
 	
     <div aria-label="Customer Name" class="rancak-form-input" style="width:28vw; height:4vw; top:27.7vw; left:19.2vw;">
 	  Aufar Mahardi
