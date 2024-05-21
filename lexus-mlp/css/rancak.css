@@ -15,6 +15,7 @@ body::-webkit-scrollbar{width:0px;}
 .rancak-container{display:flex; justify-content:center;}
 .rancak-form{position:relative;}
 .rancak-form-bg{position:relative; z-index:1;}
+.rancak-form-bg img{width:100vw;}
 .rancak-form-input{position:absolute; z-index:1000; text-transform:uppercase;}
 
 
