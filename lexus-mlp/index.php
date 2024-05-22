@@ -19,6 +19,15 @@
     <div aria-label="Customer Name" class="rancak-form-input" style="width:28vw; height:2vw; top:31.8vw; left:19.2vw;">
 	  Neo Fusion Indonesia
 	</div>
+    <div aria-label="Request tax invoice" aria-choice="No" class="rancak-form-input rancak-form-yesno" style="top:34.3vw; left:19.2vw;">
+	  <div aria-label="Yes" class="rancak-form-checklist" style="left:59.2vw;"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div aria-label="No" class="rancak-form-checklist" style="left:79.2vw;"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	</div>
+    <div aria-label="NPWP" class="rancak-form-input rancak-form-npwp" style="top:36.9vw; left:19.3vw;">
+	  <?php for ($i=1; $i <= 15 ; $i++) { ?>
+	    <div class="rancak-form-npwp-box">0</div>
+	  <?php } ?>
+	</div>
 	
     <div aria-label="Correspondent Address" class="rancak-form-input" style="width:28vw; height:6vw; top:39.4vw; left:19.2vw;">
 	  Jl. Tebet Timur Dalam VIII H No.3, RT.11/RW.6, Tebet Tim., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12820

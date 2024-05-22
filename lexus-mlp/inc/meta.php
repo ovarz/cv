@@ -33,8 +33,6 @@
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $version; ?>"/>
 
 <?php if($page == 'astra') { ?>
-  <link rel="preload" href="css/astra.css?<?php echo $version; ?>" as="style">
-  <link rel="stylesheet" type="text/css" href="css/astra.css?<?php echo $version; ?>"/>
   <link rel="preload" href="img/astra.jpg" as="image">
 <?php } ?>
 
