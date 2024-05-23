@@ -2,7 +2,7 @@
 
 
 
-body, html{font-family:Nobel,Arial,sans-serif; font-size:1.2vw; font-weight:300; letter-spacing:0.3px; font-feature-settings:'lnum' 1; 
+body, html{font-family:Nobel,Arial,sans-serif; font-size:1.2vw; font-weight:300; letter-spacing:0.1vw; font-feature-settings:'lnum' 1; 
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; 
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 html{scroll-behavior:smooth; min-height:100vh; background-color:#FFFFFF;}
@@ -30,7 +30,18 @@ body::-webkit-scrollbar{width:0px;}
 
 .rancak-form-phone{display:grid; grid-gap:1.15vw; grid-template-columns:6vw 1fr;}
 
+.rancak-form-cartype{display:grid; grid-gap:2.8vw; grid-template-columns:1fr 3.8vw;}
 
+.rancak-form-choosepayment{display:flex;}
+.rancak-form-choosepayment .rancak-form-checklist[aria-label="Cash"]{margin-right:3.2vw;}
+.rancak-form-choosepayment .rancak-form-checklist[aria-label="Lease"]{display:grid; grid-gap:4.5vw; grid-template-columns:auto 12.5vw;}
+.rancak-form-choosepayment .rancak-form-checklist[aria-label="Lease"] span{line-height:1.5vw;}
+.rancak-form-choosepayment[aria-choice="Cash"] .rancak-form-checklist[aria-label="Cash"],
+.rancak-form-choosepayment[aria-choice="Lease"] .rancak-form-checklist[aria-label="Lease"]{opacity:1;}
+
+.rancak-form-signature{position:absolute; z-index:1000; line-height:0; overflow:hidden; display:grid; grid-gap:1.7vw; grid-auto-flow:column;}
+.rancak-form-signature-box{position:relative; width:8.9vw; height:8.0vw;}
+.rancak-form-signature-box img{position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain;}
 
 
 
