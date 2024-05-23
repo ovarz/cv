@@ -28,6 +28,8 @@ body::-webkit-scrollbar{width:0px;}
 .rancak-form-npwp-box:nth-child(2), .rancak-form-npwp-box:nth-child(5), .rancak-form-npwp-box:nth-child(8),
 .rancak-form-npwp-box:nth-child(9), .rancak-form-npwp-box:nth-child(12){margin-right:1.15vw;}
 
+.rancak-form-phone{display:grid; grid-gap:1.15vw; grid-template-columns:6vw 1fr;}
+
 
 
 
