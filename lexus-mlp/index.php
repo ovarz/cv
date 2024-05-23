@@ -127,13 +127,13 @@
 	    <img src="img/sample/signature-1.png"/>
 	  </div>
 	  <div class="rancak-form-signature-box">
-	    <img src="img/sample/signature-1.png"/>
+	    <img src="img/sample/signature-2.png"/>
 	  </div>
 	  <div class="rancak-form-signature-box">
-	    <img src="img/sample/signature-1.png"/>
+	    <img src="img/sample/signature-3.png"/>
 	  </div>
 	  <div class="rancak-form-signature-box">
-	    <img src="img/sample/signature-1.png"/>
+	    <img src="img/sample/signature-4.png"/>
 	  </div>
 	</div>
   </div>
