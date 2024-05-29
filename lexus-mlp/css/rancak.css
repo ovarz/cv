@@ -39,9 +39,15 @@ body::-webkit-scrollbar{width:0px;}
 .rancak-form-choosepayment[aria-choice="Cash"] .rancak-form-checklist[aria-label="Cash"],
 .rancak-form-choosepayment[aria-choice="Lease"] .rancak-form-checklist[aria-label="Lease"]{opacity:1;}
 
-.rancak-form-signature{position:absolute; z-index:1000; line-height:0; overflow:hidden; display:grid; grid-gap:1.7vw; grid-auto-flow:column;}
-.rancak-form-signature-box{position:relative; width:8.9vw; height:8.0vw;}
+.rancak-form-signature{position:absolute; z-index:1000; line-height:0; overflow:hidden; display:grid; grid-auto-flow:column;}
+.rancak-form-signature-box{position:relative;}
 .rancak-form-signature-box img{position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain;}
+
+.rancak-form-signature-menteng{grid-gap:1.7vw;}
+.rancak-form-signature-menteng .rancak-form-signature-box{width:8.9vw; height:8.0vw;}
+
+.rancak-form-signature-mampang{grid-gap:2.7vw;}
+.rancak-form-signature-mampang .rancak-form-signature-box{width:10.9vw; height:6.6vw;}
 
 
 
