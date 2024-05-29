@@ -82,7 +82,7 @@
       <div aria-label="Plate No 2" class="rancak-form-input" style="width:28vw; height:2vw; top:45.3vw; left:65.8vw;">
         D 1616 IT
       </div>
-      <div aria-label="Plate No 3" class="rancak-form-input" style="width:28vw; height:2vw; top:47.4vw; left:65.8vw;">
+      <div aria-label="Plate No 3" class="rancak-form-input" style="width:28vw; height:2vw; top:47.5vw; left:65.8vw;">
         P 461 KK
       </div>
 	

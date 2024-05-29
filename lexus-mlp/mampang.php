@@ -117,7 +117,7 @@
 	
     <div aria-label="Special Appreciation" class="rancak-form-input" style="width:24.5vw; height:1.9vw; top:73.0vw; left:68vw; line-height:1.8vw;">IDR 000.000.000</div>
 	
-    <div aria-label="Total Price" class="rancak-form-input" style="width:24.5vw; height:1.9vw; top:75.9vw; left:68vw; line-height:1.8vw;">IDR 000.000.000.000</div>
+    <div aria-label="Total Price" class="rancak-form-input" style="width:24.5vw; height:1.9vw; top:76.1vw; left:68vw; line-height:1.8vw;">IDR 000.000.000.000</div>
 	
     <div aria-label="Choose Payment" aria-choice="Lease" class="rancak-form-input rancak-form-choosepayment" style="top:79.7vw; left:69.2vw;">
 	  <div aria-label="Cash" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
