@@ -265,7 +265,40 @@
 	  <div aria-label="opt2" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
 	</div>
 	
-    <div aria-label="Nama BJ/PIC" class="rancak-form-input" style="top:109.3vw; left:10.4vw; width:24vw;">N 456 OR</div>
+    <div aria-label="Nama BJ/PIC" class="rancak-form-input" style="top:104.7vw; left:67.7vw; width:24vw;">Takashi Mura</div>
+	
+    <div aria-label="Nama BJ/PIC Telp" class="rancak-form-input" style="top:106.9vw; left:67.7vw; width:24vw;">62 800 0000 0000</div>
+	
+	<div class="rancak-form-signature-4" style="top:115.5vw; left:52.5vw; width:24vw;">
+      <div aria-label="Signature 1" class="rancak-form-signature-column">
+        <div class="rancak-form-signature-box">
+          <img src="img/sample/signature-1.png"/>
+        </div>
+        <div class="rancak-form-signature-name">Aufar Mahardi</div>
+        <div class="rancak-form-signature-date">30 September 2024</div>
+      </div>
+      <div aria-label="Signature 2" class="rancak-form-signature-column">
+        <div class="rancak-form-signature-box">
+          <img src="img/sample/signature-2.png"/>
+        </div>
+        <div class="rancak-form-signature-name">Altair Ibn La-Ahad</div>
+        <div class="rancak-form-signature-date">30 September 2024</div>
+      </div>
+      <div aria-label="Signature 3" class="rancak-form-signature-column">
+        <div class="rancak-form-signature-box">
+          <img src="img/sample/signature-3.png"/>
+        </div>
+        <div class="rancak-form-signature-name">Takashi Mura</div>
+        <div class="rancak-form-signature-date">30 September 2024</div>
+      </div>
+      <div aria-label="Signature 4" class="rancak-form-signature-column">
+        <div class="rancak-form-signature-box">
+          <img src="img/sample/signature-4.png"/>
+        </div>
+        <div class="rancak-form-signature-name">Razov Makarovic</div>
+        <div class="rancak-form-signature-date">30 September 2024</div>
+      </div>
+	</div>
   </div>
 </div>
 <?php require ($_SERVER['HY'].'inc/base-bottom.php')?>
