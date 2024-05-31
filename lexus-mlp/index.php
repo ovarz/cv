@@ -13,7 +13,7 @@
 	
     <div aria-label="SPK No." class="rancak-form-input" style="top:16.4vw; left:58.9vw;">xxxx-xxxx-xxxx-xxxx</div>
 	
-    <div aria-label="Cust. Single ID" class="rancak-form-input" style="top:18.8vw; left:58.9vw;">LEX-00000</div>
+    <div aria-label="Cust. Single ID" class="rancak-form-input" style="top:18.9vw; left:58.9vw;">LEX-00000</div>
 	
     <div aria-label="Customer Name" class="rancak-form-input" style="width:28vw; height:4vw; top:27.7vw; left:19.2vw;">
 	  Aufar Mahardi
@@ -122,6 +122,24 @@
     <div aria-label="Choose Payment" aria-choice="Lease" class="rancak-form-input rancak-form-choosepayment" style="top:78.8vw; left:68.9vw;">
 	  <div aria-label="Cash" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
 	  <div aria-label="Lease" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?><span>Adira Finance</span></div>
+	</div>
+	
+    <div aria-label="NRC/RC" aria-choice="opt1" class="rancak-form-input rancak-form-yesno" style="top:82.6vw; left:65.1vw;">
+	  <div aria-label="opt1" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div aria-label="opt2" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div class="rancak-form-checklist-note">Lorem Ipsum</div>
+	</div>
+	
+    <div aria-label="NP/P" aria-choice="opt2" class="rancak-form-input rancak-form-yesno" style="top:84.9vw; left:65.1vw;">
+	  <div aria-label="opt1" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div aria-label="opt2" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div class="rancak-form-checklist-note">Lorem Ipsum</div>
+	</div>
+	
+    <div aria-label="NU/U" aria-choice="opt1" class="rancak-form-input rancak-form-yesno" style="top:87.3vw; left:65.1vw;">
+	  <div aria-label="opt1" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div aria-label="opt2" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div class="rancak-form-checklist-note">Lorem Ipsum</div>
 	</div>
 	
     <div aria-label="Signature" class="rancak-form-signature rancak-form-signature-<?php echo $page; ?>" style="top:126.1vw; left:7.3vw;">

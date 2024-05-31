@@ -22,7 +22,12 @@ body::-webkit-scrollbar{width:0px;}
 .rancak-form-checklist[aria-label="Yes"]{margin-right:3.6vw;}
 .rancak-form-checklist svg{width:auto; height:1.5vw;}
 .rancak-form-yesno[aria-choice="Yes"] .rancak-form-checklist[aria-label="Yes"],
-.rancak-form-yesno[aria-choice="No"] .rancak-form-checklist[aria-label="No"]{opacity:1;}
+.rancak-form-yesno[aria-choice="No"] .rancak-form-checklist[aria-label="No"],
+.rancak-form-yesno[aria-choice="opt1"] .rancak-form-checklist[aria-label="opt1"],
+.rancak-form-yesno[aria-choice="opt2"] .rancak-form-checklist[aria-label="opt2"]{opacity:1;}
+
+.rancak-form-checklist[aria-label="opt1"]{margin-right:7vw;}
+.rancak-form-checklist-note{margin-left:7.7vw; position:relative; top:-0.2vw; width:10vw;}
 
 .rancak-form-npwp{display:flex; letter-spacing:0.52vw;}
 .rancak-form-npwp-box:nth-child(2), .rancak-form-npwp-box:nth-child(5), .rancak-form-npwp-box:nth-child(8),

@@ -124,6 +124,18 @@
 	  <div aria-label="Lease" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?><span>Adira Finance</span></div>
 	</div>
 	
+    <div aria-label="NP/P" aria-choice="opt2" class="rancak-form-input rancak-form-yesno" style="top:84.9vw; left:65.1vw;">
+	  <div aria-label="opt1" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div aria-label="opt2" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div class="rancak-form-checklist-note">Lorem Ipsum</div>
+	</div>
+	
+    <div aria-label="NU/U" aria-choice="opt1" class="rancak-form-input rancak-form-yesno" style="top:87.3vw; left:65.1vw;">
+	  <div aria-label="opt1" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div aria-label="opt2" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div class="rancak-form-checklist-note">Lorem Ipsum</div>
+	</div>
+	
     <div aria-label="Signature" class="rancak-form-signature rancak-form-signature-<?php echo $page; ?>" style="top:123.9vw; left:7.8vw;">
 	  <div class="rancak-form-signature-box">
 	    <img src="img/sample/signature-1.png"/>
