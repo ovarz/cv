@@ -23,18 +23,12 @@
 <link rel="preload" href="img/laras.jpg" as="image">
 -->	
 	
-<link rel="preload" href="css/rancak.css?<?php echo $version; ?>" as="style">
-<link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+<link rel="preload" href="img/<?php echo $page; ?>.jpg" as="image">
 
-<style><?php require ($_SERVER['HY'].'css/font.css')?></style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>');</script>
-
-<link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $version; ?>"/>
-
-<?php if($page == 'astra') { ?>
-  <link rel="preload" href="img/astra.jpg" as="image">
-<?php } ?>
+<style>
+  <?php require ($_SERVER['HY'].'css/font.css')?>
+  <?php require ($_SERVER['HY'].'css/rancak.css')?>
+</style>
 
 </head>
 <body>
