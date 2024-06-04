@@ -103,6 +103,16 @@
 	  Black Carbon
 	</div>
 	
+    <div aria-label="Lexus Ownership Package" class="rancak-form-input rancak-form-lop" style="top:65.9vw; left:18.8vw;">
+	  <div aria-label="1" aria-check="yes" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div aria-label="2" aria-check="yes" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div aria-label="3" aria-check="no" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+	  <div aria-label="4" aria-check="yes" class="rancak-form-checklist">
+	    <?php require ($_SERVER['HY'].'img/check.svg')?>
+	    <div class="rancak-form-lop-pgf">28%</div>
+	  </div>
+	</div>
+	
     <div aria-label="Note" class="rancak-form-input" style="width:28vw; height:9.5vw; top:73.8vw; left:19.2vw; line-height:1.95vw;">
 	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed mi eget metus hendrerit ultrices. Fusce blandit, ex eu euismod placerat, quam diam rhoncus tortor, in pellentesque dui lectus ac augue. Sed vel metus urna. Cras quis ultrices erat.
 	</div>
