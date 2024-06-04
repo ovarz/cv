@@ -28,7 +28,7 @@
 	  <div aria-label="No" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
 	</div>
 	
-    <div aria-label="NPWP" class="rancak-form-input rancak-form-npwp" style="top:36.9vw; left:19.3vw;">
+    <div aria-label="NPWP" class="rancak-form-input rancak-form-npwp" style="top:36.9vw; left:19.2vw;">
 	  <?php for ($i=1; $i <= 15 ; $i++) { ?>
 	    <div class="rancak-form-npwp-box">0</div>
 	  <?php } ?>
