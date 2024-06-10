@@ -79,6 +79,11 @@ body::-webkit-scrollbar{width:0px;}
 .rfdl-box{width:5.8vw; height:2vw; position:relative; display:flex; align-items:center; justify-content:center; font-size:0.8vw;}
 .rfdl-box img{position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain;}
 
+.rancak-form-signature-3{position:absolute; z-index:1000; display:grid; grid-gap:0 1.5vw; grid-template-columns:repeat(3,1fr); font-size:1vw;}
+.rancak-form-signature-3 .rancak-form-signature-box{width:13.0vw; height:7.8vw;}
+.rancak-form-signature-3 .rancak-form-signature-name, .rancak-form-signature-3 .rancak-form-signature-date{padding-left:3.7vw; font-size:0.9vw;}
+.rancak-form-signature-3 .rancak-form-signature-name{margin:1.1vw 0;}
+
 .rancak-form-signature-4{position:absolute; z-index:1000; display:grid; grid-gap:2.4vw 1.8vw; grid-template-columns:repeat(2,1fr); font-size:1vw;}
 .rancak-form-signature-box{width:19.3vw; height:5.4vw;}
 .rancak-form-signature-name, .rancak-form-signature-date{padding-left:2.5vw;}
