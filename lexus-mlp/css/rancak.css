@@ -6,7 +6,7 @@ body, html{font-family:Nobel,Arial,sans-serif; font-size:1.2vw; font-weight:300;
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; 
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 html{scroll-behavior:smooth; min-height:100vh; background-color:#FFFFFF;}
-body{overflow-x:hidden; color:#000000;}
+body{overflow-x:hidden; color:#252627;}
 body::-webkit-scrollbar{width:0px;}
 
 
