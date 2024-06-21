@@ -21,7 +21,7 @@
 	
     <div aria-label="Alamat" class="rancak-form-input" style="top:34.6vw; left:30.2vw;">Kavling Melati No.11, RT.9/RW.3, Bangka, Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12730</div>
 	
-    <div aria-label="Nama PIC & Nomor Telepon" class="rancak-form-input" style="top:39.3vw; left:30.2vw;">Altair (62 800 0000 0000)</div>
+    <div aria-label="Nama PIC & Nomor Telepon" class="rancak-form-input" style="top:39.3vw; left:30.2vw;">Altair (6280000000000)</div>
 	
     <div aria-label="Alamat pengiriman STNK & BPKB" class="rancak-form-input" style="top:41.7vw; left:30.2vw;">Kavling Melati No.11, RT.9/RW.3, Bangka, Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12730</div>
 	
@@ -267,7 +267,7 @@
 	
     <div aria-label="Nama BJ/PIC" class="rancak-form-input" style="top:104.7vw; left:67.7vw; width:24vw;">Takashi Mura</div>
 	
-    <div aria-label="Nama BJ/PIC Telp" class="rancak-form-input" style="top:106.9vw; left:67.7vw; width:24vw;">62 800 0000 0000</div>
+    <div aria-label="Nama BJ/PIC Telp" class="rancak-form-input" style="top:106.9vw; left:67.7vw; width:24vw;">6280000000000</div>
 	
 	<div class="rancak-form-signature-4" style="top:115.5vw; left:52.5vw; width:24vw;">
       <div aria-label="Signature 1" class="rancak-form-signature-column">

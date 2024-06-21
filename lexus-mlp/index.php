@@ -49,7 +49,7 @@
 	</div>
 	
     <div aria-label="Mobile Number" class="rancak-form-input" style="width:28vw; height:2vw; top:49.6vw; left:19.2vw;">
-	  62 000000000000
+	  62000000000000
 	</div>
 	
     <div aria-label="Email Address" class="rancak-form-input" style="width:28vw; height:2vw; top:51.7vw; left:19.2vw;">
@@ -61,7 +61,7 @@
 	</div>
 	
     <div aria-label="Contact Person phone" class="rancak-form-input" style="width:28vw; height:2vw; top:55.8vw; left:19.2vw;">
-	  62 000000000000
+	  62000000000000
 	</div>
 	
     <div aria-label="STNK Name" class="rancak-form-input" style="width:28vw; height:4vw; top:28.8vw; left:64.7vw;">
