@@ -296,6 +296,70 @@
 		<div class="mainform-separator">:</div>
 	  </div>
 	
+	  <div class="mainform-tableprice">
+	    <div class="mainform-tableprice-row">
+		  <div class="mainform-tableprice-column">
+		    <div class="mainform-tableprice-content mainform-tableprice-center mainform-tableprice-head">
+			  Item
+			</div>
+		  </div>
+		  <div class="mainform-tableprice-column">
+		    <div class="mainform-tableprice-content mainform-tableprice-center mainform-tableprice-head">
+			  Amount
+			</div>
+		  </div>
+		</div>
+	    <div class="mainform-tableprice-row mainform-tableprice-otr">
+		  <div class="mainform-tableprice-column">
+		    <div class="mainform-tableprice-content mainform-tableprice-center">
+			  On The Road Price
+			</div>
+		  </div>
+		  <div class="mainform-tableprice-column">
+		    <div class="mainform-tableprice-content">
+			  IDR 800.000.000.000
+			</div>
+		  </div>
+		</div>
+	    <div class="mainform-tableprice-row">
+		  <div class="mainform-tableprice-column">
+		    <div class="mainform-tableprice-content mainform-tableprice-center">
+			  Special Appreciation
+			</div>
+		  </div>
+		  <div class="mainform-tableprice-column">
+		    <div class="mainform-tableprice-content">
+			  IDR 8.000.000.000
+			</div>
+		  </div>
+		</div>
+	    <div class="mainform-tableprice-row">
+		  <div class="mainform-tableprice-column">
+		    <div class="mainform-tableprice-content mainform-tableprice-center mainform-tableprice-total">
+			  Total
+			</div>
+		  </div>
+		  <div class="mainform-tableprice-column">
+		    <div class="mainform-tableprice-content">
+			  IDR 888.000.000.000
+			</div>
+		    <div class="mainform-tableprice-other">
+			  <div aria-choice="" class="mainform-choice-box">
+				<div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+				<div class="mcb-label">Cash</div>
+			  </div>
+			  <div aria-choice="this" class="mainform-choice-box">
+				<div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+				<div class="mcb-lease">
+				  <div class="mcb-lease-label">Lease by:</div>
+				  <div class="mcb-lease-data">Lorem Ipsum</div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	
 	  <div class="mainform-row mainform-fbl">
 	    <div class="mainform-label">*Filled by Lexus</div>
 		<div class="mainform-separator">:</div>
