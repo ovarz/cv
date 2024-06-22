@@ -104,3 +104,8 @@ width:1.3vw; height:1.7vw;}
 .mainform-lop-check{position:absolute; z-index:1000; top:0; left:0; opacity:0;}
 .mainform-lop-check svg{width:auto; height:1vw;}
 .mainform-lop-row[aria-choice="check"] .mainform-lop-check{opacity:1;}
+
+.mainform-fbl .mainform-data{display:grid; grid-gap:0.3vw;}
+.mainform-fbl-row{display:grid; grid-template-columns:8vw 6vw 1fr;}
+.mainform-fbl-note{text-transform:none; display:grid; grid-template-columns:auto 1fr; grid-gap:0.3vw;}
+.mainform-fbl-note-data{border-bottom:0.1vw solid var(--color-border);}

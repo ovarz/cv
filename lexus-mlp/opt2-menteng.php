@@ -296,6 +296,55 @@
 		<div class="mainform-separator">:</div>
 	  </div>
 	
+	  <div class="mainform-row mainform-fbl">
+	    <div class="mainform-label">*Filled by Lexus</div>
+		<div class="mainform-separator">:</div>
+		<div class="mainform-data">
+		  <div class="mainform-fbl-row">
+		    <div aria-choice="" class="mainform-choice-box">
+		      <div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+			  <div class="mcb-label">NRC</div>
+		    </div>
+		    <div aria-choice="this" class="mainform-choice-box">
+		      <div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+			  <div class="mcb-label">RC</div>
+		    </div>
+			<div class="mainform-fbl-note">
+			  <div class="mainform-fbl-note-label">Notes:</div>
+			  <div class="mainform-fbl-note-data">Lorem Ipsum</div>
+			</div>
+		  </div>
+		  <div class="mainform-fbl-row">
+		    <div aria-choice="this" class="mainform-choice-box">
+		      <div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+			  <div class="mcb-label">NP</div>
+		    </div>
+		    <div aria-choice="" class="mainform-choice-box">
+		      <div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+			  <div class="mcb-label">P</div>
+		    </div>
+			<div class="mainform-fbl-note">
+			  <div class="mainform-fbl-note-label">Notes:</div>
+			  <div class="mainform-fbl-note-data">Lorem Ipsum</div>
+			</div>
+		  </div>
+		  <div class="mainform-fbl-row">
+		    <div aria-choice="" class="mainform-choice-box">
+		      <div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+			  <div class="mcb-label">NU</div>
+		    </div>
+		    <div aria-choice="this" class="mainform-choice-box">
+		      <div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+			  <div class="mcb-label">U</div>
+		    </div>
+			<div class="mainform-fbl-note">
+			  <div class="mainform-fbl-note-label">Notes:</div>
+			  <div class="mainform-fbl-note-data">Lorem Ipsum</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	
 	</div>
   </div>
   
