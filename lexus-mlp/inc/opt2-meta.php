@@ -27,7 +27,7 @@
 
 <style>
   <?php require ($_SERVER['HY'].'css/font.css')?>
-  <?php require ($_SERVER['HY'].'css/rancak-2.css')?>
+  <?php require ($_SERVER['HY'].'css/opt2-rancak.css')?>
 </style>
 
 </head>
