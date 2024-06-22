@@ -139,7 +139,6 @@
 		  me@aufarmahardi.com
 		</div>
 	  </div>
-	<!--
 	  <div class="mainform-row mainform-default">
 	    <div class="mainform-label">Contact Person Phone No</div>
 		<div class="mainform-separator">:</div>
@@ -147,7 +146,6 @@
 		  6280000000000
 		</div>
 	  </div>
-	-->  
 	</div>
 	<div class="mainform-side mainform-right">
 	
