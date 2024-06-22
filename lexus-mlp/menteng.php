@@ -79,6 +79,18 @@
 		  </div>
 		</div>
 	  </div>
+	
+	  <div class="mainform-row mainform-npwp">
+	    <div class="mainform-label">NPWP</div>
+		<div class="mainform-separator">:</div>
+		<div class="mainform-data">
+		  <?php for ($i=1; $i <= 15 ; $i++) { ?>
+            <div class="mainform-choice-box">
+              <div class="mcb-frame">0</div>
+            </div>
+		  <?php } ?>
+		</div>
+	  </div>
 	  
 	</div>
 	<div class="mainform-side mainform-right">
