@@ -71,7 +71,7 @@ font-size:1.7vw; background-color:var(--bg-grey);}
 .mainform-data{text-transform:uppercase; overflow:hidden;}
 
 .mainform-default .mainform-data{--linesize:2vw; background-size: 100% var(--linesize);
-background-image:-webkit-linear-gradient(top, transparent, transparent calc(var(--linesize) - 0.1vw), var(--color-border) 0);}
+background-image:-webkit-linear-gradient(top, transparent, transparent calc(var(--linesize) - 0.05vw), var(--color-border) 0);}
 
 .mainform-choice .mainform-data{display:flex; flex-wrap:wrap;}
 .mainform-choice-box{display:flex; align-items:center; margin-right:1.5vw;}
@@ -80,7 +80,7 @@ width:1.3vw; height:1.7vw;}
 .mcb-frame svg{width:75%; height:auto; opacity:0;}
 .mainform-choice-box[aria-choice="this"] .mcb-frame svg{opacity:1;}
 
-.mainform-npwp .mainform-data{display:flex;}
+.mainform-npwp .mainform-data{display:flex; padding-left:0.1vw;}
 .mainform-npwp .mainform-choice-box, .mainform-npwp .mcb-frame{margin-right:0;}
 .mainform-npwp .mcb-frame{margin-left:-0.1vw; line-height:0; font-size:1vw;}
 .mainform-npwp .mainform-choice-box:nth-child(3),
