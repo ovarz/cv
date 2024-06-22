@@ -48,7 +48,38 @@
   <div class="mainform">
     <div class="mainform-head"><b>Lexus Order Form</b></div>
 	<div class="mainform-side mainform-left">
-	  left
+	
+	  <div class="mainform-row mainform-default">
+	    <div class="mainform-label">Customer Name</div>
+		<div class="mainform-separator">:</div>
+		<div class="mainform-data">
+		  Aufar <br/> Mahardi
+		</div>
+	  </div>
+	
+	  <div class="mainform-row mainform-default">
+	    <div class="mainform-label">Company Name</div>
+		<div class="mainform-separator">:</div>
+		<div class="mainform-data">
+		  OtoGear
+		</div>
+	  </div>
+	
+	  <div class="mainform-row mainform-choice">
+	    <div class="mainform-label">Request Tax Invoice</div>
+		<div class="mainform-separator">:</div>
+		<div class="mainform-data">
+		  <div aria-choice="this" class="mainform-choice-box">
+		    <div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+			<div class="mcb-label">Yes</div>
+		  </div>
+		  <div aria-choice="" class="mainform-choice-box">
+		    <div class="mcb-frame"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
+			<div class="mcb-label">No</div>
+		  </div>
+		</div>
+	  </div>
+	  
 	</div>
 	<div class="mainform-side mainform-right">
 	  right
