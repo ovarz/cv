@@ -123,6 +123,8 @@
 	
     <div aria-label="Price Calculation" class="rancak-form-input" style="width:24.5vw; height:1.7vw; top:59.8vw; left:64.7vw; line-height:1.8vw;">IDR 000.000.000.000</div>
 	
+    <div aria-label="OTR Info" class="rancak-form-input rancak-form-otr" style="width:15vw; height:7.5vw; top:64.5vw; left:52vw; line-height:1.8vw;">Off The Road Price</div>
+	
     <div aria-label="OTR Price" class="rancak-form-input" style="width:24.5vw; height:7.5vw; top:64.5vw; left:68vw; line-height:1.8vw;">IDR 000.000.000.000</div>
 	
     <div aria-label="Special Appreciation" class="rancak-form-input" style="width:24.5vw; height:1.9vw; top:73.0vw; left:68vw; line-height:1.8vw;">IDR 000.000.000</div>

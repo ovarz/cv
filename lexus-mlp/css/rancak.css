@@ -50,6 +50,8 @@ body::-webkit-scrollbar{width:0px;}
 .rancak-form-lop .rancak-form-checklist[aria-check="yes"]{opacity:1;}
 .rancak-form-lop-pgf{margin-left:9.5vw; line-height:1.7vw; font-weight:normal;}
 
+.rancak-form-otr{text-transform:none; font-size:1.1vw; text-align:center;}
+
 .rancak-form-choosepayment{display:flex;}
 .rancak-form-choosepayment .rancak-form-checklist[aria-label="Cash"]{margin-right:3.2vw;}
 .rancak-form-choosepayment .rancak-form-checklist[aria-label="Lease"]{display:grid; grid-gap:4.5vw; grid-template-columns:auto 12.5vw;}
