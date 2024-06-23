@@ -528,7 +528,7 @@
 			<b>Lexus</b> Website
 		  </div>
 		  <div class="mainform-qr-code">
-		    <img src="img/qr-website.png"/>
+		    <img src="img/qr-website.svg"/>
 		  </div>
 		</div>
 	    <div class="mainform-qr-box">
@@ -538,7 +538,7 @@
 			App
 		  </div>
 		  <div class="mainform-qr-code">
-		    <img src="img/qr-website.png"/>
+		    <img src="img/qr-apps.svg"/>
 		  </div>
 		</div>
 	  </div>
