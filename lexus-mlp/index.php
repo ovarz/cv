@@ -6,7 +6,7 @@
 <h1 class="hide"><?php echo $site_title; ?></h1>
 <div class="rancak-container">
   <div class="rancak-form">
-    <img class="rancak-form-bg" src="img/<?php echo $page; ?>.jpg"/>
+    <img class="rancak-form-bg" src="img/<?php echo $page; ?>.jpg?1"/>
   </div>
   <div class="rancak-form-box">
     <div aria-label="Date" class="rancak-form-input" style="top:14.1vw; left:59.2vw;">10 September 2024</div>

@@ -6,7 +6,7 @@
 <h1 class="hide"><?php echo $site_title; ?></h1>
 <div class="rancak-container">
   <div class="rancak-form">
-    <img class="rancak-form-bg" src="img/<?php echo $page; ?>.jpg"/>
+    <img class="rancak-form-bg" src="img/<?php echo $page; ?>.jpg?1"/>
   </div>
   <div class="rancak-form-box">
     <div aria-label="Date" class="rancak-form-input" style="top:14.1vw; left:59.2vw;">10 September 2024</div>
@@ -123,11 +123,13 @@
 	
     <div aria-label="Price Calculation" class="rancak-form-input" style="width:24.5vw; height:1.7vw; top:59.8vw; left:64.7vw; line-height:1.8vw;">IDR 000.000.000.000</div>
 	
-    <div aria-label="OTR Price" class="rancak-form-input" style="width:24.5vw; height:7.5vw; top:64.5vw; left:68vw; line-height:1.8vw;">IDR 000.000.000.000</div>
+    <div aria-label="OTR Info" class="rancak-form-input rancak-form-otr" style="width:15vw; height:7.5vw; top:64.4vw; left:52.2vw; line-height:1.8vw;">Off The Road Price</div>
 	
-    <div aria-label="Special Appreciation" class="rancak-form-input" style="width:24.5vw; height:1.9vw; top:73.0vw; left:68vw; line-height:1.8vw;">IDR 000.000.000</div>
+    <div aria-label="OTR Price" class="rancak-form-input" style="width:24.5vw; height:7.5vw; top:64.5vw; left:68.2vw; line-height:1.8vw;">IDR 000.000.000.000</div>
 	
-    <div aria-label="Total Price" class="rancak-form-input" style="width:24.5vw; height:1.9vw; top:76.1vw; left:68vw; line-height:1.8vw;">IDR 000.000.000.000</div>
+    <div aria-label="Special Appreciation" class="rancak-form-input" style="width:24.5vw; height:1.9vw; top:73.0vw; left:68.2vw; line-height:1.8vw;">IDR 000.000.000</div>
+	
+    <div aria-label="Total Price" class="rancak-form-input" style="width:24.5vw; height:1.9vw; top:76.1vw; left:68.2vw; line-height:1.8vw;">IDR 000.000.000.000</div>
 	
     <div aria-label="Choose Payment" aria-choice="Lease" class="rancak-form-input rancak-form-choosepayment" style="top:79.7vw; left:69.2vw;">
 	  <div aria-label="Cash" class="rancak-form-checklist"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
