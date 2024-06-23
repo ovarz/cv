@@ -408,6 +408,121 @@
 	  </div>
 	
 	</div>
+	<div class="mainform-side mainform-left">
+	
+	  <div class="mainform-info">
+	    <div class="mainform-info-title">Syarat dan Ketentuan:</div>
+		<ul class="mainform-info-list mainform-info-number">
+		  <li>Harga yang tercantum dalam Formulir Pemesanan Lexus ini tidak mengikat.</li>
+		  <li>Formulir Pemesanan Lexus ini bukan Bukti Tanda Terima Pembayaran.</li>
+		  <li>
+		    Formulir Pemesanan Lexus ini dianggap SAH jika:
+			<ul class="mainform-info-list mainform-info-letterup">
+			  <li>Ditandatangani oleh Pelanggan</li>
+			  <li>Disetujui oleh Pejabat Cabang</li>
+			  <li>Biaya pemesanan telah dibayar oleh Pelanggan</li>
+			</ul>
+		  </li>
+		  <li>
+		    Pembayaran dengan menggunakan cek/transfer harus ditujukan kepada PT. Astra International Tbk. dan dianggap sah apabila diterbitkan kuitansi oleh PT. Atra International Tbk dan apabila pembayaran telah diterima di rekening PT. Astra International Tbk pada:
+			<ul class="mainform-info-list mainform-info-square">
+			  <li>Bank Permata - Cabang Royal Sunter : 0701859820</li>
+			  <li>Bank BCA - Cabang Menara BCA Thamrin : 2050069853</li>
+			</ul>
+		  </li>
+		  <li>Pembatalan akan dikenakan biaya booking sebesar 50%.</li>
+		  <li>Nama & Alamat STNK yang tercantum dalam Formulir Pemesanan Lexus ini tidak dapat diubah.</li>
+		  <li>Semua biaya tambahan dari permintaan khusus pada Proses STNK akan dibebankan kepada pelanggan.</li>
+		  <li>
+		    Berdasarkan peraturan pemerintah tentang perlindungan data pribadi, dengan menandatangani Formulir Pemesanan Lexus ini, Pelanggan menyatakan dan mengikatkan diri bahwa:
+			<ul class="mainform-info-list mainform-info-letterlow">
+			  <li>Pelanggan memahami dan menyetujui bahwa PT. Astra International Tbk. dan PT. Toyota-Astra Motor (selaku Lexus Distributor) akan menerapkan sistem, prosedur, dan alat teknis untuk mengambil tindakan yang wajar dalam melindungi data pribadi yang diberikan oleh Pelanggan pada Formulir Pemesanan Penjualan Lexus.</li>
+			  <li>Pelanggan telah memahami dan menyetujui bahwa data yang diberikan akan dikumpulkan, dikelola, dan digunakan oleh PT. Astra International Tbk., PT. Toyota-Astra Motor (Lexus Distributor), atau; pihak lain yang ditunjuk oleh PT. Astra International Tbk. atau PT. Toyota-Astra Motor (Lexus Distributor);</li>
+			  <li>Pelanggan telah membaca, memahami, dan menyetujui syarat dan ketentuan terkait data pribadi sebagaimana tercantum dalam https://www.lexus.co.id/en/miscellaneous/legal-privacy.html</li>
+			  <li>PT. Astra International Tbk. dan PT. Toyota-Astra Motor (Lexus Distributor) memungkinkan untuk memberikan akses kepada afiliasi perusahaan untuk menggunakan data, berkomunikasi dengan pelanggan melalui berbagai saluran, dan memberikan informasi yang bermanfaat bagi pelanggan, serta melakukan studi untuk meningkatkan pengalaman produk & layanan berdasarkan preferensi pelanggan;</li>
+			  <li>Dalam hal tertentu, Pelanggan mewakili pihak lain dan memberikan data terkait dengan pihak yang diwakilinya, Pelanggan dengan ini menyatakan bahwa pihaknya telah memperoleh persetujuan dari pihak yang diwakilinya untuk memberikan data tersebut dan mengikat pihak yang diwakilinya dengan syarat dan ketentuan sebagaimana tercantum dalam Formulir Pemesanan Lexus.</li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  
+	</div>
+	<div class="mainform-side mainform-right">
+	
+	  <div class="mainform-info">
+	    <div class="mainform-info-title">Term and Condition:</div>
+		<ul class="mainform-info-list mainform-info-number">
+		  <li>The price listed in this Lexus Order Form is not binding.</li>
+		  <li>This Lexus Order Form is not a Payment Receipt.</li>
+		  <li>
+		    This Lexus Order Form is considered as LEGAL if :
+			<ul class="mainform-info-list mainform-info-letterup">
+			  <li>Signed by the customer</li>
+			  <li>Approved by Lexus Dealer Management</li>
+			  <li>Booking fee has been paid by the customer</li>
+			</ul>
+		  </li>
+		  <li>
+		    The payment using a check/transfer is considered valid if a receipt has been issued by PT. Astra International Tbk and if the payment has been received in the account of PT. Astra International Tbk on :
+			<ul class="mainform-info-list mainform-info-square">
+			  <li>Bank Permata - Cabang Royal Sunter : 0701859820</li>
+			  <li>Bank BCA - Cabang Menara BCA Thamrin : 2050069853</li>
+			</ul>
+		  </li>
+		  <li>Cancellation will be charged 50% of the booking fee.</li>
+		  <li>The STNK Name & Address listed in this Lexus Order Form can not be changed.</li>
+		  <li>All of the additional charges from the special request on the STNK Process will be charged to the customer.</li>
+		  <li>
+		    Based on government regulations regarding personal data protection, by signing this Lexus Order Form the customer declares and binds himself that:
+			<ul class="mainform-info-list mainform-info-letterlow">
+			  <li>The customer understood and agreed that PT. Astra International Tbk. and PT. Toyota-Astra Motor (as Lexus Distributor) will implement system, procedure, and technical tools to take reasonable action to protect the personal data which provided by Customer on Lexus Sales Order Form.</li>
+			  <li>The customer has understood and agreed that the data provided will be collect, manage, and utilize by PT. Astra International Tbk., PT. Toyota-Astra Motor (Lexus Distributor), or other parties appointed by PT. Astra International Tbk.;</li>
+			  <li>The customer has read, understood and agreed to the terms and conditions related to personal data as stated in https://www.lexus.co.id/en/miscellaneous/legal-privacy.html;</li>
+			  <li>PT. Astra International Tbk. and PT. Toyota-Astra Motor (Lexus Distributor) allowed to grant access to company affiliation to use the data, to communicate with customer through multiple channel, and to provide information which beneficial for the customer, and also conduct study to improve product & services experience based on customer preferences.</li>
+			  <li>At the certain case, that the customer represents other party and provides data related to the party he represents, the customer hereby declares that his party has obtained approval from the party he represents to provide such data and binds the party he represents to the terms and conditions as stated in the Lexus Order Form.</li>
+			</ul>
+		  </li>
+		</ul>
+	  </div>
+	  
+	</div>
+	<div class="mainform-side mainform-left">
+	
+	  <div class="mainform-signature mainform-signature-1">
+	    <div class="mainform-signature-box">
+		  <div class="msb-label">BA</div>
+		  <div class="msb-frame">
+		    <img src="img/sample/signature-1.png"/>
+		  </div>
+		</div>
+	    <div class="mainform-signature-box">
+		  <div class="msb-label">Customer</div>
+		  <div class="msb-frame">
+		    <img src="img/sample/signature-2.png"/>
+		  </div>
+		</div>
+	    <div class="mainform-signature-box">
+		  <div class="msb-label">Sales Supervisor</div>
+		  <div class="msb-frame">
+		    <img src="img/sample/signature-3.png"/>
+		  </div>
+		</div>
+	    <div class="mainform-signature-box">
+		  <div class="msb-label">Branch Manager</div>
+		  <div class="msb-frame">
+		    <img src="img/sample/signature-4.png"/>
+		  </div>
+		</div>
+	  </div>
+	  
+	</div>
+	<div class="mainform-side mainform-right">
+	
+	  <div class="mainform-qr">
+	    qr
+	  </div>
+	  
+	</div>
   </div>
   
   
