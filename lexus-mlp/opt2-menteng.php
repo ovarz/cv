@@ -292,6 +292,9 @@
 	  <div class="mainform-row mainform-default">
 	    <div class="mainform-label">Price Calculation</div>
 		<div class="mainform-separator">:</div>
+		<div class="mainform-data" style="height:2vw">
+		  IDR 999.000.000.000
+		</div>
 	  </div>
 	
 	  <div class="mainform-tableprice">
@@ -519,10 +522,34 @@
 	<div class="mainform-side mainform-right">
 	
 	  <div class="mainform-qr">
-	    qr
+	    <div class="mainform-qr-box">
+		  <div class="mainform-qr-label">
+		    Visit<br/>
+			<b>Lexus</b> Website
+		  </div>
+		  <div class="mainform-qr-code">
+		    <img src="img/qr-website.png"/>
+		  </div>
+		</div>
+	    <div class="mainform-qr-box">
+		  <div class="mainform-qr-label">
+		    Download<br/>
+			<b>Lexus</b> Reach<br/>
+			App
+		  </div>
+		  <div class="mainform-qr-code">
+		    <img src="img/qr-website.png"/>
+		  </div>
+		</div>
 	  </div>
 	  
 	</div>
+  </div>
+  
+  
+  
+  <div class="footer">
+    Distribution : 1. Accounting; 2. Lexus Administration; 3.Customer
   </div>
   
   
