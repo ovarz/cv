@@ -46,7 +46,7 @@ display:grid; grid-gap:0.2vw; grid-auto-rows:min-content;}
 .header-left-dealer{text-transform:uppercase;}
 .header-left p{font-size:1.15vw;}
 .header-right{display:grid; grid-gap:0.45vw; font-size:1.15vw; grid-auto-rows:min-content; padding:0.1vw 0;}
-.header-right-form{display:grid; grid-template-columns:7vw 1vw 1fr; align-items:baseline;}
+.header-right-form{display:grid; grid-template-columns:7vw 1vw 1fr; align-items:center;}
 .hrf-box{padding:0.3vw 0.5vw; }
 .hrf-label{font-size:1vw;}
 .hrf-box-outline{border:1px solid var(--color-border);}
