@@ -24,7 +24,8 @@ body, html{font-family:Nobel,Arial,sans-serif; font-size:1.2vw; font-weight:300;
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; 
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 html{scroll-behavior:smooth; min-height:100vh; background-color:var(--bg-white);}
-body{overflow-x:hidden; color:var(--color-default); fill:var(--color-default)}
+body{overflow-x:hidden; color:var(--color-default); fill:var(--color-default); 
+background-image:url(img/logo-icon.svg); background-position:center; background-repeat:no-repeat; background-size:90% auto;}
 body::-webkit-scrollbar{width:0px;}
 
 
