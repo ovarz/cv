@@ -64,7 +64,7 @@ font-size:1.7vw; background-color:var(--bg-grey);}
 .mainform-label{font-size:1.05vw;}
 .mainform-data{text-transform:uppercase; overflow:hidden;}
 
-.mainform-default .mainform-data{--linesize:2vw; background-size: 100% var(--linesize);
+.mainform-default .mainform-data{--linesize:2vw; background-size: 100% var(--linesize); background-position:top left;
 background-image:-webkit-linear-gradient(top, transparent, transparent calc(var(--linesize) - 1px), var(--color-border) 0);}
 
 
