@@ -90,3 +90,14 @@ body::-webkit-scrollbar{width:0px;}
 .rancak-form-signature-box{width:19.3vw; height:5.4vw;}
 .rancak-form-signature-name, .rancak-form-signature-date{padding-left:2.5vw;}
 .rancak-form-signature-name{margin:0.5vw 0;}
+
+
+
+.rancak-form-term{font-size:0.8vw; padding:0.6vw 1.3vw; text-transform:none; letter-spacing:0; line-height:130%;}
+.rft-title{font-weight:bold; text-transform:uppercase;}
+.rft-list{padding-left:3.2vw;}
+.rft-list ul{padding-left:1vw;}
+.rft-square{list-style:square;}
+.rft-number{list-style:decimal;}
+.rft-letterlow{list-style:lower-alpha;}
+.rft-letterup{list-style:upper-alpha;}
