@@ -166,7 +166,7 @@
           </ul>
         </li>
         <li>
-          Pembayaran dengan menggunakan cek/transfer harus ditujukan kepada PT. Astra International Tbk. dan dianggap sah apabila diterbitkan kuitansi oleh PT. Atra International Tbk dan apabila pembayaran telah diterima di rekening PT. Astra International Tbk pada:
+          Pembayaran dengan menggunakan cek/transfer harus ditujukan kepada PT. Astra International Tbk. dan dianggap sah apabila diterbitkan kuitansi oleh PT. Astra International Tbk dan apabila pembayaran telah diterima di rekening PT. Astra International Tbk pada:
           <ul class="rft-list rft-square">
             <li>Bank Permata - Cabang Royal Sunter : 0701859820</li>
             <li>Bank BCA - Cabang Menara BCA Thamrin : 2050069853</li>
