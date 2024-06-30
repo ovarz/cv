@@ -17,17 +17,15 @@
 <link as="font" crossorigin="anonymous" href="fonts/Nobel-Light.woff" rel="preload"/>
 <link as="font" crossorigin="anonymous" href="fonts/Nobel-Regular.woff" rel="preload"/>
 
-<!--
-<link rel="preload" href="img/afi.jpg" as="image">
-<link rel="preload" href="img/ananta.jpg" as="image">
-<link rel="preload" href="img/laras.jpg" as="image">
--->	
-	
-<link rel="preload" href="img/<?php echo $page; ?>.jpg" as="image">
-
 <style>
   <?php require ($_SERVER['HY'].'css/font.css')?>
   <?php require ($_SERVER['HY'].'css/opt2-rancak.css')?>
+  <?php if($template == 'spk') { ?>
+    <?php require ($_SERVER['HY'].'css/opt2-spk.css')?>
+  <?php } ?>
+  <?php if($template == 'afi') { ?>
+    <?php require ($_SERVER['HY'].'css/opt2-afi.css')?>
+  <?php } ?>
 </style>
 
 </head>

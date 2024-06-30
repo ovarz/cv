@@ -1,13 +1,9 @@
 <?php 
+  $template='spk';
   $page='menteng';
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['HY'].'inc/opt2-meta.php')?>
-<!--
-<style>
-  html{background-image:url(img/?php echo $page; ?>.jpg); background-position:top center; background-repeat:no-repeat; background-size:100% auto;}
-</style>
--->
 <h1 class="hide"><?php echo $site_title; ?></h1>
 <div class="rancak-container">
 
