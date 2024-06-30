@@ -110,10 +110,145 @@
 	
 	
 	
-	<div class="mainform-box mainform-type1">
+	<div class="mainform-box mainform-type2">
       <div class="mainform-subtitle">
 	    <b>Dokumen-dokumen yang dibutuhkan untuk pembuatan STNK & BPKB :</b>
 	  </div>
+	  <ol class="mainform-document">
+	    <li>
+		  <b>Perorangan</b>
+		  <ol>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">KTP</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		  </ol>
+		</li>
+	    <li>
+		  <b>Perusahaan</b>
+		  <ol>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">Fotocopy NPWP, TDP dan SIUP (Min. 6 bulan)</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">Fotocopy Surat Keterangan Domisili Perusahaan (Min. 6 bulan)</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">Surat Kuasa Mobil Baru (format surat akan disediakan oleh Lexus Indonesia)</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">Surat Kuasa Pengambilan BPKB (format surat akan disediakan oleh Lexus Indonesia)</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		  </ol>
+		</li>
+	    <li class="mainform-subtitle mainform-skipnumber">
+		  <b>Dokumen-dokumen yang dibutuhkan untuk Silang Nomor:</b>
+		</li>
+	    <li value="3">
+		  <b>Perorangan</b>
+		</li>
+	    <li>
+		  <b>Perusahaan</b>
+		</li>
+	    <li class="mainform-subtitle mainform-skipnumber">
+		  <b>Pengajuan Nomor Polisi Khusus :</b>
+		</li>
+	    <li class="mainform-document-left" value="5">
+		  <b>Pilihan Nomor Polisi</b>
+		</li>
+	    <li class="mainform-document-right">
+		  <b>Pengurusan (diisi salah satu)</b>
+		</li>
+	  </ol>
 	</div>
 	
 	

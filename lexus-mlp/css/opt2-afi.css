@@ -12,6 +12,8 @@
 .mainform-box{padding:1vw 1.5vw 0;}
 .mainform-subtitle{background-color:var(--bg-grey); padding:0.2vw 2vw; font-size:1.3vw;}
 
+
+
 .mainform-type1{grid-gap:0.45vw;}
 .mainform-type1 .mainform-row{grid-template-columns:22.9vw 1vw 1fr;}
 .mainform-type1 .mainform-data{border-bottom:1px solid var(--color-border); height:1.9vw;}
@@ -19,3 +21,23 @@
 .mainform-type1 .mainform-multipleline{--linesize:2.1vw; line-height:var(--linesize);}
 .mainform-type1 .mainform-multipleline .mainform-data{border-bottom:0; height:calc(var(--linesize) * 2); background-size: 100% var(--linesize); background-position:top left;
 background-image:-webkit-linear-gradient(top, transparent, transparent calc(var(--linesize) - 1px), var(--color-border) 0);}
+
+
+
+.mainform-type2{position:relative;}
+.mainform-document{list-style:upper-roman; display:grid; grid-template-columns:repeat(2,1fr); padding:0.6vw 0;}
+.mainform-document > li{grid-column:1/3; margin-left:2vw;}
+.mainform-document > li::marker{font-weight:bold;}
+.mainform-document > .mainform-document-left{grid-column:1/2;}
+.mainform-document > .mainform-document-right{grid-column:2/3;}
+.mainform-document > .mainform-skipnumber{list-style:none; margin-left:0; margin-top:0.5vw; margin-bottom:0.5vw;}
+.mainform-document > li > ol{list-style:decimal; padding-left:1vw; display:grid; grid-gap:0.3vw;}
+
+.mds-row, .mds-container{display:grid;}
+.mds-row{grid-template-columns:1fr auto auto; grid-gap:1.2vw; align-items:center;}
+.mds-container{grid-template-columns:repeat(2,1fr); grid-gap:0.3vw;}
+.mds-box{border:1px solid var(--color-border); padding:0.2vw;}
+.mds-box-frame{width:5.5vw; height:1.7vw; position:relative;}
+.mds-box-frame img{position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain; object-position:center;}
+
+
