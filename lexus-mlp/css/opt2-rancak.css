@@ -20,3 +20,10 @@ body{overflow-x:hidden; color:var(--color-default); fill:var(--color-default);
 background-image:url(img/logo-icon.svg); background-position:center; background-repeat:no-repeat; background-size:90% auto;}
 body::-webkit-scrollbar{width:0px;}
 .input-result{text-transform:uppercase;}
+
+
+
+.mainform{margin-top:1vw; display:grid; border:1px solid var(--color-border); border-radius:2vw; overflow:hidden;}
+.mainform-head{text-transform:uppercase; display:flex; justify-content:center; align-items:center; text-align:center; 
+font-size:1.7vw; background-color:var(--bg-grey);}
+.mainform-data{text-transform:uppercase; overflow:hidden;}

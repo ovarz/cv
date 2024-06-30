@@ -1,2 +1,21 @@
-.rancak-container{padding:5vw 4.7vw;}
+.rancak-container{padding:6.8vw 4.7vw;}
 
+
+
+.logo-box{padding:0 2.75vw; margin-bottom:3.8vw;}
+.logo-box svg{width:17vw; height:auto;}
+
+
+
+.mainform-head{height:4.6vw;}
+.mainform-row, .mainform-box{display:grid;}
+.mainform-box{padding:1vw 1.5vw 0;}
+.mainform-subtitle{background-color:var(--bg-grey); padding:0.2vw 2vw; font-size:1.3vw;}
+
+.mainform-type1{grid-gap:0.45vw;}
+.mainform-type1 .mainform-row{grid-template-columns:22.9vw 1vw 1fr;}
+.mainform-type1 .mainform-data{border-bottom:1px solid var(--color-border); height:1.9vw;}
+
+.mainform-type1 .mainform-multipleline{--linesize:2.1vw; line-height:var(--linesize);}
+.mainform-type1 .mainform-multipleline .mainform-data{border-bottom:0; height:calc(var(--linesize) * 2); background-size: 100% var(--linesize); background-position:top left;
+background-image:-webkit-linear-gradient(top, transparent, transparent calc(var(--linesize) - 1px), var(--color-border) 0);}
