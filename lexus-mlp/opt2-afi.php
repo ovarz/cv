@@ -149,18 +149,18 @@
                 <div class="mds-label">Fotocopy NPWP, TDP dan SIUP (Min. 6 bulan)</div>
                 <div class="mds-container">
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                 </div>
                 <div class="mds-container">
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                 </div>
 			  </div>
@@ -170,18 +170,18 @@
                 <div class="mds-label">Fotocopy Surat Keterangan Domisili Perusahaan (Min. 6 bulan)</div>
                 <div class="mds-container">
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                 </div>
                 <div class="mds-container">
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                 </div>
 			  </div>
@@ -191,18 +191,18 @@
                 <div class="mds-label">Surat Kuasa Mobil Baru (format surat akan disediakan oleh Lexus Indonesia)</div>
                 <div class="mds-container">
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                 </div>
                 <div class="mds-container">
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                 </div>
 			  </div>
@@ -212,18 +212,18 @@
                 <div class="mds-label">Surat Kuasa Pengambilan BPKB (format surat akan disediakan oleh Lexus Indonesia)</div>
                 <div class="mds-container">
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                 </div>
                 <div class="mds-container">
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                   <div class="mds-box">
-                    <div class="mds-box-frame"><img src="img/sample/signature-<?php echo rand(1,4); ?>.png"/></div>
+                    <div class="mds-box-frame"></div>
                   </div>
                 </div>
 			  </div>
@@ -235,18 +235,253 @@
 		</li>
 	    <li value="3">
 		  <b>Perorangan</b>
+		  <ol>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">Esek-esek Nomor Mesin dan Nomor Rangka</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">KTP Asli (yang tercantum pada STNK)</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">STNK Asli</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">BPKB Asli</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		  </ol>
 		</li>
 	    <li>
 		  <b>Perusahaan</b>
+		  <ol>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">Esek-esek Nomor Mesin dan Nomor Rangka</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">STNK Asli</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">BPKB Asli</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">Fotocopy NPWP, TDP dan SIUP (Min. 6 bulan)</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">Fotocopy Surat Keterangan Domisili Perusahaan (Min. 6 bulan)</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		    <li class="mainform-document-sign">
+              <div class="mds-row">
+                <div class="mds-label">Surat Kuasa Mobil Baru (format surat akan disediakan oleh Lexus Indonesia)</div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+                <div class="mds-container">
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                  <div class="mds-box">
+                    <div class="mds-box-frame"></div>
+                  </div>
+                </div>
+			  </div>
+			</li>
+		  </ol>
 		</li>
 	    <li class="mainform-subtitle mainform-skipnumber">
 		  <b>Pengajuan Nomor Polisi Khusus :</b>
 		</li>
 	    <li class="mainform-document-left" value="5">
 		  <b>Pilihan Nomor Polisi</b>
+		  <ol class="custom-plate-list">
+		    <li>D 1616 IT</li>
+		    <li>D 1616 IT</li>
+		    <li>D 1616 IT</li>
+		    <li>D 1616 IT</li>
+		    <li>D 1616 IT</li>
+		  </ol>
 		</li>
 	    <li class="mainform-document-right">
 		  <b>Pengurusan (diisi salah satu)</b>
+		  <ol class="custom-plate-by">
+		    <li aria-choice="" class="cpb-column">
+			  <div class="cpb-label">Via Lexus</div>
+			  <div class="cpb-box">
+			    <?php require ($_SERVER['HY'].'img/check.svg')?>
+			  </div>
+			</li>
+		    <li aria-choice="this" class="cpb-column">
+			  <div class="cpb-label">Lain-lain</div>
+			  <div class="cpb-box">
+			    <?php require ($_SERVER['HY'].'img/check.svg')?>
+			  </div>
+			</li>
+		  </ol>
 		</li>
 	  </ol>
 	</div>
