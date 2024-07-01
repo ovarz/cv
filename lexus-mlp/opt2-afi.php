@@ -460,25 +460,43 @@
 		  <b>Pilihan Nomor Polisi</b>
 		  <ol class="custom-plate-list">
 		    <li>D 1616 IT</li>
-		    <li>D 1616 IT</li>
-		    <li>D 1616 IT</li>
-		    <li>D 1616 IT</li>
-		    <li>D 1616 IT</li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
 		  </ol>
 		</li>
 	    <li class="mainform-document-right">
 		  <b>Pengurusan (diisi salah satu)</b>
 		  <ol class="custom-plate-by">
-		    <li aria-choice="" class="cpb-column">
-			  <div class="cpb-label">Via Lexus</div>
-			  <div class="cpb-box">
-			    <?php require ($_SERVER['HY'].'img/check.svg')?>
+		    <li aria-choice="">
+			  <div class="cpb-column">
+                <div class="cpb-label">Via Lexus</div>
+                <div class="cpb-box">
+                  <?php require ($_SERVER['HY'].'img/check.svg')?>
+                </div>
 			  </div>
 			</li>
-		    <li aria-choice="this" class="cpb-column">
-			  <div class="cpb-label">Lain-lain</div>
-			  <div class="cpb-box">
-			    <?php require ($_SERVER['HY'].'img/check.svg')?>
+		    <li aria-choice="this">
+			  <div class="cpb-column">
+                <div class="cpb-label">Lain-lain</div>
+                <div class="cpb-box">
+                  <?php require ($_SERVER['HY'].'img/check.svg')?>
+                </div>
+				<ul class="cpb-data">
+				  <li>
+				    <div class="cpb-data-list">
+					  <div class="cpb-data-label">Nama BJ/PIC</div>
+					  <div class="cpb-data-field">John Price</div>
+					</div>
+				  </li>
+				  <li>
+				    <div class="cpb-data-list">
+					  <div class="cpb-data-label">No Telp</div>
+					  <div class="cpb-data-field">62800 0000 0000</div>
+					</div>
+				  </li>
+				</ul>
 			  </div>
 			</li>
 		  </ol>
