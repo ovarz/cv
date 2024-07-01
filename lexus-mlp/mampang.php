@@ -38,14 +38,12 @@
 	  Jl. Tebet Timur Dalam VIII H No.3, RT.11/RW.6, Tebet Tim., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12820
 	</div>
 	
-    <div aria-label="Phone Number" class="rancak-form-input rancak-form-phone" style="width:28vw; height:2vw; top:45.5vw; left:19.2vw;">
-	  <div class="rancak-form-phone-areacode">0000</div>
-	  <div class="rancak-form-phone-number">00000000</div>
+    <div aria-label="Phone Number" class="rancak-form-input" style="width:28vw; height:2vw; top:45.5vw; left:19.2vw;">
+	  0000 00000000
 	</div>
 	
-    <div aria-label="Fax Number" class="rancak-form-input rancak-form-phone" style="width:28vw; height:2vw; top:47.5vw; left:19.2vw;">
-	  <div class="rancak-form-phone-areacode">0000</div>
-	  <div class="rancak-form-phone-number">00000000</div>
+    <div aria-label="Fax Number" class="rancak-form-input" style="width:28vw; height:2vw; top:47.5vw; left:19.2vw;">
+	  0000 00000000
 	</div>
 	
     <div aria-label="Mobile Number" class="rancak-form-input" style="width:28vw; height:2vw; top:49.6vw; left:19.2vw;">
