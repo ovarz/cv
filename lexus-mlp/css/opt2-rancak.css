@@ -27,3 +27,13 @@ body::-webkit-scrollbar{width:0px;}
 .mainform-head{text-transform:uppercase; display:flex; justify-content:center; align-items:center; text-align:center; 
 font-size:1.7vw; background-color:var(--bg-grey);}
 .mainform-data{text-transform:uppercase; overflow:hidden;}
+
+
+
+.mainform-info{font-size:0.8vw;}
+.mainform-info-title{font-weight:bold; text-transform:uppercase;}
+.mainform-info-list ul{padding-left:1vw;}
+.mainform-info-square{list-style:square;}
+.mainform-info-number{list-style:decimal;}
+.mainform-info-letterlow{list-style:lower-alpha;}
+.mainform-info-letterup{list-style:upper-alpha;}

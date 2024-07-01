@@ -460,10 +460,10 @@
 		  <b>Pilihan Nomor Polisi</b>
 		  <ol class="custom-plate-list">
 		    <li>D 1616 IT</li>
-		    <li></li>
-		    <li></li>
-		    <li></li>
-		    <li></li>
+		    <li>B 14 RIN</li>
+		    <li>P 4G1 KK</li>
+		    <li>AD 418 U</li>
+		    <li>N 456 OR</li>
 		  </ol>
 		</li>
 	    <li class="mainform-document-right">
@@ -502,6 +502,47 @@
 		  </ol>
 		</li>
 	  </ol>
+	</div>
+	
+	
+	
+	<div class="mainform-box mainform-footer">
+      <div class="mainform-info">
+	    <div class="mainform-info-title">KETERANGAN:</div>
+		<ul class="mainform-info-list mainform-info-number">
+		  <li>
+		    Pengiriman STNK & BPKB <br/>
+			STNK & BPKB akan dikirim ke alamat pengiriman STNK & BPKB sesuai dengan yang tercantum diatas.
+		  </li>
+		  <li>
+		    Pajak Progresif <br/>
+			Untuk pengajuan STNK & BPKB, apabila dikenakan pajak progresif, maka selisih atas penambahan Pajak Progresif menjadi tanggung jawab customer. STNK & BPKB akan diserahkan setelah Customer menyelesaikan kewajiban atas pajak tersebut.
+			<ul class="mainform-info-list mainform-info-square">
+			  <li>Tarif Progresif untuk kendaraan ke-2 (2% dari NJKB) **)</li>
+			  <li>Tarif Progresif untuk kendaraan ke-3 (2,5% dari NJKB) **)</li>
+			  <li>Tarif Progresif untuk kendaraan ke-4 dst. (4% dari NJKB) **)</li>
+			</ul>
+		  </li>
+		  <li>
+		    Biaya Pilnop*)<br/>
+			Lexus Indonesia akan membantu dalam pencarian Nomor Polisi sesual dengen opsi pilihan nomor polisi yang diajukan oleh Customer (Max. 5 pilihan)
+		  </li>
+		  <li>
+		    Penyediaan Plat Sementara*)<br/>
+			Lexus Indonesia akan menyediakan Plat Nomor Sementara selama customer menunggu proses STNK (satu bulan/satu kali pembuatan). Apabila STNK Udak selesai dalam waktu 1 bulan dikarenakan ketidaklengkapan data oleh customer pada awal pemesanan maka setiap perpanjangan Plat Nomor Sementara berikutnya akan menjadi langgung jawab customer.
+		  </li>
+		  <li>
+		    Masa Berlaku Dokumen Perusahaan<br/>
+			Untuk masa berlaku dokumen perusahaan, Min. 6 bulan masih berlaku pada saat pemesanan kendaraan.<br/>
+			*) Ketersediaan Plat Nomor Sementara dan Nomor Polisi merupakan kewenangan Pihak Kepolisian wilayah setempat dan tidak menjadi tanggung jawab Pihak Lexus Indonesia.<br/>
+			**) Untuk tarif pajak progresif diluar Jakarta, maka akan disesuaikan dengan tarif daerah masing-masing.
+		  </li>
+		</ul>
+	  </div>
+	  
+	  <div class="mainform-signature">
+	    signature
+	  </div>
 	</div>
 	
 	

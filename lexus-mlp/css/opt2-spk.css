@@ -99,14 +99,8 @@ width:1.3vw; height:1.7vw;}
 
 
 
-.mainform-info{font-size:0.8vw; padding:0.4vw 0;}
-.mainform-info-title{font-weight:bold; text-transform:uppercase;}
+.mainform-info{padding:0.4vw 0;}
 .mainform-info-list{padding-left:3.2vw;}
-.mainform-info-list ul{padding-left:1vw;}
-.mainform-info-square{list-style:square;}
-.mainform-info-number{list-style:decimal;}
-.mainform-info-letterlow{list-style:lower-alpha;}
-.mainform-info-letterup{list-style:upper-alpha;}
 
 
 
