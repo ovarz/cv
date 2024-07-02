@@ -119,7 +119,3 @@ width:1.3vw; height:1.7vw;}
 .mainform-qr-label{text-transform:uppercase; font-size:1.05vw;}
 .mainform-qr-code{border-left:1px solid var(--color-border); padding-left:1vw; margin-left:1vw;}
 .mainform-qr-code img{width:7.3vw; height:auto;}
-
-
-
-.footer{margin-top:0.65vw; font-size:0.9vw;}

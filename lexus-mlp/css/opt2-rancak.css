@@ -37,3 +37,7 @@ font-size:1.7vw; background-color:var(--bg-grey);}
 .mainform-info-number{list-style:decimal;}
 .mainform-info-letterlow{list-style:lower-alpha;}
 .mainform-info-letterup{list-style:upper-alpha;}
+
+
+
+.footer{margin-top:0.65vw; font-size:0.9vw;}

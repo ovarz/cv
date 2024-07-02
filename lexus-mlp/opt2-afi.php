@@ -5,6 +5,7 @@
 ?>
 <?php require ($_SERVER['HY'].'inc/opt2-meta.php')?>
 <style>
+/*
   :root, :before, :after{
     --color-default:#C00;
     --color-border:#c00;
@@ -17,6 +18,7 @@
   body{background:0;}
   
   .mainform{min-height:200vh; grid-auto-rows:min-content;}
+*/
 </style>
 <h1 class="hide"><?php echo $site_title; ?></h1>
 <div class="rancak-container">
@@ -541,12 +543,58 @@
 	  </div>
 	  
 	  <div class="mainform-signature">
-	    signature
+        <?php 
+          $signature_array = array();
+          $signature_array[]=array(
+            'signature_label'=>'Customer',
+            'signature_img'=>'1',
+            'signature_name'=>'John Price',
+            'signature_date'=>'30 September 2024'
+		  );
+          $signature_array[]=array(
+            'signature_label'=>'STNK & BPKB Name',
+            'signature_img'=>'2',
+            'signature_name'=>'John MacTavish',
+            'signature_date'=>'30 September 2024'
+		  );
+          $signature_array[]=array(
+            'signature_label'=>'Brand Associate',
+            'signature_img'=>'3',
+            'signature_name'=>'Kyle Garrick',
+            'signature_date'=>'30 September 2024'
+		  );
+          $signature_array[]=array(
+            'signature_label'=>'FAH',
+            'signature_img'=>'4',
+            'signature_name'=>'Simon Riley',
+            'signature_date'=>'30 September 2024'
+		  );
+          foreach($signature_array as $signature_list){
+        ?>
+          <div class="mainform-signature-box">
+            <div class="msb-title"><?php echo($signature_list['signature_label'])?></div>
+            <div class="msb-frame"><img src="img/sample/signature-<?php echo($signature_list['signature_img'])?>.png"/></div>
+            <div class="msb-info">
+			  <div class="msb-info-label">Name:</div>
+			  <div class="msb-info-data"><?php echo($signature_list['signature_name'])?></div>
+			</div>
+            <div class="msb-info">
+			  <div class="msb-info-label">Date:</div>
+			  <div class="msb-info-data"><?php echo($signature_list['signature_date'])?></div>
+			</div>
+          </div>
+        <?php } ?>
 	  </div>
 	</div>
 	
 	
 	
+  </div>
+  
+  
+  
+  <div class="footer">
+    Distribution : 1. Accounting; 2. Lexus Administration; 3.Customer
   </div>
   
   

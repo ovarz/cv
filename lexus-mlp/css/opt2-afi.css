@@ -64,6 +64,13 @@ background-image:-webkit-linear-gradient(top, transparent, transparent calc(var(
 .mainform-info-list{padding-left:1vw; display:grid; grid-gap:0.1vw;}
 .mainform-info-list > li > ul{padding-top:0;}
 
-.mainform-signature{padding:0.5vw 1.9vw;}
+.mainform-signature{padding:0.5vw 1.9vw; display:grid; grid-template-columns:repeat(2,1fr); grid-gap:1vw; grid-auto-rows:min-content;}
+.mainform-signature-box{border:1px solid var(--bg-black); font-size:0.9vw;}
+.mainform-signature-box > div:not(:first-child){border-top:1px solid var(--bg-black);}
+.msb-title{background-color:var(--bg-black); color:var(--bg-white); text-align:center;}
+.msb-frame{position:relative; width:100%; height:6vw;}
+.msb-frame img{position:absolute; top:10%; left:10%; width:80%; height:80%; object-fit:contain; object-position:center;}
+.msb-info{display:grid; grid-template-columns:auto 1fr; align-items:center; height:1.6vw; padding:0 0.5vw;}
+
 
 
