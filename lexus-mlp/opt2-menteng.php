@@ -256,6 +256,12 @@
 		  <div aria-choice="" class="mainform-lop-row">
 		    <div class="mainform-lop-label">4. Premium Glass Film</div>
 		  </div>
+		  <div aria-choice="" class="mainform-lop-row">
+		    <div class="mainform-lop-label">5. Lexus-GO 1 year free insurance all risk</div>
+		  </div>
+		  <div aria-choice="" class="mainform-lop-row">
+		    <div class="mainform-lop-label">6. Free delivery</div>
+		  </div>
 		</div>
 	  </div>
 	
