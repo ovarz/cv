@@ -244,16 +244,20 @@
 	    <div class="mainform-label">Lexus Ownership Package</div>
 		<div class="mainform-separator">:</div>
 		<div class="mainform-data">
-		  <div aria-choice="" class="mainform-lop-row">
+		  <div aria-choice="check" class="mainform-lop-row">
+		    <div class="mainform-lop-check"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
 		    <div class="mainform-lop-label">1. Lexus 5 Years Free Service & Maintenance</div>
 		  </div>
 		  <div aria-choice="" class="mainform-lop-row">
+		    <div class="mainform-lop-check"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
 		    <div class="mainform-lop-label">2. Lexus 3 Years Warranty (Exc. Tire & Battery)</div>
 		  </div>
-		  <div aria-choice="" class="mainform-lop-row">
+		  <div aria-choice="check" class="mainform-lop-row">
+		    <div class="mainform-lop-check"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
 		    <div class="mainform-lop-label">3. Premium Autodetailing</div>
 		  </div>
-		  <div aria-choice="" class="mainform-lop-row">
+		  <div aria-choice="check" class="mainform-lop-row">
+		    <div class="mainform-lop-check"><?php require ($_SERVER['HY'].'img/check.svg')?></div>
 		    <div class="mainform-lop-label">4. Premium Glass Film</div>
 		  </div>
 		</div>
