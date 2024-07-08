@@ -109,7 +109,7 @@ width:1.3vw; height:1.7vw;}
 .msb-label{text-align:center; background-color:var(--bg-black); color:var(--bg-white); font-size:0.8vw; padding:0.1vw;}
 .msb-frame{position:relative; width:100%; height:8.5vw;}
 .msb-frame img{position:absolute; top:5%; left:5%; width:90%; height:90%; object-fit:contain;}
-.mainform-signature-1{grid-template-columns:repeat(4,1fr); grid-gap:0.5vw;}
+.mainform-signature-1{grid-template-columns:repeat(auto-fit, minmax(5vw,1fr)); grid-gap:0.5vw;}
 
 
 
