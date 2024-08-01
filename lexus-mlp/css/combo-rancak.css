@@ -20,6 +20,9 @@ body{overflow-x:hidden; color:var(--color-default); fill:var(--color-default);}
 body::-webkit-scrollbar{width:0px;}
 .input-result{text-transform:uppercase;}
 .rancak-container{background-image:url(img/logo-icon.svg); background-position:center; background-repeat:no-repeat; background-size:90% auto;}
+@media print{
+  .rancak-container{clear:both; page-break-after:always;}
+}
 
 
 
@@ -47,7 +50,7 @@ font-size:1.7vw; background-color:var(--bg-grey);}
 
 
 /* SPK */
-.rancak-spk{padding:5vw 4.7vw;}
+.rancak-spk{padding:4vw 4.7vw;}
 
 
 
@@ -78,8 +81,8 @@ display:grid; grid-gap:0.2vw; grid-auto-rows:min-content;}
 .rancak-spk .mainform-row{display:grid; grid-template-columns:12.2vw 1vw 1fr; line-height:2vw;}
 .rancak-spk .mainform-label{font-size:1.05vw;}
 
-.rancak-spk .mainform-default .mainform-data{--linesize:2vw; background-size: 100% var(--linesize); background-position:top left;
-background-image:-webkit-linear-gradient(top, transparent, transparent calc(var(--linesize) - 1px), var(--color-border) 0);}
+.rancak-spk .mainform-default .mainform-data{--linesize:2.1vw; background-size:100% var(--linesize); background-position:top left; overflow:hidden;
+background-image:linear-gradient(180deg, transparent 0%, transparent calc(var(--linesize) - 2px), var(--color-border) calc(var(--linesize) - 1px), transparent 100%);}
 
 
 
