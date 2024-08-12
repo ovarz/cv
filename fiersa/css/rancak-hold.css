@@ -1,0 +1,46 @@
+:root, :before, :after{
+  --color-text-1:#737791; 
+  --color-text-2:#05004E;
+  --color-text-3:#CBCFEB;
+  --color-text-4:#F37336;
+  --color-text-5:#209AD6;
+  --color-text-6:#EC63A1;
+  --color-text-7:#93C554;
+  --color-border:#EDF2F6;
+  --rounded-1:var(--size-1);
+  --rounded-2:var(--size-2);
+  --rounded-3:var(--size-4);
+  --hover-opacity:0.55;
+  --transition-default:all 0.34s;
+  --shadow-default:#E4E8FF 0px 5px 21px;
+}
+
+
+
+body, html{color:var(--color-text-1);}
+a, button, .btn{transition:var(--transition-default); cursor:pointer}
+a, button{color:var(--color-text-4); fill:var(--color-text-4);}
+a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
+.btn{background-color:var(--color-text-4); color:var(--bg-1) !important; fill:var(--bg-1) !important; border-radius:var(--rounded-1);}
+.btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-text-5);}
+.thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-text-2);}
+@-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+@keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+
+
+
+.rancak-lazy > img{opacity:0; transition:all 300ms;}
+.rancak-lazy > img.lazyloaded{opacity:1;}
+
+
+
+.rancak-popup, .rancak-popup-overlay, .rancak-popup-container{top:0; left:0; width:100%; height:100%;}
+.rancak-popup{position:fixed; z-index:calc(var(--max-zindex) - 2000);}
+.rancak-popup-overlay, .rancak-popup-container{position:absolute;}
+.rancak-popup-container, .rancak-popup-close{padding:var(--size-4);}
+.rancak-popup-overlay{z-index:1; background-color:rgb(0 0 0 / 55%); cursor:pointer;}
+.rancak-popup-close{line-height:0; fill:var(--color-text-4);}
+.rancak-popup-close:hover{fill:var(--color-text-5);}
+.rancak-popup-close svg{width:auto; height:var(--size-5);}
+.rancak-popup-box{position:relative; z-index:1000; width:100%; max-width:610px; background-color:var(--bg-2);
+display:grid; grid-template-columns:1fr auto; align-items:flex-start; border-radius:var(--rounded-2); box-shadow:var(--shadow-default);}
