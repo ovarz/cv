@@ -12,10 +12,10 @@
 <link rel="preload" href="fonts/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
 <link rel="preload" href="fonts/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
 <link rel="preload" href="css/rancak-base.css?<?php echo $version; ?>" as="style">
-<link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+<link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
 
 <style><?php require ($_SERVER['FIERSA'].'css/font.css')?></style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>');</script>
 <script async>
 $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
