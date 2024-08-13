@@ -4,7 +4,8 @@
   <a title="<?php echo($nav_box['nav_title'])?>" class="nav-link-label"
   href="<?php echo($nav_box['nav_link'])?>.php"><?php echo($nav_box['nav_title'])?></a>
   <?php if($nav_box['nav_sub'] != ''){ ?>
-    <button title="<?php echo($nav_box['nav_title'])?>" class="nav-link-toggle <?php if($nav == $nav_box['nav_title'] || $opensub == 'yes') { ?>nav-link-open<?php } ?>">
+    <button title="<?php echo($nav_box['nav_title'])?>" 
+	class="nav-link-toggle <?php if($nav == $nav_box['nav_title'] || $opensub == $nav_box['nav_title']) { ?>nav-link-open<?php } ?>">
 	  <?php require ($_SERVER['FIERSA'].'img/icon/dropdown.svg')?>
 	</button>
   <?php } ?>

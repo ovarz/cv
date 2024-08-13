@@ -8,7 +8,7 @@
 	  <li>
         <?php require ($_SERVER['FIERSA'].'module/nav-list.php')?>
 		<?php if($nav_box['nav_sub'] != '') { ?>
-          <ul class="nav-sub" <?php if($nav == $nav_box['nav_title'] || $opensub == 'yes') { ?>style="display:block"<?php } ?>>
+          <ul class="nav-sub" <?php if($nav == $nav_box['nav_title'] || $opensub == $nav_box['nav_title']) { ?>style="display:block"<?php } ?>>
             <?php foreach($nav_box['nav_sub'] as $nav_box){ ?>
               <li><?php require ($_SERVER['FIERSA'].'module/nav-list.php')?></li>
             <?php } ?>

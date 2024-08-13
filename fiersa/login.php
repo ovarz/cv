@@ -1,7 +1,7 @@
 <?php 
   $page='login';
   $nav='Login';
-  $opensub='no';
+  $opensub='';
   $slideshow='no';
   require ('inc/base.php')
 ?>

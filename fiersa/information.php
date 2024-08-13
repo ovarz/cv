@@ -1,7 +1,7 @@
 <?php 
   $page='dashboard';
   $nav='Information';
-  $opensub='no';
+  $opensub='Customer Data';
   $slideshow='yes';
   require ('inc/base.php')
 ?>
