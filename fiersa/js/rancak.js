@@ -6,7 +6,6 @@ function ClosePopup(){
 
 
 function open_sticky(){
-  "use strict";
   $('.open-sticky').click(function(){
     var get_id = $(this).attr('aria-popup');
 	$('.open-sticky[aria-popup=' + get_id +']').toggleClass('show-sticky');
@@ -24,7 +23,22 @@ function open_sticky(){
 
 
 
+function custom_password(){
+  $('.formbase-toggle').click(function(){
+    if($(this).is('.show-pass')){
+     $(this).removeClass('show-pass').addClass('hide-pass');
+     $(this).parent().find(".formbase-field").attr("type","text");
+    }else{
+     $(this).removeClass('hide-pass').addClass('show-pass');
+     $(this).parent().find(".formbase-field").attr("type","password");
+    }
+  });
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   open_sticky();
+  custom_password();
 });

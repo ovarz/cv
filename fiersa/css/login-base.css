@@ -1,0 +1,20 @@
+.rancak-container{display:flex; justify-content:flex-end; align-items:center;}
+
+
+
+.formbase-field{border:0; border-bottom:1px solid; padding:0;}
+
+
+
+.login-logo{--aspect-ratio:291/100; position:absolute; z-index:1; top:var(--size-5); left:var(--size-5); width:100%; max-width:290px;}
+
+
+
+.box-container, .box-frame{padding:var(--size-5);}
+.box-container{width:100%; max-width:377px;}
+.box-frame{display:grid; grid-gap:var(--size-4);}
+.box-title{font-size:var(--fontsize-title); font-weight:800; text-transform:uppercase;}
+.box-form{display:grid;}
+.box-form-split{grid-template-columns:repeat(2,1fr); grid-column-gap:var(--size-5);}
+.action-submit, .action-link{width:100%;}
+.action-link{display:block; text-align:center; margin-top:var(--size-3);}
