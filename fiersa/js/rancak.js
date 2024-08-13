@@ -37,8 +37,24 @@ function custom_password(){
 
 
 
+function toggle_nav(){
+  $('.nav-link-toggle').click(function(){
+	$(this).toggleClass('nav-link-open');
+	$(this).parents().eq(1).find('.nav-sub').slideToggle('fast');
+	return false;
+  });	
+  
+  $('.rancak-popup-overlay, .rancak-popup-close').click(function(){
+	ClosePopup();
+	return false;
+  });
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   open_sticky();
   custom_password();
+  toggle_nav();
 });

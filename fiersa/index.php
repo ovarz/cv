@@ -1,6 +1,7 @@
 <?php 
   $page='login';
   $nav='Pagelist';
+  $opensub='no';
   $slideshow='no';
   require ('inc/base.php')
 ?>

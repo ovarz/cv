@@ -1,6 +1,7 @@
 <?php 
   $page='dashboard';
   $nav='Information';
+  $opensub='no';
   $slideshow='yes';
   require ('inc/base.php')
 ?>
