@@ -1,6 +1,6 @@
 <?php 
   $page='dashboard';
-  $nav='information';
+  $nav='Information';
   $slideshow='yes';
   require ('inc/base.php')
 ?>
@@ -13,7 +13,7 @@
 
 
 
-tes
+    tes
 
 
 

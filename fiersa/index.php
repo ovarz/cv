@@ -1,6 +1,6 @@
 <?php 
   $page='login';
-  $nav='login';
+  $nav='Pagelist';
   $slideshow='no';
   require ('inc/base.php')
 ?>
@@ -21,25 +21,34 @@
     <div class="box-frame">
 	  <div class="box-head">
 	    <h2 class="box-title">Fiersa</h2>
-	    <h3 class="box-subtitle">FiberStar Selfcare Application</h3>
+	    <h3 class="box-subtitle">Daftar Halaman</h3>
 	  </div>
 	  
-	  <div class="box-form">
-	    <div class="formbase">
-		  <input type="text" class="formbase-field" placeholder="Username">
-		</div>
-	    <div class="formbase formbase-password">
-		  <input type="password" class="formbase-field" placeholder="Password">
-		  <button title="Toggle Password" class="formbase-toggle show-pass content_center">
-            <?php require ($_SERVER['FIERSA'].'img/icon/pass-hide.svg')?>
-            <?php require ($_SERVER['FIERSA'].'img/icon/pass-show.svg')?>
-		  </button>
-		</div>
-	  </div>
-	  
-	  <div class="box-action">
-	    <button title="Login" class="btn action-submit" onclick="location.href='information.php';">Login</button>
-		<a title="Forgot ID or Password" class="action-link" href="">Forgot ID or Password</a>
+	  <div class="box-form pagelist">
+	    <style>
+		  .pagelist ul{padding-left:var(--size-4);}
+		  .pagelist > ul{list-style:disc; display:grid; grid-gap:var(--size-1);}
+		  .pagelist > ul > li > ul{list-style:circle;}
+		  .pagelist a{display:block; padding:var(--size-1) 0;}
+		</style>
+	    <ul>
+		  <li>
+		    <a href="login.php">Login</a>
+		  </li>
+		  <li>
+		    <a href="register.php">Register</a>
+		  </li>
+		  <li>
+		    <a href="information.php">Information</a>
+		  </li>
+		  <li>
+		    <a href="register.php">Register</a>
+			<ul>
+			  <li><a href="login.php">Login</a></li>
+			  <li><a href="login.php">Login</a></li>
+			</ul>
+		  </li>
+		</ul>
 	  </div>
 	</div>
   </div>

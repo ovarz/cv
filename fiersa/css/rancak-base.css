@@ -24,7 +24,7 @@
 body, html{font-family:"Poppins",sans-serif; font-size:var(--fontsize-base); font-weight:400; font-style:normal; letter-spacing:0.3px; font-feature-settings:'lnum' 1; 
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; 
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
-html{scroll-behavior:smooth; min-height:100vh; background-color:var(--bg-1);}
+html{scroll-behavior:smooth; min-height:100vh; background-color:var(--bg-2);}
 body{overflow-x:hidden;}
 a, button{font-weight:600;}
 .btn{padding:0 var(--size-4); height:var(--size-6); -webkit-appearance:none; font-weight:600; letter-spacing:0.5px;

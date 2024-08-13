@@ -12,6 +12,7 @@
   --hover-opacity:0.55;
   --transition-default:all 0.34s;
   --shadow-default:#E4E8FF 0px 5px 21px;
+  --shadow-inset:inset #E4E8FF 0px 5px 21px;
 }
 
 
