@@ -23,7 +23,8 @@ header{--thumb-height:40px; z-index:calc(var(--max-zindex) - 2000); width:100%; 
 
 
 
-nav{z-index:calc(var(--max-zindex) - 1000); width:var(--sitepadding-left); height:100vh; height:100svh; display:flex; flex-wrap:wrap; align-content:flex-start;}
+nav{z-index:calc(var(--max-zindex) - 1000); width:var(--sitepadding-left); height:100vh; height:100svh; overflow-y:auto;
+display:flex; flex-wrap:wrap; align-content:flex-start;}
 nav > *{width:100%;}
 .main-logo{padding:var(--size-4);}
 .main-logo img{position:relative; width:auto; height:var(--size-6);}

@@ -17,4 +17,9 @@
 	  </li>
     <?php } ?>
   </ul>
+  
+  <footer>
+    <p>&copy; 2024 - PT Mega Akses Persada</p>
+	<p>All Right Reserved</p>
+  </footer>
 </nav>

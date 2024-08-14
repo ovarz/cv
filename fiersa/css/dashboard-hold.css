@@ -12,6 +12,11 @@
 
 
 nav{box-shadow:#E4E8FF 0px 94px 21px;}
+nav::-webkit-scrollbar{width:var(--size-2);}
+nav::-webkit-scrollbar-track, nav::-webkit-scrollbar-thumb{background:0;}
+nav:hover::-webkit-scrollbar-track{background:var(--color-text-3);}
+nav:hover::-webkit-scrollbar-thumb{background:var(--color-text-1);}
+nav::-webkit-scrollbar-thumb:hover{background:var(--color-text-5);}
 .main-logo:hover{filter:grayscale(100%);}
 .nav-link a, .nav-link button{color:var(--color-text-1); fill:var(--color-text-1); border-color:var(--bg-2);}
 .nav-link:hover a, .nav-link:hover button{color:var(--color-text-5); fill:var(--color-text-5); border-color:var(--color-text-5);}

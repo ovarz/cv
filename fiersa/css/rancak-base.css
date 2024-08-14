@@ -52,3 +52,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 .rancak-container{position:relative; min-height:calc(100vh - var(--sitepadding-top)); min-height:calc(100svh - var(--sitepadding-top));}
+
+
+
+footer{padding:var(--size-4); margin-top:auto; font-size:10px;}
