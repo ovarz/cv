@@ -47,7 +47,7 @@
         ?>
           <div class="main-slide">
 		    <a title="<?php echo($slidebox_list['slidebox_title'])?>" class="main-slide-thumb rancak-lazy thumb-loading"
-			href="<?php echo($slidebox_list['slidebox_link'])?>.php">
+			href="<?php echo($slidebox_list['slidebox_link'])?>" target="_blank">
 			  <img class="lazyload" src="img/sample/slide-<?php echo($slidebox_list['slidebox_img'])?>.jpg" />
 			</a>
           </div>
