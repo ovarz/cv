@@ -36,11 +36,20 @@ nav > *{width:100%;}
 .nav-link-toggle{padding-right:var(--size-4);}
 .nav-link-icon .svgicon{width:var(--icon-size); height:auto; position:relative; top:2px;}
 .nav-link-toggle{width:var(--size-5); padding-left:0;}
-.nav-link-toggle .svgicon{width:auto; height:var(--size-2);}
+.nav-link-toggle .svgicon{width:auto; height:var(--size-1);}
 .nav-link-open .svgicon{transform:rotate(-180deg);}
 .nav-sub{padding-left:calc(var(--size-3) * 2); display:none;}
-.nav-sub .nav-link-icon .svgicon{width:var(--fontsize-base); top:3px;}
+.nav-sub .nav-link-icon .svgicon{width:var(--fontsize-base);}
 
 
 
 .rancak-container{margin-left:var(--sitepadding-left); margin-top:var(--sitepadding-top); padding:var(--size-5); width:calc(100% - var(--sitepadding-left));}
+
+
+
+.main-carousel{position:relative; width:100%; max-width:var(--site-container); margin:0 auto;}
+.main-carousel .tns-outer{width:100%;}
+.main-carousel .tns-nav-active{width:var(--size-5) !important;}
+.main-carousel .slide-button{height:calc(100% - var(--size-6));}
+.main-carousel .slide-button svg{height:var(--size-5);}
+.main-carousel .main-slide-thumb{--aspect-ratio:16/9;}
