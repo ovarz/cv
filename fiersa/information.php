@@ -74,7 +74,7 @@
           nav:true,
           navPosition:'bottom',
           mouseDrag:true,
-          autoplay:false,
+          autoplay:true,
 		  controlsContainer:'.main-carousel-controls',
         });
       </script>

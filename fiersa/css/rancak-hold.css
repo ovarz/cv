@@ -24,6 +24,7 @@ a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
 .btn{background-color:var(--color-text-4); color:var(--bg-1) !important; fill:var(--bg-1) !important; border-radius:var(--rounded-1);}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-text-5);}
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-text-2);}
+*::placeholder{color:var(--color-text-3);}
 @-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 @keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
 
@@ -35,7 +36,6 @@ a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
 
 
 .formbase-field{border-color:var(--color-border); background-color:transparent;}
-.formbase-field::placeholder{color:var(--color-text-3);}
 .formbase-password .formbase-toggle .svgicon{transition:var(--transition-default);}
 
 

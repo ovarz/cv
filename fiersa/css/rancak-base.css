@@ -15,6 +15,7 @@
   --fontsize-base:12px;
   --fontsize-regular:14px;
   --fontsize-title:24px;
+  --action-size:48px;
   --bg-1:#FAFBFC;
   --bg-2:#FFFFFF;  
 }
@@ -27,7 +28,7 @@ body, html{font-family:"Poppins",sans-serif; font-size:var(--fontsize-base); fon
 html{scroll-behavior:smooth; min-height:100vh; background-color:var(--bg-2);}
 body{overflow-x:hidden;}
 a, button{font-weight:600;}
-.btn{padding:0 var(--size-4); height:var(--size-6); -webkit-appearance:none; font-weight:600; letter-spacing:0.5px;
+.btn{padding:0 var(--size-4); height:var(--action-size); -webkit-appearance:none; font-weight:600; letter-spacing:0.5px;
 display:flex; text-align:center; align-items:center; justify-content:center;}
 .width-max{position:relative; width:100%; max-width:var(--site-container); margin:0 auto;}
 
@@ -51,8 +52,4 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 
-.rancak-container{position:relative; min-height:calc(100vh - var(--sitepadding-top)); min-height:calc(100svh - var(--sitepadding-top));}
-
-
-
-footer{padding:var(--size-4); margin-top:auto; font-size:10px;}
+.rancak-container{position:relative;}
