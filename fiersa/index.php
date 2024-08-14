@@ -43,11 +43,26 @@
 		    <a href="information.php">Information</a>
 		  </li>
 		  <li>
-		    <a href="register.php">Register</a>
+		    <a href="customer-data.php">Customer Data</a>
 			<ul>
-			  <li><a href="login.php">Login</a></li>
-			  <li><a href="login.php">Login</a></li>
+			  <li><a href="end-customer-data.php">End Customer Data</a></li>
+			  <li><a href="healthy-check.php">Healthy Check</a></li>
 			</ul>
+		  </li>
+		  <li>
+		    <a href="ticket-request.php">Ticket Request</a>
+		  </li>
+		  <li>
+		    <a href="ticket-complaint.php">Ticket Complaint</a>
+		  </li>
+		  <li>
+		    <a href="ticket-status.php">Ticket Status</a>
+		  </li>
+		  <li>
+		    <a href="outrage-report.php">Outrage Report</a>
+		  </li>
+		  <li>
+		    <a href="performance-report.php">Performance Report</a>
 		  </li>
 		</ul>
 	  </div>

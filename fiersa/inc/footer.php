@@ -1,10 +1,8 @@
 <noscript id="deferred-styles">
   <link rel="stylesheet" type="text/css" href="css/rancak-hold.css?<?php echo $version; ?>" media="print" onload="this.media='all'"/>
-
   <?php if($page == 'login') { ?>
     <link rel="stylesheet" type="text/css" href="css/login-hold.css?<?php echo $version; ?>" media="print" onload="this.media='all'"/>
   <?php } ?>
-  
   <?php if($page == 'dashboard') { ?>
     <link rel="stylesheet" type="text/css" href="css/dashboard-hold.css?<?php echo $version; ?>" media="print" onload="this.media='all'"/>
   <?php } ?>

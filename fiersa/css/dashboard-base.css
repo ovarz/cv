@@ -6,7 +6,7 @@
 
 
 header, nav{position:fixed; top:0; left:0;}
-header{--thumb-height:40px; z-index:calc(var(--max-zindex) - 2000); width:100%; padding-left:var(--sitepadding-left);}
+header{--thumb-height:40px; z-index:calc(var(--max-zindex) - 4000); width:100%; padding-left:var(--sitepadding-left);}
 .header-container{display:flex; justify-content:space-between;}
 .header-left, .header-right{display:flex;}
 .header-box{padding:0 var(--size-2); height:var(--sitepadding-top);}
@@ -23,7 +23,7 @@ header{--thumb-height:40px; z-index:calc(var(--max-zindex) - 2000); width:100%; 
 
 
 
-nav{z-index:calc(var(--max-zindex) - 1000); width:var(--sitepadding-left); height:100vh; height:100svh; overflow-y:auto;
+nav{z-index:calc(var(--max-zindex) - 3000); width:var(--sitepadding-left); height:100vh; height:100svh; overflow-y:auto;
 display:flex; flex-wrap:wrap; align-content:flex-start;}
 nav > *{width:100%;}
 .main-logo{padding:var(--size-4);}
@@ -73,8 +73,9 @@ padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
 
 .table-default-box{display:table; padding:var(--size-2);}
 .tdb-row{position:relative; display:table-row;}
-.tdb-row:after{content:''; display:block; position:absolute; bottom:0; left:0; width:100%; height:1px;}
+.tdb-row:after{content:''; display:block; position:absolute; top:0; left:0; width:100%; height:1px;}
 .tdb-head{font-weight:600;}
+.tdb-head:after{content:none;}
 .tdb-column{display:table-cell; padding:var(--size-3);}
 .tdb-column-phone{width:115px;}
 .tdb-column-postalcode{width:50px;}
@@ -82,7 +83,16 @@ padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
 .tdb-ca-button .svgicon{width:auto; height:var(--size-2);}
 .tdb-ca-button{padding:var(--size-2);}
 
-.tdb-detail{display:grid; width:100%;}
+.table-default-foot, .table-default-foot > *{display:flex;}
+.table-default-foot{justify-content:space-between;}
+.tdf-pagination{display:flex; align-items:center;}
+.tdf-pagination-choose{margin:0 var(--size-2); position:relative;}
+.tdf-pagination-choose .svgicon{position:absolute; top:22px; right:var(--size-3); width:auto; height:var(--size-1);}
+.tdf-pagination-select, .tdf-pagination-jump, .tdf-button{height:var(--action-size);}
+.tdf-pagination-select{padding-right:var(--size-5); position:relative; z-index:1000;}
+.tdf-pagination-jump{width:60px; text-align:center;}
+.tdf-pagination-info{margin-right:var(--size-3);}
+.tdf-button .svgicon{width:auto; height:var(--size-3);}
 
 
 
