@@ -88,40 +88,36 @@
 	  <div class="rancak-popup-content">
 	    <ul class="rpc-detail-data">
 		  <li>
-		    <div class="rpc-detail-label">Account Number</div>
-		    <div class="rpc-detail-info">EC841279</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Circuit ID</div>
-		    <div class="rpc-detail-info">CRT2311017603</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Customer Name</div>
-		    <div class="rpc-detail-info">PT Awinet Global Mandiri</div>
-		  </li>
-		  <li>
 		    <div class="rpc-detail-label">Name</div>
-		    <div class="rpc-detail-info">ICI PT Awinet Global Mandiri - Pasuruan</div>
+		    <div class="rpc-detail-info">PT. Awinet Global Mandiri</div>
 		  </li>
 		  <li>
 		    <div class="rpc-detail-label">City</div>
 		    <div class="rpc-detail-info">Pasuruan</div>
 		  </li>
 		  <li>
-		    <div class="rpc-detail-label">Service Name</div>
-		    <div class="rpc-detail-info">In-City Interconnection Jabalink 1 Gbps</div>
+		    <div class="rpc-detail-label">Email Label</div>
+		    <div class="rpc-detail-info">Email Billing</div>
 		  </li>
 		  <li>
-		    <div class="rpc-detail-label">Service ID</div>
-		    <div class="rpc-detail-info">ICB-JAB-010G</div>
+		    <div class="rpc-detail-label">Email Address</div>
+		    <div class="rpc-detail-info">me@aufarmahardi.com</div>
 		  </li>
 		  <li>
-		    <div class="rpc-detail-label">Originating Address</div>
-		    <div class="rpc-detail-info">Rack Fiber IDC Duren Tiga Jakarta. Jl. Duren Tiga Raya No.07, Pancoran, Jakarta</div>
+		    <div class="rpc-detail-label">Phone Label</div>
+		    <div class="rpc-detail-info">Telepon Billing</div>
 		  </li>
 		  <li>
-		    <div class="rpc-detail-label">Terminatting Address</div>
-		    <div class="rpc-detail-info">MMP JB Purworedjo. Jl Raya Purwosari No.31, Purwosari, Kemantren, Martopuro, Kec. Purwosari, Pasuruan, JaTim 67162 IDN</div>
+		    <div class="rpc-detail-label">Phone Number</div>
+		    <div class="rpc-detail-info">080000000000</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Address</div>
+		    <div class="rpc-detail-info">Jl. Tebet Timur Dalam VIII H No.8, Tebet Timur</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Postal Code</div>
+		    <div class="rpc-detail-info">00000</div>
 		  </li>
 		</ul>
 	  </div>
