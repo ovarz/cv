@@ -6,7 +6,7 @@
 
 
 .formbase-field{height:var(--action-size);}
-textarea.formbase-field{padding:var(--size-3); height:auto; min-height:var(--size-7);}
+textarea.formbase-field{padding:var(--size-3); height:auto; min-height:144px;}
 .formbase-field-select{position:relative; z-index:1000;}
 .formbase-field + .svgicon{position:absolute; top:var(--size-4); right:var(--size-3); width:auto; height:var(--size-2);}
 
@@ -93,7 +93,10 @@ padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
 .tdb-column-phone{width:115px;}
 .tdb-column-postalcode{width:50px;}
 .tdb-column-action{padding:0;}
-.tdb-ca-button .svgicon{width:var(--size-3); height:var(--size-3);}
+.tdb-ca-button .svgicon{width:var(--size-3); height:var(--size-3); position:relative;}
+.tdb-ca-button .svgicon-edit{top:2px;}
+.tdb-ca-button .svgicon-down{top:3px;}
+.tdb-ca-button .svgicon-right{top:2px;}
 .tdb-ca-button{padding:var(--size-2);}
 
 .table-default-foot, .table-default-foot > *{display:flex;}
@@ -109,7 +112,7 @@ padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
 
 
 
-.input-data{font-size:var(--fontsize-regular);}
+.input-data, .ticket-status{font-size:var(--fontsize-regular);}
 .input-data-box{padding:var(--size-4);}
 .idb-list{display:grid; grid-gap:var(--size-4);}
 .idb-row{display:grid; grid-template-columns:233px 1fr;}
@@ -125,6 +128,23 @@ padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
 .idb-additional-real:checked + .idb-additional-dummy .idb-additional-circle{left:38px;}
 .input-data-action{display:flex; margin-top:var(--size-3);}
 .input-data-action .btn{margin-right:var(--size-3);}
+
+
+
+.ticket-status{display:grid; grid-gap:var(--size-3); grid-template-columns:1fr 300px;}
+.ticket-status-title{font-weight:800; margin-bottom:var(--size-3);}
+.ticket-status-track{padding:var(--size-4);}
+.tst-list, .tst-step{display:grid;}
+.tst-step{grid-template-columns:var(--size-5) 1fr; grid-gap:var(--size-2);}
+.tst-line{position:relative;}
+.tst-line-inside{width:var(--size-1); height:var(--size-4);}
+.tst-icon{position:absolute; z-index:1000; top:calc(var(--size-1) * -1); left:0; width:100%;}
+.tst-icon .svgicon{width:auto; height:var(--size-3);}
+.tst-circle, .tst-circle-inside{border:var(--size-1) solid; width:100%;}
+.tst-circle-inside:before{content:''; display:block; padding-top:100%;}
+.tst-right{display:flex; align-items:center;}
+.tst-label{font-weight:600;}
+.tst-date{font-size:10px;}
 
 
 

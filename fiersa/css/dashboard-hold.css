@@ -81,6 +81,7 @@ nav{box-shadow:#E4E8FF 0px 94px 21px;}
 
 
 .idb-multiple .formbase .svgicon{fill:var(--color-text-3);}
+.idb-info, .idb-info .formbase-field{color:var(--color-text-2);}
 .idb-additional-indicator, .idb-additional-circle{transition:var(--transition-default);}
 .idb-additional-indicator{background-color:var(--color-border); border-radius:var(--size-4); transition:var(--transition-default);}
 .idb-additional-circle{background-color:var(--color-text-1); border-radius:var(--size-3); transition:all 0.55s;}
@@ -89,6 +90,23 @@ nav{box-shadow:#E4E8FF 0px 94px 21px;}
 .idb-additional-real:checked + .idb-additional-dummy .idb-additional-circle{background-color:var(--bg-1);}
 .input-data-action .ida-reset{background-color:var(--color-border); color:var(--color-text-1) !important;}
 .input-data-action .ida-reset:hover{background-color:var(--color-text-3);}
+
+
+
+.ticket-status-title{color:var(--color-text-2);}
+.tst-icon .color-1{fill:var(--color-status);}
+.tst-icon .color-2{fill:var(--bg-1);}
+.tst-line-inside{background-color:var(--color-status);}
+.tst-circle, .tst-circle-inside{border-radius:50%; background-color:transparent !important;}
+.tst-circle{border-color:var(--bg-2);}
+.tst-circle-inside{border-color:var(--color-status);}
+.tst-date{color:var(--color-text-3);}
+.tst-label{color:var(--color-status);}
+.tst-step:first-child .tst-icon{display:none;}
+
+.tst-done{--color-status:var(--color-text-1);}
+.tst-onprogress{--color-status:var(--color-text-7);}
+.tst-notstarted{--color-status:var(--color-text-3);}
 
 
 
