@@ -1,22 +1,29 @@
 .header-container, nav{background-color:var(--bg-2);}
 .header-container{box-shadow:var(--shadow-default);}
 .header-title-wording{color:var(--color-text-2);}
+
 .header-notif-box, .hub-image-frame{border-radius:var(--rounded-1); background-color:var(--bg-1); border-color:var(--color-border);}
 .header-notif-box{transition:var(--transition-default);}
-.header-notif-circle{border-radius:50%; background-color:var(--color-text-4);}
-.header-notif:hover .header-notif-box{border-color:var(--color-text-5);}
+.header-notif-circle{border-radius:50%; background-color:var(--color-text-4); transition:var(--transition-default);}
+.header-notif:hover .header-notif-box{border-color:var(--color-text-5); fill:var(--color-text-5);}
 .header-notif:hover .header-notif-circle{background-color:var(--color-text-5);}
+.header-notif:hover .header-notif-popup{display:block;}
+.header-notif-popup{position:absolute; top:64px; right:var(--size-2); background-color:var(--bg-2); box-shadow:var(--shadow-default); 
+border-radius:var(--rounded-1); width:233px; height:90vh; max-height:377px; overflow-y:auto; padding:var(--size-3);}
+.hnp-label{font-weight:800; color:var(--color-text-2); font-size:var(--fontsize-regular);}
+.hnp-row{display:grid; grid-template-columns:var(--size-4) 1fr; grid-gap:var(--size-3); padding:var(--size-3) 0; 
+border-top:1px dashed var(--color-text-3); fill:var(--color-text-1);}
+.hnp-row:first-child{border-top:0;}
+.hnp-row .svgicon{width:100%; height:auto; position:relative; top:4px;}
+.hnp-date{font-weight:400; font-size:10px; margin-top:var(--size-1); color:var(--color-text-1);}
+
+
 .hub-image-frame{overflow:hidden;}
 .hub-title{color:var(--color-text-1);}
 
 
 
 nav{box-shadow:#E4E8FF 0px 94px 21px;}
-nav::-webkit-scrollbar{width:var(--size-2);}
-nav::-webkit-scrollbar-track, nav::-webkit-scrollbar-thumb{background:0;}
-nav:hover::-webkit-scrollbar-track{background:var(--color-text-3);}
-nav:hover::-webkit-scrollbar-thumb{background:var(--color-text-1);}
-nav::-webkit-scrollbar-thumb:hover{background:var(--color-text-5);}
 .main-logo:hover{filter:grayscale(100%);}
 .nav-link a, .nav-link button{color:var(--color-text-1); fill:var(--color-text-1); border-color:var(--bg-2);}
 .nav-link:hover a, .nav-link:hover button{color:var(--color-text-5); fill:var(--color-text-5); border-color:var(--color-text-5);}

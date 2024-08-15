@@ -84,7 +84,7 @@
 <div class="rancak-popup rancak-popup-right" aria-overlay="XXX001">
   <div class="rancak-popup-overlay"></div>
   <div class="rancak-popup-container content_center">
-    <div class="rancak-popup-box">
+    <div class="rancak-popup-box custom-scrollbar">
 	  <div class="rancak-popup-content">
 	    <ul class="rpc-detail-data">
 		  <li>
