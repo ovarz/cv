@@ -13,7 +13,7 @@
 
 
   <div class="login-logo rancak-lazy thumb-loading">
-    <img class="lazyload" src="img/logo-white.png" />
+    <img class="lazyload" data-original="img/logo-white.png" />
   </div>
   
   

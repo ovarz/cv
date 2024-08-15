@@ -31,7 +31,7 @@
 		<div class="header-user-box">
 		  <div class="hub-image">
 		    <div class="hub-image-frame rancak-lazy thumb-loading">
-			  <img class="lazyload" src="img/sample/user-<?php echo rand(1,5);?>.jpg" />
+			  <img class="lazyload" data-original="img/sample/user-<?php echo rand(1,5);?>.jpg" />
 			</div>
 		  </div>
 		  <div class="hub-info">

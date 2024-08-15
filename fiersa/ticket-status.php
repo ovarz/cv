@@ -24,47 +24,25 @@
             <button title="Filter" aria-popup="filter-end-customer-data" class="btn tdh-button open-sticky">
               Filter
             </button>
-			<div class="rancak-popup rancak-popup-small" aria-overlay="filter-end-customer-data">
+			<div class="rancak-popup rancak-popup-small rancak-popup-small-2" aria-overlay="filter-end-customer-data">
 			  <div class="rancak-popup-overlay"></div>
 			  <div class="rancak-popup-container content_center">
 				<div class="rancak-popup-box custom-scrollbar">
 				  <div class="rancak-popup-content popup-filter">
                     <div class="popup-filter-row formbase">
                       <select class="formbase-field formbase-field-select">
-                        <option value="0">Select POP ID</option>
-                        <option value="1">POP ID 1</option>
-                        <option value="1">POP ID 2</option>
-                        <option value="1">POP ID 3</option>
-                        <option value="1">POP ID 4</option>
-                        <option value="1">POP ID 5</option>
+                        <option value="0">Select End Customer Name</option>
+                        <option value="1">Customer Name 1</option>
+                        <option value="1">Customer Name 2</option>
+                        <option value="1">Customer Name 3</option>
+                        <option value="1">Customer Name 4</option>
+                        <option value="1">Customer Name 5</option>
                       </select>
                       <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
                     </div>
                     <div class="popup-filter-row formbase">
                       <select class="formbase-field formbase-field-select">
-                        <option value="0">Select ISP</option>
-                        <option value="1">ISP 1</option>
-                        <option value="1">ISP 2</option>
-                        <option value="1">ISP 3</option>
-                        <option value="1">ISP 4</option>
-                        <option value="1">ISP 5</option>
-                      </select>
-                      <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
-                    </div>
-                    <div class="popup-filter-row formbase">
-                      <select class="formbase-field formbase-field-select">
-                        <option value="0">Select Service</option>
-                        <option value="1">Service 1</option>
-                        <option value="1">Service 2</option>
-                        <option value="1">Service 3</option>
-                        <option value="1">Service 4</option>
-                        <option value="1">Service 5</option>
-                      </select>
-                      <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
-                    </div>
-                    <div class="popup-filter-row formbase">
-                      <select class="formbase-field formbase-field-select">
-                        <option value="0">Select Status</option>
+                        <option value="0">Select Current Status Ticket</option>
                         <option value="1">Status 1</option>
                         <option value="1">Status 2</option>
                         <option value="1">Status 3</option>
@@ -75,16 +53,13 @@
                     </div>
                     <div class="popup-filter-row formbase">
                       <select class="formbase-field formbase-field-select">
-                        <option value="0">Select City</option>
-                        <option value="1">City 1</option>
-                        <option value="1">City 2</option>
-                        <option value="1">City 3</option>
-                        <option value="1">City 4</option>
-                        <option value="1">City 5</option>
+                        <option value="0">Sort By</option>
+                        <option value="1">Ascending</option>
+                        <option value="2">Descending</option>
                       </select>
                       <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
                     </div>
-					<button title="Filter" class="btn filter-submit" onclick="location.href='end-customer-data.php';">Filter</button>
+					<button title="Filter" class="btn filter-submit" onclick="location.href='ticket-status.php';">Filter</button>
 				  </div>
 				</div>
 			  </div>
@@ -150,51 +125,6 @@
 
 
 
-</div>
-
-
-
-<div class="rancak-popup rancak-popup-right" aria-overlay="XXX003">
-  <div class="rancak-popup-overlay"></div>
-  <div class="rancak-popup-container content_center">
-    <div class="rancak-popup-box custom-scrollbar">
-	  <div class="rancak-popup-content">
-	    <ul class="rpc-detail-data">
-		  <li>
-		    <div class="rpc-detail-label">Ticket Number</div>
-		    <div class="rpc-detail-info">XXXXX XXXXX</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Ticket Type</div>
-		    <div class="rpc-detail-info">Request</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Status</div>
-		    <div class="rpc-detail-info">Closed</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Customer Type</div>
-		    <div class="rpc-detail-info">LMS</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Customer Name</div>
-		    <div class="rpc-detail-info">Adira Finance Cirebon</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Email</div>
-		    <div class="rpc-detail-info">me@aufarmahardi.com</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Phone</div>
-		    <div class="rpc-detail-info">080000000000</div>
-		  </li>
-		</ul>
-	  </div>
-      <button title="Close Popup" class="rancak-popup-close content_center">
-        <?php require ($_SERVER['FIERSA'].'img/icon/close.svg')?>
-      </button>
-	</div>
-  </div>
 </div>
 
 
