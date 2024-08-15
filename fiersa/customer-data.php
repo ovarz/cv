@@ -51,7 +51,7 @@
 	    <?php for ($i=1; $i <= 10; $i++) { ?>
           <div class="tdb-row">
             <div class="tdb-column tdb-column-name">
-              Aufar Mahardi
+              <?php echo $random_username[array_rand($random_username)]; ?>
             </div>
             <div class="tdb-column tdb-column-email">
               me@aufarmahardi.com

@@ -100,40 +100,40 @@
 	  
 	  <div class="table-default-box">
 	    <div class="tdb-row tdb-head">
+          <div class="tdb-column tdb-column-circuitid">
+            Circuit ID
+          </div>
           <div class="tdb-column tdb-column-name">
             Name
           </div>
-          <div class="tdb-column tdb-column-email">
-            Email
-          </div>
-          <div class="tdb-column tdb-column-phone">
-            Phone
-          </div>
-          <div class="tdb-column tdb-column-address">
-            Address
+          <div class="tdb-column tdb-column-serviceid">
+            Service ID
           </div>
           <div class="tdb-column tdb-column-city">
             City
+          </div>
+          <div class="tdb-column tdb-column-address">
+            Address
           </div>
           <div class="tdb-column tdb-column-action"></div>
 		</div>
 		
 	    <?php for ($i=1; $i <= 10; $i++) { ?>
           <div class="tdb-row">
+            <div class="tdb-column tdb-column-circuitid">
+              XXXXX XXXXX
+            </div>
             <div class="tdb-column tdb-column-name">
-              Aufar Mahardi
+              <?php echo $random_username[array_rand($random_username)]; ?>
             </div>
-            <div class="tdb-column tdb-column-email">
-              me@aufarmahardi.com
-            </div>
-            <div class="tdb-column tdb-column-phone">
-              080000000000
-            </div>
-            <div class="tdb-column tdb-column-address">
-              Jl. Tebet Timur Dalam VIIIH No.3, Tebet Timur
+            <div class="tdb-column tdb-column-serviceid">
+              XXX-XXX-0000
             </div>
             <div class="tdb-column tdb-column-city">
               South Jakarta
+            </div>
+            <div class="tdb-column tdb-column-address">
+              Jl. Tebet Timur Dalam VIIIH No.3, Tebet Timur
             </div>
             <div class="tdb-column tdb-column-action">
               <button title="Show Detail" aria-popup="XXX002" class="tdb-ca-button tdb-ca-toggle open-sticky">
@@ -160,36 +160,40 @@
 	  <div class="rancak-popup-content">
 	    <ul class="rpc-detail-data">
 		  <li>
+		    <div class="rpc-detail-label">Account Number</div>
+		    <div class="rpc-detail-info">EC841279</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Circuit ID</div>
+		    <div class="rpc-detail-info">CRT2311017603</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Customer Name</div>
+		    <div class="rpc-detail-info">PT Awinet Global Mandiri</div>
+		  </li>
+		  <li>
 		    <div class="rpc-detail-label">Name</div>
-		    <div class="rpc-detail-info">PT. Awinet Global Mandiri</div>
+		    <div class="rpc-detail-info">ICI PT Awinet Global Mandiri - Pasuruan</div>
 		  </li>
 		  <li>
 		    <div class="rpc-detail-label">City</div>
 		    <div class="rpc-detail-info">Pasuruan</div>
 		  </li>
 		  <li>
-		    <div class="rpc-detail-label">Email Label</div>
-		    <div class="rpc-detail-info">Email Billing</div>
+		    <div class="rpc-detail-label">Service Name</div>
+		    <div class="rpc-detail-info">In-City Interconnection Jabalink 1 Gbps</div>
 		  </li>
 		  <li>
-		    <div class="rpc-detail-label">Email Address</div>
-		    <div class="rpc-detail-info">me@aufarmahardi.com</div>
+		    <div class="rpc-detail-label">Service ID</div>
+		    <div class="rpc-detail-info">ICB-JAB-010G</div>
 		  </li>
 		  <li>
-		    <div class="rpc-detail-label">Phone Label</div>
-		    <div class="rpc-detail-info">Telepon Billing</div>
+		    <div class="rpc-detail-label">Originating Address</div>
+		    <div class="rpc-detail-info">Rack Fiber IDC Duren Tiga Jakarta. Jl. Duren Tiga Raya No.07, Pancoran, Jakarta</div>
 		  </li>
 		  <li>
-		    <div class="rpc-detail-label">Phone Number</div>
-		    <div class="rpc-detail-info">080000000000</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Address</div>
-		    <div class="rpc-detail-info">Jl. Tebet Timur Dalam VIII H No.8, Tebet Timur</div>
-		  </li>
-		  <li>
-		    <div class="rpc-detail-label">Postal Code</div>
-		    <div class="rpc-detail-info">00000</div>
+		    <div class="rpc-detail-label">Terminatting Address</div>
+		    <div class="rpc-detail-info">MMP JB Purworedjo. Jl Raya Purwosari No.31, Purwosari, Kemantren, Martopuro, Kec. Purwosari, Pasuruan, JaTim 67162 IDN</div>
 		  </li>
 		</ul>
 	  </div>
