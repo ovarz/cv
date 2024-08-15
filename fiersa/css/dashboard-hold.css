@@ -48,12 +48,16 @@ nav{box-shadow:#E4E8FF 0px 94px 21px;}
 
 
 
+.white-box{background-color:var(--bg-2); box-shadow:var(--shadow-default); border-radius:var(--rounded-1);}
+
+
+
 .main-carousel .tns-nav [aria-controls], 
 .main-carousel .tns-nav [data-action]{background-color:var(--color-text-3);}
 .main-carousel .tns-nav [aria-controls]:hover, 
 .main-carousel .tns-nav [data-action]:hover{background-color:var(--color-text-5);}
 .main-carousel .tns-nav-active{background-color:var(--color-text-4) !important;}
-.main-carousel .tns-ovh{border-radius:var(--rounded-2);}
+.main-carousel .tns-ovh{border-radius:var(--rounded-1);}
 .main-carousel .slide-button{fill:var(--bg-2); opacity:0.55;}
 .main-carousel .slide-button:hover{fill:var(--color-text-5); opacity:1;}
 
@@ -63,16 +67,28 @@ nav{box-shadow:#E4E8FF 0px 94px 21px;}
 
 
 
-.table-default-box{background-color:var(--bg-2); box-shadow:var(--shadow-default); border-radius:var(--rounded-1);}
 .tdb-row:nth-of-type(odd){background-color:var(--bg-1); transition:var(--transition-default);}
 .tdb-row:hover{background-color:var(--color-text-5); color:var(--bg-2);}
 .tdb-row:hover .tdb-ca-button{fill:var(--bg-2);}
+.tdb-ca-button:hover{fill:var(--color-text-2) !important;}
 .tdb-row:after{background-color:var(--color-border);}
 .tdb-head{background-color:var(--bg-2) !important; color:var(--color-text-2) !important;}
 .tdb-head:after{background-color:var(--color-text-3);}
 
 .tdf-pagination-choose, .tdf-pagination-select, .tdf-pagination-jump{border-radius:var(--rounded-1);}
 .tdf-pagination-choose{background-color:var(--bg-2);}
+
+
+
+.idb-multiple .formbase .svgicon{fill:var(--color-text-3);}
+.idb-additional-indicator, .idb-additional-circle{transition:var(--transition-default);}
+.idb-additional-indicator{background-color:var(--color-border); border-radius:var(--size-4); transition:var(--transition-default);}
+.idb-additional-circle{background-color:var(--color-text-1); border-radius:var(--size-3); transition:all 0.55s;}
+.idb-additional-real:hover + .idb-additional-dummy .idb-additional-circle{background-color:var(--color-text-2);}
+.idb-additional-real:checked + .idb-additional-dummy .idb-additional-indicator{background-color:var(--color-text-4); border-color:var(--color-text-4);}
+.idb-additional-real:checked + .idb-additional-dummy .idb-additional-circle{background-color:var(--bg-1);}
+.input-data-action .ida-reset{background-color:var(--color-border); color:var(--color-text-1) !important;}
+.input-data-action .ida-reset:hover{background-color:var(--color-text-3);}
 
 
 

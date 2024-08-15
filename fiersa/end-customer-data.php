@@ -98,7 +98,7 @@
 		</div>
 	  </div>
 	  
-	  <div class="table-default-box">
+	  <div class="table-default-box white-box">
 	    <div class="tdb-row tdb-head">
           <div class="tdb-column tdb-column-circuitid">
             Circuit ID
