@@ -5,6 +5,12 @@
 
 
 
+.formbase-field{height:var(--action-size);}
+.formbase-field-select{position:relative; z-index:1000;}
+.formbase-field + .svgicon{position:absolute; top:var(--size-4); right:var(--size-3); width:auto; height:var(--size-2);}
+
+
+
 header, nav{position:fixed; top:0; left:0;}
 header{--thumb-height:40px; z-index:calc(var(--max-zindex) - 4000); width:100%; padding-left:var(--sitepadding-left);}
 .header-container{display:flex; justify-content:space-between;}
@@ -71,7 +77,7 @@ padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
 
 .table-default-head, .tdh-left, .tdh-right{display:flex;}
 .table-default-head{justify-content:space-between; align-items:center;}
-.tdh-button{margin-left:var(--size-2);}
+.tdh-box{margin-left:var(--size-2); position:relative;}
 
 .table-default-box{display:table; padding:var(--size-2);}
 .tdb-row{position:relative; display:table-row;}

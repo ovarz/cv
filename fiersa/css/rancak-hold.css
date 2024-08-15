@@ -43,7 +43,7 @@ a:hover, button:hover{color:var(--color-text-5); fill:var(--color-text-5);}
 
 
 
-.formbase-field{border-color:var(--color-border); background-color:transparent;}
+.formbase-field{border-color:var(--color-border); background-color:transparent; color:var(--color-text-1);}
 .formbase-password .formbase-toggle .svgicon{transition:var(--transition-default);}
 
 

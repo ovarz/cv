@@ -20,9 +20,11 @@
 		  <?php $search_placeholder='Search here.....'; $search_to='customer-data.php'; require ($_SERVER['FIERSA'].'module/search-box.php')?>
 		</div>
 	    <div class="tdh-right">
-		  <button title="Export to Excel" class="btn tdh-button">
-		    Export to Excel
-		  </button>
+		  <div class="tdh-box">
+            <button title="Export to Excel" class="btn tdh-button">
+              Export to Excel
+            </button>
+		  </div>
 		</div>
 	  </div>
 	  
