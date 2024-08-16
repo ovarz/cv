@@ -1,6 +1,6 @@
 <?php 
   $page='dashboard';
-  $nav='Ticket Request';
+  $nav='Ticket Complaint';
   $opensub='';
   $slideshow='no';
   require ('inc/base.php')
@@ -21,7 +21,7 @@
 		</div>
 	    <div class="tdh-right">
 		  <div class="tdh-box">
-            <a title="Filter" class="btn tdh-button" href="ticket-request-new.php">
+            <a title="Filter" class="btn tdh-button" href="ticket-complaint-new.php">
               New Ticket
             </a>
 		  </div>
@@ -61,12 +61,12 @@
               Closed
             </div>
             <div class="tdb-column tdb-column-action">
-              <a title="Edit Data" class="tdb-ca-button" href="ticket-request-new.php">
+              <a title="Edit Data" class="tdb-ca-button" href="ticket-complaint-new.php">
                 <?php require ($_SERVER['FIERSA'].'img/icon/edit.svg')?>
               </a>
             </div>
             <div class="tdb-column tdb-column-action">
-              <button title="Show Detail" aria-popup="XXX003" class="tdb-ca-button tdb-ca-toggle open-sticky">
+              <button title="Show Detail" aria-popup="XXX006" class="tdb-ca-button tdb-ca-toggle open-sticky">
                 <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
               </button>
             </div>
@@ -83,7 +83,7 @@
 
 
 
-<div class="rancak-popup rancak-popup-right" aria-overlay="XXX003">
+<div class="rancak-popup rancak-popup-right" aria-overlay="XXX006">
   <div class="rancak-popup-overlay"></div>
   <div class="rancak-popup-container content_center">
     <div class="rancak-popup-box custom-scrollbar">

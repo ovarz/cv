@@ -82,6 +82,7 @@ nav{box-shadow:#E4E8FF 0px 94px 21px;}
 
 .idb-multiple .formbase .svgicon{fill:var(--color-text-3);}
 .idb-info, .idb-info .formbase-field{color:var(--color-text-2);}
+.idb-detail .idb-row{border-color:var(--color-border);}
 .idb-additional-indicator, .idb-additional-circle{transition:var(--transition-default);}
 .idb-additional-indicator{background-color:var(--color-border); border-radius:var(--size-4); transition:var(--transition-default);}
 .idb-additional-circle{background-color:var(--color-text-1); border-radius:var(--size-3); transition:all 0.55s;}
@@ -118,7 +119,7 @@ nav{box-shadow:#E4E8FF 0px 94px 21px;}
 .rancak-popup-right .rpc-doc-img img{position:relative; height:auto;}
 
 .rpc-detail-data{display:grid; grid-gap:var(--size-3);}
-.rpc-detail-data > li{padding-bottom:var(--size-3); border-bottom:1px dashed var(--color-text-3);}
+.rpc-detail-data > li{padding-bottom:var(--size-3); border-bottom:1px dashed var(--color-border);}
 .rpc-detail-label{font-size:var(--fontsize-base); margin-bottom:var(--size-1);}
 .rpc-detail-info{font-weight:600; color:var(--color-text-2);}
 

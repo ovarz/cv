@@ -1,6 +1,6 @@
 <?php 
   $page='dashboard';
-  $nav='Ticket Request';
+  $nav='Ticket Complaint';
   $opensub='';
   $slideshow='no';
   require ('inc/base.php')
@@ -88,6 +88,47 @@
 			</div>
 		  </li>
 		  <li class="idb-row">
+		    <div class="idb-label">Additional Information</div>
+			<div class="idb-info idb-additional">
+			  <div class="idb-additional-row">
+			    <input class="idb-additional-real" name="choice" type="checkbox">
+				<div class="idb-additional-dummy">
+				  <div class="idb-additional-label">Apakah sudah dicoba untuk direstart?</div>
+				  <div class="idb-additional-indicator">
+				    <div class="idb-additional-circle"></div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="idb-additional-row">
+			    <input class="idb-additional-real" name="choice" type="checkbox">
+				<div class="idb-additional-dummy">
+				  <div class="idb-additional-label">Apakah lampu pada modem berkedip?</div>
+				  <div class="idb-additional-indicator">
+				    <div class="idb-additional-circle"></div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="idb-additional-row">
+			    <input class="idb-additional-real" name="choice" type="checkbox">
+				<div class="idb-additional-dummy">
+				  <div class="idb-additional-label">Apakah lampu pada modem mati?</div>
+				  <div class="idb-additional-indicator">
+				    <div class="idb-additional-circle"></div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="idb-additional-row">
+			    <input class="idb-additional-real" name="choice" type="checkbox">
+				<div class="idb-additional-dummy">
+				  <div class="idb-additional-label">Apakah power pada modem mati?</div>
+				  <div class="idb-additional-indicator">
+				    <div class="idb-additional-circle"></div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </li>
+		  <li class="idb-row">
 		    <div class="idb-label">Upload Image</div>
 			<div class="idb-info">
               <div class="formbase">
@@ -104,8 +145,8 @@
 		</ul>
 	  </div>
 	  <div class="input-data-action">
-	    <button title="Submit" class="btn ida-submit" onclick="location.href='ticket-request.php';">Submit</button>
-	    <button title="Reset" class="btn ida-reset" onclick="location.href='ticket-request-new.php';">Reset</button>
+	    <button title="Submit" class="btn ida-submit" onclick="location.href='ticket-complaint.php';">Submit</button>
+	    <button title="Reset" class="btn ida-reset" onclick="location.href='ticket-complaint-new.php';">Reset</button>
 	  </div>
 	</section>
 

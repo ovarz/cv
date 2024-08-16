@@ -116,6 +116,9 @@ padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
 .input-data-box{padding:var(--size-4);}
 .idb-list{display:grid; grid-gap:var(--size-4);}
 .idb-row{display:grid; grid-template-columns:233px 1fr;}
+.idb-form .idb-label{padding-top:var(--size-3);}
+.idb-detail{grid-gap:var(--size-3);}
+.idb-detail .idb-row{padding-bottom:var(--size-3); border-bottom:1px dashed;}
 .idb-multiple{display:grid; grid-gap:var(--size-2);}
 .idb-multiple .formbase .svgicon{position:absolute; top:16px; left:16px; width:16px; height:16px;}
 .idb-multiple .formbase-field{padding-left:var(--action-size);}
@@ -132,7 +135,7 @@ padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
 
 
 .ticket-status{display:grid; grid-gap:var(--size-3); grid-template-columns:1fr 300px;}
-.ticket-status-title{font-weight:800; margin-bottom:var(--size-3);}
+.ticket-status-title{font-weight:800; margin-bottom:var(--size-4);}
 .ticket-status-track{padding:var(--size-4);}
 .tst-list, .tst-step{display:grid;}
 .tst-step{grid-template-columns:var(--size-5) 1fr; grid-gap:var(--size-2);}
