@@ -44,7 +44,7 @@ nav > *{width:100%;}
 .nav-link-icon{padding-left:var(--size-4); border-left:var(--size-1) solid;}
 .nav-link-toggle{padding-right:var(--size-4);}
 .nav-link-icon .svgicon{width:var(--icon-size); height:auto; position:relative; top:2px;}
-.nav-link-toggle{width:var(--size-5); padding-left:0;}
+.nav-link-toggle{width:var(--size-5); padding-left:0; display:flex; align-items:flex-start;}
 .nav-link-toggle .svgicon{width:auto; height:var(--size-1);}
 .nav-link-open .svgicon{transform:rotate(-180deg);}
 .nav-sub{padding-left:calc(var(--size-3) * 2); display:none;}
