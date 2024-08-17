@@ -115,7 +115,7 @@ nav{box-shadow:#E4E8FF 0px 94px 21px;}
 .rancak-popup-right .rancak-popup-box{border-radius:0; height:100vh; height:100svh; max-width:377px; max-height:none; padding-right:var(--size-6);}
 .rancak-popup-right .rancak-popup-close{position:fixed; z-index:1000; top:0; right:0; padding:0; width:var(--size-6); height:var(--size-6);}
 .rancak-popup-right .rancak-popup-close .svgicon{width:auto; height:var(--size-4);}
-.rancak-popup-right .rpc-doc-img{margin-bottom:var(--size-5);}
+.rancak-popup-right .rpc-doc{display:grid; grid-gap:var(--size-3); margin-bottom:var(--size-5);}
 .rancak-popup-right .rpc-doc-img img{position:relative; height:auto;}
 
 .rpc-detail-data{display:grid; grid-gap:var(--size-3);}

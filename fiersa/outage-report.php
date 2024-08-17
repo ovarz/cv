@@ -95,9 +95,10 @@
     <div class="rancak-popup-box custom-scrollbar">
 	  <div class="rancak-popup-content">
 	    <div class="rpc-doc">
-		  <div class="rpc-doc-img rancak-lazy thumb-loading">
+		  <a title="View Document" class="rpc-doc-img rancak-lazy thumb-loading" href="img/sample/dokumen.jpg" target="_blank">
 		    <img class="lazyload" data-original="img/sample/dokumen.jpg" />
-		  </div>
+		  </a>
+		  <button title="Show Detail" class="btn rpc-download-button">Download</button>
 		</div>
 	    <ul class="rpc-detail-data">
 		  <li>

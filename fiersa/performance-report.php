@@ -166,10 +166,6 @@
 		    <div class="rpc-detail-info">Splicing</div>
 		  </li>
 		  <li>
-		    <div class="rpc-detail-label">Action Taken</div>
-		    <div class="rpc-detail-info">Splicing</div>
-		  </li>
-		  <li>
 		    <div class="rpc-detail-label">Started Date</div>
 		    <div class="rpc-detail-info">08 September 2024</div>
 		  </li>
