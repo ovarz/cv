@@ -42,6 +42,8 @@
           <div class="tdb-column tdb-column-status">
             Status
           </div>
+          <div class="tdb-column tdb-column-action"></div>
+          <div class="tdb-column tdb-column-action"></div>
 		</div>
 		
 	    <?php for ($i=1; $i <= 10; $i++) { ?>
@@ -58,6 +60,16 @@
             <div class="tdb-column tdb-column-status">
               Closed
             </div>
+            <div class="tdb-column tdb-column-action">
+              <a title="Edit Data" class="tdb-ca-button" href="ticket-complaint-new.php">
+                <?php require ($_SERVER['FIERSA'].'img/icon/edit.svg')?>
+              </a>
+            </div>
+            <div class="tdb-column tdb-column-action">
+              <button title="Show Detail" aria-popup="XXX006" class="tdb-ca-button tdb-ca-toggle open-sticky">
+                <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
+              </button>
+            </div>
           </div>	
 		<?php } ?>
 	  </div>
@@ -67,6 +79,51 @@
 
 
 
+</div>
+
+
+
+<div class="rancak-popup rancak-popup-right" aria-overlay="XXX006">
+  <div class="rancak-popup-overlay"></div>
+  <div class="rancak-popup-container content_center">
+    <div class="rancak-popup-box custom-scrollbar">
+	  <div class="rancak-popup-content">
+	    <ul class="rpc-detail-data">
+		  <li>
+		    <div class="rpc-detail-label">Ticket Number</div>
+		    <div class="rpc-detail-info">XXXXX XXXXX</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Ticket Type</div>
+		    <div class="rpc-detail-info">Request</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Status</div>
+		    <div class="rpc-detail-info">Closed</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Customer Type</div>
+		    <div class="rpc-detail-info">LMS</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Customer Name</div>
+		    <div class="rpc-detail-info">Adira Finance Cirebon</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Email</div>
+		    <div class="rpc-detail-info">me@aufarmahardi.com</div>
+		  </li>
+		  <li>
+		    <div class="rpc-detail-label">Phone</div>
+		    <div class="rpc-detail-info">080000000000</div>
+		  </li>
+		</ul>
+	  </div>
+      <button title="Close Popup" class="rancak-popup-close content_center">
+        <?php require ($_SERVER['FIERSA'].'img/icon/close.svg')?>
+      </button>
+	</div>
+  </div>
 </div>
 
 

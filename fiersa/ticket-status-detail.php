@@ -19,7 +19,7 @@
 	    <h2 class="ticket-status-title">Ticket Information</h2>
 	    <ul class="idb-list idb-detail">
 		  <li class="idb-row">
-		    <div class="idb-label">Request Ticket Number</div>
+		    <div class="idb-label">Ticket Number</div>
 			<div class="idb-info">XXXXX-XXXXX-XXXXX-XXXXX</div>
 		  </li>
 		  <li class="idb-row">

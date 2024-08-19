@@ -35,7 +35,7 @@
 			</div>
 		  </li>
 		  <li class="idb-row">
-		    <div class="idb-label">Request Ticket Number</div>
+		    <div class="idb-label">Ticket Number</div>
 			<div class="idb-info">
 			  <div class="formbase">
 			    <input type="text" class="formbase-field" value="XXXX-XXXX-XXXX" disabled>
