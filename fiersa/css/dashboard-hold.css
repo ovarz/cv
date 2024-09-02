@@ -21,6 +21,11 @@ border-top:1px dashed var(--color-text-3); fill:var(--color-text-1);}
 .hnp-row:first-child{border-top:0;}
 .hnp-row .svgicon{width:100%; height:auto; position:relative; top:4px;}
 .hnp-date{font-weight:400; font-size:10px; margin-top:var(--size-1); color:var(--color-text-1);}
+.header-user-popup{position:absolute; top:calc(var(--sitepadding-top) - var(--size-2)); right:var(--size-5); background-color:var(--bg-2); box-shadow:var(--shadow-default); 
+border-radius:var(--rounded-1); width:233px; max-height:377px; overflow-y:auto; padding:var(--size-3);}
+.hup-row{padding:var(--size-3) 0; border-bottom:1px dashed var(--color-border); display:grid; grid-template-columns:1fr var(--size-1); align-items:center;}
+.hup-icon .svgicon{width:100%; height:auto;}
+.header-user:hover .header-user-popup{display:block;}
 
 
 .hub-image-frame{overflow:hidden;}

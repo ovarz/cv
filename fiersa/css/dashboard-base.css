@@ -26,6 +26,7 @@ header{--thumb-height:40px; z-index:calc(var(--max-zindex) - 4000); width:100%; 
 .header-notif-box .svgicon{width:auto; height:var(--size-3);}
 .header-notif-circle{position:absolute; top:var(--size-1); right:var(--size-1); width:var(--size-2); height:var(--size-2);}
 .header-notif-show .header-notif-circle{display:block;}
+.header-user{position:relative;}
 .header-user-box{display:grid; grid-template-columns:var(--thumb-height) 1fr; grid-gap:var(--size-2); align-items:center;}
 .hub-title{font-weight:400;}
 

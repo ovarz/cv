@@ -40,7 +40,6 @@
 	  
 	  <div class="box-action">
 	    <button title="Login" class="btn action-submit" onclick="location.href='information.php';">Login</button>
-		<a title="Forgot ID or Password" class="action-link" href="login.php">Forgot ID or Password</a>
 	  </div>
 	</div>
   </div>

@@ -27,19 +27,31 @@
 		  </div>
 		</div>
 	  </div>
-	  <button title="User" class="header-box header-user content_center" onclick="location.href='login.php';">
-		<div class="header-user-box">
-		  <div class="hub-image">
-		    <div class="hub-image-frame rancak-lazy thumb-loading">
-			  <img class="lazyload" data-original="img/sample/user-<?php echo rand(1,5);?>.jpg" />
-			</div>
-		  </div>
-		  <div class="hub-info">
-		    <div class="hub-username"><?php echo $random_username[array_rand($random_username)]; ?></div>
-		    <div class="hub-title">Administrator</div>
-		  </div>
+	  <div class="header-box header-user content_center">
+        <button title="User" class="header-user-button content_center">
+          <div class="header-user-box">
+            <div class="hub-image">
+              <div class="hub-image-frame rancak-lazy thumb-loading">
+                <img class="lazyload" data-original="img/sample/user-<?php echo rand(1,5);?>.jpg" />
+              </div>
+            </div>
+            <div class="hub-info">
+              <div class="hub-username"><?php echo $random_username[array_rand($random_username)]; ?></div>
+              <div class="hub-title">Administrator</div>
+            </div>
+          </div>
+        </button>
+		<div class="header-user-popup custom-scrollbar hide">
+		  <a title="" class="hup-row" href="customer-data.php">
+		    <div class="hup-label">My Profile</div>
+		    <div class="hup-icon"><?php require ($_SERVER['FIERSA'].'img/icon/right.svg')?></div>
+		  </a>
+		  <a title="" class="hup-row" href="login.php">
+		    <div class="hup-label">Logout</div>
+		    <div class="hup-icon"><?php require ($_SERVER['FIERSA'].'img/icon/right.svg')?></div>
+		  </a>
 		</div>
-	  </button>
+	  </div>
 	</div>
   </div>
 </header>
