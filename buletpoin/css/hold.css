@@ -1,0 +1,107 @@
+:root, :before, :after{ 
+  --color-border-dark:65 71 86;
+  --color-border-light:255 255 255;
+  --color-text-1:#717788; 
+  --color-text-2:#414756;
+  --color-text-3:#C7261F;
+  --color-text-4:#364C74; 
+  --color-fb:#1877f2;
+  --color-tw:#000000;
+  --color-wa:#2bb240;
+  --color-tg:#0088cc;
+  --default-border-dark:13%;
+  --rounded-1:var(--size-1);
+  --rounded-2:var(--size-2);
+  --rounded-3:var(--size-4);
+  --hover-opacity:55%;
+  --transition-default:all 0.34s;
+  --shadow-default:0 5px 13px rgb(0 0 0 / 21%);
+  --shadow-neumorp:-2px -2px 4px rgba(255,255,255,.2), 2px 2px 12px rgba(0,0,0,.2);
+  --shadow-inset:inset -2px -2px 4px rgba(255,255,255,.2), inset 2px 2px 12px rgba(0,0,0,.2);
+}
+
+
+
+.bp-logo .bp-color-1{fill:var(--color-text-3);}
+.bp-logo .bp-color-2{fill:var(--color-text-4);}
+.bp-logo .bp-color-3{fill:var(--color-text-1);}
+body, html{color:var(--color-text-1);}
+a, .btn, button, #btt{transition:var(--transition-default); cursor:pointer}
+a, button{color:var(--color-text-2); fill:var(--color-text-2);}
+a:hover, button:hover{color:var(--color-text-3); fill:var(--color-text-3);}
+.btn, a.btn, button.btn, #btt{background-color:var(--color-text-3); color:var(--bg-1); fill:var(--bg-1); border-radius:var(--rounded-2);
+background:linear-gradient(135deg, var(--color-text-2) 0%, var(--color-text-4) 100%);}
+.btn:hover, a.btn:hover, button.btn:hover, #btt:hover, #btt:focus{filter:grayscale(1);}
+#btt{position:fixed; bottom:calc(var(--size-6) * 2); right:0; cursor:pointer; z-index:calc(var(--max-zindex) - 9000); 
+width:40px; height:40px; border-top-right-radius:0; border-bottom-right-radius:0;}
+.flex_ori > img{opacity:0; transition:all 300ms;}
+.flex_ori > img.lazyloaded{opacity:1;}
+.thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-text-4);}
+@-webkit-keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+@keyframes skeleton-loading{0%{opacity:0.05;}100%{opacity:0.15;};}
+.loadingpage{animation:page-loading 0.5s linear forwards;}
+@-webkit-keyframes page-loading{0%{opacity:1;}100%{opacity:0; display:none;};}
+@keyframes page-loading{0%{opacity:1;}100%{opacity:0; display:none;};}
+
+
+
+header{box-shadow:0 5px 55px rgb(0 0 0 / 21%); background:var(--bg-2);}
+.header-link{fill:var(--color-text-1);}
+.header-logo svg path{transition:all 300ms;}
+.header-logo:hover svg path{fill:var(--color-text-1) !important;}
+
+
+
+.rancak-article{border-bottom-color:rgb(var(--color-border-dark) / var(--default-border-dark));}
+.rancak-article-iklan, .rancak-article-iklan *{line-height:0;}
+.rancak-article-iklan{display:grid; grid-gap:var(--size-5); padding-bottom:var(--size-5); border-bottom:1px solid rgb(var(--color-border-dark) / var(--default-border-dark));}
+.rai-300x250 .rai-frame{width:300px; height:250px;}
+
+
+
+.articlelist-tag .btn{background:rgb(var(--color-border-dark) / var(--default-border-dark)); color:var(--color-text-1); fill:var(--color-text-1);}
+.articlelist-tag .btn:hover{background:var(--color-text-3); color:var(--bg-2); fill:var(--bg-2); filter:grayscale(0);}
+.alo-button{fill:var(--color-text-4);}
+.alo-facebook{fill:var(--color-fb);}
+.alo-x{fill:var(--color-tw);}
+.alo-telegram{fill:var(--color-tg);}
+.alo-whatsapp{fill:var(--color-wa);}
+
+
+
+footer, footer *{text-align:center;}
+footer{background-color:var(--color-text-2); padding:var(--size-4); color:var(--bg-2); line-height:140%; display:grid; grid-gap:2px;}
+
+
+
+
+
+.rancak-popup, .rancak-popup-overlay, .rancak-popup-container{top:0; left:0; width:100%; height:100%;}
+.rancak-popup{position:fixed; z-index:calc(var(--max-zindex) - 1000);}
+.rancak-popup-overlay, .rancak-popup-container{position:absolute;}
+.rancak-popup-container, .popup-box-b-content, .rancak-popup-close{padding:var(--size-4);}
+.rancak-popup-overlay{z-index:1; background-color:rgb(var(--color-border-dark) / 55%); cursor:pointer;}
+.rancak-popup-close{line-height:0; fill:var(--color-text-7);}
+.rancak-popup-close:hover{fill:var(--color-text-4);}
+.rancak-popup-close svg{width:auto; height:var(--size-5);}
+.rancak-popup-box{position:relative; z-index:1000; width:100%; max-width:610px; background-color:var(--bg-1); border-radius:var(--rounded-2); box-shadow:var(--shadow-default);}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:1023px){
+  
+}
+
+
+
+
+
+@media screen and (min-width:1024px){
+  
+  
+  
+  
+  .articlelist-thumb{border-radius:var(--rounded-2);}
+}
