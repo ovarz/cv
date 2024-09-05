@@ -9,7 +9,7 @@
   --color-tw:#000000;
   --color-wa:#2bb240;
   --color-tg:#0088cc;
-  --default-border-dark:13%;
+  --default-border-dark:8%;
   --rounded-1:var(--size-1);
   --rounded-2:var(--size-2);
   --rounded-3:var(--size-4);
@@ -53,6 +53,8 @@ header{box-shadow:0 5px 55px rgb(0 0 0 / 21%); background:var(--bg-2);}
 
 
 .rancak-article{border-bottom-color:rgb(var(--color-border-dark) / var(--default-border-dark));}
+.asl-title{color:var(--color-text-2);}
+.asl-icon svg{opacity:0.75;}
 .rancak-article-iklan, .rancak-article-iklan *{line-height:0;}
 .rancak-article-iklan{display:grid; grid-gap:var(--size-5); padding-bottom:var(--size-5); border-bottom:1px solid rgb(var(--color-border-dark) / var(--default-border-dark));}
 .rai-300x250 .rai-frame{width:300px; height:250px;}

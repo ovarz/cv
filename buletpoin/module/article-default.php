@@ -30,13 +30,6 @@
           </a>
         </div>
       </div>
-      <div class="articlelist-tag">
-        <?php foreach($article_box['article_topic'] as $article_topic){ ?>
-          <a title="<?php echo($article_topic['article_topic_list'])?>" class="btn articlelist-tag-list" href="topic.php">
-            <h4><?php echo($article_topic['article_topic_list'])?></h4>
-          </a>
-        <?php } ?>
-      </div>
     </div>
   </div>
 </article>
