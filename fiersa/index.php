@@ -65,6 +65,12 @@
 		  <li>
 		    <a href="list-user.php">List User</a>
 		  </li>
+		  <li>
+		    <a href="user-group.php">User Group</a>
+		  </li>
+		  <li>
+		    <a href="registration-user.php">Registration User</a>
+		  </li>
 		</ul>
 	  </div>
 	</div>

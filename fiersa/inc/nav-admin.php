@@ -1,5 +1,5 @@
 <nav class="custom-scrollbar">
-  <a title="Back to home" class="main-logo rancak-lazy thumb-loading" href="information.php">
+  <a title="Back to home" class="main-logo rancak-lazy thumb-loading" href="list-user.php">
     <img class="lazyload" data-original="img/logo-color.png" />
   </a>
   
