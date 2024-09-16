@@ -37,9 +37,6 @@
 		    <a href="login.php">Login</a>
 		  </li>
 		  <li>
-		    <a href="register.php">Register</a>
-		  </li>
-		  <li>
 		    <a href="information.php">Information</a>
 		  </li>
 		  <li>
@@ -63,6 +60,10 @@
 		  </li>
 		  <li>
 		    <a href="performance-report.php">Performance Report</a>
+		  </li>
+		  <li></li>
+		  <li>
+		    <a href="list-user.php">List User</a>
 		  </li>
 		</ul>
 	  </div>

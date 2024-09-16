@@ -33,6 +33,9 @@
           <div class="tdb-column tdb-column-ticketnumber">
             Ticket Number
           </div>
+          <div class="tdb-column tdb-column-ticketnumber">
+            Request Ticket Number
+          </div>
           <div class="tdb-column tdb-column-ticketcategory">
             Ticket Category
           </div>
@@ -46,6 +49,9 @@
 		
 	    <?php for ($i=1; $i <= 10; $i++) { ?>
           <div class="tdb-row">
+            <div class="tdb-column tdb-column-ticketnumber">
+              XXXXX XXXXX
+            </div>
             <div class="tdb-column tdb-column-ticketnumber">
               XXXXX XXXXX
             </div>

@@ -65,4 +65,26 @@
     'nav_link'=>'performance-report',
 	'nav_sub'=>'',
   );
+  
+  
+  
+  $nav_admin_array = array();
+  $nav_admin_array[]=array(
+    'nav_icon'=>'list-user',
+	'nav_title'=>'List User',
+    'nav_link'=>'list-user',
+	'nav_sub'=>'',
+  );
+  $nav_admin_array[]=array(
+    'nav_icon'=>'user-group',
+	'nav_title'=>'User Group',
+    'nav_link'=>'user-group',
+	'nav_sub'=>'',
+  );
+  $nav_admin_array[]=array(
+    'nav_icon'=>'registration-user',
+	'nav_title'=>'Registration User',
+    'nav_link'=>'registration-user',
+	'nav_sub'=>'',
+  );
 ?>
