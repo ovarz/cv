@@ -39,23 +39,23 @@
 			  <div class="rancak-popup-container content_center">
 				<div class="rancak-popup-box custom-scrollbar">
 				  <div class="rancak-popup-content popup-filter">
-                    <div class="popup-filter-row formbase">
-                      <select class="formbase-field formbase-field-select">
-                        <option value="0">Select Month</option>
-                        <option value="1">January</option>
-                        <option value="2">February</option>
-                        <option value="3">March</option>
-                        <option value="4">April</option>
-                        <option value="5">May</option>
-                        <option value="6">June</option>
-                        <option value="7">July</option>
-                        <option value="8">August</option>
-                        <option value="9">September</option>
-                        <option value="10">October</option>
-                        <option value="11">November</option>
-                        <option value="12">December</option>
-                      </select>
-                      <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
+				    <div class="popup-filter-uprow">
+                      <div class="popup-filter-label">From</div>
+                      <div class="popup-filter-row formbase">
+                        <select class="formbase-field formbase-field-select">
+                          <option value="0">Select Date</option>
+                        </select>
+                        <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
+                      </div>
+                    </div>
+				    <div class="popup-filter-uprow">
+                      <div class="popup-filter-label">To</div>
+                      <div class="popup-filter-row formbase">
+                        <select class="formbase-field formbase-field-select">
+                          <option value="0">Select Date</option>
+                        </select>
+                        <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
+                      </div>
                     </div>
 					<button title="Filter" class="btn filter-submit" onclick="location.href='performance-report.php';">Filter</button>
 				  </div>

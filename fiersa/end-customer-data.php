@@ -35,27 +35,6 @@
 				<div class="rancak-popup-box custom-scrollbar">
 				  <div class="rancak-popup-content popup-filter">
                     <div class="popup-filter-row formbase">
-                      <select class="formbase-field formbase-field-select">
-                        <option value="0">Select POP ID</option>
-                        <option value="1">POP ID 1</option>
-                        <option value="1">POP ID 2</option>
-                        <option value="1">POP ID 3</option>
-                        <option value="1">POP ID 4</option>
-                        <option value="1">POP ID 5</option>
-                      </select>
-                      <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
-                    </div>
-                    <div class="popup-filter-row formbase">
-                      <select class="formbase-field formbase-field-select">
-                        <option value="0">Select ISP</option>
-                        <option value="1">ISP 1</option>
-                        <option value="1">ISP 2</option>
-                        <option value="1">ISP 3</option>
-                        <option value="1">ISP 4</option>
-                        <option value="1">ISP 5</option>
-                      </select>
-                      <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
-                    </div>
                     <div class="popup-filter-row formbase">
                       <select class="formbase-field formbase-field-select">
                         <option value="0">Select Service</option>
