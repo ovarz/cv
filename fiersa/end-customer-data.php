@@ -35,7 +35,6 @@
 				<div class="rancak-popup-box custom-scrollbar">
 				  <div class="rancak-popup-content popup-filter">
                     <div class="popup-filter-row formbase">
-                    <div class="popup-filter-row formbase">
                       <select class="formbase-field formbase-field-select">
                         <option value="0">Select Service</option>
                         <option value="1">Service 1</option>
