@@ -41,12 +41,22 @@
 				  <div class="rancak-popup-content popup-filter">
 				    <div class="popup-filter-uprow">
                       <div class="popup-filter-label">From</div>
-                      <div class="popup-filter-row formbase">
-                        <select class="formbase-field formbase-field-select">
-                          <option value="0">Select Date</option>
-                        </select>
-                        <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
-                      </div>
+					  <div class="popup-filter-split">
+                        <div class="popup-filter-row formbase">
+                          <select class="formbase-field formbase-field-select">
+                            <option value="0">Month</option>
+                            <option value="1">January</option>
+                          </select>
+                          <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
+                        </div>
+						<div class="popup-filter-row formbase">
+                          <select class="formbase-field formbase-field-select">
+                            <option value="0">Year</option>
+                            <option value="1">2024</option>
+                          </select>
+                          <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
+                        </div>
+					  </div>
                     </div>
 				    <div class="popup-filter-uprow">
                       <div class="popup-filter-label">To</div>

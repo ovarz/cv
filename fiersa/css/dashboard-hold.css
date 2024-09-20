@@ -70,6 +70,7 @@ nav{box-shadow:#E4E8FF 0px 94px 21px;}
 
 .popup-filter{display:grid; grid-gap:var(--size-2);}
 .popup-filter-label{margin-bottom:var(--size-1); font-size:var(--fontsize-base);}
+.popup-filter-split{display:grid; grid-gap:var(--size-1); grid-template-columns:repeat(2,1fr);}
 
 
 
