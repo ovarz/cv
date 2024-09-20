@@ -34,7 +34,7 @@
             <button title="Filter" aria-popup="filter-end-customer-data" class="btn tdh-button open-sticky">
               Filter
             </button>
-			<div class="rancak-popup rancak-popup-small" aria-overlay="filter-end-customer-data">
+			<div class="rancak-popup rancak-popup-small rancak-popup-small-2" aria-overlay="filter-end-customer-data">
 			  <div class="rancak-popup-overlay"></div>
 			  <div class="rancak-popup-container content_center">
 				<div class="rancak-popup-box custom-scrollbar">
