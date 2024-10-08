@@ -42,6 +42,7 @@
           <div class="tdb-column tdb-column-action"></div>
           <div class="tdb-column tdb-column-action"></div>
           <div class="tdb-column tdb-column-action"></div>
+          <div class="tdb-column tdb-column-action"></div>
 		</div>
 		
 	    <?php for ($i=1; $i <= 10; $i++) { ?>
@@ -69,6 +70,11 @@
             <div class="tdb-column tdb-column-action">
               <button title="Show Detail" aria-popup="XXX001" class="tdb-ca-button tdb-ca-toggle open-sticky">
                 <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
+              </button>
+            </div>
+            <div class="tdb-column tdb-column-action">
+              <button title="Delete Data" class="tdb-ca-button">
+                <?php require ($_SERVER['FIERSA'].'img/icon/delete.svg')?>
               </button>
             </div>
           </div>	

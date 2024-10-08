@@ -43,41 +43,11 @@
 			</div>
 		  </li>
 		  <li class="idb-row">
-		    <div class="idb-label">Customer Type</div>
-			<div class="idb-info">
-              <div class="formbase">
-                <select class="formbase-field formbase-field-select">
-                  <option value="1">LMS</option>
-                  <option value="2">Option 2</option>
-                  <option value="3">Option 3</option>
-                  <option value="4">Option 4</option>
-                  <option value="5">Option 5</option>
-                </select>
-                <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
-              </div>
-			</div>
-		  </li>
-		  <li class="idb-row">
 		    <div class="idb-label">Type of Ticket</div>
 			<div class="idb-info">
               <div class="formbase">
                 <select class="formbase-field formbase-field-select">
                   <option value="1">Request</option>
-                  <option value="2">Option 2</option>
-                  <option value="3">Option 3</option>
-                  <option value="4">Option 4</option>
-                  <option value="5">Option 5</option>
-                </select>
-                <?php require ($_SERVER['FIERSA'].'img/icon/down.svg')?>
-              </div>
-			</div>
-		  </li>
-		  <li class="idb-row">
-		    <div class="idb-label">Ticket Category</div>
-			<div class="idb-info">
-              <div class="formbase">
-                <select class="formbase-field formbase-field-select">
-                  <option value="1">User & Password</option>
                   <option value="2">Option 2</option>
                   <option value="3">Option 3</option>
                   <option value="4">Option 4</option>
