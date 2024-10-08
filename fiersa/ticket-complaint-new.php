@@ -21,8 +21,8 @@
 		    <div class="idb-label">Customer Detail</div>
 			<div class="idb-info idb-multiple">
               <div class="formbase">
-			    <?php require ($_SERVER['FIERSA'].'img/icon/user.svg')?>
-                <input type="text" class="formbase-field" placeholder="Contact Person Name">
+			    <?php require ($_SERVER['FIERSA'].'img/icon/number.svg')?>
+                <input type="text" class="formbase-field" placeholder="CRT Number">
               </div>
               <div class="formbase">
 			    <?php require ($_SERVER['FIERSA'].'img/icon/phone.svg')?>

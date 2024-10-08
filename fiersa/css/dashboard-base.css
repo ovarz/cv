@@ -63,6 +63,9 @@ display:grid; grid-gap:var(--size-6); grid-auto-rows:min-content;}
 .search-box .svgicon{position:absolute; z-index:1; left:var(--size-4); top:17px; width:auto; height:var(--fontsize-regular);}
 .search-field{height:var(--action-size); position:relative; z-index:1000; background-color:transparent; border:1px solid; width:377px;
 padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
+@media screen and (max-width:1200px){
+  .search-field{max-width:233px;}
+}
 
 
 
@@ -80,7 +83,7 @@ padding-left:calc(var(--size-5) + var(--size-2)); padding-right:var(--size-4);}
 
 
 .table-default{display:grid; grid-gap:var(--size-3);}
-
+.table-default-warning{text-align:right; font-size:10px;}
 .table-default-head, .tdh-left, .tdh-right{display:flex;}
 .table-default-head{justify-content:space-between; align-items:center;}
 .tdh-box{margin-left:var(--size-2); position:relative;}

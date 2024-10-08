@@ -15,6 +15,7 @@
 
 
     <section class="table-default">
+	  <div class="table-default-warning">* Hanya service Impact Down yang dapat dilakukan proses restitusi</div>
 	  <div class="table-default-head">
 	    <div class="tdh-left">
 		  <?php $search_placeholder='Search here.....'; $search_to='customer-data.php'; require ($_SERVER['FIERSA'].'module/search-box.php')?>
