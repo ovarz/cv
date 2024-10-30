@@ -73,6 +73,9 @@
           <div class="tdb-column tdb-column-ticketnumber">
             Ticket Number
           </div>
+          <div class="tdb-column tdb-column-submitdate">
+            Submit Date
+          </div>
           <div class="tdb-column tdb-column-name">
             Customer Name
           </div>
@@ -95,6 +98,9 @@
           <div class="tdb-row">
             <div class="tdb-column tdb-column-ticketnumber">
               XXXXX XXXXX
+            </div>
+            <div class="tdb-column tdb-column-submitdate">
+              30 Sep 2024
             </div>
             <div class="tdb-column tdb-column-name">
               PT Cyberindo Aditama

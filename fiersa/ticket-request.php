@@ -36,6 +36,9 @@
           <div class="tdb-column tdb-column-ticketnumber">
             Request Ticket Number
           </div>
+          <div class="tdb-column tdb-column-submitdate">
+            Submit Date
+          </div>
           <div class="tdb-column tdb-column-ticketcategory">
             Ticket Category
           </div>
@@ -54,6 +57,9 @@
             </div>
             <div class="tdb-column tdb-column-ticketnumber">
               XXXXX XXXXX
+            </div>
+            <div class="tdb-column tdb-column-submitdate">
+              30 Sep 2024
             </div>
             <div class="tdb-column tdb-column-ticketcategory">
               Request
