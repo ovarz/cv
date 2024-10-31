@@ -58,7 +58,7 @@
 			</div>
 		  </li>
 		  <li class="idb-row">
-		    <div class="idb-label">Upload Image</div>
+		    <div class="idb-label">Attachments</div>
 			<div class="idb-info">
               <div class="formbase">
                 <input type="file" class="formbase-field" placeholder="Choose Image">
