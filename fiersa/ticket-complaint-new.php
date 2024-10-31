@@ -22,7 +22,7 @@
 			<div class="idb-info idb-multiple">
               <div class="formbase">
 			    <?php require ($_SERVER['FIERSA'].'img/icon/number.svg')?>
-                <input type="text" class="formbase-field" placeholder="CRT Number">
+                <input type="text" class="formbase-field" placeholder="CRT Number / End Customer Name">
               </div>
               <div class="formbase">
 			    <?php require ($_SERVER['FIERSA'].'img/icon/phone.svg')?>
