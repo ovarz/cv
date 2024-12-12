@@ -35,11 +35,9 @@ a, button{transition:all 0.34s; cursor:pointer; font-weight:bold;}
 
 
 
-.box-content{position:relative; z-index:1000; padding:var(--size-5); width:100%; max-width:var(--site-container);
-display:grid; grid-gap:var(--size-5);}
-.logo svg{width:auto; height:var(--size-4); opacity:55%;}
-.logo .vl-1{fill:var(--color-2);}
-.logo .vl-2{fill:var(--color-1);}
+.box-content{position:relative; z-index:1000; padding:var(--size-5); width:100%; display:grid; grid-gap:var(--size-5);}
+.logo svg{width:auto; height:var(--size-5); opacity:89%;}
+.logo svg path{fill:var(--color-2);}
 .hasil-undian{text-align:center; color:var(--color-2); font-weight:bold; text-transform:uppercase; font-size:64px;}
 .hasil-undian.pemenang{color:var(--color-3);}
 .mulai-undian{padding:0 var(--size-5); background-color:var(--color-3); color:var(--color-2); height:var(--size-6); border-radius:var(--size-6);}

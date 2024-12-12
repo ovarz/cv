@@ -20,7 +20,7 @@
   <div class="content_center logo">
     <?php require ($_SERVER['VU'].'asset/logo.svg')?>
   </div>
-  <div id="result" class="hasil-undian">---</div>
+  <div id="result" class="hasil-undian">&nbsp;</div>
   <div class="content_center">
     <button id="draw-button" class="mulai-undian content_center">Mulai Undian</button>
   </div>
