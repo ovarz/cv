@@ -69,16 +69,23 @@ header{background-color:var(--bg-2);}
 
 
 
-.hero-image-info:before{background-color:var(--color-3); border-radius:var(--size-3);}
+.trending-link{border-color:rgb(var(--border-color) / 13%);}
 
 
 
 .hero-image-info{color:var(--color-1);}
+.hero-image-info:before{background-color:var(--color-3); border-radius:var(--size-3);}
 .hero-image-frame img{opacity:1;}
 
 
 
 .video-playlist, .instagram-media, .tiktok-embed iframe{border-radius:var(--rounded-2) !important; overflow:hidden;}
+
+
+
+.search-field{background-color:transparent; border-color:rgb(var(--border-color) / 21%); color:var(--color-2); border-radius:var(--size-7);}
+.search-button{background-color:var(--color-3); border-radius:0 var(--size-7) var(--size-7) 0; color:var(--bg-2) !important;}
+.search-button:hover{background-color:var(--color-4);}
 
 
 

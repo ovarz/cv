@@ -19,8 +19,17 @@
 
 
 
+		  <section title="section_name" class="rancak-section rancak-section-box">
+            <?php require ($_SERVER['OG'].'template/module/search-box.php')?>
+			<div class="search-result">
+			  <div class="search-result-label">Hasil pencarian:</div>
+			  <h2 class="search-result-info"><?php echo $random_cate[array_rand($random_cate)];?></h2>
+			</div>
+          </section>
+
+
+
 		  <section title="section_name" class="rancak-section rancak-section-box article-list">
-		    <?php $section_title=$menu; require ($_SERVER['OG'].'template/module/section-title.php')?>
             <div class="article-list-container">
 			  <?php for ($i=1; $i<=10; $i++){ ?>
 			    <?php $article_misc='time'; $article_cate='hide'; $article_desc='show'; $article_thumb='show';

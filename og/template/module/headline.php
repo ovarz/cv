@@ -6,7 +6,7 @@
     require ($_SERVER['OG'].'template/module/article-box.php')?>
   </div>
   <div class="headline-list">
-    <?php for ($i=1; $i<=3; $i++) { ?>
+    <?php for ($i=1; $i<=3; $i++){ ?>
       <?php $article_misc='date'; $article_cate='show'; $article_desc='hide'; $article_thumb='hide';
       require ($_SERVER['OG'].'template/module/article-box.php')?>
     <?php } ?>

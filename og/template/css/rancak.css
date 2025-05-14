@@ -51,7 +51,6 @@ header{position:relative; position:-webkit-sticky; position:sticky; z-index:calc
 
 
 
-nav{}
 .nav-link{display:flex;}
 .nav-link-label, .nav-link-toggle{height:var(--header-height); display:flex; align-items:center;}
 .nav-link-label{width:100%;}
@@ -72,16 +71,23 @@ display:grid; grid-gap:var(--size-3); grid-template-columns:auto 1fr; align-item
 
 .article-list-container{display:grid; grid-gap:var(--size-4);}
 .article-box{display:grid; grid-gap:var(--size-3); grid-template-columns:auto 1fr; padding-bottom:var(--size-4); border-bottom:1px dashed;}
-.article-title-detail{line-height:150%; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+.article-title-detail{line-height:160%; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
 .article-misc{display:flex; font-size:calc(var(--fontsize) - 4px)}
 .article-misc > *{margin-top:var(--size-2); margin-right:var(--size-1); padding:var(--size-1); border:1px solid;}
 .article-time{border:0; padding-left:0;}
-.article-desc{margin-top:var(--size-2); font-size:calc(var(--fontsize) - 2px); line-height:150%; 
+.article-desc{margin-top:var(--size-2); font-size:calc(var(--fontsize) - 2px); line-height:160%; 
 display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
 .article-thumb{--aspect-ratio:1/1; width:var(--size-7);}
 .article-list .iklan-retangle{margin-top:var(--size-4);}
 
 .video-playlist{--aspect-ratio:16/9;}
+
+
+
+.trending-section .section-title{margin-bottom:var(--size-2);}
+.trending-link{display:grid; grid-template-columns:var(--size-5) 1fr; padding:var(--size-4) 0; border-bottom:1px dashed;
+font-size:calc(var(--fontsize) + 4px); line-height:150%;}
+.trending-title{}
 
 
 
@@ -120,6 +126,14 @@ word-wrap:break-word; word-break:break-word; hyphens:auto;}
 .article-loadmore-button{display:grid; grid-gap:var(--size-3); align-items:center; grid-template-columns:auto 1fr; 
 margin-top:var(--size-4); padding:var(--size-4) var(--size-5) !important; font-weight:500;}
 .alb-icon{line-height:0;}
+
+
+
+.search-box{position:relative;}
+.search-field{border:1px solid; width:100%; padding:var(--size-4); padding-right:calc(var(--size-2) + var(--size-7));}
+.search-button{position:absolute; top:0; right:0; height:100%; width:var(--size-7);}
+.search-result{display:grid; grid-gap:var(--size-1); margin-top:var(--size-3);}
+.search-result-info{font-weight:bold; color:var(--color-2); line-height:160%;}
 
 
 

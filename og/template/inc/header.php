@@ -7,7 +7,7 @@
 	</li>
 	<li class="header-right">
 	  <?php $nav_device="desktop"; require ($_SERVER['OG'].'template/inc/nav.php')?>
-	  <a title="Cari" class="header-box header-search content_center" href="cari.php">
+	  <a title="Cari" class="header-box header-search content_center" href="search.php">
 	    <?php require ($_SERVER['OG'].'template/img/icon/search.svg')?>
 	  </a>
 	  <button title="Toggle Navigation" class="header-box header-togglenav content_center mobile-only">

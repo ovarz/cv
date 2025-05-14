@@ -14,7 +14,7 @@
 	<div class="article-misc">
 	  <?php if($article_cate == 'show'){ ?>
         <a title="<?php echo $random_cate[array_rand($random_cate)];?>" class="article-cate" href="subdomain.php">
-          <h3 class="article-cate-detail"><?php echo $random_cate[array_rand($random_cate)];?></h2>
+          <h3 class="article-cate-detail"><?php echo $random_cate[array_rand($random_cate)];?></h3>
         </a>
 	  <?php } ?>
       <h4 class="article-other article-<?php echo $article_misc;?>">

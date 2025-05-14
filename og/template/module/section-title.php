@@ -7,7 +7,7 @@
       <?php echo $section_title;?>
     <?php } ?>
     <?php if($section_title == 'random'){ ?>
-      <?php echo $random_topic[array_rand($random_topic)];?>
+      # <?php echo $random_topic[array_rand($random_topic)];?>
     <?php } ?>
   </div>
 </div>

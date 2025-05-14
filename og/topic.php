@@ -20,7 +20,7 @@
 
 
 		  <section title="section_name" class="rancak-section rancak-section-box article-list">
-		    <?php $section_title=$menu; require ($_SERVER['OG'].'template/module/section-title.php')?>
+		    <?php $section_title='random'; require ($_SERVER['OG'].'template/module/section-title.php')?>
             <div class="article-list-container">
 			  <?php for ($i=1; $i<=10; $i++){ ?>
 			    <?php $article_misc='time'; $article_cate='hide'; $article_desc='show'; $article_thumb='show';

@@ -9,6 +9,20 @@
 		<iframe width="560" height="315" class="lazyload" data-original="https://www.youtube.com/embed/videoseries?si=ThtycTWYJLLo6-Bs&amp;list=PLX6nLBE9jIqj7J3zhDsCDl0eC2MWhRed5" frameborder="0" allowfullscreen></iframe>
       </div>
     </section>
+	
+	
+	
+	<section title="Trending" class="rancak-section rancak-section-box trending-section">
+      <?php $section_title='Trending'; require ($_SERVER['OG'].'template/module/section-title.php')?>
+	  <div class="trending-list">
+	    <?php for ($i=1; $i<=5; $i++){ ?>
+          <a title="<?php echo $random_topic[array_rand($random_topic)];?>" class="trending-link" href="topic.php">
+            <h2 class="trending-label">#<?php echo $i;?></h2>
+            <h2 class="trending-title"><?php echo $random_topic[array_rand($random_topic)];?></h2>
+          </a>
+		<?php } ?>
+	  </div>
+	</section>
 
 
 
