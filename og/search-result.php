@@ -1,5 +1,5 @@
 <?php 
-  $menu='Mobil';
+  $menu='Search';
   $submenu='';
   $template='default';
   require ('template/inc/base.php')
