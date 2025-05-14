@@ -75,6 +75,7 @@ display:grid; grid-gap:var(--size-3); grid-template-columns:auto 1fr; align-item
 .article-title-detail{line-height:150%; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
 .article-misc{display:flex; font-size:calc(var(--fontsize) - 4px)}
 .article-misc > *{margin-top:var(--size-2); margin-right:var(--size-1); padding:var(--size-1); border:1px solid;}
+.article-time{border:0; padding-left:0;}
 .article-desc{margin-top:var(--size-2); font-size:calc(var(--fontsize) - 2px); line-height:150%; 
 display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
 .article-thumb{--aspect-ratio:1/1; width:var(--size-7);}
