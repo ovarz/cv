@@ -28,4 +28,25 @@
 	  ],
     ],
   );
+  $nav_array[]=array(
+	'nav_title'=>'Motor',
+    'nav_link'=>'subdomain/',
+    'nav_sub' => [
+      [
+        'nav_title'=>'Motor Sub 1',
+        'nav_link'=>'subdomain/kanal/',
+		'nav_sub'=>'',
+	  ],
+      [
+        'nav_title'=>'Motor Sub 2',
+        'nav_link'=>'subdomain/kanal/',
+		'nav_sub'=>'',
+	  ],
+      [
+        'nav_title'=>'Motor Sub 3',
+        'nav_link'=>'subdomain/kanal/',
+		'nav_sub'=>'',
+	  ],
+    ],
+  );
 ?>

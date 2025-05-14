@@ -15,7 +15,6 @@
 .nav-list{display:flex;}
 .nav-link-label{padding:0 var(--size-3);}
 .nav-link-toggle{padding-right:var(--size-3);}
-.nav-box:hover .nav-sub{display:block;}
 
 
 

@@ -12,6 +12,7 @@
 	  </button>
 	  <button title="Toggle Navigation" class="header-box header-togglenav content_center mobile-only">
 	    <?php require ($_SERVER['OG'].'template/img/icon/nav.svg')?>
+		<?php require ($_SERVER['OG'].'template/img/icon/close.svg')?>
 	  </button>
 	</li>
 	<li class="header-nav-mobile mobile-only">

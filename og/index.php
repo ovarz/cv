@@ -1,6 +1,6 @@
 <?php 
-  $menu='Mobil';
-  $submenu='Mobil Sub 2';
+  $menu='Home';
+  $submenu='';
   $template='default';
   require ('template/inc/base.php')
 ?>

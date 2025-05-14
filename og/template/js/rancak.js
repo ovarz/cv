@@ -19,6 +19,28 @@ function all_scroll(){
 
 
 
+function sticky_small_column(){
+  var $window = $(window);
+  function checkWidth(){
+    var windowsize = $window.width();
+    if (windowsize > 1000){
+      $window.scroll(function(){
+		var sc = $window.scrollTop();
+        var right_container_height = $('.rcb-container-sticky').outerHeight();
+		if(sc >= 0){
+          $('.rcb-container-sticky').css({
+			'top':'calc(100% - ' + right_container_height + 'px - 21px)' //--section-space-normal
+          });
+		}
+      });
+    }
+  }
+  checkWidth();
+  //$(window).resize(checkWidth);
+}
+
+
+
 function back_to_top(){
   $('#btt').on('click',function(){
     $('html, body').animate({
@@ -48,6 +70,23 @@ function open_sticky(){
 
 
 
+function toggle_menu(){
+  $('.header-togglenav').click(function(){
+	$(this).toggleClass('header-opennav');
+	$(this).find('svg').slideToggle('fast');
+	$('.header-nav-mobile').slideToggle('fast');
+	return false;
+  });
+  
+  $('.header-nav-mobile .nav-link-toggle').click(function(){
+	$(this).toggleClass('sub-opennav');
+	$(this).parents().eq(1).find('.nav-sub').slideToggle('fast');
+	return false;
+  });
+}
+
+
+
 function iklan_sticky_bottom(){
   $(".isb-close").click(function(){
     $(".iklan-sticky-bottom").hide();
@@ -58,33 +97,12 @@ function iklan_sticky_bottom(){
 
 
 
-function sticky_small_column(){
-  var $window = $(window);
-  function checkWidth(){
-    var windowsize = $window.width();
-    if (windowsize > 1000){
-      $window.scroll(function(){
-		var sc = $window.scrollTop();
-        var right_container_height = $('.rcb-container-sticky').outerHeight();
-		if(sc >= 0){
-          $('.rcb-container-sticky').css({
-			'top':'calc(100% - ' + right_container_height + 'px - 21px)' //--section-space-normal
-          });
-		}
-      });
-    }
-  }
-  checkWidth();
-  //$(window).resize(checkWidth);
-}
-
-
-
 $(document).ready(function(){
   "use strict";
   all_scroll();
+  sticky_small_column();
   back_to_top();
   open_sticky();
+  toggle_menu();
   iklan_sticky_bottom();
-  sticky_small_column();
 });

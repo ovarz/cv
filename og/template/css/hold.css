@@ -1,11 +1,11 @@
 :root, :before, :after{
-  --bg-2:#121214;  
+  --bg-2:#130D0F;  
   --border-color:255 255 255;
   --border-opacity:8%;
-  --color-1:#bfbfc2; 
+  --color-1:#BFBFC2; 
   --color-2:#FFFFFF;
-  --color-3:#af8d19; 
-  --color-4:#8c6f00;
+  --color-3:#EABD5E; 
+  --color-4:#c78957;
   --color-fb:#1877f2;
   --color-tw:#000000;
   --color-wa:#2bb240;
@@ -49,6 +49,10 @@ header{background-color:var(--bg-2);}
 
 
 .nav-box{border-color:rgb(var(--border-color) / var(--border-opacity)) !important;}
+.nav-link{color:var(--color-2); fill:var(--color-2);}
+.nav-link a, .nav-link button{color:inherit; fill:inherit;}
+.nav-curr{color:var(--color-4); fill:var(--color-4);}
+.nav-link-toggle svg{transition:var(--transition-default);}
 
 
 
@@ -108,9 +112,10 @@ display:flex; justify-content:center; align-items:center; content:'Iklan'; line-
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
-  .header-nav-mobile{grid-column:1/3; background-color:var(--bg-2);}
+  .header-nav-mobile{grid-column:1/3; background-color:var(--bg-2); max-height:calc(100vh - var(--header-height)); max-height:calc(100svh - var(--header-height)); overflow-y:auto;}
   .nav-link-label, .nav-link-toggle{padding:0 var(--size-4);}
   .nav-sub .nav-link-label:before{content:'-'; margin-right:var(--size-2);}
+  .sub-opennav svg{transform:rotate(-180deg);}
   
   
   
@@ -125,6 +130,8 @@ display:flex; justify-content:center; align-items:center; content:'Iklan'; line-
 
 @media screen and (min-width:1024px){
   .nav-box{position:relative; z-index:1;}
+  .nav-box:hover .nav-sub{display:block;}
+  .nav-box:hover .nav-link-toggle svg{transform:rotate(-180deg);}
   .nav-link{position:relative; z-index:2000;}
   .nav-link:hover .nav-link-label, .nav-link:hover .nav-link-toggle{color:var(--color-3) !important; fill:var(--color-3) !important;}
   
