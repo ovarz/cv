@@ -23,6 +23,9 @@
 <div id="fb-root"></div>
 <script defer src="template/js/lazysizes.min.js"></script>
 <script defer rancak-hold="template/js/rancak.js"></script>
+<script defer>
+  window.scrollTo(0,0);
+</script>
 
 
 
