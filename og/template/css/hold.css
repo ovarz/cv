@@ -62,8 +62,8 @@ header{background-color:var(--bg-2);}
 
 .article-box{border-color:rgb(var(--border-color) / 13%);}
 .article-misc > *{border-radius:var(--rounded-1);}
-.article-kanal, .article-ad{border-color:var(--color-2);}
-.article-kanal:hover{border-color:var(--color-3);}
+.article-cate{border-color:rgb(var(--border-color) / 13%);}
+.article-cate:hover{border-color:var(--color-3);}
 .article-time, .article-date{border-color:transparent;}
 .article-thumb{border-radius:var(--rounded-2);}
 
