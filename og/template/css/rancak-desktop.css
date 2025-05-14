@@ -12,7 +12,10 @@
 
 
 
-nav{}
+.nav-list{display:flex;}
+.nav-link-label{padding:0 var(--size-3);}
+.nav-link-toggle{padding-right:var(--size-3);}
+.nav-box:hover .nav-sub{display:block;}
 
 
 
@@ -33,7 +36,8 @@ nav{}
 
 .iklan-skin{display:flex; padding-top:var(--size-4); padding-bottom:var(--size-4); align-items:flex-start;}
 .iklan-skin-left{justify-content:flex-end;}
-.iklan-skin-container{line-height:0; position:-webkit-sticky !important; position:sticky !important; top:calc(var(--size-4) + var(--header-height)); width:160px; height:600px;}
+.iklan-skin-container{line-height:0; position:-webkit-sticky !important; position:sticky !important; top:calc(var(--size-4) + var(--header-height)); 
+width:160px; height:600px; overflow:hidden;}
 
 
 

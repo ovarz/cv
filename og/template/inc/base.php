@@ -5,4 +5,27 @@
   $_SERVER['OG'] = $_SERVER['DOCUMENT_ROOT'] . '/og/';  
   $sitename = 'OtoGear';
   $anticache = date ('s'.'i'.'H'.'d'.'m'.'Y');
+  
+  $nav_array = array();
+  $nav_array[]=array(
+	'nav_title'=>'Home',
+    'nav_link'=>'',
+	'nav_sub'=>'',
+  );
+  $nav_array[]=array(
+	'nav_title'=>'Mobil',
+    'nav_link'=>'subdomain/',
+    'nav_sub' => [
+      [
+        'nav_title'=>'Mobil Sub 1',
+        'nav_link'=>'subdomain/kanal/',
+		'nav_sub'=>'',
+	  ],
+      [
+        'nav_title'=>'Mobil Sub 2',
+        'nav_link'=>'subdomain/kanal/',
+		'nav_sub'=>'',
+	  ],
+    ],
+  );
 ?>

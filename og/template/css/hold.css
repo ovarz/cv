@@ -5,6 +5,7 @@
   --color-1:#bfbfc2; 
   --color-2:#FFFFFF;
   --color-3:#af8d19; 
+  --color-4:#8c6f00;
   --color-fb:#1877f2;
   --color-tw:#000000;
   --color-wa:#2bb240;
@@ -47,7 +48,7 @@ header{background-color:var(--bg-2);}
 
 
 
-nav{}
+.nav-box{border-color:rgb(var(--border-color) / var(--border-opacity)) !important;}
 
 
 
@@ -107,6 +108,12 @@ display:flex; justify-content:center; align-items:center; content:'Iklan'; line-
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
+  .header-nav-mobile{grid-column:1/3; background-color:var(--bg-2);}
+  .nav-link-label, .nav-link-toggle{padding:0 var(--size-4);}
+  .nav-sub .nav-link-label:before{content:'-'; margin-right:var(--size-2);}
+  
+  
+  
   .detail-content .hero-image-frame{border-radius:var(--rounded-2);}
 }
 
@@ -117,5 +124,16 @@ display:flex; justify-content:center; align-items:center; content:'Iklan'; line-
 
 
 @media screen and (min-width:1024px){
+  .nav-box{position:relative; z-index:1;}
+  .nav-link{position:relative; z-index:2000;}
+  .nav-link:hover .nav-link-label, .nav-link:hover .nav-link-toggle{color:var(--color-3) !important; fill:var(--color-3) !important;}
+  
+  .nav-sub{position:absolute; z-index:1000; top:var(--header-height); right:0; background-color:var(--bg-2);}
+  .nav-sub > .nav-box{border-bottom:rgb(var(--border-color) / 5%);}
+  .nav-sub .nav-link{}
+  .nav-sub .nav-link-label{width:180px; justify-content:flex-end;}
+  
+  
+  
   .hero-image-frame{border-radius:var(--rounded-2);}
 }

@@ -6,12 +6,16 @@
 	  </a>
 	</li>
 	<li class="header-right">
+	  <?php $nav_device="desktop"; require ($_SERVER['OG'].'template/inc/nav.php')?>
 	  <button title="Cari" class="header-box header-search content_center">
 	    <?php require ($_SERVER['OG'].'template/img/icon/search.svg')?>
 	  </button>
 	  <button title="Toggle Navigation" class="header-box header-togglenav content_center mobile-only">
 	    <?php require ($_SERVER['OG'].'template/img/icon/nav.svg')?>
 	  </button>
+	</li>
+	<li class="header-nav-mobile mobile-only">
+	  <?php $nav_device="mobile"; require ($_SERVER['OG'].'template/inc/nav.php')?>
 	</li>
   </ul>
 </header>

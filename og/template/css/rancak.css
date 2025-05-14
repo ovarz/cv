@@ -52,6 +52,12 @@ header{position:relative; position:-webkit-sticky; position:sticky; z-index:calc
 
 
 nav{}
+.nav-link{display:flex;}
+.nav-link-label, .nav-link-toggle{height:var(--header-height); display:flex; align-items:center;}
+.nav-link-label{width:100%;}
+.nav-link-toggle svg{width:auto; height:calc(var(--fontsize) - 6px);}
+.nav-sub{display:none;}
+.nav-sub > .nav-box{border-top:1px dashed;}
 
 
 
@@ -60,7 +66,7 @@ nav{}
 .rancak-column-big{min-height:200vh;}
 .section-title{font-weight:bold; text-transform:uppercase; font-size:calc(var(--fontsize) + 6px); margin-bottom:var(--size-4);
 display:grid; grid-gap:var(--size-3); grid-template-columns:auto 1fr; align-items:center;}
-.section-title svg{width:auto; height:20px;}
+.section-title svg{width:auto; height:calc(var(--fontsize) - 6px);}
 
 
 
@@ -137,10 +143,11 @@ margin-top:var(--size-4); padding:var(--size-4) var(--size-5) !important; font-w
   
   
   .header-togglenav{padding-right:var(--size-4);}
+  .header-nav-mobile{display:none;}
   
   
   
-  nav{}
+  .nav-box{border-top:1px solid;}
   
   
   
