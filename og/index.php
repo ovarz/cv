@@ -18,20 +18,22 @@
 
 
 
-          <?php require ($_SERVER['OG'].'template/iklan/iklan-retangle.php')?>
+          <?php require ($_SERVER['OG'].'template/module/headline.php')?>
+		  <?php require ($_SERVER['OG'].'template/iklan/iklan-retangle.php')?>
 	  
 	  
 	  
           <section title="section_name" class="rancak-section rancak-section-box article-list">
 		    <?php $section_title='terbaru'; require ($_SERVER['OG'].'template/module/section-title.php')?>
             <div class="article-list-container">
-			  tes
+			  <?php for ($i=1; $i<=10; $i++) { ?>
+			    <?php $article_misc='time'; $article_desc='yes'; $article_thumb='yes';
+				require ($_SERVER['OG'].'template/module/article-box.php')?>
+			  <?php } ?>
 			</div>
+		    <?php require ($_SERVER['OG'].'template/iklan/iklan-retangle.php')?>
+			<?php require ($_SERVER['OG'].'template/module/loadmore.php')?>
           </section>
-		  
-		  
-		  
-		  <?php require ($_SERVER['OG'].'template/iklan/iklan-retangle.php')?>
 	  
 	  
 	  

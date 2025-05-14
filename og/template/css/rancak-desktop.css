@@ -23,7 +23,12 @@ nav{}
 
 
 
-.iklan-leaderboard{margin-top:var(--size-5);}
+.rancak-column-big .article-box{grid-gap:var(--size-4);}
+.rancak-column-big .article-thumb{--aspect-ratio:16/9; width:233px;}
+
+
+
+.iklan-leaderboard{margin-top:var(--size-4);}
 .iklan-leaderboard-container{width:728px; height:90px;}
 
 .iklan-skin{display:flex; padding-top:var(--size-4); padding-bottom:var(--size-4); align-items:flex-start;}
