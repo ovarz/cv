@@ -67,6 +67,6 @@ width:160px; height:600px; overflow:hidden;}
 
 
 @media screen and (min-width:1400px){
-  .header-container, .footer-container{max-width:996px;}
+  .header-container, .footer-container{max-width:1038px;}
   .rancak-foundation{grid-template-columns:1fr 996px 1fr;}
 }
