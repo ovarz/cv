@@ -94,6 +94,7 @@ header{background-color:var(--bg-2);}
 
 footer{background-color:var(--bg-2);}
 .footer-container{width:100%; padding:var(--size-4);}
+.footer-copyright{text-align:center; font-size:calc(var(--fontsize) - 2px);}
 
 
 
