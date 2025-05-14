@@ -3,16 +3,16 @@
 
 
 
-    <?php require ($_SERVER['OG'].'template/iklan/iklan-retangle.php')?>
-
-
-
     <section title="section_name" class="rancak-section rancak-section-box">
       <?php $section_title='Latest Video'; require ($_SERVER['OG'].'template/module/section-title.php')?>
       <div class="video-playlist flex_ori thumb-loading">
 		<iframe width="560" height="315" class="lazyload" data-original="https://www.youtube.com/embed/videoseries?si=ThtycTWYJLLo6-Bs&amp;list=PLX6nLBE9jIqj7J3zhDsCDl0eC2MWhRed5" frameborder="0" allowfullscreen></iframe>
       </div>
     </section>
+
+
+
+    <?php require ($_SERVER['OG'].'template/iklan/iklan-retangle.php')?>
 	
 	
 	
