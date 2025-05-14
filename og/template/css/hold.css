@@ -28,7 +28,7 @@ a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-2); fill:var(--color-2);}
 a:hover, button:hover{color:var(--color-3); fill:var(--color-3);}
 .btn, a.btn, button.btn{background-color:var(--color-3); color:var(--bg-1); fill:var(--bg-1); border-radius:var(--rounded-3);}
-.btn:hover, a.btn:hover, button.btn:hover, #btt:hover, #btt:focus{filter:grayscale(1); color:var(--color-2); fill:var(--color-2);}
+.btn:hover, a.btn:hover, button.btn:hover, #btt:hover, #btt:focus{filter:grayscale(1); color:var(--bg-2); fill:var(--bg-2);}
 #btt{position:fixed; bottom:calc(var(--size-6) * 2); right:0; cursor:pointer; z-index:calc(var(--max-zindex) - 10000); 
 width:var(--size-5); height:var(--size-5); background-color:var(--color-3); fill:var(--bg-2);
 border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded-2);}
@@ -101,7 +101,7 @@ footer{background-color:var(--bg-2);}
 
 
 
-.iklan-frame{position:relative; z-index:1; background-color:#434345;}
+.iklan-frame{position:relative; z-index:1; background-color:rgb(var(--border-color) / var(--border-opacity));}
 .iklan-frame:before{position:absolute; z-index:-1; top:0; left:0; bottom:0; right:0; margin:auto; padding:var(--size-3); box-sizing:border-box;
 display:flex; justify-content:center; align-items:center; content:'Iklan'; line-height:150%; text-align:center; color:var(--color-1);}
 
