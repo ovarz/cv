@@ -24,7 +24,7 @@
       <?php foreach($share_array as $share_list){ ?>
         <a title="Share <?php echo($share_list['share_icon'])?>" class="share-link share-<?php echo($share_list['share_icon'])?> content_center" 
         href="<?php echo($share_list['share_link'])?>">
-          <?php require ($_SERVER['OG'].'template/img/icon/share-'.$share_list['share_icon'].'.svg')?>
+          <?php require ($_SERVER['SHJ'].'template/img/icon/share-'.$share_list['share_icon'].'.svg')?>
         </a>
       <?php } ?>
     </div>

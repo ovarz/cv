@@ -98,6 +98,15 @@ font-family:'Bitter',sans-serif; font-size:calc(var(--fontsize) - 2px); font-sty
 
 
 
+.detail-container{display:grid; grid-gap:var(--size-4);}
+
+.detail-top, .detail-info, .detail-info-list{display:grid;}
+.detail-top{grid-gap:var(--size-3);}
+.detail-title{font-size:calc(var(--fontsize) + 10px); line-height:130%; font-weight:800;}
+.detail-desc{font-family:'Bitter',sans-serif; line-height:150%; font-style:italic;}
+.detail-info{grid-gap:var(--size-2);}
+.detail-info-list{grid-template-columns:60px auto 1fr; grid-gap:var(--size-1);}
+
 .detail-content{font-size:calc(var(--fontsize) + 4px); font-family:'Bitter',sans-serif; line-height:150%; display:grid; grid-row-gap:var(--size-4);
 word-wrap:break-word; word-break:break-word; hyphens:auto;}
 .detail-content h2, .detail-content h3, .detail-content h4, .detail-content b{font-weight:bold;}
@@ -172,6 +181,10 @@ margin-top:var(--size-4); padding:var(--size-4) var(--size-5) !important; font-w
   
   .hero-image-info{margin-left:var(--size-4); margin-right:var(--size-4);}
   .detail-content .hero-image-info{margin-left:0; margin-right:0;}
+  
+  
+  
+  .detail-top, .detail-content{padding:0 var(--size-4);}
   
   
   

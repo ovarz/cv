@@ -7,7 +7,7 @@
   --color-3:#EABD5E; 
   --color-4:#c78957;
   --color-fb:#1877f2;
-  --color-tw:#000000;
+  --color-tw:#FFFFFF;
   --color-wa:#2bb240;
   --color-tg:#0088cc;
   --rounded-1:var(--size-1);
@@ -73,8 +73,13 @@ header{background-color:var(--bg-2);}
 
 
 
+.detail-title, .detail-content, .detail-content a:hover{color:var(--color-2);}
+.detail-content a{color:var(--color-3);}
+
+
+
 .hero-image-info{color:var(--color-1);}
-.hero-image-info:before{background-color:var(--color-3); border-radius:var(--size-3);}
+.hero-image-info:before{background-color:var(--color-1); border-radius:var(--size-3);}
 .hero-image-frame img{opacity:1;}
 
 
