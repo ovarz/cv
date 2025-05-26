@@ -21,7 +21,7 @@
 <link rel="preload" href="template/css/rancak.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" as="script">
 <?php if($template == 'detail') { ?>
-  <link rel="preload" href="template/img/sample/sample-1.webp?<?php echo $anticache; ?>" as="image">
+  <link rel="preload" href="template/img/sample/sample-1-mobile.webp?<?php echo $anticache; ?>" as="image">
 <?php } ?>
 
 <style><?php require ($_SERVER['OG'].'template/css/font.css')?></style>
