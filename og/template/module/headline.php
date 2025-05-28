@@ -1,6 +1,6 @@
 <style><?php require ($_SERVER['OG'].'template/css/headline.css')?></style>
 <section title="Headline" class="rancak-section headline">
-  <?php $section_title='random'; require ($_SERVER['OG'].'template/module/section-title.php')?>
+  <?php $section_title='Terpopuler'; require ($_SERVER['OG'].'template/module/section-title.php')?>
   <div class="headline-highlight">
     <?php $article_misc='date'; $article_cate='show'; $article_desc='show'; $article_thumb='show';
     require ($_SERVER['OG'].'template/module/article-box.php')?>

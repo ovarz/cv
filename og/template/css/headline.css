@@ -1,5 +1,5 @@
 .headline{display:grid; grid-gap:var(--size-4);}
-.headline .section-title{margin-bottom:0; grid-gap:0;}
+.headline .section-title{margin-bottom:0;}
 .headline-list{display:grid; grid-gap:var(--size-4);}
 
 .headline-highlight .article-box{grid-template-columns:1fr; grid-gap:var(--size-3);}
