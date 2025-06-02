@@ -1,7 +1,0 @@
-body{background-attachment:fixed; background-position:center; background-repeat:no-repeat; background-size:cover;
-background-image:url("../img/login-bg.jpg");}
-
-
-
-.box-frame{background-color:#FFF; border-radius:var(--rounded-2);}
-.box-title{color:var(--color-text-2);}
