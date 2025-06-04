@@ -33,7 +33,7 @@
 	<section title="Instagram" class="rancak-section rancak-section-box embed-socmed">
       <?php $section_title='Instagram'; require ($_SERVER['OG'].'template/module/section-title.php')?>
 	  <div class="embed-socmed-container content_center">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/otogear_official/" style="width:100%; min-width:299px; max-width:300px;" data-instgrm-version="14"></blockquote>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/otogearscom/" style="width:100%; min-width:299px; max-width:300px;" data-instgrm-version="14"></blockquote>
         <script async rancak-hold="//www.instagram.com/embed.js"></script>
 	  </div>
 	</section>
@@ -43,8 +43,8 @@
 	<section title="Tiktok" class="rancak-section rancak-section-box embed-socmed">
       <?php $section_title='Tiktok'; require ($_SERVER['OG'].'template/module/section-title.php')?>
 	  <div class="embed-socmed-container content_center">
-        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@otogear" data-unique-id="otogear" data-embed-type="creator"> 
-          <section><a target="_blank" href="https://www.tiktok.com/@otogear?refer=creator_embed">@otogear</a></section> 
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@otogearscom" data-unique-id="otogearscom" data-embed-type="creator"> 
+          <section><a target="_blank" href="https://www.tiktok.com/@otogearscom?refer=creator_embed">@otogearscom</a></section> 
         </blockquote>
         <script async rancak-hold="https://www.tiktok.com/embed.js"></script>
 	  </div>
