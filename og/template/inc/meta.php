@@ -1,4 +1,13 @@
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3L78HWMLW"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Y3L78HWMLW');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2668036865178896" crossorigin="anonymous"></script>
+  
 <meta charset="utf-8">
 <meta name="robots" content="noindex, follow">				
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
@@ -9,6 +18,10 @@
 <meta name="description" content="<?php echo $sitename; ?> <?php echo $menu; ?>">
 <link rel="preconnect" href="https://aufarmahardi.com">
 <link rel="dns-prefetch" href="https://aufarmahardi.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+<link rel="preconnect" href="https://pagead2.googlesyndication.com">
+<link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 <title><?php echo $sitename; ?> <?php echo $menu; ?></title>
