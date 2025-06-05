@@ -20,9 +20,20 @@
 	  <li class="detail-info-label">Penulis</li>
 	  <li class="detail-info-separator">:</li>
 	  <li class="detail-info-data">
-	    <a title="<?php echo $random_author[array_rand($random_author)];?>" class="detail-info-link" href="author.php">
+	    <div class="detail-info-link">
 		  <?php echo $random_author[array_rand($random_author)];?>
+		</div>
+	  </li>
+	</ul>
+    <ul class="detail-info-list">
+	  <li class="detail-info-label">Kata Kunci</li>
+	  <li class="detail-info-separator">:</li>
+	  <li class="detail-info-data detail-info-topic">
+	    <?php for ($i=1; $i<=5; $i++){ ?>
+	    <a title="<?php echo $random_topic[array_rand($random_topic)];?>" class="detail-info-link" href="topic.php">
+		  <?php echo $random_topic[array_rand($random_topic)];?>
 		</a>
+		<?php } ?>
 	  </li>
 	</ul>
   </div>

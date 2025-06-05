@@ -109,7 +109,9 @@ font-family:'Bitter',sans-serif; font-size:calc(var(--fontsize) - 2px); font-sty
 .detail-title{font-size:calc(var(--fontsize) + 10px); line-height:130%; font-weight:800;}
 .detail-desc{font-family:'Bitter',sans-serif; line-height:150%; font-style:italic;}
 .detail-info{grid-gap:var(--size-2);}
-.detail-info-list{grid-template-columns:60px auto 1fr; grid-gap:var(--size-1);}
+.detail-info-list{grid-template-columns:80px auto 1fr; grid-gap:var(--size-1);}
+.detail-info-topic .detail-info-link{display:inline-flex;}
+.detail-info-topic .detail-info-link:not(:last-child):after{content:',';}
 
 .detail-content{font-size:calc(var(--fontsize) + 4px); font-family:'Bitter',sans-serif; line-height:150%; display:grid; grid-row-gap:var(--size-4);
 word-wrap:break-word; word-break:break-word; hyphens:auto;}
