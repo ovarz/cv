@@ -23,6 +23,11 @@
 	'nav_sub'=>'',
   );
   $nav_array[]=array(
+	'nav_title'=>'Video',
+    'nav_link'=>'video.php',
+	'nav_sub'=>'',
+  );
+  $nav_array[]=array(
 	'nav_title'=>'Lainnya',
     'nav_link'=>'subdomain.php',
 	'nav_sub'=>'',

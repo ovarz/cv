@@ -32,7 +32,7 @@
 		  <section title="section_name" class="rancak-section rancak-section-box article-list">
             <div class="article-list-container">
 			  <?php for ($i=1; $i<=10; $i++){ ?>
-			    <?php $article_misc='time'; $article_cate='hide'; $article_desc='show'; $article_thumb='show';
+			    <?php $content_type='default'; $article_misc='time'; $article_cate='hide'; $article_desc='show'; $article_thumb='show';
 				require ($_SERVER['OG'].'template/module/article-box.php')?>
 			  <?php } ?>
 			</div>

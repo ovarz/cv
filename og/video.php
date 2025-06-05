@@ -1,5 +1,5 @@
 <?php 
-  $menu='Mobil';
+  $menu='Video';
   $submenu='';
   $template='default';
   require ('template/inc/base.php')
@@ -19,12 +19,11 @@
 
 
 
-		  <section title="section_name" class="rancak-section rancak-section-box article-list">
+		  <section title="section_name" class="rancak-section rancak-section-box video-list">
 		    <?php $section_title=$menu; require ($_SERVER['OG'].'template/module/section-title.php')?>
             <div class="article-list-container">
-			  <?php for ($i=1; $i<=10; $i++){ ?>
-			    <?php $content_type='default'; $article_misc='time'; $article_cate='hide'; $article_desc='show'; $article_thumb='show';
-				require ($_SERVER['OG'].'template/module/article-box.php')?>
+			  <?php for ($i=1; $i<=20; $i++){ ?>
+			    <?php require ($_SERVER['OG'].'template/module/video-box.php')?>
 			  <?php } ?>
 			</div>
 		    <?php require ($_SERVER['OG'].'template/iklan/iklan-retangle.php')?>

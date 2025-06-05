@@ -32,8 +32,12 @@
 		  <section title="section_name" class="rancak-section rancak-section-box article-list">
 		    <?php $section_title='Terkait'; require ($_SERVER['OG'].'template/module/section-title.php')?>
             <div class="article-list-container">
-			  <?php for ($i=1; $i<=5; $i++){ ?>
-			    <?php $article_misc='time'; $article_cate='show'; $article_desc='show'; $article_thumb='show';
+			  <?php for ($i=1; $i<=2; $i++){ ?>
+			    <?php $content_type='video'; $article_misc='time'; $article_cate='show'; $article_desc='show'; $article_thumb='show';
+				require ($_SERVER['OG'].'template/module/article-box.php')?>
+			  <?php } ?>
+			  <?php for ($i=1; $i<=3; $i++){ ?>
+			    <?php $content_type='default'; $article_misc='time'; $article_cate='show'; $article_desc='show'; $article_thumb='show';
 				require ($_SERVER['OG'].'template/module/article-box.php')?>
 			  <?php } ?>
 			</div>

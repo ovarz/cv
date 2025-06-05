@@ -19,11 +19,25 @@
 
 
 
+		  <section title="section_name" class="rancak-section detail-container">
+            <?php require ($_SERVER['OG'].'template/module/detail-top.php')?>
+            <?php $photo_number='video'; require ($_SERVER['OG'].'template/module/hero-image.php')?>
+            <?php require ($_SERVER['OG'].'template/module/share-box.php')?>
+			<?php $photo_number='2'; require ($_SERVER['OG'].'template/module/detail-content.php')?>
+            <?php require ($_SERVER['OG'].'template/module/share-box.php')?>
+		  </section>
+
+
+
 		  <section title="section_name" class="rancak-section rancak-section-box article-list">
-		    <?php $section_title=$menu; require ($_SERVER['OG'].'template/module/section-title.php')?>
+		    <?php $section_title='Terkait'; require ($_SERVER['OG'].'template/module/section-title.php')?>
             <div class="article-list-container">
-			  <?php for ($i=1; $i<=10; $i++){ ?>
-			    <?php $content_type='default'; $article_misc='time'; $article_cate='hide'; $article_desc='show'; $article_thumb='show';
+			  <?php for ($i=1; $i<=2; $i++){ ?>
+			    <?php $content_type='video'; $article_misc='time'; $article_cate='show'; $article_desc='show'; $article_thumb='show';
+				require ($_SERVER['OG'].'template/module/article-box.php')?>
+			  <?php } ?>
+			  <?php for ($i=1; $i<=3; $i++){ ?>
+			    <?php $content_type='default'; $article_misc='time'; $article_cate='show'; $article_desc='show'; $article_thumb='show';
 				require ($_SERVER['OG'].'template/module/article-box.php')?>
 			  <?php } ?>
 			</div>

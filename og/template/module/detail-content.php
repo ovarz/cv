@@ -7,7 +7,7 @@
     <li>Molestie urna</li>
   </ul>
   <p>Pellentesque <i>mollis velit</i> elit, at interdum urna blandit id. Nulla sagittis congue arcu at vestibulum.</p>
-  <?php require ($_SERVER['SHJ'].'template/module/hero-image.php')?>
+  <?php require ($_SERVER['OG'].'template/module/hero-image.php')?>
   <p>Vestibulum aliquet a tellus vitae facilisis. Aliquam venenatis, quam eu <a href="">sollicitudin egestas</a>, sem urna laoreet enim, a molestie quam augue eget urna.</p>
   <ol>
     <li>Pellentesque vitae libero quis metus</li>

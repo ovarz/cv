@@ -22,6 +22,10 @@
 .rancak-column{grid-template-columns:1fr 300px;}
 .rcb-container{grid-template-rows:min-content;}
 .rcb-container-sticky{position:-webkit-sticky; position:sticky; padding-bottom:0.1px; top:calc(var(--nav-height) + var(--size-4));}
+  
+  
+  
+.video-list .article-list-container{grid-template-columns:repeat(2,1fr);}
 
 
 
