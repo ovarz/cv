@@ -1,6 +1,6 @@
 <!-- footer -->
 <footer>
-  <h6>Aufar Mahardi &copy;2018 - All Right Reserved</h6>
+  <h6><?php echo $name?> &copy;2018 - All Right Reserved</h6>
 </footer>
 <!-- end footer -->
 
@@ -53,7 +53,7 @@
 {
   "@context" : "http://schema.org",
   "@type" : "Person",
-  "name" : "Aufar Mahardi",
+  "name" : "<?php echo $name?>",
   "url" : "https://aufarmahardi.com/",
   "logo": "https://aufarmahardi.com/img/ovarz.jpg"
 }

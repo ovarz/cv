@@ -1,11 +1,11 @@
 <!doctype html>
 <html amp lang="id">
 <head>
-<title>Aufar Mahardi - Curriculum Vitae</title>
+<title><?php echo $name?> - Curriculum Vitae</title>
 <meta charset="utf-8">
 
-<meta name="copyright" content="Aufar Mahardi" />
-<meta name="description" content="Aufar Mahardi Curriculum Vitae. Gamer, Web Designer, & UI/UX Designer" />
+<meta name="copyright" content="<?php echo $name?>" />
+<meta name="description" content="<?php echo $name?> Curriculum Vitae. Gamer, Web Designer, & UI/UX Designer" />
 <?php if($web_type == 'default') { ?>
   <meta name="robots" content="index, follow">
 <?php } ?>
@@ -13,7 +13,7 @@
   <meta name="robots" content="noindex, follow">
 <?php } ?>
 <meta name="googlebot" content="all" />
-<meta content="Aufar Mahardi" name="author" />
+<meta content="<?php echo $name?>" name="author" />
 <meta content="id" name="language" />
 <meta content="id" name="geo.country" />
 <meta content="Indonesia" name="geo.placename" />

@@ -4,3 +4,8 @@
 .section-sticky{position:static;}
 .contact{margin-top:var(--section-space-big);}
 .contact-list-box{width:100%;}
+
+@media screen and (min-width:1024px){
+  .portfolio-list{grid-template-columns:repeat(auto-fit, minmax(370px, 1fr));}
+  .portfolio-box{justify-content:center;}
+}
