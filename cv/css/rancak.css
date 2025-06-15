@@ -17,7 +17,7 @@
 body, html{font-family:'Poppins',serif; font-size:16px; font-weight:400; letter-spacing:0.4px; font-feature-settings:'lnum' 1; color:var(--color-default);
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 body{background:var(--color-background);}
-a, .scrollToTop, .portfolio-image-frame{transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s; text-decoration:none;}
+a, .scrollToTop, .portfolio-image-frame{transition:all 0.25s; text-decoration:none;}
 h1, h2, h3, h4, h5, h6{font-weight:normal; font-size:1rem;}
 ul{list-style:none; padding-left:0;}
 .section-title{display:flex; gap:var(--section-space-small); align-items:center; font-size:1.6rem; text-transform:uppercase; font-weight:bold; margin-bottom:var(--section-space-normal);}
@@ -108,8 +108,8 @@ footer *{display:block; text-align:center;}
 
 .loading-bar-line{-webkit-animation:loading-bar .8s linear 0s infinite;-moz-animation:loading-bar .8s linear 0s infinite;-o-animation:loading-bar .8s linear 0s infinite;animation:loading-bar .8s linear 0s infinite;background-position:0 0;background-repeat:repeat-x;background-size:16px 10px;background-color:var(--color-link-primary);background-image:linear-gradient(315deg,transparent,transparent 33%,rgba(0,0,0,.12) 33%,rgba(0,0,0,.12) 66%,transparent 66%,transparent)}@-webkit-keyframes loading-bar{0%{background-position:0 0}100%{background-position:16px 0}}@-moz-keyframes loading-bar{0%{background-position:0 0}100%{background-position:16px 0}}@-o-keyframes loading-bar{0%{background-position:0 0}100%{background-position:16px 0}}@keyframes loading-bar{0%{background-position:0 0}100%{background-position:16px 0}}
 
-.scrollToTop{width:36px; height:36px; border:none; outline:none; background-color:var(--color-link-primary); opacity:0; color:var(--color-background); visibility:hidden;
-position:fixed; z-index:9999; bottom:50px; right:10px; cursor:pointer;
--moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%;}
+.scrollToTop{width:36px; height:36px; border:none; outline:none; background-color:var(--color-link-primary); opacity:0; color:var(--color-background); fill:var(--color-background);
+visibility:hidden; position:fixed; z-index:9999; bottom:50px; right:10px; cursor:pointer; border-radius:50%;}
+.scrollToTop svg{width:auto; height:16px;}
 .scrollToTop:hover{background-color:var(--color-link-secondary);}
 #marker{position:absolute; top:100px; width:0px; height:0px;}

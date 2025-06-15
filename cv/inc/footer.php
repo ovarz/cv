@@ -47,7 +47,9 @@
 	layout="nodisplay">
   </amp-position-observer>
 </div>
-<button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)" class="content_center scrollToTop"><i class="fas fa-angle-double-up">&#xf102</i></button>
+<button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)" class="content_center scrollToTop">
+  <?php require ('cv/img/icon/back-to-top.svg')?>
+</button>
 
 <script type="application/ld+json">
 {
