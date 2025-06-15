@@ -77,7 +77,7 @@
   $experience_array[]=array(
 	'experience_label'=>'organization',
     'experience_date'=>'November 2022 - Present',
-    'experience_title'=>'Founder otogear.id',
+    'experience_title'=>'Founder otogears.com',
   );
   $experience_array[]=array(
 	'experience_label'=>'work',
