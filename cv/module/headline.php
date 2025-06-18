@@ -12,4 +12,11 @@
   <div class="headline-title">
     <h2><?php echo $intro?></h2>
   </div>
+  
+  <?php if($web_type == 'default') { ?>
+    <a title="Download CV" class="download-cv" href="<?php echo $base?>/img/CV-AufarMahardi.pdf" target="_blank">
+      <?php require ('cv/img/icon/pdf.svg')?>
+      <div class="download-cv-label">Download CV</div>
+    </a>
+  <?php } ?>
 </section>
