@@ -30,7 +30,7 @@
   );
   $profile_array[]=array(
 	'profile_label'=>'Education',
-    'profile_data'=>"Bachelor's in Computer Science, 2007 - 2011, Binus University - Jakarta",
+    'profile_data'=>"Bachelor's in Computer Science. Binus University - Jakarta, Indonesia. 2007 - 2011.",
   );
   
   
