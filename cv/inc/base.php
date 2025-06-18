@@ -81,12 +81,12 @@
   );
   $experience_array[]=array(
 	'experience_label'=>'work',
-    'experience_date'=>'Juni 2022 - Present',
+    'experience_date'=>'June 2022 - Present',
     'experience_title'=>'Graphic, UI/UX, & Web Design Manager VIVA Media Baru (VIVA.co.id)',
   );
   $experience_array[]=array(
 	'experience_label'=>'work',
-    'experience_date'=>'November 2019 - Juni 2022',
+    'experience_date'=>'November 2019 - June 2022',
     'experience_title'=>'Assistant Design Manager VIVA Media Baru (VIVA.co.id)',
   );
   $experience_array[]=array(
@@ -96,7 +96,7 @@
   );
   $experience_array[]=array(
     'experience_label'=>"work",
-    'experience_date'=>"October 2016 - Juni 2022",
+    'experience_date'=>"October 2016 - June 2022",
     'experience_title'=>"Web Designer VIVA Media Baru (VIVA.co.id)"
   );
   $experience_array[]=array(
