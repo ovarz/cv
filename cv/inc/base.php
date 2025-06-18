@@ -39,9 +39,9 @@
   
   $contact_array = array();
   $contact_array[]=array(
-	'contact_link'=>'mailto:ovarz03@gmail.com',
+	'contact_link'=>'mailto:me@aufarmahardi.com',
     'contact_icon'=>'email',
-    'contact_data'=>'ovarz03@gmail.com',
+    'contact_data'=>'me@aufarmahardi.com',
   );
   $contact_array[]=array(
 	'contact_link'=>'https://www.linkedin.com/in/aufar/',
@@ -178,12 +178,12 @@
     'skill_score'=>'80',
   );
   $skill_array[]=array(
-	'skill_label'=>'XD',
-    'skill_score'=>'80',
-  );
-  $skill_array[]=array(
 	'skill_label'=>'Figma',
     'skill_score'=>'90',
+  );
+  $skill_array[]=array(
+	'skill_label'=>'XD',
+    'skill_score'=>'80',
   );
   $skill_array[]=array(
 	'skill_label'=>'Adobe Experience Manager',
