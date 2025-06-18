@@ -92,7 +92,7 @@
   $experience_array[]=array(
     'experience_label'=>"work",
     'experience_date'=>"January 2018 - November 2019",
-    'experience_title'=>"Koordinator Design VIVA Media Baru (VIVA.co.id)"
+    'experience_title'=>"Design Coordinator VIVA New Media (VIVA.co.id)"
   );
   $experience_array[]=array(
     'experience_label'=>"work",
