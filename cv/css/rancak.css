@@ -39,8 +39,12 @@ ul{list-style:none; padding-left:0;}
 margin:var(--section-space-small) 0 0;}
 .download-cv{position:absolute; top:0; right:0; display:flex; align-items:center; padding:12px 16px; border-radius:var(--rounded-normal); border:1px solid var(--color-link-primary);
 color:var(--color-link-primary); fill:var(--color-link-primary);}
-.download-cv svg{width:auto; height:20px; margin-right:8px;}
+.download-cv svg{width:auto; height:20px;}
+.download-cv-label{margin-left:8px;}
 .download-cv:hover{background-color:var(--color-link-primary); color:var(--color-background);  fill:var(--color-background);}
+@media screen and (min-width:0px) and (max-width:567px){
+  .download-cv-label{display:none}
+}
 
 .profile-detail .profile-data, .experience-title, .skill-label > b, .portfolio-name{color:var(--color-link-secondary); font-weight:bold;}
 .profile-label{font-size:0.8rem;}
