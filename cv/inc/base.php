@@ -1,7 +1,7 @@
 <?php 
   $base='cv';
   $name='Aufar Mahardi';
-  $intro='UI/UX & Web Designer';
+  $intro='15+ years in UI/UX & Web Designer';
   
   
   
