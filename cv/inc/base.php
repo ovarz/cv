@@ -237,8 +237,9 @@
   $porto_array[]=array('porto_link'=>'https://www.jagodangdut.com/', 'porto_id'=>'jagodangdut', 'porto_name'=>'JagoDangdut', 'porto_domain'=>'www.jagodangdut.com');
   $porto_array[]=array('porto_link'=>'https://bit.ly/tamtelematic', 'porto_id'=>'tam', 'porto_name'=>'Toyota Astra Motor Telematic', 'porto_domain'=>'bit.ly/tamtelematic');
   $porto_array[]=array('porto_link'=>'https://bit.ly/viva-apps', 'porto_id'=>'vivaone', 'porto_name'=>'VIVA Aggregator App', 'porto_domain'=>'bit.ly/viva-apps');
-  $porto_array[]=array('porto_link'=>'https://www.viva.co.id/portalpemilu', 'porto_id'=>'pemilu', 'porto_name'=>'Portal Pemilu VIVA.co.id', 'porto_domain'=>'www.viva.co.id/portalpemilu');
+  $porto_array[]=array('porto_link'=>'https://bit.ly/loggiskuapp', 'porto_id'=>'loggisku', 'porto_name'=>'Loggisku App', 'porto_domain'=>'bit.ly/loggiskuapp');
   $porto_array[]=array('porto_link'=>'https://thevivanetworks.com/prototype/viahub/', 'porto_id'=>'viahub', 'porto_name'=>'VIAHub', 'porto_domain'=>'www.viahub.id');
+  $porto_array[]=array('porto_link'=>'https://www.viva.co.id/portalpemilu', 'porto_id'=>'pemilu', 'porto_name'=>'Portal Pemilu VIVA.co.id', 'porto_domain'=>'www.viva.co.id/portalpemilu');
   $porto_array[]=array('porto_link'=>'https://bit.ly/fiersafigma', 'porto_id'=>'fiersa', 'porto_name'=>'Fiersa Management System', 'porto_domain'=>'bit.ly/fiersafigma');
   $porto_array[]=array('porto_link'=>'https://thevivanetworks.com/prototype/tvone-hut/', 'porto_id'=>'tvone-hut', 'porto_name'=>'HUT tvOne ke-15', 'porto_domain'=>'thevivanetworks.com/prototype/tvone-hut');
   $porto_array[]=array('porto_link'=>'https://thevivanetworks.com/prototype/tvone-g20/', 'porto_id'=>'g20', 'porto_name'=>'Microsite G20 tvOne', 'porto_domain'=>'thevivanetworks.com/prototype/tvone-g20');
@@ -256,7 +257,6 @@
   $porto_array[]=array('porto_link'=>'https://thevivanetworks.com/prototype/vivanews19/', 'porto_id'=>'vivanews', 'porto_name'=>'VIVANews', 'porto_domain'=>'thevivanetworks.com/prototype/vivanews19');
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'vdvc', 'porto_name'=>'VIVA Digital Venture Company', 'porto_domain'=>'Not Yet Available');
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'hoedhoed', 'porto_name'=>'HoedHoed', 'porto_domain'=>'Not Yet Available');
-  $porto_array[]=array('porto_link'=>'', 'porto_id'=>'tripodnews', 'porto_name'=>'TripodNews', 'porto_domain'=>'Not Yet Available');
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'watchis', 'porto_name'=>'Watchis', 'porto_domain'=>'Not Yet Available');
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'scoutdb', 'porto_name'=>'ScoutDB', 'porto_domain'=>'Not Yet Available');
 	  
