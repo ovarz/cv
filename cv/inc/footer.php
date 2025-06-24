@@ -51,6 +51,26 @@
   <?php require ('cv/img/icon/back-to-top.svg')?>
 </button>
 
+
+
+<amp-analytics type="googleanalytics">
+  <script type="application/json">
+    {
+      "vars": {
+        "apid": "G-FRRHFE09BY",
+        "apv": "1.0",
+        "apn": "<?php echo $name?> Curriculum Vitae",
+        "section": "Profile",
+        "segA": "Curriculum Vitae",
+        "segB": "Portfolio",
+        "segC": "Google AMP"
+      }
+    }
+  </script>
+</amp-analytics>
+
+
+
 <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
