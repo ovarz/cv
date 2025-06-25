@@ -39,4 +39,4 @@
 <link rel="preload" href="https://cdn.ampproject.org/v0.js" as="script">
 <link rel="preload" href="<?php echo $base?>/fonts/poppins/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="<?php echo $base?>/fonts/poppins/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="<?php echo $base?>/img/ovarz.webp?1906252011" as="image">
+<link rel="preload" href="<?php echo $base?>/img/ovarz.webp?<?php echo $version?>" as="image">

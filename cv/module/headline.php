@@ -1,8 +1,8 @@
 <section class="headline">
   <div class="headline-image">
     <div class="headline-image-frame">
-      <amp-img alt="<?php echo $name?>" width="210" height="210" layout="fill" src="<?php echo $base?>/img/ovarz.webp?1906252011">
-        <amp-img alt="<?php echo $name?>" fallback width="210" height="210" layout="fill" src="<?php echo $base?>/img/ovarz.jpg?1906252011"></amp-img>
+      <amp-img alt="<?php echo $name?>" width="210" height="210" layout="fill" src="<?php echo $base?>/img/ovarz.webp?<?php echo $version?>">
+        <amp-img alt="<?php echo $name?>" fallback width="210" height="210" layout="fill" src="<?php echo $base?>/img/ovarz.jpg?<?php echo $version?>"></amp-img>
       </amp-img>
     </div>
   </div>
