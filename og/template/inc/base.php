@@ -50,4 +50,23 @@
     ],
   );
   */
+  
+  
+  
+  $socmed_array = array();
+  $socmed_array[]=array(
+	'socmed_title'=>'Instagram',
+    'socmed_link'=>'https://www.instagram.com/otogearscom/',
+	'socmed_icon'=>'instagram',
+  );
+  $socmed_array[]=array(
+	'socmed_title'=>'Tiktok',
+    'socmed_link'=>'https://www.tiktok.com/@otogearscom',
+	'socmed_icon'=>'tiktok',
+  );
+  $socmed_array[]=array(
+	'socmed_title'=>'Youtube',
+    'socmed_link'=>'https://www.youtube.com/@otogear',
+	'socmed_icon'=>'youtube',
+  );
 ?>

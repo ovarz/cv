@@ -152,6 +152,16 @@ margin-top:var(--size-4); padding:var(--size-4) var(--size-5) !important; font-w
 
 
 
+.information-page{line-height:150%; margin-bottom:var(--size-5);}
+.information-opening{margin-bottom:var(--size-4);}
+.information-list, .information-sublist{display:grid; grid-gap:var(--size-4); margin-left:var(--size-4);}
+ol.information-list{list-style:decimal;}
+ul.information-list, ul.information-sublist{list-style:square;}
+.information-sublist{grid-gap:var(--size-1);}
+.information-list p{margin-bottom:var(--size-1);}
+
+
+
 .iklan-retangle-container{width:300px; height:250px;}
 
 

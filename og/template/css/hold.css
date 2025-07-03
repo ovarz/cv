@@ -105,9 +105,15 @@ header{background-color:var(--bg-2);}
 
 
 
-footer{background-color:var(--bg-2);}
-.footer-container{width:100%; padding:var(--size-4);}
-.footer-copyright{text-align:center; font-size:calc(var(--fontsize) - 2px);}
+footer{background-color:var(--bg-2); font-size:calc(var(--fontsize) - 2px);}
+.footer-container{width:100%; padding:var(--size-4); display:grid; grid-gap:var(--size-4) var(--size-3);}
+.footer-menu, .footer-socmed{display:flex; justify-content:center; align-items:center;}
+.footer-menu-link, .footer-socmed-link{padding:0 var(--size-3);}
+.footer-socmed-link svg{width:auto; height:var(--size-4);}
+.footer-socmed-link[title="instagram"]:hover{fill:#E1306C;}
+.footer-socmed-link[title="tiktok"]:hover{fill:#69C9D0;}
+.footer-socmed-link[title="youtube"]:hover{fill:#FF0000;}
+.footer-copyright{text-align:center;}
 
 
 
@@ -157,4 +163,11 @@ display:flex; justify-content:center; align-items:center; content:'Iklan'; line-
   
   
   .hero-image-frame{border-radius:var(--rounded-2);}
+  
+  
+  
+  .footer-container{grid-template-columns:repeat(3,1fr); align-items:center;}
+  .footer-menu{justify-content:flex-start;}
+  .footer-menu-link:first-child{padding-left:0;}
+  .footer-copyright{text-align:right;}
 }
