@@ -17,6 +17,7 @@
   --color-ig:#E1306C;
   --color-fb:#1877f2;
   --color-gt:#616161;
+  --color-yt:#f60029;
 }
 
 *, html{-moz-box-sizing:border-box; box-sizing:border-box;padding:0; margin:0;}
@@ -82,6 +83,7 @@ border:1px solid var(--contact-color); color:var(--contact-color); fill:var(--co
 .contact-list-facebook{--contact-color:var(--color-fb);}
 .contact-list-github{--contact-color:var(--color-gt);}
 .contact-list-whatsapp{--contact-color:var(--color-wa);}
+.contact-list-youtube{--contact-color:var(--color-yt);}
 .contact-list-box:hover{filter:grayscale(100%); opacity:55%;}
 
 .portfolio-list{display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); grid-column-gap:var(--section-space-normal); grid-row-gap:calc(2 * var(--section-space-normal));}

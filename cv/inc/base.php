@@ -69,6 +69,16 @@
     'contact_icon'=>'github',
     'contact_data'=>'github.com/ovarz',
   );
+  $contact_array[]=array(
+	'contact_link'=>'https://instagram.com/uang.papa.habis',
+    'contact_icon'=>'instagram',
+    'contact_data'=>'instagram.com/uang.papa.habis',
+  );
+  $contact_array[]=array(
+	'contact_link'=>'https://www.youtube.com/@otogear',
+    'contact_icon'=>'youtube',
+    'contact_data'=>'youtube.com/@otogear',
+  );
   
   
   
