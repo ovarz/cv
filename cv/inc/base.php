@@ -230,6 +230,7 @@
   
   
   $porto_array = array();
+  $porto_array[]=array('porto_link'=>'https://bit.ly/otogearappconcept', 'porto_id'=>'ogapp', 'porto_name'=>'OtoGear App Concept', 'porto_domain'=>'bit.ly/otogearappconcept');
   $porto_array[]=array('porto_link'=>'https://www.viva.co.id/', 'porto_id'=>'vivacoid', 'porto_name'=>'VIVA.co.id', 'porto_domain'=>'www.viva.co.id');
   $porto_array[]=array('porto_link'=>'https://www.tvonenews.com/', 'porto_id'=>'tvone', 'porto_name'=>'tvOne', 'porto_domain'=>'www.tvonenews.com');
   $porto_array[]=array('porto_link'=>'https://thevivanetworks.com/prototype/antvklik', 'porto_id'=>'antvklik', 'porto_name'=>'ANTVKlik', 'porto_domain'=>'thevivanetworks.com/prototype/antvklik');
@@ -267,7 +268,6 @@
   $porto_array[]=array('porto_link'=>'https://thevivanetworks.com/prototype/oneprix/', 'porto_id'=>'oneprix', 'porto_name'=>'OnePrix', 'porto_domain'=>'thevivanetworks.com/prototype/oneprix');
   $porto_array[]=array('porto_link'=>'https://thevivanetworks.com/prototype/vivanews19/', 'porto_id'=>'vivanews', 'porto_name'=>'VIVANews', 'porto_domain'=>'thevivanetworks.com/prototype/vivanews19');
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'vdvc', 'porto_name'=>'VIVA Digital Venture Company', 'porto_domain'=>'Not Yet Available');
-  $porto_array[]=array('porto_link'=>'', 'porto_id'=>'hoedhoed', 'porto_name'=>'HoedHoed', 'porto_domain'=>'Not Yet Available');
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'watchis', 'porto_name'=>'Watchis', 'porto_domain'=>'Not Yet Available');
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'scoutdb', 'porto_name'=>'ScoutDB', 'porto_domain'=>'Not Yet Available');
 	  
