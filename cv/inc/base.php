@@ -230,14 +230,14 @@
   
   
   $porto_array = array();
-  $porto_array[]=array('porto_link'=>'https://bit.ly/otogearappconcept', 'porto_id'=>'ogapp', 'porto_name'=>'OtoGear App Concept', 'porto_domain'=>'bit.ly/otogearappconcept');
+  $porto_array[]=array('porto_link'=>'https://bit.ly/otogearappconcept', 'porto_id'=>'ogapp', 'porto_name'=>'OtoGears App Concept', 'porto_domain'=>'bit.ly/otogearappconcept');
   $porto_array[]=array('porto_link'=>'https://www.viva.co.id/', 'porto_id'=>'vivacoid', 'porto_name'=>'VIVA.co.id', 'porto_domain'=>'www.viva.co.id');
   $porto_array[]=array('porto_link'=>'https://www.tvonenews.com/', 'porto_id'=>'tvone', 'porto_name'=>'tvOne', 'porto_domain'=>'www.tvonenews.com');
   $porto_array[]=array('porto_link'=>'https://thevivanetworks.com/prototype/antvklik', 'porto_id'=>'antvklik', 'porto_name'=>'ANTVKlik', 'porto_domain'=>'thevivanetworks.com/prototype/antvklik');
   $porto_array[]=array('porto_link'=>'https://www.hyundai.com/id/id', 'porto_id'=>'hyundai', 'porto_name'=>'Hyundai Indonesia', 'porto_domain'=>'www.hyundai.com/id/id');
   $porto_array[]=array('porto_link'=>'https://bit.ly/lexusreach', 'porto_id'=>'lexus-reach', 'porto_name'=>'Lexus Reach App', 'porto_domain'=>'bit.ly/lexusreach');
   $porto_array[]=array('porto_link'=>'https://bit.ly/figmalms', 'porto_id'=>'lms', 'porto_name'=>'Lexus Leads Management System', 'porto_domain'=>'bit.ly/figmalms');
-  $porto_array[]=array('porto_link'=>'https://bit.ly/exiamobile', 'porto_id'=>'exia-mobile', 'porto_name'=>'Exia Telematic App', 'porto_domain'=>'bit.ly/exiamobile');
+  $porto_array[]=array('porto_link'=>'https://bit.ly/carlamockup', 'porto_id'=>'exia-mobile', 'porto_name'=>'Exia Telematic App', 'porto_domain'=>'bit.ly/carlamockup');
   $porto_array[]=array('porto_link'=>'https://bit.ly/exiahud', 'porto_id'=>'exia-hud', 'porto_name'=>'Exia Head-Up Display', 'porto_domain'=>'bit.ly/exiahud');
   $porto_array[]=array('porto_link'=>'https://www.otogears.com/', 'porto_id'=>'otogears', 'porto_name'=>'OtoGears', 'porto_domain'=>'www.otogears.com');
   $porto_array[]=array('porto_link'=>'https://impavidalaw.com/', 'porto_id'=>'impavida', 'porto_name'=>'Impavida | Advocates & Legal Consultants', 'porto_domain'=>'www.impavidalaw.com');
