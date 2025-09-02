@@ -2,7 +2,7 @@
   $base='cv';
   $name='Aufar Mahardi';
   $intro='15+ years in UI/UX & Web Designer';
-  $version='0207250945';
+  $version='020920251227';
   
   
   
