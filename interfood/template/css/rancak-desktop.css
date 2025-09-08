@@ -1,0 +1,46 @@
+:root, :before, :after{
+  --font-size:16px;
+  --body-padding:var(--size-5);
+  --header-height:var(--size-7);
+}
+
+
+
+.mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
+
+
+
+.header-logo svg{height:var(--size-6);}
+
+.header-afterscroll{--header-height:var(--size-6);}
+.header-afterscroll .header-logo svg{height:var(--size-5);}
+
+
+
+
+
+
+
+@media screen and (min-width:1280px){
+  
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1360px){
+  
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1400px){
+  
+}
