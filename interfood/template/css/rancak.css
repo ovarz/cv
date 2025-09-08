@@ -42,7 +42,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 
-.site-container{width:100%; max-width:var(--width-max); padding-left:var(--body-padding); padding-right:var(--body-padding);}
+.site-container{width:100%; max-width:var(--width-max); padding:var(--body-padding);}
 
 
 
