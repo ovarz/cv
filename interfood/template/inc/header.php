@@ -5,19 +5,59 @@
 	    <?php require ($_SERVER['IF'].'template/img/logo.svg')?>
 	  </a>
 	</li>
-	<li class="header-center">
-	  <div class="main-nav">
-        <a title="" class="nav-link nav-curr" href="">Nav</a>
-        <a title="" class="nav-link" href="">Nav</a>
-	  </div>
+	<li class="header-center rancak-popup" id="popup-MainNav">
+      <div class="main-nav">
+        <?php 
+          $nav_array = array();
+          $nav_array[]=array(
+            'nav_label_id'=>'Beranda',
+            'nav_label_en'=>'Home',
+            'nav_link'=>'',
+          );
+          $nav_array[]=array(
+            'nav_label_id'=>'Tentang Kami',
+            'nav_label_en'=>'About Us',
+            'nav_link'=>'',
+          );
+          $nav_array[]=array(
+            'nav_label_id'=>'Produk',
+            'nav_label_en'=>'Product',
+            'nav_link'=>'',
+          );
+          $nav_array[]=array(
+            'nav_label_id'=>'Distribusi',
+            'nav_label_en'=>'Distribution',
+            'nav_link'=>'',
+          );
+          $nav_array[]=array(
+            'nav_label_id'=>'Karir',
+            'nav_label_en'=>'Career',
+            'nav_link'=>'',
+          );
+          $nav_array[]=array(
+            'nav_label_id'=>'Kontak',
+            'nav_label_en'=>'Contact',
+            'nav_link'=>'',
+          );
+          foreach($nav_array as $nav_list){
+        ?>
+            <a title="<?php echo($nav_list['nav_label_en'])?>" 
+            class="nav-link <?php if($menu == $nav_list['nav_label_en']) { ?>nav-curr<?php } ?>"
+            href="<?php echo($nav_list['nav_link'])?>">
+              <span class="text-id"><?php echo($nav_list['nav_label_id'])?></span>
+              <span class="text-en"><?php echo($nav_list['nav_label_en'])?></span>
+            </a>
+        <?php } ?>
+      </div>
 	</li>
 	<li class="header-right">
 	  <div class="header-box header-lang content-center">
-	    <button title="Indonesia" class="lang-choice lang-id lang-curr">ID</button>
-	    <button title="English" class="lang-choice lang-en">EN</button>
+	    <button title="Indonesia" class="choice-lang choice-id" aria-lang="id">ID</button>
+	    <button title="English" class="choice-lang choice-en" aria-lang="en">EN</button>
 	  </div>
-	  <button title="Toggle Menu" class="header-box header-togglemenu content-center mobile-only">
+	  <button title="Toggle Menu" class="header-box header-togglemenu content-center mobile-only open-sticky" aria-popup="MainNav">
 	    <?php require ($_SERVER['IF'].'template/img/icon/menu.svg')?>
+	    <?php require ($_SERVER['IF'].'template/img/icon/close.svg')?>
 	  </button>
 	</li>
   </ul>

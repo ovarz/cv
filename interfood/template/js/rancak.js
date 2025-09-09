@@ -34,16 +34,22 @@ function back_to_top(){
 
 function open_sticky(){
   $('.open-sticky').click(function(){
-    var get_id = $(this).attr('title');
-	$('.open-sticky[title=' + get_id +']').toggleClass('show-sticky');
-	$('.open-sticky').not('.open-sticky[title=' + get_id +']').removeClass('show-sticky');
-    $('#popup-' + get_id).fadeToggle('fast');
-    $('.rancak-popup').not('#popup-' + get_id).fadeOut('fast');
-	if($('#popup-' + get_id).hasClass("popup-alert-temporary")){
-      setTimeout(function() {
-        ClosePopup();
-      },2000);
-	}
+    var get_id = $(this).attr('aria-popup');
+	$('.open-sticky[aria-popup=' + get_id +']').toggleClass('show-sticky');
+	$('.open-sticky').not('.open-sticky[aria-popup=' + get_id +']').removeClass('show-sticky');
+    $('#popup-' + get_id).slideToggle('fast');
+    $('.rancak-popup').not('#popup-' + get_id).slideUp('fast');
+	return false;
+  });	
+}
+
+
+
+function change_lang(){
+  $('.choice-lang').click(function(){
+    var get_lang = $(this).attr('aria-lang');
+	$('body').removeClass();
+	$('body').addClass('lang-' + get_lang);
 	return false;
   });	
 }
@@ -55,4 +61,5 @@ $(document).ready(function(){
   all_scroll();
   back_to_top();
   open_sticky();
+  change_lang();
 });

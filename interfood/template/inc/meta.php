@@ -41,4 +41,4 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 <link rel="stylesheet" type="text/css" href="template/css/rancak.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="template/css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
 </head>
-<body>
+<body class="lang-id">

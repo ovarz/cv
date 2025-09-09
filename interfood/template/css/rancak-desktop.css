@@ -16,10 +16,12 @@
 
 .header-logo svg{height:var(--size-6);}
 .header-lang{padding-right:var(--body-padding);}
-.header-center{display:flex; align-items:center;}
+.header-center{display:flex !important; align-items:center; position:static !important;}
 
-.header-afterscroll{--header-height:var(--size-6);}
-.header-afterscroll .header-logo svg{height:var(--size-5);}
+
+
+.main-nav{display:flex;}
+.nav-curr{border:1px solid;}
 
 
 

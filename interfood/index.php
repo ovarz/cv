@@ -1,6 +1,6 @@
 <?php 
+  $lang='id';
   $menu='Home';
-  $submenu='';
   $template='default';
   require ('template/inc/base.php')
 ?>

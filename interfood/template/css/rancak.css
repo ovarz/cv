@@ -57,13 +57,13 @@ header .site-container{display:flex; justify-content:space-between; padding:0;}
 .header-logo{padding-left:var(--body-padding);}
 .header-logo svg{width:auto; height:var(--size-5);}
 
-.lang-choice{padding:0 var(--size-2);}
-.lang-id{border-right:1px solid;}
+.choice-lang{padding:0 var(--size-2);}
+.choice-id{border-right:1px solid;}
+.lang-id .text-en, .lang-en .text-id{display:none;}
 
 
 
-.main-nav{display:flex;}
-.nav-link{display:flex; padding:var(--size-3); font-weight:normal;}
+.nav-link{display:flex; font-weight:normal;}
 .nav-curr{font-weight:bold;}
 
 
@@ -92,6 +92,14 @@ section .site-container{}
   
   .header-togglemenu{padding-right:var(--body-padding);}
   .header-togglemenu svg{width:auto; height:1rem;}
+  .open-sticky .svgicon-menu{width:17.28px;}
+  .open-sticky .svgicon-close, .show-sticky .svgicon-menu{width:0;}
+  .show-sticky .svgicon-close{width:14px;}
+  
+  
+  
+  .header-center{z-index:calc(var(--max-zindex) - 10000); top:var(--header-height); left:0; width:100%; 
+  padding:var(--body-padding); padding-top:var(--size-2);}
   
   
   
