@@ -71,11 +71,21 @@ header{background-color:var(--bg-2);}
 
 
 
+.section-separator svg{fill:var(--bg-1);}
+
+
+
 .hab-image-box{}
 .hab-image-frame, .hab-image-outline{border-radius:var(--rounded-2);}
 .hab-image-frame{background-color:var(--color-1);}
 .hab-image-outline{border-color:var(--color-4);}
 .hab-title{color:var(--color-3);}
+
+
+
+.home-product{background-color:var(--color-2);}
+.home-product .section-title{color:var(--bg-2);}
+.home-product .section-subtitle{color:var(--color-border);}
 
 
 

@@ -75,8 +75,11 @@ header .site-container{display:flex; justify-content:space-between; padding:0;}
 
 
 .rancak-foundation{min-height:100vh; min-height:100svh;}
-
-section .site-container{}
+section{position:relative;}
+.section-separator{position:absolute; z-index:1; left:0; width:100%;}
+.section-separator svg{width:100%; height:var(--size-4);}
+.section-separator-top{top:0;}
+.section-separator-bottom{bottom:0; transform:rotate(180deg);}
 
 
 
@@ -95,6 +98,10 @@ section .site-container{}
 
 .hab-right .hab-image-box{padding-right:var(--padding-frame);}
 .hab-right .hab-image-outline{right:0;}
+
+
+
+.home-product .site-container{padding:var(--size-6) var(--body-padding);}
 
 
 

@@ -25,6 +25,16 @@
   
   
   
+  <section class="content-center home-product">
+    <div class="section-separator section-separator-top"><?php require ($_SERVER['IF'].'template/img/icon/separator.svg')?></div>
+    <div class="site-container">
+	  <?php require ($_SERVER['IF'].'template/module/h2h3.php')?>
+	</div>
+	<div class="section-separator section-separator-bottom"><?php require ($_SERVER['IF'].'template/img/icon/separator.svg')?></div>
+  </section>
+  
+  
+  
   <section class="content-center">
     <div class="site-container">
 	  <?php require ($_SERVER['IF'].'template/module/h2h3.php')?>
