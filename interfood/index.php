@@ -13,7 +13,7 @@
   
   <section class="content-center">
     <div class="site-container">
-	  tes
+	  <?php require ($_SERVER['IF'].'template/module/h2h3.php')?>
 	</div>
   </section>
   

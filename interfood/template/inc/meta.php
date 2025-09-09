@@ -14,10 +14,12 @@
 <title><?php echo $sitename; ?> <?php echo $menu; ?></title>
 <link href="template/img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 
-<link rel="preload" href="template/fonts/rax-HiqOu8IVPmn7erxrJD1wmULY.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="template/fonts/rax8HiqOu8IVPmn7f4xpLjpSmw.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="template/fonts/JTUQjIg1_i6t8kCHKm459WxRyS7m0dR9pA.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="template/fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/inter/UcCm3FwrK3iLTcvnUwQT9g.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/inter/UcCo3FwrK3iLTcviYwY.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/baijamjuree/LDIrapSCOBt_aeQQ7ftydoa8W_LJs78.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/baijamjuree/LDIoapSCOBt_aeQQ7ftydoa8W_pylqo20yw.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/baijamjuree/LDI1apSCOBt_aeQQ7ftydoa8XsLL.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/baijamjuree/LDIqapSCOBt_aeQQ7ftydoa05efelJo0.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="template/css/rancak.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" as="script">
 <?php if($template == 'detail') { ?>

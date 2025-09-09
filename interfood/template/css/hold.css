@@ -50,12 +50,15 @@ a.img-frame:hover{opacity:var(--hover-opacity);}
 
 
 
-.header-afterscroll{background-color:var(--bg-2);}
+header{background-color:var(--bg-2);}
 
 
 
-footer{background-color:var(--bg-2); font-size:calc(var(--font-size) - 2px);}
-footer .site-container{padding:var(--body-padding);}
+footer{background-color:var(--bg-2);}
+footer .site-container{padding:var(--body-padding); display:grid; grid-gap:var(--size-3);}
+.footer-socmed{gap:var(--size-4);}
+.footer-socmed-link svg{width:auto; height:1.313rem; fill:var(--color-1);}
+.footer-copyright{text-align:center; font-size:0.75rem;}
 
 
 
