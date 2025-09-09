@@ -42,7 +42,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 
-.site-container{width:100%; max-width:var(--width-max); padding:var(--body-padding);}
+.site-container{width:100%; max-width:var(--width-max); padding-left:var(--body-padding); padding-right:var(--body-padding);}
 .section-title, .section-subtitle{text-align:center; max-width:987px; margin:0 auto;}
 .section-title{font-family:"Bai Jamjuree",sans-serif; font-size:2.25rem; font-weight:bold; text-transform:uppercase; line-height:120%; margin-bottom:var(--size-2);}
 .section-subtitle{line-height:140%;}
@@ -51,11 +51,20 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 header{position:-webkit-sticky; position:sticky; z-index:calc(var(--max-zindex) - 9000); top:0;}
 header .site-container{display:flex; justify-content:space-between; padding:0;}
-
+.header-right{display:flex;}
 .header-box{height:var(--header-height); padding:0 var(--size-3);}
+
 .header-logo{padding-left:var(--body-padding);}
 .header-logo svg{width:auto; height:var(--size-5);}
-.header-right .header-box:last-child{padding-right:var(--body-padding);}
+
+.lang-choice{padding:0 var(--size-2);}
+.lang-id{border-right:1px solid;}
+
+
+
+.main-nav{display:flex;}
+.nav-link{display:flex; padding:var(--size-3); font-weight:normal;}
+.nav-curr{font-weight:bold;}
 
 
 
@@ -78,4 +87,13 @@ section .site-container{}
   
   .desktop-only, .share-box-static{display:none !important; visibility:hidden; content-visibility:hidden;}
   .desktop-only iframe[loading=lazy]{content-visibility:hidden !important;}
+  
+  
+  
+  .header-togglemenu{padding-right:var(--body-padding);}
+  .header-togglemenu svg{width:auto; height:1rem;}
+  
+  
+  
+  .site-container{padding-top:var(--size-5); padding-bottom:var(--size-5);}
 }

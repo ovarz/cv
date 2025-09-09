@@ -40,7 +40,8 @@
           );
           foreach($footer_socmed_array as $footer_socmed_list){
         ?>
-          <a title="<?php echo($footer_socmed_list['footer_socmed_label'])?> <?php echo $sitename; ?>" class="footer-socmed-link" 
+          <a title="<?php echo($footer_socmed_list['footer_socmed_label'])?> <?php echo $sitename; ?>" 
+		  class="footer-socmed-link footer-socmed-<?php echo($footer_socmed_list['footer_socmed_icon'])?>" 
 		  href="<?php echo($footer_socmed_list['footer_socmed_link'])?>" target="_blank">
 		    <?php require ($_SERVER['IF'].'template/img/icon/footer-'.$footer_socmed_list['footer_socmed_icon'].'.svg')?>
 		  </a>

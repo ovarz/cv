@@ -6,6 +6,7 @@
   --color-2:#231f20;
   --color-3:#2F4858; 
   --color-4:#B32428;
+  --color-border:#E0E0E0;
   --color-fb:#1877f2;
   --color-tw:#000000;
   --color-ig: #E1306C;
@@ -18,7 +19,7 @@
   --rounded-1:8px;
   --rounded-2:16px;
   --rounded-3:24px;
-  --hover-opacity:55%;
+  --hover-opacity:34%;
   --transition-default:all 0.34s;
   --shadow-default:0 2px 10px rgb(0 0 0 / 25%);
   --shadow-neumorp:-2px -2px 4px rgba(255,255,255,.2), 2px 2px 12px rgba(0,0,0,.2);
@@ -30,7 +31,7 @@
 body, html{color:var(--color-1);}
 html{background-color:var(--bg-2);}
 a, .btn, button{transition:var(--transition-default); cursor:pointer}
-a, button{color:var(--color-2); fill:var(--color-2);}
+a, button{color:var(--color-4); fill:var(--color-4);}
 a:hover, button:hover{color:var(--color-3); fill:var(--color-3);}
 .btn, a.btn, button.btn, #btt{background-color:var(--color-4); color:var(--bg-2); fill:var(--bg-2); border-radius:var(--rounded-3);}
 .btn:hover, a.btn:hover, button.btn:hover, #btt:hover, #btt:focus{background-color:var(--color-3); color:var(--bg-2); fill:var(--bg-2);}
@@ -52,12 +53,29 @@ a.img-frame:hover{opacity:var(--hover-opacity);}
 
 header{background-color:var(--bg-2);}
 
+.lang-choice, .nav-link{color:var(--color-3);}
+.lang-choice:hover, .nav-link:hover{opacity:var(--hover-opacity);}
+.lang-id{border-color:var(--color-border);}
+.lang-curr, .nav-curr{color:var(--color-4) !important; opacity:1 !important;}
+
+
+
+.nav-link{}
+
 
 
 footer{background-color:var(--bg-2);}
 footer .site-container{padding:var(--body-padding); display:grid; grid-gap:var(--size-3);}
 .footer-socmed{gap:var(--size-4);}
-.footer-socmed-link svg{width:auto; height:1.313rem; fill:var(--color-1);}
+.footer-socmed-link{fill:var(--color-1);}
+.footer-socmed-link svg{width:auto; height:1.313rem;}
+.footer-socmed-facebook:hover{fill:var(--color-fb);}
+.footer-socmed-x:hover{fill:var(--color-tw);}
+.footer-socmed-instagram:hover{fill:var(--color-ig);}
+.footer-socmed-tiktok:hover{fill:var(--color-tk);}
+.footer-socmed-youtube:hover{fill:var(--color-yt);}
+.footer-socmed-whatsapp:hover{fill:var(--color-wa);}
+.footer-socmed-linkedin:hover{fill:var(--color-ln);}
 .footer-copyright{text-align:center; font-size:0.75rem;}
 
 

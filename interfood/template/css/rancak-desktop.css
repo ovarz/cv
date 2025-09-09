@@ -10,7 +10,13 @@
 
 
 
+.site-container{padding-top:var(--size-7); padding-bottom:var(--size-7);}
+
+
+
 .header-logo svg{height:var(--size-6);}
+.header-lang{padding-right:var(--body-padding);}
+.header-center{display:flex; align-items:center;}
 
 .header-afterscroll{--header-height:var(--size-6);}
 .header-afterscroll .header-logo svg{height:var(--size-5);}
