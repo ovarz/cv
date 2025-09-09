@@ -11,11 +11,26 @@
 <div class="rancak-foundation">
   
   
+  
+  <section class="content-center home-about">
+    <div class="site-container">
+	  <div class="home-about-box hab-left">
+	    <?php require ($_SERVER['IF'].'template/module/home-about.php')?>
+	  </div>
+	  <div class="home-about-box hab-right">
+	    <?php require ($_SERVER['IF'].'template/module/home-about.php')?>
+	  </div>
+	</div>
+  </section>
+  
+  
+  
   <section class="content-center">
     <div class="site-container">
 	  <?php require ($_SERVER['IF'].'template/module/h2h3.php')?>
 	</div>
   </section>
+  
   
   
 </div>

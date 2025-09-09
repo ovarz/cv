@@ -25,6 +25,20 @@
 
 
 
+.home-about-box{--padding-frame:var(--size-5); grid-template-columns:377px 1fr;}
+.home-about .site-container{grid-gap:var(--size-7);}
+.hab-info-container{grid-gap:var(--size-3);}
+.hab-title{font-size:2.25rem;}
+
+.hab-right{grid-template-columns:1fr 377px;}
+.hab-right *{text-align:right;}
+.hab-right .hab-inf0, .hab-right .hab-image{grid-row:1/2;}
+.hab-right .hab-info{grid-column:1/2;}
+.hab-right .hab-image{grid-column:2/3;}
+.hab-right .more{justify-content:flex-end;}
+
+
+
 
 
 

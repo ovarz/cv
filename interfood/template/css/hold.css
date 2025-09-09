@@ -33,9 +33,9 @@ html{background-color:var(--bg-2);}
 a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-4); fill:var(--color-4);}
 a:hover, button:hover{color:var(--color-3); fill:var(--color-3);}
-.btn, a.btn, button.btn, #btt{background-color:var(--color-4); color:var(--bg-2); fill:var(--bg-2); border-radius:var(--rounded-3);}
+.btn, a.btn, button.btn, #btt{background-color:var(--color-4); color:var(--bg-2); fill:var(--bg-2); border-radius:var(--rounded-1);}
 .btn:hover, a.btn:hover, button.btn:hover, #btt:hover, #btt:focus{background-color:var(--color-3); color:var(--bg-2); fill:var(--bg-2);}
-.btn-outline{border:2px solid var(--color-4); color:var(--color-4); fill:var(--color-4); background-color:transparent;}
+.btn-outline{border:2px solid var(--color-4); color:var(--color-4); fill:var(--color-4); background-color:transparent; border-radius:var(--rounded-1);}
 .btn-outline:hover{border:2px solid var(--color-3); color:var(--color-3); fill:var(--color-4);}
 #btt{position:fixed; bottom:calc(var(--size-6) * 2); right:0; cursor:pointer; z-index:calc(var(--max-zindex) - 10000); 
 width:var(--size-5); height:var(--size-5); border-radius:var(--rounded-1) 0 0 var(--rounded-1);}
@@ -56,6 +56,7 @@ a.img-frame:hover{opacity:var(--hover-opacity);}
 
 
 header{background-color:var(--bg-2);}
+.header-logo:hover{opacity:var(--hover-opacity);}
 
 .choice-lang, .nav-link{color:var(--color-3);}
 .choice-lang:hover{opacity:var(--hover-opacity);}
@@ -67,6 +68,14 @@ header{background-color:var(--bg-2);}
 .main-nav{background-color:var(--bg-2);}
 .nav-link:hover{color:var(--color-4);}
 .nav-curr{background-color:var(--bg-1);}
+
+
+
+.hab-image-box{}
+.hab-image-frame, .hab-image-outline{border-radius:var(--rounded-2);}
+.hab-image-frame{background-color:var(--color-1);}
+.hab-image-outline{border-color:var(--color-4);}
+.hab-title{color:var(--color-3);}
 
 
 

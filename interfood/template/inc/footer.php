@@ -1,4 +1,4 @@
-<footer>
+<footer class="content-center">
   <div class="site-container">
     <div class="footer-socmed content-center">
         <?php 
