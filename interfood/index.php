@@ -166,7 +166,7 @@
                 <div class="wsc-info">
                   <div class="wsc-info-container">
                     <div class="wsc-number">0 / 00</div>
-                    <div class="wsc-name"><?php echo $random_title[array_rand($random_title)];?></div>
+                    <div class="wsc-name">Warehouse Name</div>
                     <div class="wsc-location">Batam, Indonesia</div>
                   </div>
                 </div>
