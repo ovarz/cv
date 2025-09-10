@@ -135,6 +135,21 @@ section{position:relative;}
 
 
 
+.main-location{display:grid; padding-top:var(--size-5);}
+.main-location-frame{--aspect-ratio:1/1; max-height:610px; filter:grayscale(100%);}
+@media screen and (min-width:768px){
+  .main-location{grid-template-columns:repeat(2,1fr);}
+}
+.main-location-info{padding:var(--size-5);}
+.mli-container{width:100%; display:grid; grid-gap:var(--size-2);}
+.ml-label, .mli-address{font-size:1.25rem; line-height:140%;}
+.mli-city{font-size:2.25rem; line-height:120%; font-weight:bold;}
+.mli-contact{display:grid; grid-gap:var(--size-3); padding:var(--size-3) 0;}
+.mli-contact-link{display:grid; grid-gap:var(--size-2); grid-template-columns:auto 1fr; align-items:center;}
+.mli-contact-link svg{width:auto; height:1.5rem;}
+
+
+
 
 
 

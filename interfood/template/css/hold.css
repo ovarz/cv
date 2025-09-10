@@ -106,6 +106,13 @@ header{background-color:var(--bg-2);}
 
 
 
+.main-location{background-color:var(--bg-2);}
+.main-location-info{background-color:var(--color-4); color:var(--bg-1);}
+.main-location .more-link, .mli-contact-link{color:var(--bg-2); fill:var(--bg-2);}
+.main-location .more-link:hover, .mli-contact-link:hover{color:var(--color-3); fill:var(--color-3);}
+
+
+
 footer{background-color:var(--bg-2);}
 footer .site-container{padding:var(--body-padding); display:grid; grid-gap:var(--size-3);}
 .footer-socmed{gap:var(--size-4);}

@@ -225,6 +225,38 @@
   
   
   
+  <section class="main-location">
+    <div class="main-location-map">
+	  <div class="main-location-frame img-frame thumb-loading">
+		<iframe class="lazyload" data-original="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2792819640836!2d104.07228367567967!3d1.1107528622962473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d988c7d2f22c17%3A0x85777502628df4b9!2sPT.%20Interfood%20Sukses%20Jasindo%20Batam!5e0!3m2!1sid!2sid!4v1757486341883!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	  </div>
+	</div>
+	<div class="main-location-info content-center">
+	  <span class="mli-container">
+	    <div class="mli-label">
+		  <span class="text-id">Kantor Utama</span>
+		  <span class="text-en">Main Office</span>
+		</div>
+	    <h2 class="mli-city">Batam</h2>
+	    <h3 class="mli-address">Tunas Industrial Estate, Blok 8 F, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464</h3>
+		<div class="mli-contact">
+		  <a title="" class="mli-contact-link" href="">
+		    <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/contact-phone.svg')?></div>
+		    <div class="mli-contact-label">+62 21 345 0214</div>
+		  </a>
+		  <a title="" class="mli-contact-link" href="">
+		    <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/contact-email.svg')?></div>
+		    <div class="mli-contact-label">jkt@interfood.co.id</div>
+		  </a>
+		</div>
+		<?php $more_type='link'; $more_label_id='Kantor Daerah'; $more_label_en='Regional Office'; $more_link=''; 
+	    require ($_SERVER['IF'].'template/module/more.php')?>
+	  </span>
+	</div>
+  </section>
+  
+  
+  
 </div>
 <?php require ($_SERVER['IF'].'template/inc/footer.php')?>
 <?php require ($_SERVER['IF'].'template/inc/base-bottom.php')?>
