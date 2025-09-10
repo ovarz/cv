@@ -86,6 +86,9 @@ header{background-color:var(--bg-2);}
 .home-product{background-color:var(--color-2);}
 .home-product .section-title{color:var(--bg-2);}
 .home-product .section-subtitle{color:var(--color-border);}
+.hpl-box{border-radius:var(--rounded-2); color:var(--bg-2);}
+.home-product .more-link{border-color:var(--bg-2); color:var(--bg-2); fill:var(--bg-2);}
+.home-product .more-link:hover{border-color:var(--color-4); color:var(--color-4); fill:var(--color-4);}
 
 
 

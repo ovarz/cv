@@ -43,7 +43,8 @@
 
 
 
-.home-product .site-container{padding:var(--size-7) var(--body-padding);}
+.home-product .site-container{padding:144px var(--body-padding);}
+.hpl-container{grid-template-columns:repeat(3,1fr);}
 
 
 
