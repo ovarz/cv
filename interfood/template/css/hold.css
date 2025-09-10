@@ -94,6 +94,8 @@ header{background-color:var(--bg-2);}
 .dd-label{color:var(--color-2);}
 
 .wsc-image-frame{border-radius:var(--rounded-2);}
+.wsc-name{color:var(--color-4);}
+.wsc-location{color:var(--color-2);}
 .wirehouse-slider-nav button{fill:var(--color-1);}
 .wirehouse-slider-nav button:hover{fill:var(--color-4);}
 

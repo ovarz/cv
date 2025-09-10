@@ -49,7 +49,12 @@
 
 
 .distribution-data{grid-template-columns:repeat(3,1fr);}
-.wsc-box{}
+.warehouse-slider{margin-top:var(--size-7);}
+.wsc-box{grid-template-columns:1fr 1fr;}
+.wsc-image, .wsc-info{grid-row:1/2;}
+.wsc-image{grid-column:2/3;}
+.wsc-info{grid-column:1/2;}
+.wsc-info-container{grid-gap:var(--size-1);}
 
 
 
