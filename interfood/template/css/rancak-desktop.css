@@ -48,6 +48,20 @@
 
 
 
+.home-importer .site-container{padding:144px var(--body-padding);}
+.hil-container{display:flex; justify-content:center; flex-wrap:wrap; gap:var(--size-3);}
+.hil-column{width:calc(25% - var(--size-3));}
+.hil-overlay-info{grid-gap:var(--size-3);}
+.hil-overlay-icon svg{height:2rem;}
+.hil-overlay-name{font-size:1.5rem;}
+
+
+
+.news-list{grid-template-columns:repeat(auto-fit, minmax(240px,1fr));}
+.news-info{padding:var(--size-4); align-items:flex-start;}
+
+
+
 
 
 
