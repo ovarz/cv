@@ -156,17 +156,21 @@
 	  <div class="warehouse-slider">
 	    <div class="warehouse-slider-container">
 		  <?php for ($i=1; $i<=10; $i++){ ?>
-		    <div class="wsc-box">
-		      <div class="wsc-image">
-			    <a title="" class="wsc-image-frame img-frame thumb-loading" href="<?php echo $more_link; ?>">
-				  <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/sample/sample-<?php echo rand(1,6); ?>.jpg">
-				</a>
-			  </div>
-			  <div class="wsc-info">
-			    <div class="wsc-info-container">
-				  tes
-				</div>
-			  </div>
+		    <div class="wsc-column">
+              <div class="wsc-box">
+                <div class="wsc-image">
+                  <a title="" class="wsc-image-frame img-frame thumb-loading" href="<?php echo $more_link; ?>">
+                    <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/sample/sample-<?php echo rand(1,6); ?>.jpg">
+                  </a>
+                </div>
+                <div class="wsc-info">
+                  <div class="wsc-info-container">
+                    <div class="wsc-number">0 / 00</div>
+                    <div class="wsc-name"><?php echo $random_title[array_rand($random_title)];?></div>
+                    <div class="wsc-location">Batam, Indonesia</div>
+                  </div>
+                </div>
+              </div>
 		    </div>
 		  <?php } ?>
 		</div>
@@ -184,7 +188,7 @@
           container:'.warehouse-slider-container',
           speed:333,
           items:1,
-          gutter:5, 
+          gutter:1, 
           edgePadding:0,
           controls:true,
 		  prevButton:'#customPrev',

@@ -122,6 +122,7 @@ section{position:relative;}
   .main-location{grid-template-columns:repeat(2,1fr);}
 }
 .wsc-box{}
+.wsc-image{}
 .wsc-info{padding-bottom:var(--size-6);}
 
 
