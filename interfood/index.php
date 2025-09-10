@@ -12,7 +12,59 @@
   
   
   
-  <section class="content-center home-about">
+  <section class="home-slide">
+  
+	<div class="home-slide-container">
+	  <?php for ($i=1; $i<=5; $i++){ ?>
+		<div class="slide-box">
+		  <a title="" class="slide-image img-frame thumb-loading" href="">
+			<img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/cover.jpg">
+			<div class="slide-overlay"></div>
+			<?php require ($_SERVER['IF'].'template/img/icon/cover-bottom.svg')?>
+			<div class="slide-info content-center">
+			  <span class="slide-info-container">
+				<h2 class="slide-title">
+				  <span class="text-id">Indonesia ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat</span>
+				  <span class="text-en">English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat</span>
+				</h2>
+				<div class="more">
+				  <div class="more-link btn-outline">
+					<div class="more-label">
+					  <span class="text-id">Selengkapnya</span>
+					  <span class="text-en">Learn More</span>
+					</div>
+					<div class="more-icon content-center">
+					  <?php require ($_SERVER['IF'].'template/img/icon/more.svg')?>
+					</div>
+				  </div>
+				</div>
+			  </span>
+			</div>
+		  </a>
+		</div>
+	  <?php } ?>
+	</div>
+	
+    <script>
+      var home_slider = tns({
+        container:'.home-slide-container',
+        speed:333,
+        items:1,
+        gutter:1, 
+        edgePadding:0,
+        controls:false,
+        nav:true,
+		navPosition:'bottom',
+        mouseDrag:true,
+        autoplay:true,
+      });
+    </script> 
+	
+  </section>
+  
+  
+  
+  <section class="home-about content-center">
     <div class="site-container">
 	  <div class="home-about-box hab-left">
 	    <?php require ($_SERVER['IF'].'template/module/home-about.php')?>
@@ -25,7 +77,7 @@
   
   
   
-  <section class="content-center home-product">
+  <section class="home-product content-center">
     <div class="section-separator section-separator-top"><?php require ($_SERVER['IF'].'template/img/icon/separator.svg')?></div>
     <div class="site-container">
 	  <?php 
@@ -101,7 +153,7 @@
   
   
   
-  <section class="content-center home-distribution">
+  <section class="home-distribution content-center">
     <div class="site-container">
 	  <?php 
 	    $title_id='Distribusi';
@@ -159,14 +211,14 @@
 		    <div class="wsc-column">
               <div class="wsc-box">
                 <div class="wsc-image">
-                  <a title="" class="wsc-image-frame img-frame thumb-loading" href="<?php echo $more_link; ?>">
+                  <a title="" class="wsc-image-frame img-frame thumb-loading" href="">
                     <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/sample/sample-<?php echo rand(1,6); ?>.jpg">
                   </a>
                 </div>
                 <div class="wsc-info">
                   <div class="wsc-info-container">
                     <div class="wsc-number">0 / 00</div>
-                    <div class="wsc-name">Warehouse Name</div>
+                    <a title="" class="wsc-name" href="">Warehouse Name</a>
                     <div class="wsc-location">Batam, Indonesia</div>
                   </div>
                 </div>
@@ -195,7 +247,7 @@
 		  nextButton:'#customNext',
           nav:false,
           mouseDrag:true,
-          autoplay:false,
+          autoplay:true,
         });
       </script> 
 	</div>
@@ -203,7 +255,7 @@
   
   
   
-  <section class="content-center home-importer">
+  <section class="home-importer content-center">
 	<div class="section-separator section-separator-top"><?php require ($_SERVER['IF'].'template/img/icon/separator.svg')?></div>
     <div class="site-container">
 	  <?php 
@@ -276,7 +328,7 @@
   
   
   
-  <section class="content-center home-brand">
+  <section class="home-brand content-center">
     <div class="site-container">
 	  <?php 
 	    $title_id='Brand Ternama yang Kami Wakili';
@@ -309,7 +361,7 @@
   
   
   
-  <section class="content-center latest-news">
+  <section class="latest-news content-center">
     <div class="site-container">
 	  <?php 
 	    $title_id='Berita Terkini';

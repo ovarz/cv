@@ -29,6 +29,11 @@
 
 
 
+.slide-image{--aspect-ratio:16/9; max-height:760px;}
+.slide-title{max-width:55%;}
+
+
+
 .home-about-box{--padding-frame:var(--size-5); grid-template-columns:377px 1fr;}
 .home-about .site-container{grid-gap:var(--size-7);}
 .hab-info-container{grid-gap:var(--size-3);}

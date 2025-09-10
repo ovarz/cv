@@ -48,7 +48,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 
-.site-container{width:100%; max-width:var(--width-max); padding:var(--size-5) var(--body-padding);}
+.site-container{width:100%; max-width:var(--width-max); padding:var(--size-6) var(--body-padding);}
 .section-title, .section-subtitle{text-align:center; max-width:987px; margin:0 auto;}
 .section-title{font-family:"Bai Jamjuree",sans-serif; font-size:2.25rem; font-weight:bold; text-transform:uppercase; line-height:120%; margin-bottom:var(--size-2);}
 .section-subtitle{line-height:140%;}
@@ -83,6 +83,23 @@ section{position:relative;}
 
 
 
+.slide-box{position:relative;}
+.slide-image{--aspect-ratio:4/5; max-height:760px;}
+.slide-overlay, .slide-info, .svgicon-cover-slideshow{position:absolute; bottom:0; left:0; width:100%;}
+.slide-overlay{z-index:1000; height:100%;}
+.slide-info{z-index:3000; height:100%;}
+.slide-info-container{width:100%; max-width:var(--width-max); display:grid; grid-gap:var(--size-4); padding:var(--body-padding);}
+.slide-title{font-size:2rem; line-height:120%; max-width:89%;}
+.svgicon-cover-slideshow{z-index:2000; height:auto; bottom:-1px;}
+
+.home-slide .tns-outer{position:relative; width:100%;}
+.home-slide .tns-outer button[aria-controls]{width:var(--size-3); height:var(--size-3); margin-right:var(--size-2);}
+.home-slide .tns-outer button.tns-nav-active{width:var(--size-5);}
+.home-slide .tns-nav{position:absolute; bottom:0; left:0; width:100%; padding:var(--size-5) var(--body-padding);}
+
+
+
+
 .home-about .site-container{display:grid; grid-gap:var(--size-6);}
 .home-about-box{--padding-frame:var(--size-4); display:grid; grid-gap:var(--size-4) var(--size-6);}
 .hab-image-box{position:relative; padding-top:var(--padding-frame);}
@@ -101,7 +118,7 @@ section{position:relative;}
 
 
 
-.home-product .site-container{padding:var(--size-6) var(--body-padding); display:grid; grid-gap:var(--size-5);}
+.home-product .site-container{padding:var(--size-7) var(--body-padding); display:grid; grid-gap:var(--size-5);}
 .hpl-container{display:grid; grid-gap:var(--size-3);}
 .hpl-box{--aspect-ratio:4/5; position:relative;}
 .hpl-overlay{position:absolute; z-index:1000; bottom:0; left:0; width:100%; padding:var(--size-4); text-align:center; font-size:1.5rem; line-height:140%;}
@@ -129,7 +146,7 @@ section{position:relative;}
 
 
 
-.home-importer .site-container{padding:var(--size-6) var(--body-padding); display:grid; grid-gap:var(--size-5);}
+.home-importer .site-container{padding:var(--size-7) var(--body-padding); display:grid; grid-gap:var(--size-5);}
 .home-importer .section-separator-top{transform:scaleX(-1);}
 .home-importer .section-separator-bottom{transform:scaleY(-1);}
 .hil-column{width:144px;}
