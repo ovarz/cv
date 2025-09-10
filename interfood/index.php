@@ -238,6 +238,25 @@
 		$subtitle_en='English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.';
 	    require ($_SERVER['IF'].'template/module/h2h3.php')
 	  ?>
+	  
+	  <div class="home-brand-display">
+	    <?php for ($j=1; $j<=2; $j++){ ?>
+		  <div class="home-brand-list">
+			<ul class="hbl-container">
+			  <?php for ($i=1; $i<=20; $i++){ ?>
+				<li class="hbl-column">
+				  <a title="<?php echo $random_title[array_rand($random_title)];?>" class="hbl-box" href="">
+					<div class="hbl-logo img-frame thumb-loading content-center">
+					  <img title="Logo <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/brand/<?php echo rand(1,80); ?>.png">
+					</div>
+				  </a>
+				</li>
+			  <?php } ?>
+			</ul>
+		  </div>
+		<?php } ?>
+	  </div>
+	  
 	</div>
   </section>
   
