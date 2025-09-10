@@ -90,6 +90,11 @@ header{background-color:var(--bg-2);}
 
 
 
+.dd-number{color:var(--color-4);}
+.dd-label{color:var(--color-2);}
+
+
+
 .home-importer{background-color:var(--color-4);}
 .home-importer .section-title{color:var(--bg-2);}
 .home-importer .section-subtitle{color:var(--color-border);}

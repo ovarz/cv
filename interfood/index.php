@@ -110,6 +110,47 @@
 		$subtitle_en='English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.';
 	    require ($_SERVER['IF'].'template/module/h2h3.php')
 	  ?>
+	  <div class="distribution-data">
+        <?php 
+          $dd_array = array();
+          $dd_array[]=array(
+            'dd_number'=>'13',
+            'dd_label_id'=>'Gudang',
+            'dd_label_en'=>'Warehouses',
+            'dd_sublabel_id'=>'di seluruh Indonesia',
+            'dd_sublabel_en'=>'across Indonesia',
+          );
+          $dd_array[]=array(
+            'dd_number'=>'30000',
+            'dd_label_id'=>'Meter Persegi',
+            'dd_label_en'=>'Square Meter',
+            'dd_sublabel_id'=>'Luas Gudang',
+            'dd_sublabel_en'=>'of warehouse',
+          );
+          $dd_array[]=array(
+            'dd_number'=>'200',
+            'dd_label_id'=>'Truk dan Kendaraan',
+            'dd_label_en'=>'Trucks and Vehicles',
+            'dd_sublabel_id'=>'mendistribusikan produk kami ke seluruh negeri',
+            'dd_sublabel_en'=>'distributing our products country-wide',
+          );
+          foreach($dd_array as $dd_box){
+        ?>
+		  <div class="dd-box">
+		    <div class="dd-number">
+			  <span class="countup-number" aria-number="<?php echo($dd_box['dd_number'])?>"><?php echo($dd_box['dd_number'])?></span>+
+			</div>
+			<div class="dd-label">
+			  <span class="text-id"><?php echo($dd_box['dd_label_id'])?></span>
+			  <span class="text-en"><?php echo($dd_box['dd_label_en'])?></span>
+			</div>
+			<div class="dd-sublabel">
+			  <span class="text-id"><?php echo($dd_box['dd_sublabel_id'])?></span>
+			  <span class="text-en"><?php echo($dd_box['dd_sublabel_en'])?></span>
+			</div>
+		  </div>
+		<?php } ?>
+	  </div>
 	</div>
   </section>
   

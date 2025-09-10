@@ -48,6 +48,10 @@
 
 
 
+.distribution-data{grid-template-columns:repeat(3,1fr);}
+
+
+
 .home-importer .site-container{padding:144px var(--body-padding);}
 .hil-container{display:flex; justify-content:center; flex-wrap:wrap; gap:var(--size-3);}
 .hil-column{width:calc(25% - var(--size-3));}

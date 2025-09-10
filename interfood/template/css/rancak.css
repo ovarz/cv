@@ -109,6 +109,14 @@ section{position:relative;}
 
 
 
+.home-distribution .site-container{display:grid; grid-gap:var(--size-5);}
+.distribution-data{display:grid; grid-gap:var(--size-5);}
+.dd-box *{text-align:center;}
+.dd-number{font-size:3rem; line-height:120%; font-weight:bold; margin-bottom:var(--size-1);}
+.dd-label{font-size:1.5rem; line-height:130%; font-weight:bold;}
+
+
+
 .home-importer .site-container{padding:var(--size-6) var(--body-padding); display:grid; grid-gap:var(--size-5);}
 .home-importer .section-separator-top{transform:scaleX(-1);}
 .home-importer .section-separator-bottom{transform:scaleY(-1);}
