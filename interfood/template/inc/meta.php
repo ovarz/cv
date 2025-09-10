@@ -22,9 +22,6 @@
 <link rel="preload" href="template/fonts/baijamjuree/LDIqapSCOBt_aeQQ7ftydoa05efelJo0.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="template/css/rancak.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" as="script">
-<?php if($template == 'detail') { ?>
-  <!--<link rel="preload" href="template/img/sample/sample-1-mobile.webp?<php echo $anticache; ?>" as="image">-->
-<?php } ?>
 
 <style><?php require ($_SERVER['IF'].'template/css/font.css')?></style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -40,5 +37,13 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 
 <link rel="stylesheet" type="text/css" href="template/css/rancak.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="template/css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
+
+
+<?php if($menu == 'Home') { ?>
+  <link rel="preload" href="template/css/tiny-slider.css" as="style">
+  <link rel="preload" as="script" href="template/js/tiny-slider.js">
+  <link rel="stylesheet" type="text/css" href="template/css/tiny-slider.css"/>
+  <script src="template/js/tiny-slider.js"></script>
+<?php } ?>
 </head>
 <body class="lang-id">

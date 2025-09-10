@@ -110,6 +110,7 @@
 		$subtitle_en='English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.';
 	    require ($_SERVER['IF'].'template/module/h2h3.php')
 	  ?>
+	  
 	  <div class="distribution-data">
         <?php 
           $dd_array = array();
@@ -151,6 +152,48 @@
 		  </div>
 		<?php } ?>
 	  </div>
+	  
+	  <div class="warehouse-slider">
+	    <div class="warehouse-slider-container">
+		  <?php for ($i=1; $i<=10; $i++){ ?>
+		    <div class="wsc-box">
+		      <div class="wsc-image">
+			    <a title="" class="wsc-image-frame img-frame thumb-loading" href="<?php echo $more_link; ?>">
+				  <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/sample/sample-<?php echo rand(1,6); ?>.jpg">
+				</a>
+			  </div>
+			  <div class="wsc-info">
+			    <div class="wsc-info-container">
+				  tes
+				</div>
+			  </div>
+		    </div>
+		  <?php } ?>
+		</div>
+		<div class="wirehouse-slider-nav">
+		  <button id="customPrev">
+            <?php require ($_SERVER['IF'].'template/img/icon/slider-prev.svg')?>
+          </button>
+		  <button id="customNext">
+            <?php require ($_SERVER['IF'].'template/img/icon/slider-next.svg')?>
+          </button>
+		</div>
+	  </div>
+      <script>
+        var warehouse_slider = tns({
+          container:'.warehouse-slider-container',
+          speed:333,
+          items:1,
+          gutter:5, 
+          edgePadding:0,
+          controls:true,
+		  prevButton:'#customPrev',
+		  nextButton:'#customNext',
+          nav:false,
+          mouseDrag:true,
+          autoplay:false,
+        });
+      </script> 
 	</div>
   </section>
   
