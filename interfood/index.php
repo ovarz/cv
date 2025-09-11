@@ -18,28 +18,12 @@
 	  <?php for ($i=1; $i<=5; $i++){ ?>
 		<div class="slide-box">
 		  <a title="" class="slide-image img-frame thumb-loading" href="">
-			<img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/cover.jpg">
-			<div class="slide-overlay"></div>
-			<?php require ($_SERVER['IF'].'template/img/icon/cover-bottom.svg')?>
-			<div class="slide-info content-center">
-			  <span class="slide-info-container">
-				<h2 class="slide-title">
-				  <span class="text-id">Indonesia ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat</span>
-				  <span class="text-en">English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat</span>
-				</h2>
-				<div class="more">
-				  <div class="more-link btn-outline">
-					<div class="more-label">
-					  <span class="text-id">Selengkapnya</span>
-					  <span class="text-en">Learn More</span>
-					</div>
-					<div class="more-icon content-center">
-					  <?php require ($_SERVER['IF'].'template/img/icon/more.svg')?>
-					</div>
-				  </div>
-				</div>
-			  </span>
-			</div>
+			<?php 
+			  $cover_label_id='Indonesia ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat'; 
+			  $cover_label_en='English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat'; 
+			  $cover_gateway='yes';
+			  require ($_SERVER['IF'].'template/module/full-cover.php')
+			?>
 		  </a>
 		</div>
 	  <?php } ?>

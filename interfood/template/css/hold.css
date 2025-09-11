@@ -1,10 +1,14 @@
 :root, :before, :after{
   --bg-2:#FFFFFF;  
   --color-1:#757575; 
+  --color-1a:rgb(117 117 117 / 8%);
   --color-2:#231f20;
+  --color-2a:rgb(35 31 32 / 8%);
   --color-3:#2f4858; 
+  --color-3a:rgb(47 72 88 / 8%);
   --color-4:#ed1c24;
-  --color-border:#E0E0E0;
+  --color-4a:rgb(237 28 36 / 8%);
+  --color-border:#EEEEEE;
   --color-fb:#1877f2;
   --color-tw:#000000;
   --color-ig: #E1306C;
@@ -136,6 +140,14 @@ header{background-color:var(--bg-2);}
 .main-location-info{background-color:var(--color-4); color:var(--bg-1);}
 .main-location .more-link, .mli-contact-link{color:var(--bg-2); fill:var(--bg-2);}
 .main-location .more-link:hover, .mli-contact-link:hover{color:var(--color-3); fill:var(--color-3);}
+
+
+
+.career-box{background-color:var(--bg-2); border-color:var(--color-border); border-radius:var(--rounded-2);}
+.career-title{color:var(--color-2);}
+.career-status-box{border-radius:var(--rounded-1);}
+.career-status-open{background-color:var(--color-4a); color:var(--color-4);}
+.career-status-close{background-color:var(--color-1a); color:var(--color-1);}
 
 
 

@@ -32,7 +32,7 @@
           $nav_array[]=array(
             'nav_label_id'=>'Karir',
             'nav_label_en'=>'Career',
-            'nav_link'=>'',
+            'nav_link'=>'career.php',
           );
           $nav_array[]=array(
             'nav_label_id'=>'Kontak',
