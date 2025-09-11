@@ -1,4 +1,4 @@
-<div class="career-box">
+<button title="" class="career-box open-sticky" aria-popup-button="CareerDetail">
   <div class="career-status">
     <div class="career-status-box career-status-<?php echo $career_status;?>">
       <span class="text-id">
@@ -11,12 +11,10 @@
 	  </span>
     </div>
   </div>
-  <button title="" class="career-title">
-    <h2>
-      <span class="text-id">Senior Associate Business Operation Manager - Quality Assurance</span>
-      <span class="text-en">Senior Associate Business Operation Manager - Quality Assurance</span>
-    </h2>
-  </button>
+  <h2 class="career-title">
+    <span class="text-id">Senior Associate Business Operation Manager - Quality Assurance</span>
+    <span class="text-en">Senior Associate Business Operation Manager - Quality Assurance</span>
+  </h2>
   <div class="career-misc">
     <div class="career-type">
       <div class="career-icon"><?php require ($_SERVER['IF'].'template/img/icon/location.svg')?></div>
@@ -30,7 +28,7 @@
       <div class="career-label">Jakarta</div>
     </div>
   </div>
-  <button title="" class="more-link">
+  <div class="more-link">
     <div class="more-label">
       <span class="text-id">Selengkapnya</span>
       <span class="text-en">Learn More</span>
@@ -38,5 +36,5 @@
     <div class="more-icon content-center">
       <?php require ($_SERVER['IF'].'template/img/icon/more.svg')?>  
     </div>
-  </button>
-</div>
+  </div>
+</button>

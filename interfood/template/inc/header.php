@@ -5,7 +5,7 @@
 	    <?php require ($_SERVER['IF'].'template/img/logo.svg')?>
 	  </a>
 	</li>
-	<li class="header-center rancak-popup" id="popup-MainNav">
+	<li class="header-center rancak-popup" aria-popup-box="MainNav">
       <div class="main-nav">
         <?php 
           $nav_array = array();
@@ -55,7 +55,7 @@
 	    <button title="Indonesia" class="choice-lang choice-id" aria-lang="id">ID</button>
 	    <button title="English" class="choice-lang choice-en" aria-lang="en">EN</button>
 	  </div>
-	  <button title="Toggle Menu" class="header-box header-togglemenu content-center mobile-only open-sticky" aria-popup="MainNav">
+	  <button title="Toggle Menu" class="header-box header-togglemenu content-center mobile-only open-sticky" aria-popup-button="MainNav">
 	    <?php require ($_SERVER['IF'].'template/img/icon/menu.svg')?>
 	    <?php require ($_SERVER['IF'].'template/img/icon/close.svg')?>
 	  </button>

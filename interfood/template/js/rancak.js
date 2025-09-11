@@ -18,13 +18,17 @@ function back_to_top(){
 
 function open_sticky(){
   $('.open-sticky').click(function(){
-    var get_id = $(this).attr('aria-popup');
-	$('.open-sticky[aria-popup=' + get_id +']').toggleClass('show-sticky');
-	$('.open-sticky').not('.open-sticky[aria-popup=' + get_id +']').removeClass('show-sticky');
-    $('#popup-' + get_id).slideToggle('fast');
-    $('.rancak-popup').not('#popup-' + get_id).slideUp('fast');
+    var get_id = $(this).attr('aria-popup-button');
+	$('.open-sticky[aria-popup-button=' + get_id +']').toggleClass('show-sticky');
+	$('.open-sticky').not('.open-sticky[aria-popup-button=' + get_id +']').removeClass('show-sticky');
+    $('.rancak-popup[aria-popup-box=' + get_id +']').slideToggle('fast');
+    $('.rancak-popup').not('[aria-popup-box=' + get_id +']').slideUp('fast');
 	return false;
   });	
+  
+  $('.rancak-popup-overlay, .rancak-popup-close').click(function(){
+    ClosePopup();
+  });
 }
 
 

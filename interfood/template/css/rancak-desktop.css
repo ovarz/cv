@@ -16,7 +16,7 @@
 
 .header-logo svg{height:var(--size-6);}
 .header-lang{padding-right:var(--body-padding);}
-.header-center{display:flex !important; align-items:center; position:static !important;}
+.header-center{display:flex !important; align-items:center; position:static !important; width:auto !important;}
 
 
 
@@ -79,6 +79,10 @@
 
 .news-list{grid-template-columns:repeat(auto-fit, minmax(220px,1fr));}
 .news-info{padding:var(--size-4); align-items:flex-start;}
+
+
+
+.career-filter{grid-template-columns:1fr auto auto auto auto;}
 
 
 
