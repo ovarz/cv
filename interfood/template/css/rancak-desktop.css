@@ -30,7 +30,7 @@
 
 
 .slide-image{--aspect-ratio:16/9;}
-.slide-title{max-width:55%;}
+.slide-title, .slide-subtitle, .slide-info .career-title, .slide-info .career-subtitle{max-width:55%;}
 
 
 

@@ -20,7 +20,9 @@
 		  <a title="" class="slide-image img-frame thumb-loading" href="">
 			<?php 
 			  $cover_label_id='Indonesia ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat'; 
+			  $cover_sublabel_id=''; 
 			  $cover_label_en='English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat'; 
+			  $cover_sublabel_en=''; 
 			  $cover_gateway='yes';
 			  require ($_SERVER['IF'].'template/module/full-cover.php')
 			?>

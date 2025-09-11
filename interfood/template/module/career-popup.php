@@ -12,7 +12,7 @@
         </div>
         <?php require ($_SERVER['IF'].'template/module/career-head.php')?>
 		<div class="career-address">Tunas Industrial Estate, Blok 8 F, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464</div>
-		<div class="career-content">
+		<div class="default-content career-content">
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis interdum scelerisque. Vivamus sodales vitae turpis suscipit finibus. Suspendisse in magna vitae ipsum malesuada bibendum ac a nulla. <i>Cras in urna arcu</i>. Nullam mi magna, mattis sit amet nulla nec, tincidunt finibus nulla.</p>
 		  <p>Mauris ac fermentum lectus. In dolor erat, elementum id leo ac, suscipit aliquet est. Sed placerat turpis sit amet enim dignissim feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna est, facilisis in lacus varius, <em>imperdiet consectetur sapien</em>. Suspendisse vitae sapien lectus.</p>
 		  <p></p>

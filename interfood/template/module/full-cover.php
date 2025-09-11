@@ -7,6 +7,10 @@
       <span class="text-id"><?php echo $cover_label_id; ?></span>
       <span class="text-en"><?php echo $cover_label_en; ?></span>
     </h2>
+    <h3 class="slide-subtitle">
+      <span class="text-id"><?php echo $cover_sublabel_id; ?></span>
+      <span class="text-en"><?php echo $cover_sublabel_en; ?></span>
+    </h3>
 	<?php if($cover_gateway == 'yes'){ ?>
       <div class="more">
         <div class="more-link btn-outline">
