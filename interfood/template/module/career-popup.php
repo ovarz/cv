@@ -10,24 +10,7 @@
             <span class="text-en">Open</span>
           </div>
         </div>
-
-        <h2 class="career-title">
-          <span class="text-id">Senior Associate Business Operation Manager - Quality Assurance</span>
-          <span class="text-en">Senior Associate Business Operation Manager - Quality Assurance</span>
-        </h2>
-        <div class="career-misc">
-          <div class="career-type">
-            <div class="career-icon"><?php require ($_SERVER['IF'].'template/img/icon/location.svg')?></div>
-            <div class="career-label">
-              <span class="text-id">Magang</span>
-              <span class="text-en">Internship</span>
-            </div>
-          </div>
-          <div class="career-location">
-            <div class="career-icon"><?php require ($_SERVER['IF'].'template/img/icon/location.svg')?></div>
-            <div class="career-label">Batam</div>
-          </div>
-        </div>
+        <?php require ($_SERVER['IF'].'template/module/career-head.php')?>
 		<div class="career-address">Tunas Industrial Estate, Blok 8 F, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464</div>
 		<div class="career-content">
 		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis interdum scelerisque. Vivamus sodales vitae turpis suscipit finibus. Suspendisse in magna vitae ipsum malesuada bibendum ac a nulla. <i>Cras in urna arcu</i>. Nullam mi magna, mattis sit amet nulla nec, tincidunt finibus nulla.</p>
