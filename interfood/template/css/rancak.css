@@ -199,6 +199,8 @@ div.slide-image{max-height:377px;}
 .news-date, .news-desc{font-weight:normal; font-size:0.875rem;}
 .news-title{-webkit-line-clamp:3;}
 .news-desc{-webkit-line-clamp:4;}
+.news-detail .site-container{max-width:987px; display:grid; grid-gap:var(--size-3);}
+.ndt-title{font-family:"Bai Jamjuree",sans-serif; font-size:2.25rem; font-weight:bold; text-transform:uppercase; line-height:120%; margin-bottom:var(--size-2);}
 
 
 

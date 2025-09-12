@@ -139,10 +139,10 @@ header{background-color:var(--bg-2);}
 
 
 .latest-news{background-color:var(--bg-2);}
-
 .news-box{border-color:var(--color-border); border-radius:var(--rounded-2);}
 .news-date{color:var(--color-1);}
 .news-desc{color:var(--color-2);}
+.ndt-title{color:var(--color-2);}
 
 
 

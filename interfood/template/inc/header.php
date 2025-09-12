@@ -25,9 +25,9 @@
             'nav_link'=>'',
           );
           $nav_array[]=array(
-            'nav_label_id'=>'Distribusi',
-            'nav_label_en'=>'Distribution',
-            'nav_link'=>'',
+            'nav_label_id'=>'Berita',
+            'nav_label_en'=>'News',
+            'nav_link'=>'news.php',
           );
           $nav_array[]=array(
             'nav_label_id'=>'Karir',

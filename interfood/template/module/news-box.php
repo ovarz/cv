@@ -1,4 +1,4 @@
-<a title="<?php echo $random_title[array_rand($random_title)];?>" class="news-box" href="">
+<a title="<?php echo $random_title[array_rand($random_title)];?>" class="news-box" href="news-detail.php">
   <div class="news-image">
     <div class="news-image-frame img-frame thumb-loading">
       <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/sample/sample-<?php echo rand(1,6); ?>.jpg">

@@ -77,7 +77,7 @@
 
 
 
-.news-list{grid-template-columns:repeat(auto-fit, minmax(220px,1fr));}
+.news-list{grid-template-columns:repeat(auto-fit, minmax(240px,1fr));}
 .news-info{padding:var(--size-4); align-items:flex-start;}
 
 
