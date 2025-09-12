@@ -17,17 +17,17 @@
           $nav_array[]=array(
             'nav_label_id'=>'Tentang Kami',
             'nav_label_en'=>'About Us',
-            'nav_link'=>'',
+            'nav_link'=>'about.php',
           );
           $nav_array[]=array(
             'nav_label_id'=>'Produk',
             'nav_label_en'=>'Product',
-            'nav_link'=>'',
+            'nav_link'=>'product.php',
           );
           $nav_array[]=array(
             'nav_label_id'=>'Distribusi',
             'nav_label_en'=>'Distribution',
-            'nav_link'=>'',
+            'nav_link'=>'distribution.php',
           );
           $nav_array[]=array(
             'nav_label_id'=>'Berita',
@@ -42,7 +42,7 @@
           $nav_array[]=array(
             'nav_label_id'=>'Kontak',
             'nav_label_en'=>'Contact',
-            'nav_link'=>'',
+            'nav_link'=>'contact.php',
           );
           foreach($nav_array as $nav_list){
         ?>
