@@ -41,7 +41,7 @@
 
 .hab-right{grid-template-columns:1fr 377px;}
 .hab-right *{text-align:right;}
-.hab-right .hab-inf0, .hab-right .hab-image{grid-row:1/2;}
+.hab-right .hab-info, .hab-right .hab-image{grid-row:1/2;}
 .hab-right .hab-info{grid-column:1/2;}
 .hab-right .hab-image{grid-column:2/3;}
 .hab-right .more{justify-content:flex-end;}

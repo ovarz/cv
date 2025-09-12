@@ -126,9 +126,11 @@ div.slide-image{max-height:377px;}
 .hab-image-outline{position:absolute; z-index:1; top:0; border:1px solid; width:calc(100% - var(--padding-frame)); height:calc(100% - var(--padding-frame));}
 .hab-image-frame{--aspect-ratio:1/1; position:relative; z-index:1000;}
 .hab-info{display:flex; align-items:center;}
-.hab-info-container{display:grid; grid-gap:var(--size-2);}
+.hab-info-container{display:grid; grid-gap:var(--size-2); width:100%;}
 .hab-title{font-family:"Bai Jamjuree",sans-serif; font-size:1.714rem; font-weight:bold; line-height:130%;}
 .hab-desc{line-height:150%;}
+.hab-desc ul{padding-left:var(--size-4); list-style:disc; display:grid; grid-gap:var(--size-1);}
+.hab-desc b{display:inline-block;}
 
 .hab-left .hab-image-box{padding-left:var(--padding-frame);}
 .hab-left .hab-image-outline{left:0;}

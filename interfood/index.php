@@ -53,7 +53,7 @@
   <section class="home-about content-center">
     <div class="site-container">
 	
-	  <div class="home-about-box hab-left">
+	  <div class="home-about-box hab-right">
 		<div class="hab-image">
 		  <div class="hab-image-box">
 			<div class="hab-image-outline"></div>
@@ -78,7 +78,7 @@
 		</div>
 	  </div>
 	  
-	  <div class="home-about-box hab-right">
+	  <div class="home-about-box hab-left">
 		<div class="hab-image">
 		  <div class="hab-image-box">
 			<div class="hab-image-outline"></div>
@@ -94,8 +94,22 @@
 			  <span class="text-en">Our Advantages</span>
 			</h2>
 			<h3 class="hab-desc">
-			  <span class="text-id">ID ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus. Proin posuere vulputate urna, tempus dignissim sem sagittis nec. Vivamus ultricies venenatis odio, ut imperdiet purus gravida sit amet. Phasellus ac neque in nulla lobortis ultrices eget in turpis.</span>
-			  <span class="text-en">EN ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus. Proin posuere vulputate urna, tempus dignissim sem sagittis nec. Vivamus ultricies venenatis odio, ut imperdiet purus gravida sit amet. Phasellus ac neque in nulla lobortis ultrices eget in turpis.</span>
+			  <ul class="text-id">
+			    <li>Produk Bersertifikat Halal & Memenuhi Seluruh Regulasi Pemerintah</li>
+			    <li>15 Kantor Cabang & Gudang di Seluruh Indonesia</li>
+			    <li>Berpengalaman lebih dari 20 Tahun di Pasar & Industri F&B</li>
+			    <li>Jaringan Distribusi yang Luas, termasuk Fasilitas  Cold Chain</li>
+			    <li>Cakupan Nasional yang Kuat untuk Ritel & HORECA</li>
+			    <li>Kemitraan Strategis dengan Supplier Internasional</li>
+			  </ul>
+			  <ul class="text-en">
+			    <li>Global Strategic Partnerships with International Suppliers</li>
+			    <li>Over 20 years of Expertise in the Market & Industry</li>
+			    <li>15 Branch Offices & Warehouses Nationwide</li>
+			    <li>Extensive Distribution Network, including Cold Chain Logistics</li>
+			    <li>Strong Nationwide Retail & HORECA Coverage</li>
+			    <li>Halal-certified Products & Full Government Compliance</li>
+			  </ul>
 			</h3>
 			<?php $more_type='link'; $more_label_id='Selengkapnya'; $more_label_en='Learn More'; $more_link=''; 
 			require ($_SERVER['IF'].'template/module/more.php')?>
