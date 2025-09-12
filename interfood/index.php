@@ -252,19 +252,89 @@
 	  
 	  <div class="warehouse-slider">
 	    <div class="warehouse-slider-container">
-		  <?php for ($i=1; $i<=10; $i++){ ?>
+          <?php 
+		    $ws_total='9';
+            $ws_array = array();
+            $ws_array[]=array(
+              'ws_number'=>'1',
+              'ws_name'=>'Warehouse Name',
+              'ws_city_id'=>'Jakarta, Daerah Khusus Ibukota Jakarta',
+              'ws_city_en'=>'Jakarta, Special Capital Region of Jakarta',
+              'ws_link'=>'',
+            );
+            $ws_array[]=array(
+              'ws_number'=>'2',
+              'ws_name'=>'Warehouse Name',
+              'ws_city_id'=>'Batam, Kepulauan Riau',
+              'ws_city_en'=>'Batam, Riau islands',
+              'ws_link'=>'',
+            );
+            $ws_array[]=array(
+              'ws_number'=>'3',
+              'ws_name'=>'Warehouse Name',
+              'ws_city_id'=>'Bandung, Jawa Barat',
+              'ws_city_en'=>'Bandung, West Java',
+              'ws_link'=>'',
+            );
+            $ws_array[]=array(
+              'ws_number'=>'4',
+              'ws_name'=>'Warehouse Name',
+              'ws_city_id'=>'Surabaya, Jawa Timur',
+              'ws_city_en'=>'Surabaya, East Java',
+              'ws_link'=>'',
+            );
+            $ws_array[]=array(
+              'ws_number'=>'5',
+              'ws_name'=>'Warehouse Name',
+              'ws_city_id'=>'Jambi, Jambi',
+              'ws_city_en'=>'Jambi, Jambi',
+              'ws_link'=>'',
+            );
+            $ws_array[]=array(
+              'ws_number'=>'6',
+              'ws_name'=>'Warehouse Name',
+              'ws_city_id'=>'Palembang, Sumatera Selatan',
+              'ws_city_en'=>'Palembang, South Sumatera',
+              'ws_link'=>'',
+            );
+            $ws_array[]=array(
+              'ws_number'=>'7',
+              'ws_name'=>'Warehouse Name',
+              'ws_city_id'=>'Medan, Sumatera Utara',
+              'ws_city_en'=>'Medan, North Sumatera',
+              'ws_link'=>'',
+            );
+            $ws_array[]=array(
+              'ws_number'=>'8',
+              'ws_name'=>'Warehouse Name',
+              'ws_city_id'=>'Pekanbaru, Riau',
+              'ws_city_en'=>'Pekanbaru, Riau',
+              'ws_link'=>'',
+            );
+            $ws_array[]=array(
+              'ws_number'=>'9',
+              'ws_name'=>'Warehouse Name',
+              'ws_city_id'=>'Pontianak, Kalimantan Barat',
+              'ws_city_en'=>'Pontianak, West Kalimantan',
+              'ws_link'=>'',
+            );
+            foreach($ws_array as $ws_box){
+          ?>
 		    <div class="wsc-column">
               <div class="wsc-box">
                 <div class="wsc-image">
-                  <a title="" class="wsc-image-frame img-frame thumb-loading" href="">
-                    <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/sample/sample-<?php echo rand(1,6); ?>.jpg">
+                  <a title="" class="wsc-image-frame img-frame thumb-loading" href="<?php echo($ws_box['ws_link'])?>">
+                    <img title="Foto <?php echo($ws_box['ws_name'])?>" class="lazyload" data-original="template/img/sample/sample-<?php echo rand(1,6); ?>.jpg">
                   </a>
                 </div>
                 <div class="wsc-info">
                   <div class="wsc-info-container">
-                    <div class="wsc-number">0 / 00</div>
-                    <a title="" class="wsc-name" href="">Warehouse Name</a>
-                    <div class="wsc-location">Batam, Indonesia</div>
+                    <div class="wsc-number"><?php echo($ws_box['ws_number'])?> / <?php echo $ws_total; ?></div>
+                    <a title="<?php echo($ws_box['ws_name'])?>" class="wsc-name" href="<?php echo($ws_box['ws_link'])?>"><?php echo($ws_box['ws_name'])?></a>
+                    <div class="wsc-location">
+					  <span class="text-id"><?php echo($ws_box['ws_city_id'])?></span>
+					  <span class="text-en"><?php echo($ws_box['ws_city_en'])?></span>
+					</div>
                   </div>
                 </div>
               </div>
