@@ -58,6 +58,40 @@
             $subtitle_en='English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.';
             require ($_SERVER['IF'].'template/module/h2h3.php')
           ?>
+		  <div class="cdl-list">
+		    <?php for ($j=1; $j<=10; $j++){ ?>
+			  <div class="cdl-box">
+			    <div class="cdl-image">
+                  <div class="cdl-image-frame img-frame thumb-loading">
+                    <img title="Foto Batam" class="lazyload" data-original="template/img/cover.jpg">
+                  </div>
+				</div>
+			    <div class="cdl-info">
+                  <h2 class="cdl-city">Batam</h2>
+                  <div class="cdl-address">
+                    Tunas Industrial Estate, Blok 8 F, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464
+                  </div>
+                  <div class="mli-contact">
+                    <a title="" class="mli-contact-link" href="">
+                      <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/phone.svg')?></div>
+                      <div class="mli-contact-label">+62 21 345 0214</div>
+                    </a>
+                    <a title="" class="mli-contact-link" href="">
+                      <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/mail.svg')?></div>
+                      <div class="mli-contact-label">jkt@interfood.co.id</div>
+                    </a>
+                    <a title="" class="mli-contact-link" href="">
+                      <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/maps.svg')?></div>
+                      <div class="mli-contact-label">
+                        <span class="text-id">Lihat Peta</span>
+                        <span class="text-en">View Maps</span>
+                      </div>
+                    </a>
+                  </div>
+				</div>
+			  </div>
+			<?php } ?>
+		  </div>
 		</div>
 		
 	  </div>

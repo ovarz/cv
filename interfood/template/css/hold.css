@@ -188,6 +188,12 @@ header{background-color:var(--bg-2);}
 .tca-button:hover{color:var(--color-3); border-color:var(--color-3);}
 .tca-curr{color:var(--color-4) !important; border-color:var(--color-4) !important;}
 
+.cdl-box{border-color:var(--color-border-form);}
+.cdl-image-frame{border-radius:var(--rounded-1);}
+.cdl-city{color:var(--color-4);}
+.cdl-box .mli-contact-link{color:var(--color-2); fill:var(--color-2);}
+.cdl-box .mli-contact-link:hover{color:var(--color-4); fill:var(--color-4);}
+
 
 
 footer{background-color:var(--bg-2);}
