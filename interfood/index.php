@@ -127,9 +127,9 @@
     <div class="site-container">
 	  <?php 
 	    $title_id='Produk';
-		$subtitle_id='Kami menyediakan beragam produk makanan dan minuman, mulai dari camilan manis seperti cokelat dan permen, hingga berbagai bahan untuk kebutuhan bisnis FnB maupun memasak di rumah.';
+		$subtitle_id='Kami menyediakan berbagai produk makanan dan minuman, mulai dari camilan sehari-hari, hingga bahan berkualitas untuk kebutuhan bisnis.';
 	    $title_en='Product'; 
-		$subtitle_en='We offer a wide variety of food & beverage products. From sweets like chocolate & confectionaries, ingredients for both FnB businesses and home cooks, etc.';
+		$subtitle_en='We offer a wide variety of food and beverage products, from everyday snacks to premium ingredients tailored for businesses.';
 	    require ($_SERVER['IF'].'template/module/h2h3.php')
 	  ?>
 	  
@@ -138,21 +138,15 @@
           <?php 
             $home_product_array = array();
             $home_product_array[]=array(
-              'hpl_name_id'=>'Makanan Ringan',
-              'hpl_name_en'=>'Snack',
+              'hpl_name_id'=>'Kembang Gula',
+              'hpl_name_en'=>'Confectionery',
+              'hpl_label'=>'confectionery',
+              'hpl_link'=>'',
+            );
+            $home_product_array[]=array(
+              'hpl_name_id'=>'Cemilan',
+              'hpl_name_en'=>'Snacks',
               'hpl_label'=>'snack',
-              'hpl_link'=>'',
-            );
-            $home_product_array[]=array(
-              'hpl_name_id'=>'Makanan Kaleng',
-              'hpl_name_en'=>'Canned Food',
-              'hpl_label'=>'canned-food',
-              'hpl_link'=>'',
-            );
-            $home_product_array[]=array(
-              'hpl_name_id'=>'Makanan Beku',
-              'hpl_name_en'=>'Frozen Food',
-              'hpl_label'=>'frozen-food',
               'hpl_link'=>'',
             );
             $home_product_array[]=array(
@@ -162,7 +156,7 @@
               'hpl_link'=>'',
             );
             $home_product_array[]=array(
-              'hpl_name_id'=>'Bahan Dapur',
+              'hpl_name_id'=>'Dapur',
               'hpl_name_en'=>'Kitchen',
               'hpl_label'=>'kitchen',
               'hpl_link'=>'',
