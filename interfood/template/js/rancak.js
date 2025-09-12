@@ -93,10 +93,24 @@ function all_scroll(){
 
 
 
+function contact_tab(){
+  $('.tca-button').click(function(){
+    var get_tab = $(this).attr('aria-tab-button');
+	$('.tca-button[aria-tab-button=' + get_tab +']').toggleClass('tca-curr');
+	$('.tca-button').not('.tca-button[aria-tab-button=' + get_tab +']').removeClass('tca-curr');
+    $('.tcf-box[aria-tab-box=' + get_tab +']').slideToggle('fast');
+    $('.tcf-box').not('[aria-tab-box=' + get_tab +']').slideUp('fast');
+	return false;
+  });
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
   back_to_top();
   open_sticky();
   change_lang();
+  contact_tab();
 });

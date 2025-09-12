@@ -251,6 +251,21 @@ div.slide-image{max-height:377px;}
 
 
 
+.contact-display-split{display:grid; grid-gap:var(--size-7);}
+.tab-contact-action{}
+.tca-container{display:grid; grid-template-columns:repeat(2,1fr);}
+.tca-button{border-bottom:var(--size-1) solid; padding-bottom:var(--size-3); font-weight:normal;}
+.tca-curr{font-weight:bold;}
+@media screen and (min-width:0px) and (max-width:430px){
+  .tca-button{font-size:0.857rem;}
+}
+.tab-contact-form{margin-top:var(--size-5);}
+.tcf-box{display:none;}
+.tcf-box-first{display:block;}
+.tcf-box .form-submit{width:100%;}
+
+
+
 
 
 

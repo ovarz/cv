@@ -183,6 +183,13 @@ header{background-color:var(--bg-2);}
 
 
 
+.tab-contact-action{}
+.tca-button{color:var(--color-1); border-color:var(--color-border);}
+.tca-button:hover{color:var(--color-3); border-color:var(--color-3);}
+.tca-curr{color:var(--color-4) !important; border-color:var(--color-4) !important;}
+
+
+
 footer{background-color:var(--bg-2);}
 footer .site-container{padding:var(--body-padding); display:grid; grid-gap:var(--size-3);}
 .footer-socmed{gap:var(--size-4);}
