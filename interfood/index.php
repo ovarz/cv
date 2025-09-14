@@ -183,7 +183,7 @@
         </ul>
       </div>
 	  
-	  <?php $more_type='button'; $more_label_id='Produk Lainnya'; $more_label_en='More Product'; $more_link=''; 
+	  <?php $more_type='button'; $more_label_id='Produk Lainnya'; $more_label_en='More Product'; $more_link='product.php'; 
 	  require ($_SERVER['IF'].'template/module/more.php')?>
 	  
 	</div>
@@ -486,7 +486,7 @@
 		<?php } ?>
 	  </div>
 	  
-	  <?php $more_type='button'; $more_label_id='Berita Lainnya'; $more_label_en='More News'; $more_link=''; 
+	  <?php $more_type='button'; $more_label_id='Berita Lainnya'; $more_label_en='More News'; $more_link='news.php'; 
 	  require ($_SERVER['IF'].'template/module/more.php')?>
 	</div>
   </section>

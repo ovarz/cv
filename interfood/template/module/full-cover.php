@@ -1,6 +1,8 @@
 <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/cover.jpg">
 <div class="slide-overlay"></div>
-<?php require ($_SERVER['IF'].'template/img/icon/cover-bottom.svg')?>
+<?php if($cover_gateway == 'yes'){ ?>
+  <?php require ($_SERVER['IF'].'template/img/icon/cover-bottom.svg')?>
+<?php } ?>
 <div class="slide-info content-center">
   <span class="slide-info-container">
     <h2 class="slide-title">
