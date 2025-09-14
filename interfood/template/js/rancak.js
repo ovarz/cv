@@ -33,6 +33,21 @@ function open_sticky(){
 
 
 
+function product_filter_list(){
+  $('.pdt-button').click(function(){
+    var get_pdt = $(this).attr('aria-dropdown-button');
+    $('.product-display-dropdown[aria-dropdown-box=' + get_pdt +']').fadeToggle('fast');
+    $('.product-display-dropdown').not('[aria-dropdown-box=' + get_pdt +']').fadeOut('fast');
+	return false;
+  });	
+  
+  $('.product-display-overlay, .product-display-close').click(function(){
+    $('.product-display-dropdown').fadeOut('fast');
+  });
+}
+
+
+
 function change_lang(){
   $('.choice-lang').click(function(){
     var get_lang = $(this).attr('aria-lang');
@@ -113,4 +128,5 @@ $(document).ready(function(){
   open_sticky();
   change_lang();
   contact_tab();
+  product_filter_list();
 });

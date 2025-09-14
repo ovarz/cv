@@ -241,6 +241,13 @@ border:1px solid var(--color-border); border-radius:var(--rounded-2); box-shadow
   
   
   .news-image-frame{border-radius:var(--rounded-1);}
+
+
+
+  .pds-small{position:fixed; z-index:calc(var(--max-zindex) - 1000); top:0; left:0; width:100%; height:100vh; height:100svh;}
+  .product-display-overlay, .product-display-filter{position:absolute; bottom:0; left:0; width:100%;}
+  .product-display-overlay{z-index:1; height:100vh; height:100svh; background-color:rgb(0 0 0 / 34%);}
+  .product-display-filter{z-index:1000; max-height:89vh; overflow-y:auto; background-color:var(--bg-2); border-radius:var(--rounded-2) var(--rounded-2) 0 0;}
 }
 
 
@@ -267,4 +274,8 @@ border:1px solid var(--color-border); border-radius:var(--rounded-2); box-shadow
   .news-box{border-radius:var(--rounded-2); overflow:hidden;}
   .news-box:hover .news-image-frame{opacity:55%;}
   .news-image-frame{transition:var(--transition-default);}
+  
+  
+  
+  .product-display-filter{border-color:var(--color-border-form); border-radius:var(--rounded-1);}
 }

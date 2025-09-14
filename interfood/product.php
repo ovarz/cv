@@ -27,10 +27,35 @@
   
   
   
-  <section class="contact-display content-center">
+  <section class="product-display content-center">
     <div class="site-container">
 	
-	  tes
+	  <div class="product-display-split">
+	    <div class="pds-small product-display-dropdown" aria-dropdown-box="filter">
+		  <div class="product-display-overlay mobile-only"></div>
+		  <div class="product-display-filter">
+		    filter
+		  </div>
+		</div>
+		<div class="pds-big">
+		  <div class="product-display-top">
+		    <div class="pdt-search">
+              <div class="form-box form-search pdt-search-box">
+                <input class="form-field text-id" name="" type="text" placeholder="Cari Produk.....">
+                <input class="form-field text-en" name="" type="text" placeholder="Search Product.....">
+                <div class="form-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/search.svg')?></div>
+              </div>
+			</div>
+		    <div class="pdt-info desktop-only">
+			  <span class="text-id">Menampilkan 1 - 60 barang dari total</span>
+			  <span class="text-en">Showing 1 - 60 items from total</span>
+			</div>
+		    <div class="pdt-filter-button mobile-only">
+			  <button title="" class="btn pdt-button" aria-dropdown-button="filter"><?php require ($_SERVER['IF'].'template/img/icon/menu.svg')?></button>
+			</div>
+		  </div>
+		</div>
+	  </div>
 	  
 	</div>
   </section>

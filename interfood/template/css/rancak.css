@@ -280,6 +280,18 @@ div.slide-image{max-height:377px;}
 
 
 
+.product-display-top{--button-height:48px; display:flex; gap:var(--size-3);}
+.pdt-search{display:flex; margin-right:auto;}
+.pdt-search .form-field{height:var(--button-height);}
+.pdt-button{width:var(--button-height); height:var(--button-height); padding:0 !important;}
+.pdt-button svg{width:auto; height:1rem;}
+.pdt-info{display:flex; align-items:center;}
+
+.product-display-dropdown{display:none;}
+.product-display-filter{padding:var(--size-4);}
+
+
+
 
 
 
