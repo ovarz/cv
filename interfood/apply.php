@@ -16,7 +16,6 @@
     <div class="slide-image img-frame thumb-loading">
       <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/cover.jpg">
       <div class="slide-overlay"></div>
-      <?php require ($_SERVER['IF'].'template/img/icon/cover-bottom.svg')?>
       <div class="slide-info content-center">
         <span class="slide-info-container">
 		  <?php require ($_SERVER['IF'].'template/module/career-head.php')?>

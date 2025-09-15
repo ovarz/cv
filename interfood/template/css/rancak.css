@@ -109,7 +109,7 @@ section{position:relative;}
 
 .slide-box{position:relative;}
 .slide-image{--aspect-ratio:4/5; max-height:800px;}
-div.slide-image{max-height:377px;}
+div.slide-image{max-height:233px;}
 .slide-overlay, .slide-info, .svgicon-cover-slideshow{position:absolute; bottom:0; left:0; width:100%;}
 .slide-overlay{z-index:1000; height:100%;}
 .slide-info{z-index:3000; height:100%;}
