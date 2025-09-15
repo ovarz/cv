@@ -72,7 +72,7 @@
 			  <span class="text-id"><b>PT. Interfood Sukses Jasindo</b> adalah distributor dan importir terpercaya dan berpengalaman dalam menangani produk makanan dan minuman berkualitas. Bersama mitra kami, kami berkomitmen untuk memberikan <b style="color:var(--color-4);">Yang Terbaik</b> untuk pasar Indonesia.</span>
 			  <span class="text-en"><b>PT. Interfood Sukses Jasindo</b> is a trusted and well-established distributor and importer of high-quality food and beverage products. Together with our partners, we are committed to delivering <b style="color:var(--color-4);">The Best</b> to Indonesia’s market.</span>
 			</h3>
-			<?php $more_type='link'; $more_label_id='Selengkapnya'; $more_label_en='Learn More'; $more_link=''; 
+			<?php $more_type='link'; $more_label_id='Selengkapnya'; $more_label_en='Learn More'; $more_link='about.php'; 
 			require ($_SERVER['IF'].'template/module/more.php')?>
 		  </div>
 		</div>
@@ -111,7 +111,7 @@
 			    <li>Halal-certified Products & Full Government Compliance</li>
 			  </ul>
 			</h3>
-			<?php $more_type='link'; $more_label_id='Selengkapnya'; $more_label_en='Learn More'; $more_link=''; 
+			<?php $more_type='link'; $more_label_id='Selengkapnya'; $more_label_en='Learn More'; $more_link='about.php'; 
 			require ($_SERVER['IF'].'template/module/more.php')?>
 		  </div>
 		</div>
@@ -141,31 +141,31 @@
               'hpl_name_id'=>'Kembang Gula',
               'hpl_name_en'=>'Confectionery',
               'hpl_label'=>'confectionery',
-              'hpl_link'=>'',
+              'hpl_link'=>'product.php',
             );
             $home_product_array[]=array(
               'hpl_name_id'=>'Cemilan',
               'hpl_name_en'=>'Snacks',
               'hpl_label'=>'snack',
-              'hpl_link'=>'',
+              'hpl_link'=>'product.php',
             );
             $home_product_array[]=array(
               'hpl_name_id'=>'Minuman',
               'hpl_name_en'=>'Beverage',
               'hpl_label'=>'beverage',
-              'hpl_link'=>'',
+              'hpl_link'=>'product.php',
             );
             $home_product_array[]=array(
               'hpl_name_id'=>'Dapur',
               'hpl_name_en'=>'Kitchen',
               'hpl_label'=>'kitchen',
-              'hpl_link'=>'',
+              'hpl_link'=>'product.php',
             );
             $home_product_array[]=array(
               'hpl_name_id'=>'Lainnya',
               'hpl_name_en'=>'Others',
               'hpl_label'=>'others',
-              'hpl_link'=>'',
+              'hpl_link'=>'product.php',
             );
             foreach($home_product_array as $home_product_list){
           ?>
