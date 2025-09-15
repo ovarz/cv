@@ -30,25 +30,6 @@
   <section class="contact-display content-center">
     <div class="site-container">
 	  <div class="contact-display-split">
-	  
-        <div class="tab-contact">
-          <div class="tab-contact-action">
-            <div class="tca-container">
-              <button title="General inquiries" class="tca-button tca-curr content-center" aria-tab-button="TabGI">
-                <span class="text-id">Pertanyaan Umum</span>
-                <span class="text-en">General Inquiries</span>
-              </button>
-              <button title="Purchase interest" class="tca-button content-center" aria-tab-button="TabPI">
-                <span class="text-id">Minat Pembelian</span>
-                <span class="text-en">Purchase Interest</span>
-              </button>
-            </div>
-          </div>
-          <div class="tab-contact-form">
-            <?php require ($_SERVER['IF'].'template/module/contact-gi.php')?>
-            <?php require ($_SERVER['IF'].'template/module/contact-pi.php')?>
-          </div>
-        </div>
 		
 		<div class="contact-display-list">
           <?php 
@@ -59,7 +40,7 @@
             require ($_SERVER['IF'].'template/module/h2h3.php')
           ?>
 		  <div class="cdl-list">
-		    <?php for ($j=1; $j<=10; $j++){ ?>
+		    <?php for ($j=1; $j<=2; $j++){ ?>
 			  <div class="cdl-box">
 			    <div class="cdl-image">
                   <div class="cdl-image-frame img-frame thumb-loading">
@@ -91,8 +72,79 @@
 				</div>
 			  </div>
 			<?php } ?>
+			<div class="cdl-toggle">
+			  <div class="cdl-toggle-container">
+                <?php for ($j=1; $j<=8; $j++){ ?>
+                  <div class="cdl-box">
+                    <div class="cdl-image">
+                      <div class="cdl-image-frame img-frame thumb-loading">
+                        <img title="Foto Batam" class="lazyload" data-original="template/img/cover.jpg">
+                      </div>
+                    </div>
+                    <div class="cdl-info">
+                      <h2 class="cdl-city">Batam</h2>
+                      <div class="cdl-address">
+                        Tunas Industrial Estate, Blok 8 F, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464
+                      </div>
+                      <div class="mli-contact">
+                        <a title="" class="mli-contact-link" href="">
+                          <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/phone.svg')?></div>
+                          <div class="mli-contact-label">+62 21 345 0214</div>
+                        </a>
+                        <a title="" class="mli-contact-link" href="">
+                          <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/mail.svg')?></div>
+                          <div class="mli-contact-label">jkt@interfood.co.id</div>
+                        </a>
+                        <a title="" class="mli-contact-link" href="">
+                          <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/maps.svg')?></div>
+                          <div class="mli-contact-label">
+                            <span class="text-id">Lihat Peta</span>
+                            <span class="text-en">View Maps</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                <?php } ?>
+			  </div>
+			</div>
+			<button title="" class="cdl-toggle-button">
+			  <div class="cdl-toggle-label">
+				<span class="text-id">Daftar Semua Cabang</span>
+				<span class="text-en">All Branches List</span>
+			  </div>
+			  <div class="cdl-toggle-icon">
+			    <?php require ($_SERVER['IF'].'template/img/icon/down.svg')?>
+			  </div>
+			</button>
 		  </div>
 		</div>
+	  
+        <div class="tab-contact">
+          <?php 
+            $title_id='';
+            $subtitle_id='Indonesia ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.';
+            $title_en=''; 
+            $subtitle_en='English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.';
+            require ($_SERVER['IF'].'template/module/h2h3.php')
+          ?>
+          <div class="tab-contact-action">
+            <div class="tca-container">
+              <button title="General inquiries" class="tca-button tca-curr content-center" aria-tab-button="TabGI">
+                <span class="text-id">Pertanyaan Umum</span>
+                <span class="text-en">General Inquiries</span>
+              </button>
+              <button title="Purchase interest" class="tca-button content-center" aria-tab-button="TabPI">
+                <span class="text-id">Minat Pembelian</span>
+                <span class="text-en">Purchase Interest</span>
+              </button>
+            </div>
+          </div>
+          <div class="tab-contact-form">
+            <?php require ($_SERVER['IF'].'template/module/contact-gi.php')?>
+            <?php require ($_SERVER['IF'].'template/module/contact-pi.php')?>
+          </div>
+        </div>
 		
 	  </div>
 	</div>

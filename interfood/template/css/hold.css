@@ -204,6 +204,9 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 .cdl-box .mli-contact-link{color:var(--color-2); fill:var(--color-2);}
 .cdl-box .mli-contact-link:hover{color:var(--color-4); fill:var(--color-4);}
 
+.cdl-toggle-icon svg{transition:var(--transition-default);}
+.cdl-toggle-open svg{transform:rotate(180deg);}
+
 
 
 footer{background-color:var(--bg-2);}

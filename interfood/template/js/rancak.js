@@ -121,6 +121,16 @@ function contact_tab(){
 
 
 
+function contact_toggle(){
+  $('.cdl-toggle-button').click(function(){
+	$(this).toggleClass('cdl-toggle-open');
+    $('.cdl-toggle').slideToggle('fast');
+	return false;
+  });
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
@@ -129,4 +139,5 @@ $(document).ready(function(){
   change_lang();
   contact_tab();
   product_filter_list();
+  contact_toggle();
 });
