@@ -46,6 +46,9 @@
 				'filter_title_en'=>'House Brand',
 				'filter_list' => [
 				  [
+					'filter_name'=>'-- All House Brand --',
+				  ],
+				  [
 					'filter_name'=>'Brand 1A',
 				  ],
 				  [
@@ -60,6 +63,9 @@
 				'filter_title_id'=>'Factory Brand',
 				'filter_title_en'=>'Factory Brand',
 				'filter_list' => [
+				  [
+					'filter_name'=>'-- All Factory Brand --',
+				  ],
 				  [
 					'filter_name'=>'Brand 2A',
 				  ],
@@ -186,6 +192,6 @@
   
   
 </div>
-<?php require ($_SERVER['IF'].'template/module/career-popup.php')?>
+<?php require ($_SERVER['IF'].'template/module/product-popup.php')?>
 <?php require ($_SERVER['IF'].'template/inc/footer.php')?>
 <?php require ($_SERVER['IF'].'template/inc/base-bottom.php')?>

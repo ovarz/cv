@@ -205,6 +205,5 @@
   
   
 </div>
-<?php require ($_SERVER['IF'].'template/module/career-popup.php')?>
 <?php require ($_SERVER['IF'].'template/inc/footer.php')?>
 <?php require ($_SERVER['IF'].'template/inc/base-bottom.php')?>
