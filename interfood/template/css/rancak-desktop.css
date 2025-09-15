@@ -49,7 +49,8 @@
 
 
 .home-product .site-container{padding:144px var(--body-padding);}
-.hpl-container{grid-template-columns:repeat(3,1fr);}
+.hpl-container{display:flex; justify-content:center; gap:var(--size-3); flex-wrap:wrap;}
+.hpl-column{width:calc(33.33% - var(--size-3));}
 
 .product-display-split{display:grid; grid-gap:var(--size-4); grid-template-columns:233px 1fr;}
 .pds-small{display:block !important;}

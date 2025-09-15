@@ -23,6 +23,7 @@
 		  <span class="text-id">Sabtu, 00 September 0000</span>
 		  <span class="text-en">Saturday, 00 September 0000</span>
 		</h2>
+		<?php require ($_SERVER['IF'].'template/module/share-list.php')?>
 	  </div>
 	  
 	  <main class="default-content news-detail-content">

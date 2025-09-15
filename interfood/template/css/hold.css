@@ -168,11 +168,14 @@ header{background-color:var(--bg-2);}
 .career-status-open{background-color:var(--color-4a); color:var(--color-4);}
 .career-status-close{background-color:var(--color-1a); color:var(--color-1);}
 
-.career-detail{display:grid; grid-gap:var(--size-3); grid-template-rows:1fr auto;}
+.career-detail{display:grid; grid-gap:var(--size-3); grid-template-rows:1fr auto; overflow:unset !important;}
+.career-detail .rancak-popup-close{--button-size:var(--size-5); position:absolute; z-index:2000; color:var(--color-4);
+top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
+.career-detail .rancak-popup-close:hover{color:var(--color-2);}
+.career-detail .rancak-popup-close svg{width:var(--button-size); height:auto;}
 .career-detail-container{overflow-y:auto; display:grid; grid-gap:var(--size-3);}
 .career-detail-top{display:flex; justify-content:space-between;}
 .career-detail .career-title{font-weight:bold; font-size:1.5rem; line-height:130%;}
-.career-detail-action{display:grid; grid-template-columns:auto 1fr; grid-gap:var(--size-3);}
 .career-address{line-height:150%;}
 
 
@@ -216,6 +219,14 @@ footer .site-container{padding:var(--body-padding); display:grid; grid-gap:var(-
 .footer-socmed-whatsapp:hover{fill:var(--color-wa);}
 .footer-socmed-linkedin:hover{fill:var(--color-ln);}
 .footer-copyright{text-align:center; font-size:0.75rem;}
+
+
+
+.share-facebook{fill:var(--color-fb);}
+.share-x{fill:var(--color-tw);}
+.share-whatsapp{fill:var(--color-wa);}
+.share-telegram{fill:var(--color-tg);}
+.share-box:hover{fill:var(--color-4);}
 
 
 
