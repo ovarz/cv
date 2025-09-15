@@ -14,7 +14,14 @@
       </div>
 	  
 	  <div class="product-detail-container">
-        <div style="height:200vh"></div>
+        <div class="pdc-id">00XXX0X00XXX</div>
+        <h2 class="pdc-name">Product Name <?php echo rand(1,100); ?></h2>
+        <h3 class="pdc-brand">Brand Name</h3>
+		<?php require ($_SERVER['IF'].'template/module/share-list.php')?>
+		<div class="pdc-desc">
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum tempor consectetur. Aliquam erat volutpat. Nam et ultrices magna, nec fringilla augue. Donec aliquet dui nisi, eu posuere odio semper dignissim.</p>
+		  <p>Pellentesque purus nibh, facilisis non hendrerit sit amet, imperdiet ut metus. Vestibulum tortor mi, pulvinar porta quam vitae, cursus convallis mauris. Suspendisse auctor, elit a aliquam accumsan, velit urna ullamcorper arcu,</p>
+		</div>
 	  </div>
 	  
 	</div>

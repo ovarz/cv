@@ -134,7 +134,10 @@ header{background-color:var(--bg-2);}
 .pdf-close-button{width:100%;}
 
 .product-detail{display:grid; grid-gap:var(--size-3); grid-template-rows:auto 1fr; overflow:unset !important;}
-.product-detail-container{overflow-y:auto; display:grid; grid-gap:var(--size-3);}
+.product-detail-container{overflow-y:auto; display:grid; grid-gap:var(--size-2); grid-auto-rows:min-content;}
+.pdc-name{text-transform:capitalize; font-weight:bold; font-size:1.5rem; line-height:130%; color:var(--color-2);}
+.pdc-brand{color:var(--color-4);}
+.pdc-desc{line-height:150%; display:grid; grid-gap:var(--size-2);}
 
 
 
@@ -186,7 +189,7 @@ header{background-color:var(--bg-2);}
 .career-detail{display:grid; grid-gap:var(--size-3); grid-template-rows:1fr auto; overflow:unset !important;}
 .career-detail-container{overflow-y:auto; display:grid; grid-gap:var(--size-3);}
 .career-detail-top{display:flex; justify-content:space-between;}
-.career-detail .career-title{font-weight:bold; font-size:1.5rem; line-height:130%;}
+.career-detail .career-title{font-weight:bold; font-size:1.5rem; line-height:130%; text-transform:capitalize;}
 .career-address{line-height:150%;}
 
 

@@ -320,7 +320,8 @@ font-size:1.25rem; font-weight:bold;}
 
 
 
-.share-list{display:flex; gap:var(--size-2);}
+.share-list{display:flex; gap:var(--size-2); padding:var(--size-1) 0;}
+.share-box{line-height:0;}
 .share-box svg{width:auto; height:var(--size-5);}
 
 
