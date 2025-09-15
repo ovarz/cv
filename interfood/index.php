@@ -441,9 +441,9 @@
     <div class="site-container">
 	  <?php 
 	    $title_id='Brand Ternama yang Kami Wakili';
-		$subtitle_id='Indonesia ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.';
+		$subtitle_id='Kami dengan bangga bekerja sama dengan merek-merek internasional dan lokal terkemuka untuk menghadirkan beragam produk berkualitas.';
 	    $title_en='Top Brands We Represent'; 
-		$subtitle_en='English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.';
+		$subtitle_en='We proudly partner with leading international and local brands to offer a diverse range of quality products.';
 	    require ($_SERVER['IF'].'template/module/h2h3.php')
 	  ?>
 	  

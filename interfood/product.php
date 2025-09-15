@@ -34,7 +34,33 @@
 	    <div class="pds-small product-display-dropdown" aria-dropdown-box="filter">
 		  <div class="product-display-overlay mobile-only"></div>
 		  <div class="product-display-filter">
-		    filter
+		    <div class="pdf-head">
+			  <div class="pdf-head-label">Filter</div>
+			  <div class="pdf-head-icon"><?php require ($_SERVER['IF'].'template/img/icon/menu.svg')?></div>
+			</div>
+		    <?php for ($j=1; $j<=3; $j++){ ?>
+		    <div class="pdf-box">
+			  <div class="pdf-label">House Brand</div>
+              <ul class="pdf-list">
+                <?php for ($i=1; $i<=8; $i++){ ?>
+                  <li class="pdf-row custom-checkbox-radiobutton">
+                    <input class="ccr-real" name="choice" type="checkbox">
+                    <div class="ccr-dummy">
+                      <div class="ccr-dummy-left">
+                        <div class="ccr-dummy-frame content-center">
+                          <?php require ($_SERVER['IF'].'template/img/icon/check.svg')?>
+                        </div>
+                      </div>
+                      <div class="ccr-dummy-right">
+                        <span class="text-id">Lorem Ipsum</span>
+                        <span class="text-en">Dolor Sit Maet</span>
+                      </div>
+                    </div>
+                  </li>
+                <?php } ?>
+              </ul>
+			</div>
+			<?php } ?>
 		  </div>
 		</div>
 		<div class="pds-big">
