@@ -92,10 +92,9 @@
 
 
 
-.contact-display-split{grid-template-columns:1fr 400px;}
+.contact-display-split{grid-template-columns:55% 1fr;}
 .contact-display-list .section-title, .contact-display-list .section-subtitle{text-align:left;}
-.cdl-box{grid-template-columns:233px 1fr;}
-.cdl-image-frame{--aspect-ratio:16/9;}
+.cdl-box{grid-template-columns:144px 1fr;}
 
 
 
@@ -105,6 +104,8 @@
 
 @media screen and (min-width:1280px){
   .main-location-info{padding:var(--size-6);}
+  .cdl-box{grid-template-columns:233px 1fr;}
+.cdl-image-frame{--aspect-ratio:16/9;}
 }
 
 
