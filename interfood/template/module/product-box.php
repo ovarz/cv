@@ -4,7 +4,7 @@
   </div>
   <div class="pdl-info">
     <div class="pdl-id">00XXX0X00XXX</div>
-    <h2 class="pdl-name"><?php echo $random_title[array_rand($random_title)];?></h2>
+    <h2 class="pdl-name">Product Name <?php echo rand(1,100); ?></h2>
     <h3 class="pdl-brand">Lorem Ipsum</h3>
   </div>
 </button>

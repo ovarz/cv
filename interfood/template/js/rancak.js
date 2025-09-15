@@ -41,7 +41,7 @@ function product_filter_list(){
 	return false;
   });	
   
-  $('.product-display-overlay, .product-display-close').click(function(){
+  $('.product-display-overlay, .pdf-close-button').click(function(){
     $('.product-display-dropdown').fadeOut('fast');
   });
 }

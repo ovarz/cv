@@ -36,15 +36,95 @@
 		  <div class="product-display-filter">
 		    <div class="pdf-head">
 			  <div class="pdf-head-label">Filter</div>
-			  <div class="pdf-head-icon"><?php require ($_SERVER['IF'].'template/img/icon/menu.svg')?></div>
+			  <div class="pdf-head-icon"><?php require ($_SERVER['IF'].'template/img/icon/filter.svg')?></div>
 			</div>
-		    <?php for ($j=1; $j<=3; $j++){ ?>
+			
+		    <?php 
+			  $filter_array = array();
+			  $filter_array[]=array(
+				'filter_title_id'=>'House Brand',
+				'filter_title_en'=>'House Brand',
+				'filter_list' => [
+				  [
+					'filter_name'=>'Brand 1A',
+				  ],
+				  [
+					'filter_name'=>'Brand 1B',
+				  ],
+				  [
+					'filter_name'=>'Brand 1C',
+				  ],
+				],
+			  );
+			  $filter_array[]=array(
+				'filter_title_id'=>'Factory Brand',
+				'filter_title_en'=>'Factory Brand',
+				'filter_list' => [
+				  [
+					'filter_name'=>'Brand 2A',
+				  ],
+				  [
+					'filter_name'=>'Brand 2B',
+				  ],
+				],
+			  );
+			  foreach($filter_array as $filter_row => $filter_box){
+			?>
 		    <div class="pdf-box">
-			  <div class="pdf-label">House Brand</div>
+			  <div class="pdf-label">
+				<span class="text-id"><?php echo($filter_box['filter_title_id'])?></span>
+				<span class="text-en"><?php echo($filter_box['filter_title_en'])?></span>
+			  </div>
+			  <div class="pdf-select">
+                <select class="form-field pdf-list">
+                  <?php foreach($filter_box['filter_list'] as $filter_box){ ?>
+                    <option value="<?php echo($filter_box['filter_name'])?>"><?php echo($filter_box['filter_name'])?></option>
+                  <?php } ?>
+                </select>
+			    <div class="form-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/down.svg')?></div>
+			  </div>
+			</div>
+			<?php } ?>
+			
+		    <?php 
+			  $filter_array = array();
+			  $filter_array[]=array(
+				'filter_title_id'=>'Tipe Produk',
+				'filter_title_en'=>'Product Type',
+				'filter_list' => [
+				  [
+					'filter_name_id'=>'Kembang Gula',
+					'filter_name_en'=>'Confectionery',
+				  ],
+				  [
+					'filter_name_id'=>'Cemilan',
+					'filter_name_en'=>'Snacks',
+				  ],
+				  [
+					'filter_name_id'=>'Minuman',
+					'filter_name_en'=>'Beverage',
+				  ],
+				  [
+					'filter_name_id'=>'Dapur',
+					'filter_name_en'=>'Kitchen',
+				  ],
+				  [
+					'filter_name_id'=>'Lainnya',
+					'filter_name_en'=>'Others',
+				  ],
+				],
+			  );
+			  foreach($filter_array as $filter_row => $filter_box){
+			?>
+		    <div class="pdf-box">
+			  <div class="pdf-label">
+				<span class="text-id"><?php echo($filter_box['filter_title_id'])?></span>
+				<span class="text-en"><?php echo($filter_box['filter_title_en'])?></span>
+			  </div>
               <ul class="pdf-list">
-                <?php for ($i=1; $i<=8; $i++){ ?>
+                <?php foreach($filter_box['filter_list'] as $filter_box){ ?>
                   <li class="pdf-row custom-checkbox-radiobutton">
-                    <input class="ccr-real" name="choice" type="checkbox">
+                    <input class="ccr-real" name="<?php echo($filter_box['filter_name_en'])?>" type="checkbox">
                     <div class="ccr-dummy">
                       <div class="ccr-dummy-left">
                         <div class="ccr-dummy-frame content-center">
@@ -52,8 +132,8 @@
                         </div>
                       </div>
                       <div class="ccr-dummy-right">
-                        <span class="text-id">Lorem Ipsum</span>
-                        <span class="text-en">Dolor Sit Maet</span>
+                        <span class="text-id"><?php echo($filter_box['filter_name_id'])?></span>
+                        <span class="text-en"><?php echo($filter_box['filter_name_en'])?></span>
                       </div>
                     </div>
                   </li>
@@ -61,8 +141,18 @@
               </ul>
 			</div>
 			<?php } ?>
+			
+		  </div>
+		  <div class="pdf-close">
+		    <button title="Apply Filter" class="btn pdf-close-button content-center mobile-only">
+              <span class="text-id">Terapkan Filter</span>
+              <span class="text-en">Apply Filter</span>
+			</button>
 		  </div>
 		</div>
+		
+		
+		
 		<div class="pds-big">
 		  <div class="product-display-top">
 		    <div class="pdt-search">
@@ -77,7 +167,7 @@
 			  <span class="text-en">Showing 1 - 60 items from total</span>
 			</div>
 		    <div class="pdt-filter-button mobile-only">
-			  <button title="" class="btn pdt-button" aria-dropdown-button="filter"><?php require ($_SERVER['IF'].'template/img/icon/menu.svg')?></button>
+			  <button title="" class="btn pdt-button" aria-dropdown-button="filter"><?php require ($_SERVER['IF'].'template/img/icon/filter.svg')?></button>
 			</div>
 		  </div>
 		  <div class="product-display-list">
