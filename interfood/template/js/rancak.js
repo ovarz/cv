@@ -123,8 +123,11 @@ function contact_tab(){
 
 function contact_toggle(){
   $('.cdl-toggle-button').click(function(){
-	$(this).toggleClass('cdl-toggle-open');
-    $('.cdl-toggle').slideToggle('fast');
+    var get_branch = $(this).attr('aria-branch-button');
+	$('.cdl-toggle-button[aria-branch-button=' + get_branch +']').toggleClass('cdl-toggle-open');
+	$('.cdl-toggle-button').not('.cdl-toggle-button[aria-branch-button=' + get_branch +']').removeClass('cdl-toggle-open');
+    $('.cdl-toggle[aria-branch-list=' + get_branch +']').slideToggle('fast');
+    $('.cdl-toggle').not('[aria-branch-list=' + get_branch +']').slideUp('fast');
 	return false;
   });
 }

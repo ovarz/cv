@@ -72,9 +72,21 @@
 				</div>
 			  </div>
 			<?php } ?>
-			<div class="cdl-toggle">
+			
+			
+			
+			<button title="" class="cdl-toggle-button" aria-branch-button="sumatera">
+			  <div class="cdl-toggle-label">
+				<span class="text-id">Cabang Sumatera</span>
+				<span class="text-en">Sumatera Branches</span>
+			  </div>
+			  <div class="cdl-toggle-icon">
+			    <?php require ($_SERVER['IF'].'template/img/icon/down.svg')?>
+			  </div>
+			</button>
+			<div class="cdl-toggle" aria-branch-list="sumatera">
 			  <div class="cdl-toggle-container">
-                <?php for ($j=1; $j<=8; $j++){ ?>
+                <?php for ($j=1; $j<=2; $j++){ ?>
                   <div class="cdl-box">
                     <div class="cdl-image">
                       <div class="cdl-image-frame img-frame thumb-loading">
@@ -108,15 +120,55 @@
                 <?php } ?>
 			  </div>
 			</div>
-			<button title="" class="cdl-toggle-button">
+			
+			
+			
+			<button title="" class="cdl-toggle-button" aria-branch-button="jawa">
 			  <div class="cdl-toggle-label">
-				<span class="text-id">Daftar Semua Cabang</span>
-				<span class="text-en">All Branches List</span>
+				<span class="text-id">Cabang Jawa</span>
+				<span class="text-en">Java Branches</span>
 			  </div>
 			  <div class="cdl-toggle-icon">
 			    <?php require ($_SERVER['IF'].'template/img/icon/down.svg')?>
 			  </div>
 			</button>
+			<div class="cdl-toggle" aria-branch-list="jawa">
+			  <div class="cdl-toggle-container">
+                <?php for ($j=1; $j<=2; $j++){ ?>
+                  <div class="cdl-box">
+                    <div class="cdl-image">
+                      <div class="cdl-image-frame img-frame thumb-loading">
+                        <img title="Foto Batam" class="lazyload" data-original="template/img/cover.jpg">
+                      </div>
+                    </div>
+                    <div class="cdl-info">
+                      <h2 class="cdl-city">Batam</h2>
+                      <div class="cdl-address">
+                        Tunas Industrial Estate, Blok 8 F, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464
+                      </div>
+                      <div class="mli-contact">
+                        <a title="" class="mli-contact-link" href="">
+                          <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/phone.svg')?></div>
+                          <div class="mli-contact-label">+62 21 345 0214</div>
+                        </a>
+                        <a title="" class="mli-contact-link" href="">
+                          <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/mail.svg')?></div>
+                          <div class="mli-contact-label">jkt@interfood.co.id</div>
+                        </a>
+                        <a title="" class="mli-contact-link" href="">
+                          <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/maps.svg')?></div>
+                          <div class="mli-contact-label">
+                            <span class="text-id">Lihat Peta</span>
+                            <span class="text-en">View Maps</span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                <?php } ?>
+			  </div>
+			</div>
+			
 		  </div>
 		</div>
 	  

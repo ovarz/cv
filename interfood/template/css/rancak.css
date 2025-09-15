@@ -288,7 +288,7 @@ text-align:center; font-size:1.5rem; line-height:140%; text-transform:capitalize
 .tcf-box-first{display:block;}
 .tcf-box .form-submit{width:100%;}
 
-.contact-display-list{display:grid; grid-gap:var(--size-5);}
+.contact-display-list{display:grid; grid-gap:var(--size-5); grid-auto-rows:min-content;}
 .cdl-list, .cdl-toggle-container{display:grid; grid-gap:var(--size-4);}
 .cdl-box{padding-bottom:var(--size-4); border-bottom:1px dashed; display:grid; grid-gap:var(--size-4); grid-template-columns:var(--size-7) 1fr;}
 .cdl-image-frame{--aspect-ratio:1/1;}
@@ -301,7 +301,7 @@ text-align:center; font-size:1.5rem; line-height:140%; text-transform:capitalize
 .cdl-box .mli-contact-icon svg{width:auto; height:1rem;}
 
 .cdl-toggle{display:none;}
-.cdl-toggle-button{display:flex; gap:var(--size-2); align-items:center;}
+.cdl-toggle-button{display:flex; gap:var(--size-2); align-items:center; margin-top:var(--size-2);}
 .cdl-toggle-icon svg{width:var(-size-4); height:auto;}
 
 
