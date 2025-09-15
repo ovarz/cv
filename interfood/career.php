@@ -42,52 +42,94 @@
 		  <input class="form-field text-en" name="" type="text" placeholder="Search Job.....">
 		  <div class="form-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/search.svg')?></div>
 		</div>
-	    <div class="form-box form-select career-option">
-		  <select class="form-field text-id">
-            <option value="1">-- Semua Tipe --</option>
-            <option value="2">Penuh Waktu</option>
-            <option value="3">Paruh Waktu</option>
-            <option value="4">Magang</option>
-          </select>
-		  <select class="form-field text-en">
-            <option value="1">-- All Type --</option>
-            <option value="2">Full Time</option>
-            <option value="3">Part Time</option>
-            <option value="4">Internship</option>
-          </select>
-		  <div class="form-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/down.svg')?></div>
-		</div>
-	    <div class="form-box form-select career-option">
-		  <select class="form-field text-id">
-            <option value="1">-- Semua Lokasi --</option>
-            <option value="2">Jakarta</option>
-            <option value="3">Batam</option>
-            <option value="4">Banten</option>
-          </select>
-		  <select class="form-field text-en">
-            <option value="1">-- All Location --</option>
-            <option value="2">Jakarta</option>
-            <option value="3">Batam</option>
-            <option value="4">Banten</option>
-          </select>
-		  <div class="form-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/down.svg')?></div>
-		</div>
-	    <div class="form-box form-select career-option">
-		  <select class="form-field text-id">
-            <option value="1">-- Semua Status --</option>
-            <option value="2">Open</option>
-            <option value="3">Close</option>
-          </select>
-		  <select class="form-field text-en">
-            <option value="1">-- All Status --</option>
-            <option value="2">Open</option>
-            <option value="3">Close</option>
-          </select>
-		  <div class="form-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/down.svg')?></div>
-		</div>
+		
+        <?php 
+          $filter_array = array();
+          $filter_array[] = array(
+            'filter_option' => 'type',
+            'filter_lang' => [
+              [
+                'filter_lang_name' => 'id',
+                'filter_list' => [
+                  ['filter_name' => '-- Semua Tipe --'],
+                  ['filter_name' => 'Penuh Waktu'],
+                  ['filter_name' => 'Paruh Waktu'],
+                  ['filter_name' => 'Magang'],
+                ],
+              ],
+              [
+                'filter_lang_name' => 'en',
+                'filter_list' => [
+                  ['filter_name' => '-- All Type --'],
+                  ['filter_name' => 'Full Time'],
+                  ['filter_name' => 'Part Time'],
+                  ['filter_name' => 'Internship'],
+                ],
+              ],
+            ],
+          );
+          $filter_array[] = array(
+            'filter_option' => 'location',
+            'filter_lang' => [
+              [
+                'filter_lang_name' => 'id',
+                'filter_list' => [
+                  ['filter_name' => '-- Semua Lokasi --'],
+                  ['filter_name' => 'Jakarta'],
+                  ['filter_name' => 'Batam'],
+                  ['filter_name' => 'Banten'],
+                ],
+              ],
+              [
+                'filter_lang_name' => 'en',
+                'filter_list' => [
+                  ['filter_name' => '-- All Location --'],
+                  ['filter_name' => 'Jakarta'],
+                  ['filter_name' => 'Batam'],
+                  ['filter_name' => 'Banten'],
+                ],
+              ],
+            ],
+          );
+          $filter_array[] = array(
+            'filter_option' => 'status',
+            'filter_lang' => [
+              [
+                'filter_lang_name' => 'id',
+                'filter_list' => [
+                  ['filter_name' => '-- Semua Status --'],
+                  ['filter_name' => 'Dibuka'],
+                  ['filter_name' => 'Ditutup'],
+                ],
+              ],
+              [
+                'filter_lang_name' => 'en',
+                'filter_list' => [
+                  ['filter_name' => '-- All Status --'],
+                  ['filter_name' => 'Open'],
+                  ['filter_name' => 'Close'],
+                ],
+              ],
+            ],
+          );
+          foreach($filter_array as $filter_row => $filter_box){
+        ?>
+	      <div class="form-box form-select career-option career-option-<?php echo($filter_box['filter_option'])?>">
+		    <?php foreach ($filter_box['filter_lang'] as $lang_box) { ?>
+              <select class="form-field text-<?php echo($lang_box['filter_lang_name'])?>">
+                <?php foreach ($lang_box['filter_list'] as $option) { ?>
+                  <option value="<?php echo($option['filter_name'])?>"><?php echo($option['filter_name'])?></option>
+                <?php } ?>
+              </select>
+			<?php } ?>
+            <div class="form-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/down.svg')?></div>
+		  </div>
+		<?php } ?>
+		<!--
 	    <div class="career-submit">
 		  <button title="Submit" class="btn career-submit-button">Submit</button>
 		</div>
+		-->
 	  </div>
 	  <div class="career-list">
 	    <?php for ($i=1; $i<=10; $i++){ ?>
