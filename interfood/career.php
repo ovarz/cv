@@ -16,9 +16,9 @@
     <div class="slide-image img-frame thumb-loading">
       <?php 
         $cover_label_id='Karir'; 
-		$cover_sublabel_id='Lowongan pekerjaan Interfood hanya melalui web interfood.co.id. Tidak meminta data KTP dll. Tidak memungut biaya.'; 
+		$cover_sublabel_id='Indonesia ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.'; 
         $cover_label_en='Career'; 
-		$cover_sublabel_en='Official Interfood jobs are available only through the website interfood.co.id. No ID card details are required, and no fees are charged.';
+		$cover_sublabel_en='English ipsum dolor sit amet, consectetur adipiscing elit. Ut mattis lacinia mauris at volutpat. Integer a porttitor orci, sed scelerisque risus.';
         $cover_gateway='no';
         require ($_SERVER['IF'].'template/module/full-cover.php')
       ?>
@@ -29,6 +29,13 @@
   
   <section class="career-display content-center">
     <div class="site-container">
+	  <?php 
+	    $title_id='';
+		$subtitle_id='Lowongan pekerjaan Interfood hanya melalui web interfood.co.id. Tidak meminta data KTP dll. Tidak memungut biaya.';
+	    $title_en=''; 
+		$subtitle_en='Official Interfood jobs are available only through the website interfood.co.id. No ID card details are required, and no fees are charged.';
+	    require ($_SERVER['IF'].'template/module/h2h3.php')
+	  ?>
 	  <div class="career-filter">
 	    <div class="form-box form-search career-search">
 		  <input class="form-field text-id" name="" type="text" placeholder="Cari Lowongan.....">
