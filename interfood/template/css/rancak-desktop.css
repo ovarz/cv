@@ -51,6 +51,11 @@
 .home-product .site-container{padding:144px var(--body-padding);}
 .hpl-container{grid-template-columns:repeat(3,1fr);}
 
+.product-display-split{display:grid; grid-gap:var(--size-4); grid-template-columns:233px 1fr;}
+.pds-small{display:block !important;}
+.product-display-filter{padding:var(--size-3); border:1px solid;}
+.product-display-list{grid-template-columns:repeat(auto-fit, minmax(223px,1fr));}
+
 
 
 .distribution-data{grid-template-columns:repeat(3,1fr);}
@@ -90,12 +95,6 @@
 .contact-display-list .section-title, .contact-display-list .section-subtitle{text-align:left;}
 .cdl-box{grid-template-columns:233px 1fr;}
 .cdl-image-frame{--aspect-ratio:16/9;}
-
-
-
-.product-display-split{display:grid; grid-gap:var(--size-4); grid-template-columns:233px 1fr;}
-.pds-small{display:block !important;}
-.product-display-filter{padding:var(--size-3); border:1px solid;}
 
 
 

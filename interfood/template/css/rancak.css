@@ -146,6 +146,23 @@ div.slide-image{max-height:377px;}
 .hpl-overlay{position:absolute; z-index:1000; bottom:0; left:0; width:100%; padding:var(--size-4); text-align:center; font-size:1.5rem; line-height:140%;}
 .home-product .more{justify-content:center;}
 
+.product-display-top{--button-height:48px; display:flex; gap:var(--size-3);}
+.pdt-search{display:flex; margin-right:auto;}
+.pdt-search .form-field{height:var(--button-height);}
+.pdt-button{width:var(--button-height); height:var(--button-height); padding:0 !important;}
+.pdt-button svg{width:auto; height:1rem;}
+.pdt-info{display:flex; align-items:center;}
+
+.product-display-dropdown{display:none;}
+.product-display-filter{padding:var(--size-4);}
+
+.pds-big, .product-display-list{display:grid; grid-gap:var(--size-5) var(--size-4); align-items:flex-start;}
+.product-display-list{grid-template-columns:repeat(auto-fit, minmax(130px,1fr));}
+.pdl-image{--aspect-ratio:4/5;}
+.pdl-info{padding-top:var(--size-3); display:grid; grid-gap:calc(var(--size-2) - var(--size-1)); line-height:150%;}
+.pdl-id, .pdl-brand{font-size:0.875rem; font-weight:normal;}
+.pds-big .more{justify-content:center;}
+
 
 
 .home-distribution .site-container{}
@@ -277,18 +294,6 @@ div.slide-image{max-height:377px;}
 .cdl-box .mli-contact-link{font-weight:normal;}
 .cdl-box .mli-contact-icon{width:1rem; justify-content:flex-start;}
 .cdl-box .mli-contact-icon svg{width:auto; height:1rem;}
-
-
-
-.product-display-top{--button-height:48px; display:flex; gap:var(--size-3);}
-.pdt-search{display:flex; margin-right:auto;}
-.pdt-search .form-field{height:var(--button-height);}
-.pdt-button{width:var(--button-height); height:var(--button-height); padding:0 !important;}
-.pdt-button svg{width:auto; height:1rem;}
-.pdt-info{display:flex; align-items:center;}
-
-.product-display-dropdown{display:none;}
-.product-display-filter{padding:var(--size-4);}
 
 
 

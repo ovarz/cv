@@ -54,6 +54,13 @@
 			  <button title="" class="btn pdt-button" aria-dropdown-button="filter"><?php require ($_SERVER['IF'].'template/img/icon/menu.svg')?></button>
 			</div>
 		  </div>
+		  <div class="product-display-list">
+		    <?php for ($i=1; $i<=12; $i++){ ?>
+		      <?php require ($_SERVER['IF'].'template/module/product-box.php')?>
+			<?php } ?>
+		  </div>
+          <?php $more_type='button'; $more_label_id='Muat Produk Berikutnya'; $more_label_en='Load Next Product'; $more_link='product.php'; 
+          require ($_SERVER['IF'].'template/module/more.php')?>
 		</div>
 	  </div>
 	  
