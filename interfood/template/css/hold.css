@@ -171,6 +171,7 @@ header{background-color:var(--bg-2);}
 
 
 .hbl-box{background-color:var(--bg-2); border-color:var(--color-border); border-radius:var(--rounded-2); overflow:hidden;}
+.hbl-box:hover{border-color:var(--color-2);}
 
 
 

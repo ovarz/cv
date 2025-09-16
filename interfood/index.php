@@ -141,31 +141,31 @@
               'hpl_name_id'=>'Kembang Gula',
               'hpl_name_en'=>'Confectionery',
               'hpl_label'=>'confectionery',
-              'hpl_link'=>'product.php',
+              'hpl_link'=>'product-list.php',
             );
             $home_product_array[]=array(
               'hpl_name_id'=>'Cemilan',
               'hpl_name_en'=>'Snacks',
               'hpl_label'=>'snack',
-              'hpl_link'=>'product.php',
+              'hpl_link'=>'product-list.php',
             );
             $home_product_array[]=array(
               'hpl_name_id'=>'Minuman',
               'hpl_name_en'=>'Beverage',
               'hpl_label'=>'beverage',
-              'hpl_link'=>'product.php',
+              'hpl_link'=>'product-list.php',
             );
             $home_product_array[]=array(
               'hpl_name_id'=>'Dapur',
               'hpl_name_en'=>'Kitchen',
               'hpl_label'=>'kitchen',
-              'hpl_link'=>'product.php',
+              'hpl_link'=>'product-list.php',
             );
             $home_product_array[]=array(
               'hpl_name_id'=>'Lainnya',
               'hpl_name_en'=>'Others',
               'hpl_label'=>'others',
-              'hpl_link'=>'product.php',
+              'hpl_link'=>'product-list.php',
             );
             foreach($home_product_array as $home_product_list){
           ?>
@@ -463,7 +463,7 @@
             <ul class="hbl-container">
               <?php for ($i=1; $i<=20; $i++){ ?>
                 <li class="hbl-column">
-                  <a title="<?php echo $random_title[array_rand($random_title)];?>" class="hbl-box" href="">
+                  <a title="<?php echo $random_title[array_rand($random_title)];?>" class="hbl-box" href="product-list.php">
                     <div class="hbl-logo img-frame thumb-loading content-center">
                       <img title="Logo <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/brand/<?php echo rand(1,80); ?>.png">
                     </div>
