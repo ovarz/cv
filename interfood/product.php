@@ -42,6 +42,21 @@
 		    <?php 
 			  $filter_array = array();
 			  $filter_array[]=array(
+				'filter_title_id'=>'Urut Berdasarkan',
+				'filter_title_en'=>'Sort By',
+				'filter_list' => [
+				  [
+					'filter_name'=>'Terbaru',
+				  ],
+				  [
+					'filter_name'=>'Terlama',
+				  ],
+				  [
+					'filter_name'=>'Paling Diminati',
+				  ],
+				],
+			  );
+			  $filter_array[]=array(
 				'filter_title_id'=>'Merek',
 				'filter_title_en'=>'Brand',
 				'filter_list' => [
@@ -56,21 +71,6 @@
 				  ],
 				  [
 					'filter_name'=>'Brand 1C',
-				  ],
-				],
-			  );
-			  $filter_array[]=array(
-				'filter_title_id'=>'Urut Berdasarkan',
-				'filter_title_en'=>'Sort By',
-				'filter_list' => [
-				  [
-					'filter_name'=>'Terbaru',
-				  ],
-				  [
-					'filter_name'=>'Terlama',
-				  ],
-				  [
-					'filter_name'=>'Paling Diminati',
 				  ],
 				],
 			  );
