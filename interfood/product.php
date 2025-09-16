@@ -47,12 +47,27 @@
 				'filter_list' => [
 				  [
 					'filter_name'=>'Terbaru',
+					'filter_lang'=>'id',
+				  ],
+				  [
+					'filter_name'=>'Newest',
+					'filter_lang'=>'en',
 				  ],
 				  [
 					'filter_name'=>'Terlama',
+					'filter_lang'=>'id',
+				  ],
+				  [
+					'filter_name'=>'Oldest',
+					'filter_lang'=>'en',
 				  ],
 				  [
 					'filter_name'=>'Paling Diminati',
+					'filter_lang'=>'id',
+				  ],
+				  [
+					'filter_name'=>'Most Favorites',
+					'filter_lang'=>'en',
 				  ],
 				],
 			  );
@@ -61,16 +76,24 @@
 				'filter_title_en'=>'Brand',
 				'filter_list' => [
 				  [
+					'filter_name'=>'-- Semua Merek --',
+					'filter_lang'=>'id',
+				  ],
+				  [
 					'filter_name'=>'-- All Brand --',
+					'filter_lang'=>'en',
 				  ],
 				  [
 					'filter_name'=>'Brand 1A',
+					'filter_lang'=>'',
 				  ],
 				  [
 					'filter_name'=>'Brand 1B',
+					'filter_lang'=>'',
 				  ],
 				  [
 					'filter_name'=>'Brand 1C',
+					'filter_lang'=>'',
 				  ],
 				],
 			  );
@@ -84,7 +107,7 @@
 			  <div class="pdf-select">
                 <select class="form-field pdf-list">
                   <?php foreach($filter_box['filter_list'] as $filter_box){ ?>
-                    <option value="<?php echo($filter_box['filter_name'])?>"><?php echo($filter_box['filter_name'])?></option>
+                    <option class="text-<?php echo($filter_box['filter_lang'])?>" value="<?php echo($filter_box['filter_name'])?>"><?php echo($filter_box['filter_name'])?></option>
                   <?php } ?>
                 </select>
 			    <div class="form-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/down.svg')?></div>
