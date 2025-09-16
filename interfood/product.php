@@ -193,5 +193,6 @@
   
 </div>
 <?php require ($_SERVER['IF'].'template/module/product-popup.php')?>
+<?php require ($_SERVER['IF'].'template/module/main-location.php')?>
 <?php require ($_SERVER['IF'].'template/inc/footer.php')?>
 <?php require ($_SERVER['IF'].'template/inc/base-bottom.php')?>
