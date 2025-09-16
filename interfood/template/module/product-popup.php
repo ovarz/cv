@@ -30,16 +30,16 @@
 		  </div>
           <div class="pdc-option">
 		    <?php for ($i=1; $i<=5; $i++){ ?>
-              <div class="pdc-option-box">
+              <button title="" class="pdc-option-box">
                 <span class="text-id">Varian <?php echo rand(1,100); ?></span>
                 <span class="text-en">Variants <?php echo rand(1,100); ?></span>
-			  </div>
+			  </button>
 			<?php } ?>
 		    <?php for ($i=1; $i<=2; $i++){ ?>
-              <div class="pdc-option-box pdc-option-unavailable">
+              <button title="" class="pdc-option-box pdc-option-unavailable">
                 <span class="text-id">Varian <?php echo rand(1,100); ?></span>
                 <span class="text-en">Variants <?php echo rand(1,100); ?></span>
-			  </div>
+			  </button>
 			<?php } ?>
           </div>
 		</div>
@@ -50,16 +50,16 @@
 		  </div>
           <div class="pdc-option">
 		    <?php for ($i=1; $i<=1; $i++){ ?>
-              <div class="pdc-option-box">
+              <button title="" class="pdc-option-box">
                 <span class="text-id">300ml x 24 can</span>
                 <span class="text-en">300ml x 24 can</span>
-			  </div>
+			  </button>
 			<?php } ?>
 		    <?php for ($i=1; $i<=1; $i++){ ?>
-              <div class="pdc-option-box pdc-option-unavailable">
+              <button title="" class="pdc-option-box pdc-option-unavailable">
                 <span class="text-id">600ml x 12 can</span>
                 <span class="text-en">600ml x 12 can</span>
-			  </div>
+			  </button>
 			<?php } ?>
           </div>
 		</div>

@@ -143,7 +143,8 @@ header{background-color:var(--bg-2);}
 .pdc-label{font-weight:bold;}
 .pdc-desc{line-height:150%; display:grid; grid-gap:var(--size-2);}
 .pdc-option{display:flex; gap:var(--size-2); flex-wrap:wrap;}
-.pdc-option-box{padding:var(--size-2) var(--size-3); background-color:var(--color-4a); color:var(--color-4); border-radius:var(--rounded-1);}
+.pdc-option-box{padding:var(--size-2) var(--size-3); background-color:var(--color-4a); color:var(--color-4); border-radius:var(--rounded-1); font-weight:normal;}
+.pdc-option-box:hover{background-color:var(--color-4); color:var(--bg-2);}
 .pdc-option-unavailable{background-color:var(--color-1a); color:var(--color-1);}
 .pdc-barcode-frame{height:var(--size-6);}
 .pdc-barcode-frame:before{content:none;}
