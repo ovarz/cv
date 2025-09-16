@@ -12,13 +12,17 @@
       </div>
       <h2 class="mli-city">Jakarta</h2>
       <h3 class="mli-address">
-        <span class="text-id">Ruko Atrium No 3-6, Jl. Senen Raya, Rt 002, Rw 004, Blok I, Senen, Central Jakarta, Indonesia, 10410</span>
-        <span class="text-en">Ruko Atrium No 3-6, Jl. Senen Raya, Rt 002, Rw 004, Blok I, Senen, Jakarta Pusat, Indonesia, 10410</span>
+        <span class="text-id">Ruko Mall Atrium Senen Blok I No. 3-6, Jl. Senen Raya, Senen, Central Jakarta, Indonesia, 10410</span>
+        <span class="text-en">Ruko Mall Atrium Senen Blok I No. 3-6, Jl. Senen Raya, Senen, Jakarta Pusat, Indonesia, 10410</span>
       </h3>
       <div class="mli-contact">
         <a title="" class="mli-contact-link" href="">
           <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/contact-phone.svg')?></div>
           <div class="mli-contact-label">+62 21 345 0214</div>
+        </a>
+        <a title="" class="mli-contact-link" href="">
+          <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/share-whatsapp.svg')?></div>
+          <div class="mli-contact-label">+62 800 0000 0000</div>
         </a>
         <a title="" class="mli-contact-link" href="">
           <div class="mli-contact-icon content-center"><?php require ($_SERVER['IF'].'template/img/icon/contact-email.svg')?></div>
