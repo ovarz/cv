@@ -42,11 +42,11 @@
 		    <?php 
 			  $filter_array = array();
 			  $filter_array[]=array(
-				'filter_title_id'=>'House Brand',
-				'filter_title_en'=>'House Brand',
+				'filter_title_id'=>'Merek',
+				'filter_title_en'=>'Brand',
 				'filter_list' => [
 				  [
-					'filter_name'=>'-- All House Brand --',
+					'filter_name'=>'-- All Brand --',
 				  ],
 				  [
 					'filter_name'=>'Brand 1A',
@@ -56,21 +56,6 @@
 				  ],
 				  [
 					'filter_name'=>'Brand 1C',
-				  ],
-				],
-			  );
-			  $filter_array[]=array(
-				'filter_title_id'=>'Factory Brand',
-				'filter_title_en'=>'Factory Brand',
-				'filter_list' => [
-				  [
-					'filter_name'=>'-- All Factory Brand --',
-				  ],
-				  [
-					'filter_name'=>'Brand 2A',
-				  ],
-				  [
-					'filter_name'=>'Brand 2B',
 				  ],
 				],
 			  );
