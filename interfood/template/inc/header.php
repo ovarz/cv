@@ -25,11 +25,6 @@
             'nav_link'=>'product.php',
           );
           $nav_array[]=array(
-            'nav_label_id'=>'Distribusi',
-            'nav_label_en'=>'Distribution',
-            'nav_link'=>'distribution.php',
-          );
-          $nav_array[]=array(
             'nav_label_id'=>'Berita',
             'nav_label_en'=>'News',
             'nav_link'=>'news.php',
