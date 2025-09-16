@@ -3,7 +3,7 @@
     <div class="rancak-popup-overlay"></div>
     <div class="rancak-popup-box product-detail">
 	
-	  <button title="Close" class="rancak-popup-close content-center mobile-only">
+	  <button title="Close" class="rancak-popup-close content-center">
 	    <?php require ($_SERVER['IF'].'template/img/icon/close-popup.svg')?>
 	  </button>
 	  

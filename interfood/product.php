@@ -149,8 +149,8 @@
 			<?php } ?>
 			
 		  </div>
-		  <div class="pdf-close">
-		    <button title="Apply Filter" class="btn pdf-close-button content-center mobile-only">
+		  <div class="pdf-close mobile-only">
+		    <button title="Apply Filter" class="btn pdf-close-button content-center">
               <span class="text-id">Terapkan Filter</span>
               <span class="text-en">Apply Filter</span>
 			</button>
