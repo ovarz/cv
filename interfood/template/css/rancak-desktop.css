@@ -57,6 +57,8 @@
 .product-display-filter{border:1px solid;}
 .product-display-list{grid-template-columns:repeat(auto-fit, minmax(180px,1fr));}
 
+.page-brand-display .hbl-container{grid-template-columns:repeat(auto-fit, minmax(120px,1fr));}
+
 
 
 .distribution-data{grid-template-columns:repeat(3,1fr);}

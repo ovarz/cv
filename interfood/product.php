@@ -39,7 +39,7 @@
         );
         foreach($brand_type_array as $brand_type_list){
       ?>
-        <div class="home-brand-display">
+        <div class="home-brand-display page-brand-display">
           <div class="hbl-label"><?php echo($brand_type_list['brand_type_title'])?></div>
           <div class="home-brand-list">
             <ul class="hbl-container">
@@ -62,7 +62,7 @@
   
   
   
-  <section class="home-product content-center">
+  <section class="home-product page-product content-center">
     <div class="section-separator section-separator-top"><?php require ($_SERVER['IF'].'template/img/icon/separator.svg')?></div>
     <div class="site-container">
 	  <?php 
