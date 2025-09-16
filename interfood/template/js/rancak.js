@@ -59,32 +59,7 @@ function change_lang(){
 
 
 
-function countup(){
-  $('.countup-number').each(function () {
-    var $this = $(this);
-    var target = parseInt($this.attr('aria-number'), 10);
-
-    $({ countNum: 0 }).animate(
-      { countNum: target },
-      {
-        duration: 2000, // durasi animasi (ms)
-        easing: 'swing',
-        step: function () {
-          $this.text(Math.floor(this.countNum));
-        },
-        complete: function () {
-          $this.text(this.countNum);
-        }
-      }
-    );
-  });
-}
-
-
-
 function all_scroll(){
-  var counted = false;
-  
   $(window).scroll(function(){
     var scroll_position = $(window).scrollTop();
     if(scroll_position >= 1){
@@ -94,14 +69,6 @@ function all_scroll(){
     else{
       $('#btt').hide();
       $('header').removeClass("header-afterscroll");
-    }
-
-
-
-    var oTop = $(".home-distribution").offset().top - window.innerHeight + 144;
-    if (!counted && $(window).scrollTop() > oTop) {
-      countup();
-	  counted = true;
     }
   }); 
 }

@@ -22,6 +22,9 @@
 </script>
 <script defer src="template/js/lazysizes.min.js"></script>
 <script defer rancak-hold="template/js/rancak.js?<?php echo $anticache;?>"></script>
+<?php if($menu == 'Home') { ?>
+  <script defer rancak-hold="template/js/index.js?<?php echo $anticache;?>"></script>
+<?php } ?>
 <script defer>
   window.scrollTo(0,0);
 </script>
