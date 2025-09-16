@@ -96,7 +96,8 @@ header{background-color:var(--bg-2);}
 .slide-overlay{background-color:var(--color-4); mix-blend-mode: multiply;}
 .slide-info-container, .slide-info-container .more-link{color:var(--bg-2);}
 .slide-info-container .more-link{border-color:var(--bg-2); fill:var(--bg-2); transition:var(--transition-default);}
-.slide-image:hover .more-link{border-color:var(--color-2); color:var(--color-2); fill:var(--color-2);}
+.slide-image:hover .more-link{background-color:var(--bg-2); border-color:var(--bg-2); color:var(--color-2); fill:var(--color-2);}
+.slide-image:hover .more-link:hover{background-color:var(--color-4); border-color:var(--color-4); color:var(--bg-2); fill:var(--bg-2);}
 .svgicon-cover-slideshow{fill:var(--bg-1);}
 
 .home-slide .tns-outer button[aria-controls]{background-color:var(--bg-1); border-radius:var(--size-3);}
