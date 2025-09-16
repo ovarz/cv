@@ -59,6 +59,21 @@
 				  ],
 				],
 			  );
+			  $filter_array[]=array(
+				'filter_title_id'=>'Urut Berdasarkan',
+				'filter_title_en'=>'Sort By',
+				'filter_list' => [
+				  [
+					'filter_name'=>'Terbaru',
+				  ],
+				  [
+					'filter_name'=>'Terlama',
+				  ],
+				  [
+					'filter_name'=>'Paling Diminati',
+				  ],
+				],
+			  );
 			  foreach($filter_array as $filter_row => $filter_box){
 			?>
 		    <div class="pdf-box">
