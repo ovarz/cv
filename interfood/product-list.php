@@ -204,7 +204,7 @@
 		      <?php require ($_SERVER['IF'].'template/module/product-box.php')?>
 			<?php } ?>
 		  </div>
-          <?php $more_type='button'; $more_label_id='Muat Produk Berikutnya'; $more_label_en='Load Next Product'; $more_link='product.php'; 
+          <?php $more_type='button'; $more_label_id='Muat Produk Berikutnya'; $more_label_en='Load Next Product'; $more_link='product-list.php'; 
           require ($_SERVER['IF'].'template/module/more.php')?>
 		</div>
 	  </div>
