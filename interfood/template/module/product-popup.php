@@ -9,14 +9,14 @@
 	  
 	  <div class="product-detail-thumb">
 	    <div class="product-detail-frame img-frame thumb-loading">
-          <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/sample/sample-3.jpg">
+          <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/product/product-varian_a-package_a.jpg">
 		</div>
       </div>
 	  
 	  <div class="product-detail-container">
         <div class="pdc-barcode">
 		  <div class="pdc-barcode-frame img-frame thumb-loading">
-            <img title="Barcode" class="lazyload" data-original="template/img/icon/barcode.svg">
+            <img title="Barcode" class="lazyload" data-original="template/img/product/barcode-varian_a-package_a.svg">
 		  </div>
 		</div>
         <div class="pdc-id">00XXX0X00XXX</div>
@@ -29,17 +29,35 @@
             <span class="text-en">Variants</span>
 		  </div>
           <div class="pdc-option">
-		    <?php for ($i=1; $i<=5; $i++){ ?>
+            <?php 
+              $product_varian_array = array();
+              $product_varian_array[]=array(
+                'product_varian_id'=>'varian_a',
+                'product_varian_title_id'=>'Varian A ID',
+                'product_varian_title_en'=>'Varian A EN',
+              );
+              $product_varian_array[]=array(
+                'product_varian_id'=>'varian_b',
+                'product_varian_title_id'=>'Varian B ID',
+                'product_varian_title_en'=>'Varian B EN',
+              );
+              $product_varian_array[]=array(
+                'product_varian_id'=>'varian_c',
+                'product_varian_title_id'=>'Varian C ID',
+                'product_varian_title_en'=>'Varian C EN',
+              );
+              foreach($product_varian_array as $product_varian_list){
+            ?>
               <button title="" class="pdc-option-box">
-                <span class="text-id">Varian <?php echo rand(1,100); ?></span>
-                <span class="text-en">Variants <?php echo rand(1,100); ?></span>
+                <span class="text-id"><?php echo($product_varian_list['product_varian_title_id'])?></span>
+                <span class="text-en"><?php echo($product_varian_list['product_varian_title_en'])?></span>
 			  </button>
 			<?php } ?>
 		    <?php for ($i=1; $i<=2; $i++){ ?>
-              <button title="" class="pdc-option-box pdc-option-unavailable">
+              <div class="pdc-option-box pdc-option-unavailable">
                 <span class="text-id">Varian <?php echo rand(1,100); ?></span>
                 <span class="text-en">Variants <?php echo rand(1,100); ?></span>
-			  </button>
+			  </div>
 			<?php } ?>
           </div>
 		</div>
@@ -49,17 +67,30 @@
             <span class="text-en">Packaging</span>
 		  </div>
           <div class="pdc-option">
-		    <?php for ($i=1; $i<=1; $i++){ ?>
+            <?php 
+              $product_package_array = array();
+              $product_package_array[]=array(
+                'product_package_id'=>'package_a',
+                'product_package_title_id'=>'150ml x 36 can',
+                'product_package_title_en'=>'150ml x 36 can',
+              );
+              $product_package_array[]=array(
+                'product_package_id'=>'package_b',
+                'product_package_title_id'=>'300ml x 24 can',
+                'product_package_title_en'=>'300ml x 24 can',
+              );
+              foreach($product_package_array as $product_package_list){
+            ?>
               <button title="" class="pdc-option-box">
-                <span class="text-id">300ml x 24 can</span>
-                <span class="text-en">300ml x 24 can</span>
+                <span class="text-id"><?php echo($product_package_list['product_package_title_id'])?></span>
+                <span class="text-en"><?php echo($product_package_list['product_package_title_en'])?></span>
 			  </button>
 			<?php } ?>
 		    <?php for ($i=1; $i<=1; $i++){ ?>
-              <button title="" class="pdc-option-box pdc-option-unavailable">
+              <div class="pdc-option-box pdc-option-unavailable">
                 <span class="text-id">600ml x 12 can</span>
                 <span class="text-en">600ml x 12 can</span>
-			  </button>
+			  </div>
 			<?php } ?>
           </div>
 		</div>

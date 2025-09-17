@@ -405,6 +405,11 @@
               'hil_img'=>'ty',
             );
             $home_importer_array[]=array(
+              'hil_name_id'=>'Vietnam',
+              'hil_name_en'=>'Vietnam',
+              'hil_img'=>'vt',
+            );
+            $home_importer_array[]=array(
               'hil_name_id'=>'Lainnya',
               'hil_name_en'=>'Many more',
               'hil_img'=>'wd',
