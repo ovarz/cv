@@ -82,6 +82,7 @@
 
 .hbl-container{grid-template-columns:repeat(5,1fr);}
 .hbl-logo{padding:var(--size-4);}
+.hbl-head{display:flex; justify-content:space-between; align-items:center;}
 
 
 

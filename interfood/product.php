@@ -40,7 +40,13 @@
         foreach($brand_type_array as $brand_type_list){
       ?>
         <div class="home-brand-display page-brand-display">
-          <div class="hbl-label"><?php echo($brand_type_list['brand_type_title'])?></div>
+          <div class="hbl-head">
+		    <div class="hbl-label"><?php echo($brand_type_list['brand_type_title'])?></div>
+			<div class="hbl-all">
+			  <?php $more_type='link'; $more_label_id='Selengkapnya'; $more_label_en='Browse All'; $more_link='product-list.php'; 
+			  require ($_SERVER['IF'].'template/module/more.php')?>
+			</div>
+		  </div>
           <div class="home-brand-list">
             <ul class="hbl-container">
               <?php for ($i=1; $i<=20; $i++){ ?>
@@ -122,6 +128,9 @@
           <?php } ?>
         </ul>
       </div>
+	  
+	  <?php $more_type='button'; $more_label_id='Selengkapnya'; $more_label_en='Browse All'; $more_link='product-list.php'; 
+	  require ($_SERVER['IF'].'template/module/more.php')?>
 	  
 	</div>
   </section>
