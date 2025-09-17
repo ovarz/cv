@@ -50,16 +50,6 @@
 		  </div>
 		</div>
 		
-	    <div class="apply-form-row">
-		  <div class="afr-label">
-		    <span class="text-id">Unggah surat lamaran kerja</span>
-		    <span class="text-en">Upload job application letter</span>
-		  </div>
-		  <div class="form-box afr-box">
-		    <input class="form-field" name="" type="file" placeholder="">
-		  </div>
-		</div>
-		
 	    <div class="apply-form-row apply-form-error">
 		  <div class="afr-label">
 		    <span class="text-id">Alamat email</span>
@@ -81,6 +71,36 @@
 		  </div>
 		  <div class="form-box afr-box">
 		    <input class="form-field" name="" type="text" placeholder="">
+		  </div>
+		</div>
+		
+	    <div class="apply-form-row">
+		  <div class="afr-label">
+		    <span class="text-id">Domisili Tempat Tinggal</span>
+		    <span class="text-en">Residential Domicile</span>
+		  </div>
+		  <div class="form-box afr-box">
+		    <input class="form-field" name="" type="text" placeholder="">
+		  </div>
+		</div>
+		
+	    <div class="apply-form-row">
+		  <div class="afr-label">
+		    <span class="text-id">Unggah surat lamaran kerja</span>
+		    <span class="text-en">Upload job application letter</span>
+		  </div>
+		  <div class="form-box afr-box">
+		    <input class="form-field" name="" type="file" placeholder="">
+		  </div>
+		</div>
+		
+	    <div class="apply-form-row">
+		  <div class="afr-label">
+		    <span class="text-id">Unggah CV</span>
+		    <span class="text-en">Upload CV</span>
+		  </div>
+		  <div class="form-box afr-box">
+		    <input class="form-field" name="" type="file" placeholder="">
 		  </div>
 		</div>
 		
@@ -111,16 +131,6 @@
 		  </div>
 		  <div class="form-box afr-box">
 		    <textarea class="form-field"></textarea>
-		  </div>
-		</div>
-		
-	    <div class="apply-form-row">
-		  <div class="afr-label">
-		    <span class="text-id">Unggah CV</span>
-		    <span class="text-en">Upload CV</span>
-		  </div>
-		  <div class="form-box afr-box">
-		    <input class="form-field" name="" type="file" placeholder="">
 		  </div>
 		</div>
 		

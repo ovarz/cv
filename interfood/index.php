@@ -451,9 +451,11 @@
         $brand_type_array = array();
         $brand_type_array[]=array(
           'brand_type_title'=>'in-house brand',
+          'brand_type_item'=>'5',
         );
         $brand_type_array[]=array(
           'brand_type_title'=>'factory brand',
+          'brand_type_item'=>'20',
         );
         foreach($brand_type_array as $brand_type_list){
       ?>
@@ -461,7 +463,7 @@
           <div class="hbl-label"><?php echo($brand_type_list['brand_type_title'])?></div>
           <div class="home-brand-list">
             <ul class="hbl-container">
-              <?php for ($i=1; $i<=20; $i++){ ?>
+              <?php for ($i=1; $i<=$brand_type_list['brand_type_item']; $i++){ ?>
                 <li class="hbl-column">
                   <a title="<?php echo $random_title[array_rand($random_title)];?>" class="hbl-box" href="product-list.php">
                     <div class="hbl-logo img-frame thumb-loading content-center">

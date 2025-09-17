@@ -387,4 +387,7 @@ font-size:1.25rem; font-weight:bold;}
   
   
   .news-box{grid-template-columns:var(--size-7) 1fr; grid-gap:var(--size-3); padding:var(--size-3);}
+  
+  
+  .contact-display-split .tab-contact{grid-row:1/2;}
 }
