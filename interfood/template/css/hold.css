@@ -171,7 +171,7 @@ button.pdc-option-box:hover{background-color:var(--color-4); color:var(--bg-2);}
 
 
 .hbl-box{background-color:var(--bg-2); border-color:var(--color-border); border-radius:var(--rounded-2); overflow:hidden;}
-.hbl-box:hover{border-color:var(--color-2);}
+a.hbl-box:hover{border-color:var(--color-2);}
 
 
 
@@ -183,7 +183,6 @@ button.pdc-option-box:hover{background-color:var(--color-4); color:var(--bg-2);}
 
 
 
-.main-location{background-color:var(--bg-2);}
 .main-location-info{background-color:var(--color-4); color:var(--bg-1);}
 .main-location .more-link, .mli-contact-link{color:var(--bg-2); fill:var(--bg-2);}
 .main-location .more-link:hover, .mli-contact-link:hover{color:var(--color-3); fill:var(--color-3);}

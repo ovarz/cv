@@ -368,9 +368,9 @@
 	<div class="section-separator section-separator-top"><?php require ($_SERVER['IF'].'template/img/icon/separator.svg')?></div>
     <div class="site-container">
 	  <?php 
-	    $title_id='Pengimpor';
+	    $title_id='Mitra Internasional';
 		$subtitle_id='Kami mengimpor produk dari';
-	    $title_en='Importer'; 
+	    $title_en='International Supplier'; 
 		$subtitle_en='We import products from';
 	    require ($_SERVER['IF'].'template/module/h2h3.php')
 	  ?>

@@ -250,7 +250,7 @@ font-size:1.25rem; font-weight:bold;}
 
 
 
-.main-location{display:grid; padding-top:var(--size-5);}
+.main-location{display:grid;}
 .main-location-frame{--aspect-ratio:1/1; max-height:610px; filter:grayscale(100%);}
 @media screen and (min-width:640px){
   .main-location{grid-template-columns:repeat(2,1fr);}
