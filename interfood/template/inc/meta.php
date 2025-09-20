@@ -39,7 +39,7 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 <link rel="stylesheet" type="text/css" href="template/css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
 
 
-<?php if($menu == 'Home') { ?>
+<?php if($menu == 'Home' || $menu == 'About Us') { ?>
   <link rel="preload" href="template/css/tiny-slider.css" as="style">
   <link rel="preload" as="script" href="template/js/tiny-slider.js">
   <link rel="stylesheet" type="text/css" href="template/css/tiny-slider.css"/>

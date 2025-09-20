@@ -34,7 +34,7 @@
 
 
 
-.home-about-box{--padding-frame:var(--size-5); grid-template-columns:377px 1fr;}
+.home-about-box{--padding-frame:var(--size-5); grid-template-columns:377px 1fr; max-width:987px; margin:0 auto;}
 .home-about .site-container{grid-gap:var(--size-7);}
 .hab-info-container{grid-gap:var(--size-3);}
 .hab-title{font-size:2.25rem;}

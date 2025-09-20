@@ -168,6 +168,14 @@ button.pdc-option-box:hover{background-color:var(--color-4); color:var(--bg-2);}
 .hil-box{border-radius:var(--rounded-2); color:var(--bg-2) !important;}
 .hil-overlay{background-color:rgb(0 0 0 / 34%);}
 
+.about-importer{background-color:var(--color-2);}
+
+
+
+.home-local-prod{background-color:var(--color-4);}
+.home-local-prod .section-title{color:var(--bg-2);}
+.home-local-prod .section-subtitle{color:var(--color-border);}
+
 
 
 .hbl-box{background-color:var(--bg-2); border-color:var(--color-border); border-radius:var(--rounded-2); overflow:hidden;}

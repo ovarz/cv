@@ -100,7 +100,7 @@ header .site-container{display:flex; justify-content:space-between; padding:0;}
 
 .rancak-foundation{min-height:100vh; min-height:100svh;}
 section{position:relative;}
-.section-separator{position:absolute; z-index:1; left:0; width:100%;}
+.section-separator{position:absolute; z-index:1000; left:0; width:100%;}
 .section-separator svg{width:100%; height:var(--size-4);}
 .section-separator-top{top:0;}
 .section-separator-bottom{bottom:0; transform:rotate(180deg);}
@@ -199,6 +199,8 @@ font-size:1.25rem; font-weight:bold;}
 .wsc-info-container{display:grid;}
 .wsc-name{font-size:2.25rem; font-weight:bold; line-height:130%; text-transform:capitalize;}
 
+.home-distribution .section-subtitle p{line-height:150%; padding-bottom:var(--size-3); text-align:center; text-wrap:balance;}
+
 
 
 .home-importer .site-container{padding:var(--size-7) var(--body-padding); display:grid; grid-gap:var(--size-5);}
@@ -210,6 +212,11 @@ font-size:1.25rem; font-weight:bold;}
 .hil-overlay-info{display:grid; grid-gap:var(--size-2);}
 .hil-overlay-icon svg{width:auto; height:1.5rem;}
 .hil-overlay-name{text-align:center;}
+
+
+
+.home-local-prod .site-container{padding:144px var(--body-padding); display:grid; grid-gap:var(--size-5); position:relative; z-index:1000;}
+.home-local-prod .section-bg{position:absolute; z-index:1; top:0; left:0; width:100%; height:100%; mix-blend-mode:multiply;}
 
 
 

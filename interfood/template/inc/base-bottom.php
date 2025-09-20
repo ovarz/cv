@@ -22,7 +22,7 @@
 </script>
 <script defer src="template/js/lazysizes.min.js"></script>
 <script defer rancak-hold="template/js/rancak.js?<?php echo $anticache;?>"></script>
-<?php if($menu == 'Home') { ?>
+<?php if($menu == 'Home' || $menu == 'About Us') { ?>
   <script defer rancak-hold="template/js/index.js?<?php echo $anticache;?>"></script>
 <?php } ?>
 <script defer>
