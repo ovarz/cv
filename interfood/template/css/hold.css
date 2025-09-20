@@ -162,6 +162,10 @@ button.pdc-option-box:hover{background-color:var(--color-4); color:var(--bg-2);}
 
 
 
+.about-distribution{background-color:var(--bg-2);}
+
+
+
 .home-importer{background-color:var(--color-4);}
 .home-importer .section-title{color:var(--bg-2);}
 .home-importer .section-subtitle{color:var(--color-border);}
@@ -173,6 +177,7 @@ button.pdc-option-box:hover{background-color:var(--color-4); color:var(--bg-2);}
 
 
 .home-local-prod{background-color:var(--color-4);}
+.home-local-prod .section-separator-top svg{fill:var(--bg-2);}
 .home-local-prod .section-title{color:var(--bg-2);}
 .home-local-prod .section-subtitle{color:var(--color-border);}
 

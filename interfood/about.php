@@ -104,7 +104,7 @@
   
   
   
-  <section class="home-distribution content-center">
+  <section class="home-distribution about-distribution content-center">
     <div class="site-container">
 	  <?php 
 	    $title_id='Distribusi';
