@@ -279,7 +279,7 @@
   <section class="home-local-prod content-center">
 	<div class="section-separator section-separator-top"><?php require ($_SERVER['IF'].'template/img/icon/separator.svg')?></div>
 	<div class="section-bg img-frame thumb-loading">
-      <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/cover.jpg">
+      <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/cover-2.jpg">
 	</div>
     <div class="site-container">
 	  <?php 
