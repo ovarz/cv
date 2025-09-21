@@ -28,27 +28,31 @@
             <span class="text-id">Varian</span>
             <span class="text-en">Variants</span>
 		  </div>
-          <div class="pdc-option">
+          <div class="pdc-option pdc-varian">
             <?php 
               $product_varian_array = array();
               $product_varian_array[]=array(
-                'product_varian_id'=>'varian_a',
+                'product_varian_id'=>'VA',
+                'product_varian_label'=>'varian_a',
                 'product_varian_title_id'=>'Varian A ID',
                 'product_varian_title_en'=>'Varian A EN',
               );
               $product_varian_array[]=array(
-                'product_varian_id'=>'varian_b',
+                'product_varian_id'=>'VB',
+                'product_varian_label'=>'varian_b',
                 'product_varian_title_id'=>'Varian B ID',
                 'product_varian_title_en'=>'Varian B EN',
               );
               $product_varian_array[]=array(
-                'product_varian_id'=>'varian_c',
+                'product_varian_id'=>'VC',
+                'product_varian_label'=>'varian_c',
                 'product_varian_title_id'=>'Varian C ID',
                 'product_varian_title_en'=>'Varian C EN',
               );
               foreach($product_varian_array as $product_varian_list){
             ?>
-              <button title="" class="pdc-option-box">
+              <button title="" class="pdc-option-box" 
+			  id="<?php echo($product_varian_list['product_varian_id'])?>" aria-product-toggle="<?php echo($product_varian_list['product_varian_label'])?>">
                 <span class="text-id"><?php echo($product_varian_list['product_varian_title_id'])?></span>
                 <span class="text-en"><?php echo($product_varian_list['product_varian_title_en'])?></span>
 			  </button>
@@ -66,22 +70,25 @@
             <span class="text-id">Kemasan</span>
             <span class="text-en">Packaging</span>
 		  </div>
-          <div class="pdc-option">
+          <div class="pdc-option pdc-package">
             <?php 
               $product_package_array = array();
               $product_package_array[]=array(
-                'product_package_id'=>'package_a',
+                'product_package_id'=>'PA',
+                'product_package_label'=>'package_a',
                 'product_package_title_id'=>'150ml x 36 can',
                 'product_package_title_en'=>'150ml x 36 can',
               );
               $product_package_array[]=array(
-                'product_package_id'=>'package_b',
+                'product_package_id'=>'PB',
+                'product_package_label'=>'package_b',
                 'product_package_title_id'=>'300ml x 24 can',
                 'product_package_title_en'=>'300ml x 24 can',
               );
               foreach($product_package_array as $product_package_list){
             ?>
-              <button title="" class="pdc-option-box">
+              <button title="" class="pdc-option-box" 
+			  id="<?php echo($product_package_list['product_package_id'])?>" aria-product-toggle="<?php echo($product_package_list['product_package_label'])?>">
                 <span class="text-id"><?php echo($product_package_list['product_package_title_id'])?></span>
                 <span class="text-en"><?php echo($product_package_list['product_package_title_en'])?></span>
 			  </button>
