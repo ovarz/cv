@@ -396,6 +396,11 @@ font-size:1.25rem; font-weight:bold;}
   
   
   
+  .wsc-name{font-size:1.875rem;}
+  .wsc-number, .wsc-location{font-size:1rem;}
+  
+  
+  
   .news-box{grid-template-columns:var(--size-7) 1fr; grid-gap:var(--size-3); padding:var(--size-3);}
   
   
