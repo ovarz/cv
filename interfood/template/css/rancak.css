@@ -383,6 +383,9 @@ font-size:1.25rem; font-weight:bold;}
   .home-importer-list{overflow-x:auto;}
   .hil-container{display:grid; grid-gap:var(--size-3); grid-auto-flow:column;}
   
+  .about-importer-list{overflow:hidden;}
+  .about-importer-list .hil-container{display:flex; justify-content:center; flex-wrap:wrap; gap:var(--size-3);}
+  
   
   
   .home-brand-list{overflow-x:auto;}

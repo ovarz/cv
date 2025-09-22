@@ -336,7 +336,7 @@
 	    require ($_SERVER['IF'].'template/module/h2h3.php')
 	  ?>
 	  
-      <div class="home-importer-list">
+      <div class="home-importer-list about-importer-list">
         <ul class="hil-container">
           <?php 
             $home_importer_array = array();
