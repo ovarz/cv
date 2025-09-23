@@ -57,7 +57,7 @@
 .product-display-filter{border:1px solid;}
 .product-display-list{grid-template-columns:repeat(auto-fit, minmax(180px,1fr));}
   
-.product-detail{grid-gap:var(--size-5); grid-template-columns:377px 1fr !important;}
+.product-detail{grid-gap:0 var(--size-5); grid-template-columns:377px 1fr !important;}
 .product-detail.rancak-popup-box{max-width:987px;}
 .product-detail-frame{--aspect-ratio:4/5;}
 
