@@ -170,6 +170,8 @@ font-size:1.25rem; font-weight:bold;}
 .pdf-box{padding-bottom:var(--size-4); border-bottom:1px dashed;}
 .pdf-label{padding-bottom:var(--size-2); font-weight:bold;}
 .pdf-select{position:relative;}
+.pdf-select .form-field{position:relative; z-index:1000;}
+.pdf-select .form-icon{z-index:1;}
 
 .pds-big, .product-display-list{display:grid; grid-gap:var(--size-5) var(--size-4); align-items:flex-start;}
 .product-display-list{grid-template-columns:repeat(auto-fit, minmax(130px,1fr));}

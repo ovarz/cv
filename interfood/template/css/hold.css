@@ -131,6 +131,7 @@ header{background-color:var(--bg-2);}
 .pdf-box{border-color:var(--color-border-form);}
 .pdf-head{border-color:var(--color-border-form); color:var(--color-3); fill:var(--color-3);}
 .pdf-list .ccr-dummy-right{color:var(--color-2);}
+.pdf-select .form-icon{background-color:transparent;}
 .pdf-close{position:fixed; z-index:10000; bottom:0; left:0; width:100%; padding:var(--size-4); background-color:var(--bg-2);}
 .pdf-close-button{width:100%;}
 
