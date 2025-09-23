@@ -300,6 +300,12 @@ font-size:1.25rem; font-weight:bold;}
 .career-status-box{padding:var(--size-1) var(--size-3);}
 .career-submit-button{width:100%;}
 
+.career-detail{display:grid; grid-gap:var(--size-3); grid-template-rows:1fr auto; overflow:unset !important;}
+.career-detail-container{overflow-y:auto; display:grid; grid-gap:var(--size-3);}
+.career-detail-top{display:flex; justify-content:space-between;}
+.career-detail .career-title{font-weight:bold; font-size:1.5rem; line-height:130%; text-transform:capitalize;}
+.career-address{line-height:150%;}
+
 
 
 .apply .site-container{display:grid; grid-gap:var(--size-5);}

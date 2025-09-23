@@ -203,12 +203,6 @@ a.hbl-box:hover{border-color:var(--color-2);}
 .career-status-open{background-color:var(--color-4a); color:var(--color-4);}
 .career-status-close{background-color:var(--color-1a); color:var(--color-1);}
 
-.career-detail{display:grid; grid-gap:var(--size-3); grid-template-rows:1fr auto; overflow:unset !important;}
-.career-detail-container{overflow-y:auto; display:grid; grid-gap:var(--size-3);}
-.career-detail-top{display:flex; justify-content:space-between;}
-.career-detail .career-title{font-weight:bold; font-size:1.5rem; line-height:130%; text-transform:capitalize;}
-.career-address{line-height:150%;}
-
 
 
 .apply-form-error .afr-box .form-field{border-color:var(--color-4);}

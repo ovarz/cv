@@ -15,8 +15,8 @@
           </div>
         </div>
         <?php require ($_SERVER['IF'].'template/module/career-head.php')?>
-		<?php require ($_SERVER['IF'].'template/module/share-list.php')?>
 		<div class="career-address">Tunas Industrial Estate, Blok 8 F, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464</div>
+		<?php require ($_SERVER['IF'].'template/module/share-list.php')?>
 		<div class="default-content career-content">
 	      <?php require ($_SERVER['IF'].'template/module/default-content.php')?>
 		</div>

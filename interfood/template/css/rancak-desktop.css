@@ -96,6 +96,7 @@
 
 
 .career-filter{grid-template-columns:1fr auto auto auto auto;}
+.career-detail:not(.rancak-popup-box) .career-detail-action{display:flex;}
 
 
 
