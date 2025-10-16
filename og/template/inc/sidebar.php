@@ -33,7 +33,7 @@
 	<section title="Instagram" class="rancak-section rancak-section-box embed-socmed">
       <?php $section_title='Instagram'; require ($_SERVER['OG'].'template/module/section-title.php')?>
 	  <div class="embed-socmed-container content_center">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/otogearscom/" style="width:100%; min-width:299px; max-width:300px;" data-instgrm-version="14"></blockquote>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/otogearsdotcom/" style="width:100%; min-width:299px; max-width:300px;" data-instgrm-version="14"></blockquote>
         <script async rancak-hold="//www.instagram.com/embed.js"></script>
 	  </div>
 	</section>
