@@ -80,6 +80,7 @@
 .hil-column{width:calc(25% - var(--size-3));}
 .hil-overlay-info{grid-gap:var(--size-3);}
 .hil-overlay-icon svg{height:2rem;}
+.hil-overlay-icon-frame{width:2rem;}
 .hil-overlay-name{font-size:1.5rem;}
 
 

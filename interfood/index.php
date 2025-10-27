@@ -423,7 +423,9 @@
                 <div class="hil-overlay content-center">
 				  <div class="hil-overlay-info">
 				    <div class="hil-overlay-icon content-center">
-					  <?php require ($_SERVER['IF'].'template/img/flag-'.$home_importer_list['hil_img'].'.svg')?>
+					  <div class="hil-overlay-icon-frame img-frame thumb-loading">
+					    <img title="Foto <?php echo $random_title[array_rand($random_title)];?>" class="lazyload" data-original="template/img/flag-<?php echo($home_importer_list['hil_img'])?>.png">
+					  </div>
 					</div>
                     <h2 class="hil-overlay-name">
                       <span class="text-id"><?php echo($home_importer_list['hil_name_id'])?></span>
