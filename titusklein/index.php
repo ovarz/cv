@@ -21,7 +21,7 @@
   
   
   
-  <section class="content-A content-center">
+  <section class="content-A space-top-2x content-center">
     <div class="site-container">
 	  <?php 
 	    $back_image='home-image-1a.jpg';

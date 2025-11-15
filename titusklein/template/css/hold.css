@@ -58,7 +58,7 @@ a.img-frame:hover{opacity:var(--hover-opacity);}
 
 
 
-.section-dark{color:var(--bg-1); background-color:var(--color-3);}
+.section-dark{color:var(--bg-1); background-color:var(--color-2);}
 .section-title{color:var(--color-2);}
 .section-dark .section-title{color:var(--bg-1);}
 

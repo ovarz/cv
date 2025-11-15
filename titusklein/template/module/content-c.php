@@ -1,0 +1,1 @@
+<div class="content-C-info"><?php echo $desc; ?></div>
