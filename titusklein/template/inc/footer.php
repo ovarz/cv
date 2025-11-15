@@ -7,9 +7,6 @@
         $nav_array[]=array(
           'nav_title'=>'Contact', 'nav_label'=>'Contact', 'nav_link'=>'',
         );
-        $nav_array[]=array(
-          'nav_title'=>'Contact', 'nav_label'=>'Contact', 'nav_link'=>'',
-        );
         foreach($nav_array as $nav_list){
       ?>
 	    <a title="<?php echo($nav_list['nav_title'])?>" class="footer-nav-link" href="<?php echo($nav_list['nav_link'])?>">

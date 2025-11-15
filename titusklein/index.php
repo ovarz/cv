@@ -12,17 +12,72 @@
   
   
   <section class="highlight-A section-dark content-center">
-    <div class="highlight-A-bg img-frame thumb-loading">
-      <img title="" class="lazyload" data-original="template/img/hero1.jpg">
-	</div>
+    <?php 
+      $hero_image='hero1.jpg';
+      $title='Drive Revenue';
+      $desc='Discover how marketing and innovation teams leverage design to turn disruptive technologies into real products that generate revenue and earn consumer interest.';
+      $link='';
+      require ($_SERVER['TK'].'template/module/highlight-a.php')
+    ?>
+  </section>
+  
+  
+  
+  <section class="content-A content-center">
     <div class="site-container">
-	
-	  <div class="highlight-A-box">
-	    <h2 class="highlight-A-title">DESIGN + STRATEGY</h2>
-	    <h3 class="highlight-A-desc">Titus Klein is a design and strategy agency for complex organizations. We craft brand systems, narrative frameworks, and AI-enhanced tools that help global teams align, scale, and move with clarity.</h3>
-	    <a title="" class="highlight-A-more" href=""><?php require ($_SERVER['TK'].'template/img/icon/more-down-circle.svg')?></a>
-	  </div>
-	  
+	  <?php 
+	    $back_image='home-image-1a.jpg';
+	    $front_image='home-image-1b.jpg';
+	    $intro='Innovation by Design';
+	    $title='Drive Revenue';
+	    $desc='Discover how marketing and innovation teams leverage design to turn disruptive technologies into real products that generate revenue and earn consumer interest.';
+	    require ($_SERVER['TK'].'template/module/content-a.php')
+	  ?>
+	</div>
+  </section>
+  
+  
+  
+  <section class="content-A content-A-invert content-center">
+    <div class="site-container">
+	  <?php 
+	    $back_image='home-image-2a.jpg';
+	    $front_image='home-image-2b.jpg';
+	    $intro='Innovation by Design';
+	    $title='Ensure Success';
+	    $desc='Give your team the best chance of success by pairing your innovative products with beautiful, engaging design.';
+	    require ($_SERVER['TK'].'template/module/content-a.php')
+	  ?>
+	</div>
+  </section>
+  
+  
+  
+  <section class="content-A content-center">
+    <div class="site-container">
+	  <?php 
+	    $back_image='home-image-3a.jpg';
+	    $front_image='home-image-3b.jpg';
+	    $intro='Innovation by Design';
+	    $title='Captivate Customers';
+	    $desc='Distinguish your brands with targeted design and marketing that translates your vision into compelling products.';
+	    require ($_SERVER['TK'].'template/module/content-a.php')
+	  ?>
+	</div>
+  </section>
+  
+  
+  
+  <section class="content-B content-center">
+    <div class="site-container content-center">
+	  <?php 
+	    $intro='Innovation by Design';
+	    $title='Set Up a 15 Min Meeting';
+	    $desc='Set up a call with one of our creative directors to discover how you can leverage design to enhance the launch of your products.';
+	    $button_link='';
+	    $button_label='Schedule a Call';
+	    require ($_SERVER['TK'].'template/module/content-b.php')
+	  ?>
 	</div>
   </section>
   
