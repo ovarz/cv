@@ -1,5 +1,5 @@
 <button title="Return To Top" id="btt" class="content-center hide">
-  <?php require ($_SERVER['TK'].'template/img/icon/back-to-top.svg')?>
+  Top
 </button>
 
 
