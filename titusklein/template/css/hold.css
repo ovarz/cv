@@ -1,4 +1,5 @@
 :root, :before, :after{
+  --bg-header:#1d1b1e;
   --color-1:#333333; 
   --color-1a:rgb(51 51 51 / 8%);
   --color-2:#0E0E0E;
@@ -30,12 +31,10 @@ html{background-color:var(--bg-1);}
 a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-2); fill:var(--color-2);}
 a:hover, button:hover{color:var(--color-1); fill:var(--color-1);}
-.btn, a.btn, button.btn, #btt{background-color:var(--color-2); color:var(--bg-1); fill:var(--bg-1);}
-.btn:hover, a.btn:hover, button.btn:hover, #btt:hover, #btt:focus{background-color:var(--color-1);}
+.btn, a.btn, button.btn{background-color:var(--color-2); color:var(--bg-1); fill:var(--bg-1);}
+.btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-1);}
 .btn-outline{border:2px solid var(--color-2); color:var(--color-2); fill:var(--color-2); background-color:transparent;}
 .btn-outline:hover{border:2px solid var(--color-1);}
-#btt{position:fixed; bottom:calc(var(--size-6) * 2); right:0; cursor:pointer; z-index:calc(var(--max-zindex) - 10000); 
-width:var(--size-5); height:var(--size-5); border-radius:var(--rounded-1) 0 0 var(--rounded-1);}
 
 .form-box{background-color:var(--bg-1); border-radius:var(--rounded-1);}
 .form-field{border-color:var(--color-border-form); background-color:transparent; border-radius:var(--rounded-1);}
@@ -59,18 +58,20 @@ a.img-frame:hover{opacity:var(--hover-opacity);}
 
 
 
+.section-dark{color:var(--bg-1); background-color:var(--color-3);}
 .section-title{color:var(--color-2);}
+.section-dark .section-title{color:var(--bg-1);}
 
 
 
-header{background-color:var(--color-2);}
+header{background-color:var(--bg-header);}
 .header-logo{fill:var(--bg-1);}
 .header-logo:hover{fill:var(--color-3);}
 .header-toggle-menu svg{transition:var(--transition-default); fill:var(--bg-1);}
 
 
 
-nav{z-index:calc(var(--max-zindex) - 2000); padding-top:var(--header-height); background-color:var(--color-2); color:var(--bg-1);}
+nav{z-index:calc(var(--max-zindex) - 2000); padding-top:var(--header-height); background-color:var(--bg-header); color:var(--bg-1);}
 nav .site-container{ margin:0 auto; padding:0 var(--body-padding);}
 .main-nav-link{display:flex; gap:var(--size-2); width:100%; padding:var(--size-4) 0; color:var(--bg-1); font-size:1.25rem; text-transform:uppercase; opacity:55%; font-weight:normal;}
 .main-nav-link span{color:var(--color-3);}
@@ -80,7 +81,16 @@ nav .site-container{ margin:0 auto; padding:0 var(--body-padding);}
 
 
 
-footer{background-color:var(--color-1);}
+.highlight-A-more{fill:var(--bg-1);}
+.highlight-A-more:hover{fill:var(--color-3);}
+
+
+
+footer .site-container{display:grid; grid-gap:var(--size-4) var(--size-7);}
+.footer-nav, .footer-socmed{display:flex;  align-items:center; gap:var(--size-4);}
+.footer-nav-link{font-weight:normal;}
+.footer-socmed-button{line-height:0; fill:var(--color-2);}
+.footer-socmed-button svg{width:auto; height:var(--size-4);}
 
 
 
@@ -102,7 +112,8 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
-  
+  .footer-copyright{text-align:center;}
+  .footer-nav, .footer-socmed{justify-content:center;}
 }
 
 
@@ -112,5 +123,5 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 
 
 @media screen and (min-width:1024px){
-  
+  footer .site-container{grid-template-columns:auto 1fr auto;}
 }

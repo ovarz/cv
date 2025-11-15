@@ -6,7 +6,7 @@ function ClosePopup(){
 
 
 function back_to_top(){
-  $('#btt').on('click',function(){
+  $('#back-to-top').on('click',function(){
     $('html, body').animate({
       scrollTop:0
     },500);
