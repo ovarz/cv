@@ -94,6 +94,10 @@ nav .site-container{ margin:0 auto; padding:0 var(--body-padding);}
 
 
 
+.maps{filter:grayscale(100%);}
+
+
+
 footer .site-container{display:grid; grid-gap:var(--size-4) var(--size-7);}
 .footer-nav, .footer-socmed{display:flex;  align-items:center; gap:var(--size-4);}
 .footer-nav-link{font-weight:normal;}

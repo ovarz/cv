@@ -91,7 +91,7 @@ header .site-container{padding:0; display:flex; justify-content:space-between;}
 
 
 
-.highlight-B-frame{--aspect-ratio:2000/773;}
+.highlight-B-frame, .maps{--aspect-ratio:2000/773;}
 
 
 
@@ -147,4 +147,8 @@ header .site-container{padding:0; display:flex; justify-content:space-between;}
   
   .desktop-only, .share-box-static{display:none !important; visibility:hidden; content-visibility:hidden;}
   .desktop-only iframe[loading=lazy]{content-visibility:hidden !important;}
+  
+  
+  
+  .maps{--aspect-ratio:1/1;}
 }
