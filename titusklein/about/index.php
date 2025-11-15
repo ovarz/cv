@@ -64,6 +64,14 @@
   
   
   
+  <section class="slider-A content-center">
+    <div class="site-container">
+      slider
+	</div>
+  </section>
+  
+  
+  
   <section class="content-D next-step content-center">
     <div class="site-container">
       <?php 
