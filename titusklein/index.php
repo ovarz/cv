@@ -1,7 +1,5 @@
 <?php 
-  $lang='id';
   $menu='Home';
-  $template='default';
   require ('template/inc/base.php')
 ?>
 <?php require ($_SERVER['TK'].'template/inc/meta.php')?>
@@ -13,7 +11,7 @@
   
   <section class="highlight-A section-dark content-center">
     <?php 
-      $hero_image='hero1.jpg';
+      $hero_image='hero-home.jpg';
       $title='Drive Revenue';
       $desc='Discover how marketing and innovation teams leverage design to turn disruptive technologies into real products that generate revenue and earn consumer interest.';
       $link='';
