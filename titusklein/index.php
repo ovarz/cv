@@ -83,6 +83,42 @@
   
   
   
+  <section class="product-A content-center">
+    <div class="site-container">
+	  <div class="section-title">View Our Works</div>
+	  <div class="product-A-list">
+        <?php 
+          $product_array = array();
+          $product_array[]=array(
+            'product_image'=>'product-1.jpg', 
+			'product_name'=>'Ryde', 
+			'product_link'=>'',
+          );
+          $product_array[]=array(
+            'product_image'=>'product-2.jpg', 
+			'product_name'=>'ADA', 
+			'product_link'=>'',
+          );
+          $product_array[]=array(
+            'product_image'=>'product-3.jpg', 
+			'product_name'=>'Espy', 
+			'product_link'=>'',
+          );
+          $product_array[]=array(
+            'product_image'=>'product-4.jpg', 
+			'product_name'=>'D.A.S.H', 
+			'product_link'=>'',
+          );
+          foreach($product_array as $product_list){
+        ?>
+		  <?php require ($_SERVER['TK'].'template/module/product-a.php')?>
+	    <?php } ?>
+	  </div>
+	</div>
+  </section>
+  
+  
+  
 </div>
 <?php require ($_SERVER['TK'].'template/inc/footer.php')?>
 <?php require ($_SERVER['TK'].'template/inc/base-bottom.php')?>

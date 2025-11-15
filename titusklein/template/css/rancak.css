@@ -63,6 +63,7 @@ textarea.form-field{min-height:144px;}
 .site-container{width:100%; max-width:var(--width-max); padding:var(--section-space) var(--body-padding);}
 .space-top-2x .site-container{padding-top:calc(var(--section-space) * 2);}
 .space-bottom-2x .site-container{padding-bottom:calc(var(--section-space) * 2);}
+.section-title{font-size:1.25rem; line-height:150%; text-transform:uppercase; margin-bottom:var(--size-4);}
 
 
 
@@ -107,6 +108,14 @@ header .site-container{padding:0; display:flex; justify-content:space-between;}
 
 .content-B-info{max-width:500px;}
 .content-B-info *{text-align:center;}
+
+
+
+.product-A-frame{--aspect-ratio:9/16;}
+.product-A-list{display:grid; grid-gap:var(--size-6) var(--size-5); grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); }
+.product-A-info{display:grid; grid-gap:var(--size-1); font-weight:normal; padding-top:var(--size-3);}
+.product-A-info-name{text-transform:uppercase; font-weight:600;}
+.product-A-info-desc{font-size:0.75rem; line-height:150%;}
 
 
 
