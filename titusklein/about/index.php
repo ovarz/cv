@@ -65,9 +65,40 @@
   
   
   <section class="slider-A content-center">
-    <div class="site-container">
-      slider
-	</div>
+    <?php 
+      $slider_A_array = array();
+	  $slider_A_array[]=array(
+		'slider_A_image'=>'jared.jpg',
+		'slider_A_name'=>'Jared Booye',
+		'slider_A_title'=>'Principal / Creative Director',
+		'slider_A_desc'=>'San Francisco-based creative art director, innovation designer and American businessman. Jared leads all business and creative directors.',
+	  );
+	  $slider_A_array[]=array(
+		'slider_A_image'=>'sean.jpg',
+		'slider_A_name'=>'Sean Burke',
+		'slider_A_title'=>'Creative Director / Head of Digital',
+		'slider_A_desc'=>'A designer, digital inventor, and strategist. Sean leads all digital teams and guides clients through their digital initiatives.',
+	  );
+	  $slider_A_array[]=array(
+		'slider_A_image'=>'shawn.jpg',
+		'slider_A_name'=>'Shawn Zimmerman',
+		'slider_A_title'=>'Creative Director / Head Branding',
+		'slider_A_desc'=>'Shawn heads up all branding and visual teams and leads TK clients through the creative process and bring their vision to life.',
+	  );
+	  $slider_A_array[]=array(
+		'slider_A_image'=>'alisha.jpg',
+		'slider_A_name'=>'Alisha Bertetta',
+		'slider_A_title'=>'Account Director / Head of Accounts',
+		'slider_A_desc'=>'Alisha leads all account directors to seamlessly onboard TK clients. She makes the white paper experience smooth and painless.',
+	  );
+	  $slider_A_array[]=array(
+		'slider_A_image'=>'kate.jpg',
+		'slider_A_name'=>'Kate Shriner',
+		'slider_A_title'=>'Account Director / Head of Accounts',
+		'slider_A_desc'=>'Alisha leads all account directors to seamlessly onboard TK clients. She makes the white paper experience smooth and painless.',
+	  );
+	  require ($_SERVER['TK'].'template/module/slider-a.php')
+    ?>
   </section>
   
   
