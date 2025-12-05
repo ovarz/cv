@@ -29,13 +29,28 @@
   
   <section class="career-display content-center">
     <div class="site-container">
-	  <?php 
-	    $title_id='';
-		$subtitle_id='Lowongan pekerjaan Interfood hanya melalui web interfood.co.id. Tidak meminta data KTP dll. Tidak memungut biaya.';
-	    $title_en=''; 
-		$subtitle_en='Official Interfood jobs are available only through the website interfood.co.id. No ID card details are required, and no fees are charged.';
-	    require ($_SERVER['IF'].'template/module/h2h3.php')
-	  ?>
+      <ul class="section-label section-label-career text-id">
+        <li class="section-subtitle">
+		  <b>Sumber Lowongan Resmi</b>
+		  <p>Seluruh informasi dan pendaftaran lowongan hanya melalui website resmi : <b>www.interfood.co.id</b></p>
+		  <p>Informasi di luar situs tersebut bukan tanggung jawab perusahaan.</p>
+        </li>
+        <li class="section-subtitle">
+		  <b>Proses Rekrutmen Tanpa Biaya</b>
+		  <p>PT. Interfood tidak memungut biaya apapun pada seluruh tahapan seleksi, termasuk administrasi, tes, maupun pemeriksaan kesehatan.</p>
+        </li>
+      </ul>
+      <ul class="section-label section-label-career text-en">
+        <li class="section-subtitle">
+		  <b>Official Job Vacancy Source</b>
+		  <p>All job vacancy information and application submission is only available through the official website: <b>www.interfood.co.id</b></p>
+		  <p>Interfood is not responsible for information found outside this website.</p>
+        </li>
+        <li class="section-subtitle">
+		  <b>No-Fee in Recruitment Process</b>
+		  <p>Interfood does not charge any fees at any stage of the recruitment process, including but not limited to administration fee, test fee, or medical examinations.</p>
+        </li>
+      </ul>
 	  <div class="career-filter">
 	    <div class="form-box form-search career-search">
 		  <input class="form-field text-id" name="" type="text" placeholder="Cari Lowongan.....">

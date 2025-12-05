@@ -307,6 +307,10 @@ font-size:1.25rem; font-weight:bold;}
 .career-detail .career-title{font-weight:bold; font-size:1.5rem; line-height:130%; text-transform:capitalize;}
 .career-address{line-height:150%;}
 
+.section-label-career{padding-left:var(--size-4); list-style:decimal; display:grid; grid-gap:var(--size-4); justify-content:flex-start;}
+.section-label-career > li{width:100%;}
+.section-label-career > li > *{padding-bottom:var(--size-1); display:block; text-align:left;}
+
 
 
 .apply .site-container{display:grid; grid-gap:var(--size-5);}
