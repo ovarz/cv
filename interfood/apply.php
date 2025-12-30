@@ -72,6 +72,13 @@
 		  <div class="form-box afr-box">
 		    <input class="form-field" name="" type="text" placeholder="">
 		  </div>
+		  <div class="afr-help">
+			<span class="text-id">Ukuran maksimal 2 MB</span>
+			<span class="text-en">Maximum size 2 MB</span>
+			<br>
+			<span class="text-id">Format diizinkan: .pdf, .doc, .jpg</span>
+			<span class="text-en">Allowed formats: .pdf, .doc, .jpg</span>
+		  </div>
 		</div>
 		
 	    <div class="apply-form-row">
