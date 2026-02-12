@@ -230,6 +230,9 @@
   
   
   $porto_array = array();
+  $porto_array[]=array('porto_link'=>'https://bit.ly/ArenaGOApp', 'porto_id'=>'arenago', 'porto_name'=>'ArenaGO', 'porto_domain'=>'bit.ly/ArenaGOApp');
+  $porto_array[]=array('porto_link'=>'https://mgladbachacademy.id/', 'porto_id'=>'mgladbachacademy', 'porto_name'=>'Borussia Mönchengladbach Academy Indonesia', 'porto_domain'=>'www.mgladbachacademy.id');
+  $porto_array[]=array('porto_link'=>'https://interfood.co.id/', 'porto_id'=>'interfood', 'porto_name'=>'Interfood Sukses Jasindo', 'porto_domain'=>'www.interfood.co.id');
   $porto_array[]=array('porto_link'=>'https://bit.ly/otogearappconcept', 'porto_id'=>'ogapp', 'porto_name'=>'OtoGears App Concept', 'porto_domain'=>'bit.ly/otogearappconcept');
   $porto_array[]=array('porto_link'=>'https://www.viva.co.id/', 'porto_id'=>'vivacoid', 'porto_name'=>'VIVA.co.id', 'porto_domain'=>'www.viva.co.id');
   $porto_array[]=array('porto_link'=>'https://www.tvonenews.com/', 'porto_id'=>'tvone', 'porto_name'=>'tvOne', 'porto_domain'=>'www.tvonenews.com');
@@ -270,23 +273,4 @@
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'vdvc', 'porto_name'=>'VIVA Digital Venture Company', 'porto_domain'=>'Not Yet Available');
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'watchis', 'porto_name'=>'Watchis', 'porto_domain'=>'Not Yet Available');
   $porto_array[]=array('porto_link'=>'', 'porto_id'=>'scoutdb', 'porto_name'=>'ScoutDB', 'porto_domain'=>'Not Yet Available');
-	  
-  /*
-  $profile_array[]=array(
-	'profile_title'=>'Mobil',
-    'profile_link'=>'subdomain.php',
-    'profile_sub' => [
-      [
-        'profile_title'=>'Mobil Sub 1',
-        'profile_link'=>'category.php',
-		'profile_sub'=>'',
-	  ],
-      [
-        'profile_title'=>'Mobil Sub 2',
-        'profile_link'=>'category.php',
-		'profile_sub'=>'',
-	  ],
-    ],
-  );
-  */
 ?>
