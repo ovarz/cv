@@ -1,7 +1,7 @@
 <?php 
   $base='cv';
   $name='Aufar Mahardi';
-  $intro='15+ years in UI/UX & Web Designer';
+  $intro='16+ years in UI/UX & Web Designer';
   $version='020920251227';
   
   
@@ -86,13 +86,18 @@
   
   $experience_array = array();
   $experience_array[]=array(
+	'experience_label'=>'work',
+    'experience_date'=>'Present',
+    'experience_title'=>'Full Stack Developer Borussia Mönchengladbach Academy Indonesia',
+  );
+  $experience_array[]=array(
 	'experience_label'=>'organization',
     'experience_date'=>'November 2022 - Present',
     'experience_title'=>'Founder otogears.com',
   );
   $experience_array[]=array(
 	'experience_label'=>'work',
-    'experience_date'=>'June 2022 - Present',
+    'experience_date'=>'June 2022 - June 2026',
     'experience_title'=>'Graphic, UI/UX, & Web Design Manager VIVA Media Baru (VIVA.co.id)',
   );
   $experience_array[]=array(
@@ -230,6 +235,7 @@
   
   
   $porto_array = array();
+  $porto_array[]=array('porto_link'=>'https://dashboard.mgladbachacademy.id/', 'porto_id'=>'bai', 'porto_name'=>'Dashboard Borussia Mönchengladbach Academy Indonesia', 'porto_domain'=>'dashboard.mgladbachacademy.id');
   $porto_array[]=array('porto_link'=>'https://bit.ly/ArenaGOApp', 'porto_id'=>'arenago', 'porto_name'=>'ArenaGO', 'porto_domain'=>'bit.ly/ArenaGOApp');
   $porto_array[]=array('porto_link'=>'https://mgladbachacademy.id/', 'porto_id'=>'mgladbachacademy', 'porto_name'=>'Borussia Mönchengladbach Academy Indonesia', 'porto_domain'=>'www.mgladbachacademy.id');
   $porto_array[]=array('porto_link'=>'https://interfood.co.id/', 'porto_id'=>'interfood', 'porto_name'=>'Interfood Sukses Jasindo', 'porto_domain'=>'www.interfood.co.id');
