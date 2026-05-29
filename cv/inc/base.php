@@ -97,7 +97,7 @@
   );
   $experience_array[]=array(
 	'experience_label'=>'work',
-    'experience_date'=>'June 2022 - June 2026',
+    'experience_date'=>'June 2022 - June 2025',
     'experience_title'=>'Graphic, UI/UX, & Web Design Manager VIVA Media Baru (VIVA.co.id)',
   );
   $experience_array[]=array(
